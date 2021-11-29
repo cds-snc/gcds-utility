@@ -1,0 +1,17 @@
+@use "../../../Design\ Tokens/build/web/variables.css";
+
+.bg-color-red-100 {
+  background-color: var(--gcds-colour-base-red-100);
+}
+.bg-color-red-300 {
+  background-color: var(--gcds-colour-base-red-300);
+}
+.bg-color-red-500 {
+  background-color: var(--gcds-colour-base-red-500);
+}
+.bg-color-red-700 {
+  background-color: var(--gcds-colour-base-red-700);
+}
+.bg-color-red-900 {
+  background-color: var(--gcds-colour-base-red-900);
+}
