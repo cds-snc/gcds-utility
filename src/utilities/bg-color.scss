@@ -1,4 +1,6 @@
-@use "../../../Design\ Tokens/build/web/variables.css";
+@use "../tokens.css";
+
+// Raw Colors
 
 .bg-color-red-100 {
   background-color: var(--gcds-colour-base-red-100);
@@ -14,4 +16,83 @@
 }
 .bg-color-red-900 {
   background-color: var(--gcds-colour-base-red-900);
+}
+
+.bg-color-cyan-100 {
+  background-color: var(--gcds-colour-base-cyan-100);
+}
+.bg-color-cyan-300 {
+  background-color: var(--gcds-colour-base-cyan-300);
+}
+.bg-color-cyan-500 {
+  background-color: var(--gcds-colour-base-cyan-500);
+}
+.bg-color-cyan-700 {
+  background-color: var(--gcds-colour-base-cyan-700);
+}
+.bg-color-cyan-900 {
+  background-color: var(--gcds-colour-base-cyan-900);
+}
+
+.bg-color-green-100 {
+  background-color: var(--gcds-colour-base-green-100);
+}
+.bg-color-green-300 {
+  background-color: var(--gcds-colour-base-green-300);
+}
+.bg-color-green-500 {
+  background-color: var(--gcds-colour-base-green-500);
+}
+.bg-color-green-700 {
+  background-color: var(--gcds-colour-base-green-700);
+}
+.bg-color-green-900 {
+  background-color: var(--gcds-colour-base-green-900);
+}
+
+.bg-color-yellow-100 {
+  background-color: var(--gcds-colour-base-yellow-100);
+}
+.bg-color-yellow-300 {
+  background-color: var(--gcds-colour-base-yellow-300);
+}
+.bg-color-yellow-500 {
+  background-color: var(--gcds-colour-base-yellow-500);
+}
+.bg-color-yellow-700 {
+  background-color: var(--gcds-colour-base-yellow-700);
+}
+.bg-color-yellow-900 {
+  background-color: var(--gcds-colour-base-yellow-900);
+}
+
+// Theme Colors
+
+.bg-color-primary {
+  background-color: var(--gcds-colour-base-red-500);
+}
+
+.bg-color-secondary {
+  background-color: var(--gcds-colour-base-yellow-500);
+}
+
+.bg-color-accent {
+  background-color: var(--gcds-colour-base-cyan-500);
+}
+
+.bg-color-black {
+  background-color: var(--gcds-colour-utils-black);
+}
+
+.bg-color-white {
+  background-color: var(--gcds-colour-utils-white);
+}
+
+// Theme Font Colors
+.font-color-black {
+  color: var(--gcds-colour-utils-black);
+}
+
+.font-color-white {
+  color: var(--gcds-colour-utils-white);
 }
