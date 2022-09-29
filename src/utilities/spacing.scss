@@ -1,0 +1,38 @@
+@import "./defaults.scss";
+
+// --- Margin + Padding Spacing Classes ---
+
+@each $spaceClass, $space in $spacing {
+  // classes for all sides
+  .m-#{$spaceClass} {
+    margin: $space;
+  }
+
+  .p-#{$spaceClass} {
+    margin: $space;
+  }
+
+  // classes for each side
+  @each $sideClass, $side in $spacingSides {
+    .m#{$sideClass}-#{$spaceClass} {
+      margin-#{$side}: #{$space};
+    }
+
+    .p#{$sideClass}-#{$spaceClass} {
+      padding-#{$side}: #{$space};
+    }
+  }
+}
+
+
+// --- Margin Auto Spacing Classes ---
+
+.m-auto {
+  margin: auto;
+}
+
+@each $sideClass, $side in $spacingSides {
+  .m#{$sideClass}-auto {
+    margin-#{$side}: auto;
+  }
+}

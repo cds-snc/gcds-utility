@@ -1,0 +1,29 @@
+// --- Link Color ---
+
+.link-dark {
+  color: var(--gcds-link-dark-text);
+}
+
+.link-destructive {
+  color: var(--gcds-link-destructive-text);
+}
+
+.link-inherit {
+  color: inherit;
+}
+
+.link-light {
+  color: var(--gcds-link-light-text);
+}
+
+
+// --- Link Text Decoration ---
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.link-underline {
+  text-decoration: underline;
+  text-underline-position: under;
+}

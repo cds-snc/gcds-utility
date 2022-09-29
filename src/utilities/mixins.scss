@@ -1,0 +1,18 @@
+// TO DO: look at difference between @use and @import
+@import "./defaults.scss";
+
+// --- Classes With Breakpoints ---
+
+@mixin classBreakpoints($class, $property, $value) {
+  .#{$class} {
+    #{$property}: $value;
+  }
+
+  @each $name, $breakpoint in $breakpoints {
+    .#{$name}\:#{$class} {
+      @media only screen and (width > $breakpoint) {
+        #{$property}: $value;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "./defaults.scss";
+
+// --- Gap ---
+
+@each $spaceClass, $space in $spacing {
+  .gap-#{$spaceClass} {
+    gap: $space;
+  }
+
+  .gap-x-#{$spaceClass} {
+    column-gap: $space;
+  }
+
+  .gap-y-#{$spaceClass} {
+    row-gap: $space;
+  }
+}

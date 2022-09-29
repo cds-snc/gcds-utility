@@ -1,0 +1,103 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-underline-position: under;
+}
+
+body {
+  font-family: var(--gcds-font-families-body);
+  font-size: var(--gcds-font-sizes-text);
+  line-height: var(--gcds-line-heights-text);
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--gcds-font-families-heading);
+}
+
+h1 {
+  font-size: var(--gcds-font-sizes-h1);
+  line-height: var(--gcds-line-heights-h1);
+}
+
+h2 {
+  font-size: var(--gcds-font-sizes-h2);
+  line-height: var(--gcds-line-heights-h2);
+}
+
+h3 {
+  font-size: var(--gcds-font-sizes-h3);
+  line-height: var(--gcds-line-heights-h3);
+}
+
+h4 {
+  font-size: var(--gcds-font-sizes-h4);
+  line-height: var(--gcds-line-heights-h4);
+}
+
+h5 {
+  font-family: var(--gcds-font-families-body);
+  font-size: var(--gcds-font-sizes-h5);
+  line-height: var(--gcds-line-heights-h5);
+}
+
+h6 {
+  font-family: var(--gcds-font-families-body);
+  font-size: var(--gcds-font-sizes-h6);
+  line-height: var(--gcds-line-heights-h6);
+}
+
+hr {
+  border: 1px solid var(--gcds-color-grayscale-200);
+}
+
+/* Prevent overflow on mobile */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Prevent images from overflowing their container */
+img {
+  max-width: 100%;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+small {
+  font-size: var(--gcds-font-sizes-caption);
+  line-height: var(--gcds-line-heights-caption);
+}
+
+strong {
+  font-weight: var(--gcds-font-weights-bold);
+}
+
+/* Remove spacing between cells in tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

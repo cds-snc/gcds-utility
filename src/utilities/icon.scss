@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/font-awesome/css/font-awesome.min.css');
+
+// --- Icon Sizes ---
+
+.icon-xs {
+  font-size: var(--gcds-font-sizes-caption);
+  line-height: var(--gcds-line-heights-caption);
+}
+
+.icon-sm {
+  font-size: var(--gcds-font-sizes-text);
+  line-height: var(--gcds-line-heights-text);
+}
+
+.icon-md {
+  font-size: var(--gcds-font-sizes-h5);
+  line-height: var(--gcds-line-heights-h5);
+}
+
+.icon-lg {
+  font-size: var(--gcds-font-sizes-h3);
+  line-height: var(--gcds-line-heights-h3);
+}
+
+.icon-xl {
+  font-size: var(--gcds-font-sizes-h1);
+  line-height: var(--gcds-line-heights-h1);
+}

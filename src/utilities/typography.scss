@@ -1,0 +1,183 @@
+// --- Font Families ---
+
+.font-heading {
+  font-family: var(--gcds-font-families-heading);
+}
+
+.font-body {
+  font-family: var(--gcds-font-families-body);
+}
+
+.font-monospace {
+  font-family: var(--gcds-font-families-monospace);
+}
+
+.font-icon {
+  font-family: var(--gcds-font-families-icon);
+}
+
+
+// --- Font Sizes ---
+
+.fs-caption {
+  font-size: var(--gcds-font-sizes-caption);
+}
+
+.fs-h1 {
+  font-size: var(--gcds-font-sizes-h1);
+}
+
+.fs-h2 {
+  font-size: var(--gcds-font-sizes-h2);
+}
+
+.fs-h3 {
+  font-size: var(--gcds-font-sizes-h3);
+}
+
+.fs-h4 {
+  font-size: var(--gcds-font-sizes-h4);
+}
+
+.fs-h5 {
+  font-size: var(--gcds-font-sizes-h5);
+}
+
+.fs-h6 {
+  font-size: var(--gcds-font-sizes-h6);
+}
+
+.fs-text {
+  font-size: var(--gcds-font-sizes-text);
+}
+
+
+// --- Font Styles ---
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-normal {
+  font-style: normal;
+}
+
+
+// --- Font Weights ---
+
+.font-light {
+  font-weight: var(--gcds-font-weights-light);
+}
+
+.font-regular {
+  font-weight: var(--gcds-font-weights-regular);
+}
+
+.font-semibold {
+  font-weight: var(--gcds-font-weights-semibold);
+}
+
+.font-bold {
+  font-weight: var(--gcds-font-weights-bold);
+}
+
+
+// --- Line Heights ---
+
+.line-caption {
+  line-height: var(--gcds-line-heights-caption);
+}
+
+.line-h1 {
+  line-height: var(--gcds-line-heights-h1);
+}
+
+.line-h2 {
+  line-height: var(--gcds-line-heights-h2);
+}
+
+.line-h3 {
+  line-height: var(--gcds-line-heights-h3);
+}
+
+.line-h4 {
+  line-height: var(--gcds-line-heights-h4);
+}
+
+.line-h5 {
+  line-height: var(--gcds-line-heights-h5);
+}
+
+.line-h6 {
+  line-height: var(--gcds-line-heights-h6);
+}
+
+.line-text {
+  line-height: var(--gcds-line-heights-text);
+}
+
+
+// --- Text Align ---
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+// --- Text Overflow ---
+
+.text-clip {
+  text-overflow: clip;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+// --- Text Transform ---
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-none {
+  text-transform: none;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+// --- Word Break ---
+
+.break-all {
+  word-break: break-all;
+}
+
+.break-normal {
+  word-break: normal;
+}
+
+.break-word {
+  word-break: break-word;
+}

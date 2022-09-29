@@ -1,6 +1,6 @@
 {
   "name": "product-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoshBeveridge/gc-ds-core.git"
+    "url": "git+https://github.com/cds-snc/gcds-utilities"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JoshBeveridge/gc-ds-core/issues"
+    "url": "https://github.com/cds-snc/gcds-utilities/issues"
   },
-  "homepage": "https://github.com/JoshBeveridge/gc-ds-core#readme",
+  "homepage": "https://github.com/cds-snc/gcds-utilities#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.5"
   }

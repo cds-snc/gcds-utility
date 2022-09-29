@@ -1,0 +1,55 @@
+// --- Border ---
+
+$borderSizes: (
+  0: none,
+  1: 1px solid currentColor,
+  2: .125rem solid currentColor,
+  4: .25rem solid currentColor,
+  6: .375rem solid currentColor,
+  8: .5rem solid currentColor
+) !default;
+
+$borderSides: (
+  t: 'top',
+  r: 'right',
+  b: 'bottom',
+  l: 'left'
+) !default;
+
+
+// --- Breakpoints ---
+
+$breakpoints: (
+  xs: 480px,
+  sm: 640px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px
+) !default;
+
+
+// --- Spacing ---
+
+$spacing: (
+  0: 0,
+  50: var(--gcds-spacing-50),
+  100: var(--gcds-spacing-100),
+  200: var(--gcds-spacing-200),
+  300: var(--gcds-spacing-300),
+  400: var(--gcds-spacing-400),
+  500: var(--gcds-spacing-500),
+  600: var(--gcds-spacing-600),
+  700: var(--gcds-spacing-700),
+  800: var(--gcds-spacing-800),
+  900: var(--gcds-spacing-900),
+  1000: var(--gcds-spacing-1000),
+) !default;
+
+$spacingSides: (
+  t: 'top',
+  r: 'right',
+  b: 'bottom',
+  l: 'left',
+  x: 'inline',
+  y: 'block'
+) !default;

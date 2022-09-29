@@ -1,0 +1,59 @@
+@import "./defaults.scss";
+
+// --- Border ---
+
+@each $sizeClass, $size in $borderSizes {
+  // classes for all sides
+  .b-#{$sizeClass} {
+    border: $size;
+  }
+
+  // classes for each side
+  @each $sideClass, $side in $borderSides {
+    .b#{$sideClass}-#{$sizeClass} {
+      border-#{$side}: #{$size};
+    }
+  }
+}
+
+
+// --- Border Style ---
+
+.b-dashed {
+  border-style: dashed;
+}
+
+.b-dotted {
+  border-style: dotted;
+}
+
+.b-none {
+  border-style: none;
+}
+
+.b-solid {
+  border-style: solid;
+}
+
+
+// --- Border Color ---
+
+.b-inherit {
+  border-color: inherit;
+}
+
+.b-current {
+  border-color: currentColor;
+}
+
+.b-dark {
+  border-color: var(--gcds-color-grayscale-1000);
+}
+
+.b-light {
+  border-color: var(--gcds-color-grayscale-0);
+}
+
+.b-transparent {
+  border-color: transparent;
+}

@@ -1,0 +1,19 @@
+// --- Transition ---
+
+.transition-fade-in {
+  opacity: 0;
+  transition: opacity .15s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.transition-fade-out {
+  opacity: 1;
+  transition: opacity .15s ease-in-out;
+
+  &:hover {
+    opacity: 0;
+  }
+}
