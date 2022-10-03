@@ -2273,35 +2273,35 @@ table {
   font-family: var(--gcds-font-families-icon);
 }
 
-.fs-caption {
+.font-size-caption {
   font-size: var(--gcds-font-sizes-caption);
 }
 
-.fs-h1 {
+.font-size-h1 {
   font-size: var(--gcds-font-sizes-h1);
 }
 
-.fs-h2 {
+.font-size-h2 {
   font-size: var(--gcds-font-sizes-h2);
 }
 
-.fs-h3 {
+.font-size-h3 {
   font-size: var(--gcds-font-sizes-h3);
 }
 
-.fs-h4 {
+.font-size-h4 {
   font-size: var(--gcds-font-sizes-h4);
 }
 
-.fs-h5 {
+.font-size-h5 {
   font-size: var(--gcds-font-sizes-h5);
 }
 
-.fs-h6 {
+.font-size-h6 {
   font-size: var(--gcds-font-sizes-h6);
 }
 
-.fs-text {
+.font-size-text {
   font-size: var(--gcds-font-sizes-text);
 }
 
