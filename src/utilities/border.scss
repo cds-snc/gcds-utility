@@ -1,17 +1,32 @@
-@import "./defaults.scss";
+$borderSides: (
+  t: 'top',
+  r: 'right',
+  b: 'bottom',
+  l: 'left'
+) !default;
+
+$borderSizes: (
+  0: none,
+  1: 1px solid currentColor,
+  2: .125rem solid currentColor,
+  4: .25rem solid currentColor,
+  6: .375rem solid currentColor,
+  8: .5rem solid currentColor
+) !default;
+
 
 // --- Border ---
 
-@each $sizeClass, $size in $borderSizes {
+@each $sizeClass, $sizeValue in $borderSizes {
   // classes for all sides
   .b-#{$sizeClass} {
-    border: $size;
+    border: $sizeValue;
   }
 
   // classes for each side
   @each $sideClass, $side in $borderSides {
     .b#{$sideClass}-#{$sizeClass} {
-      border-#{$side}: #{$size};
+      border-#{$side}: #{$sizeValue};
     }
   }
 }

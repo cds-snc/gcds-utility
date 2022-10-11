@@ -217,7 +217,6 @@
 }
 
 * {
-  border: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -235,7 +234,12 @@ body {
 }
 
 button {
+  border: 0;
   cursor: pointer;
+}
+
+fieldset {
+  border: 0;
 }
 
 h1,
@@ -279,6 +283,11 @@ h6 {
 
 hr {
   border: 1px solid var(--gcds-color-grayscale-200);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 /* Prevent overflow on mobile */
@@ -1544,7 +1553,7 @@ table {
 }
 
 .p-0 {
-  margin: 0;
+  padding: 0;
 }
 
 .mt-0 {
@@ -1600,7 +1609,7 @@ table {
 }
 
 .p-50 {
-  margin: var(--gcds-spacing-50);
+  padding: var(--gcds-spacing-50);
 }
 
 .mt-50 {
@@ -1656,7 +1665,7 @@ table {
 }
 
 .p-100 {
-  margin: var(--gcds-spacing-100);
+  padding: var(--gcds-spacing-100);
 }
 
 .mt-100 {
@@ -1712,7 +1721,7 @@ table {
 }
 
 .p-200 {
-  margin: var(--gcds-spacing-200);
+  padding: var(--gcds-spacing-200);
 }
 
 .mt-200 {
@@ -1768,7 +1777,7 @@ table {
 }
 
 .p-300 {
-  margin: var(--gcds-spacing-300);
+  padding: var(--gcds-spacing-300);
 }
 
 .mt-300 {
@@ -1824,7 +1833,7 @@ table {
 }
 
 .p-400 {
-  margin: var(--gcds-spacing-400);
+  padding: var(--gcds-spacing-400);
 }
 
 .mt-400 {
@@ -1880,7 +1889,7 @@ table {
 }
 
 .p-500 {
-  margin: var(--gcds-spacing-500);
+  padding: var(--gcds-spacing-500);
 }
 
 .mt-500 {
@@ -1936,7 +1945,7 @@ table {
 }
 
 .p-600 {
-  margin: var(--gcds-spacing-600);
+  padding: var(--gcds-spacing-600);
 }
 
 .mt-600 {
@@ -1992,7 +2001,7 @@ table {
 }
 
 .p-700 {
-  margin: var(--gcds-spacing-700);
+  padding: var(--gcds-spacing-700);
 }
 
 .mt-700 {
@@ -2048,7 +2057,7 @@ table {
 }
 
 .p-800 {
-  margin: var(--gcds-spacing-800);
+  padding: var(--gcds-spacing-800);
 }
 
 .mt-800 {
@@ -2104,7 +2113,7 @@ table {
 }
 
 .p-900 {
-  margin: var(--gcds-spacing-900);
+  padding: var(--gcds-spacing-900);
 }
 
 .mt-900 {
@@ -2160,7 +2169,7 @@ table {
 }
 
 .p-1000 {
-  margin: var(--gcds-spacing-1000);
+  padding: var(--gcds-spacing-1000);
 }
 
 .mt-1000 {
@@ -2424,10 +2433,9 @@ table {
 }
 
 .visibility-sr-only {
-  display: inline-block;
+  display: block;
   width: 0;
   height: 0;
   margin: 0;
   overflow: hidden;
-  visibility: hidden;
 }

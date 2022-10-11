@@ -2,24 +2,24 @@
 
 // --- Margin + Padding Spacing Classes ---
 
-@each $spaceClass, $space in $spacing {
+@each $spaceClass, $spaceValue in $spacing {
   // classes for all sides
   .m-#{$spaceClass} {
-    margin: $space;
+    margin: $spaceValue;
   }
 
   .p-#{$spaceClass} {
-    margin: $space;
+    padding: $spaceValue;
   }
 
   // classes for each side
   @each $sideClass, $side in $spacingSides {
     .m#{$sideClass}-#{$spaceClass} {
-      margin-#{$side}: #{$space};
+      margin-#{$side}: #{$spaceValue};
     }
 
     .p#{$sideClass}-#{$spaceClass} {
-      padding-#{$side}: #{$space};
+      padding-#{$side}: #{$spaceValue};
     }
   }
 }

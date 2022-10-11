@@ -1,5 +1,4 @@
 * {
-  border: 0;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,7 +15,12 @@ body {
 }
 
 button {
+  border: 0;
   cursor: pointer;
+}
+
+fieldset {
+  border: 0;
 }
 
 h1,
@@ -60,6 +64,11 @@ h6 {
 
 hr {
   border: 1px solid var(--gcds-color-grayscale-200);
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 /* Prevent overflow on mobile */

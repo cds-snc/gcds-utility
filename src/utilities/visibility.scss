@@ -9,10 +9,9 @@
 }
 
 .visibility-sr-only {
-  display: inline-block;
+  display: block;
   width: 0;
   height: 0;
   margin: 0;
   overflow: hidden;
-  visibility: hidden;
 }

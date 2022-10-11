@@ -1,22 +1,3 @@
-// --- Border ---
-
-$borderSizes: (
-  0: none,
-  1: 1px solid currentColor,
-  2: .125rem solid currentColor,
-  4: .25rem solid currentColor,
-  6: .375rem solid currentColor,
-  8: .5rem solid currentColor
-) !default;
-
-$borderSides: (
-  t: 'top',
-  r: 'right',
-  b: 'bottom',
-  l: 'left'
-) !default;
-
-
 // --- Breakpoints ---
 
 $breakpoints: (
