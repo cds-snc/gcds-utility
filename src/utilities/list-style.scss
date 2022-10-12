@@ -1,0 +1,18 @@
+// --- List Style ---
+
+.list-decimal,
+.list-disc {
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-decimal {
+  list-style: decimal;
+}
+
+.list-disc {
+  list-style: disc;
+}
+
+.list-none {
+  list-style: none;
+}

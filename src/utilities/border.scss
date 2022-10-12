@@ -1,0 +1,74 @@
+$borderSides: (
+  t: 'top',
+  r: 'right',
+  b: 'bottom',
+  l: 'left'
+) !default;
+
+$borderSizes: (
+  0: none,
+  1: 1px solid currentColor,
+  2: .125rem solid currentColor,
+  4: .25rem solid currentColor,
+  6: .375rem solid currentColor,
+  8: .5rem solid currentColor
+) !default;
+
+
+// --- Border ---
+
+@each $sizeClass, $sizeValue in $borderSizes {
+  // classes for all sides
+  .b-#{$sizeClass} {
+    border: $sizeValue;
+  }
+
+  // classes for each side
+  @each $sideClass, $side in $borderSides {
+    .b#{$sideClass}-#{$sizeClass} {
+      border-#{$side}: #{$sizeValue};
+    }
+  }
+}
+
+
+// --- Border Style ---
+
+.b-dashed {
+  border-style: dashed;
+}
+
+.b-dotted {
+  border-style: dotted;
+}
+
+.b-none {
+  border-style: none;
+}
+
+.b-solid {
+  border-style: solid;
+}
+
+
+// --- Border Color ---
+
+.b-inherit {
+  border-color: inherit;
+}
+
+.b-current {
+  border-color: currentColor;
+}
+
+.b-dark {
+  border-color: var(--gcds-color-grayscale-1000);
+}
+
+.b-light {
+  border-color: var(--gcds-color-grayscale-0);
+}
+
+.b-transparent {
+  border-color: transparent;
+}

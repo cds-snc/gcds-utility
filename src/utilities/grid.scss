@@ -1,0 +1,97 @@
+// --- Grid Template Columns ---
+
+@for $i from 1 through 12 {
+  .grid-cols-#{$i} {
+    grid-template-columns: repeat($i, minmax(0, 1fr));
+  }
+}
+
+.grid-cols-none {
+  grid-template-columns: none;
+}
+
+
+// --- Grid Template Rows ---
+
+@for $i from 1 through 12 {
+  .grid-rows-#{$i} {
+    grid-template-rows: repeat($i, minmax(0, 1fr));
+  }
+}
+
+.grid-rows-none {
+  grid-template-rows: none;
+}
+
+
+// --- Place Content ---
+
+.place-content-around {
+  place-content: space-around;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
+.place-content-end {
+  place-content: end;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
+}
+
+.place-content-start {
+  place-content: start;
+}
+
+.place-content-stretch {
+  place-content: stretch;
+}
+
+
+// --- Place Items ---
+
+.place-items-center {
+  place-items: center;
+}
+
+.place-items-end {
+  place-items: end;
+}
+
+.place-items-start {
+  place-items: start;
+}
+
+.place-items-stretch {
+  place-items: stretch;
+}
+
+
+// --- Place Self ---
+
+.place-self-auto {
+  place-self: auto;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.place-self-end {
+  place-self: end;
+}
+
+.place-self-start {
+  place-self: start;
+}
+
+.place-self-stretch {
+  place-self: stretch;
+}
