@@ -5,7 +5,7 @@ const rename = require('gulp-rename');
 const sass = require('gulp-sass')(require('sass'));
 
 // Compile + prefix SCSS
-function compile() {
+function compileAndPrefix() {
   return src('src/utilities.scss')
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
@@ -22,17 +22,24 @@ function minifyCss() {
 
 // Watch SCSS for changes
 function watchTask() {
-  watch('src/*.scss', compile);
+  watch(['src/*.scss', 'src/*/*.scss'], compileAndPrefix);
 }
 
 // Default gulp
 exports.default = series(
-  compile,
+  compileAndPrefix,
   minifyCss,
   watchTask
 );
 
+// Compile
+exports.compile = series(
+  compileAndPrefix,
+  minifyCss
+);
+
+// Test
 exports.test = series(
-  compile,
+  compileAndPrefix,
   minifyCss
 );
