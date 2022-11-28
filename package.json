@@ -1,21 +1,23 @@
 {
-  "name": "product-core",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "gcds-utilities",
+  "version": "0.0.1",
+  "author": "Government of Canada | Gouvernement du Canada",
+  "description": "GC Design System Utility",
+  "homepage": "https://cds-snc-design.netlify.app/",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
+    "compile": "gulp compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cds-snc/gcds-utilities"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/cds-snc/gcds-utilities/issues"
   },
-  "homepage": "https://github.com/cds-snc/gcds-utilities#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -23,5 +25,6 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.5"
-  }
+  },
+  "license": "MIT"
 }
