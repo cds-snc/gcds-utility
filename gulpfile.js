@@ -31,3 +31,8 @@ exports.default = series(
   minifyCss,
   watchTask
 );
+
+exports.test = series(
+  compile,
+  minifyCss
+);
