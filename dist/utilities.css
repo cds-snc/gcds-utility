@@ -1,7 +1,9 @@
+/* Include fonts - Lato + Noto Sans */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly
- * Generated on Wed, 21 Sep 2022 18:14:26 GMT
+ * Generated on Fri, 25 Nov 2022 13:37:22 GMT
  */
 :root {
   --gcds-brand-default-text: #000000;
@@ -102,21 +104,21 @@
   --gcds-banner-primary-background: #26374a;
   --gcds-banner-primary-text: #ffffff;
   --gcds-banner-secondary-background: #f0f0f0;
-  --gcds-button-destructive-default: #bc3331;
-  --gcds-button-destructive-hover: #340e0e;
-  --gcds-button-destructive-active: #bc3331;
-  --gcds-button-primary-default: #26374a;
-  --gcds-button-primary-hover: #4f6592;
-  --gcds-button-primary-active: #0a0e14;
-  --gcds-button-secondary-default: #78757a;
-  --gcds-button-secondary-hover: #6a6d7b;
-  --gcds-button-secondary-active: #c4c3c5;
-  --gcds-button-shared-text: #ffffff;
+  --gcds-button-destructive-default-background: #bc3331;
+  --gcds-button-destructive-default-text: #ffffff;
+  --gcds-button-destructive-hover-background: #340e0e;
+  --gcds-button-primary-default-background: #26374a;
+  --gcds-button-primary-default-text: #ffffff;
+  --gcds-button-primary-hover-background: #4f6592;
+  --gcds-button-secondary-default-text: #26374a;
+  --gcds-button-secondary-hover-background: #d4e6f2;
+  --gcds-button-secondary-active-background: #aad5f2;
+  --gcds-button-shared-active-background: #0a0e14;
+  --gcds-button-shared-active-text: #ffffff;
   --gcds-button-shared-focus-background: #303fc3;
   --gcds-button-shared-focus-text: #ffffff;
-  --gcds-button-shared-disabled-background: #ededed;
-  --gcds-button-shared-disabled-border: #bfbfbf;
-  --gcds-button-shared-disabled-text: #6b6b6b;
+  --gcds-button-shared-disabled-background: #f0f0f0;
+  --gcds-button-shared-disabled-text: #707070;
   --gcds-checkbox-default-text: #000000;
   --gcds-checkbox-default-hint: #6a6d7b;
   --gcds-checkbox-destructive-text: #d3080c;
@@ -172,6 +174,15 @@
   --gcds-link-dark-text: #000000;
   --gcds-link-destructive-text: #d3080c;
   --gcds-link-light-text: #ffffff;
+  --gcds-pagination-default-text: #26374a;
+  --gcds-pagination-hover-background: #d4e6f2;
+  --gcds-pagination-focus-background: #303fc3;
+  --gcds-pagination-focus-text: #ffffff;
+  --gcds-pagination-focus-shadow: #ffffff;
+  --gcds-pagination-focus-outline: #303fc3;
+  --gcds-pagination-active-text: #ffffff;
+  --gcds-pagination-active-background: #26374a;
+  --gcds-pagination-mobile-list-border: #26374a;
   --gcds-radio-default-text: #000000;
   --gcds-radio-default-hint: #6a6d7b;
   --gcds-radio-destructive-text: #d3080c;
@@ -216,6 +227,7 @@
   --gcds-verify-banner-toggle-text: #303fc3;
 }
 
+/* Reset Styles */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
