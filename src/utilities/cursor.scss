@@ -1,41 +1,18 @@
-// --- Cursor ---
+@import "./mixins.scss";
 
-.cursor-copy {
-  cursor: copy;
-}
+/* --- Cursor --- */
 
-.cursor-default {
-  cursor: default;
-}
+$cursor: (
+  copy: copy,
+  default: default,
+  grab: grab,
+  help: help,
+  move: move,
+  not-allowed: not-allowed,
+  pointer: pointer,
+  text: text,
+  zoom-in: zoom-in,
+  zoom-out: zoom-out
+) !default;
 
-.cursor-grab {
-  cursor: grab;
-}
-
-.cursor-help {
-  cursor: help;
-}
-
-.cursor-move {
-  cursor: move;
-}
-
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.cursor-text {
-  cursor: text;
-}
-
-.cursor-zoom-in {
-  cursor: zoom-in;
-}
-
-.cursor-zoom-out {
-  cursor: zoom-out;
-}
+@include generateClasses($cursor, 'cursor-', cursor);

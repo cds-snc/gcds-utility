@@ -1,75 +1,41 @@
-// --- Align Content ---
+@import "./mixins.scss";
 
-.align-content-around {
-  align-content: space-around;
-}
+/* --- Align Content --- */
 
-.align-content-between {
-  align-content: space-between;
-}
+$alignContent: (
+  around: space-around,
+  between: space-between,
+  center: center,
+  end: flex-end,
+  evenly: space-evenly,
+  start: flex-start
+) !default;
 
-.align-content-center {
-  align-content: center;
-}
-
-.align-content-end {
-  align-content: flex-end;
-}
-
-.align-content-evenly {
-  align-content: space-evenly;
-}
-
-.align-content-start {
-  align-content: flex-start;
-}
+@include generateClasses($alignContent, 'align-content-', align-content);
 
 
-// --- Align Items ---
+/* --- Align Items --- */
 
-.align-items-baseline {
-  align-items: baseline;
-}
+$alignItems: (
+  baseline: baseline,
+  center: center,
+  end: flex-end,
+  start: flex-start,
+  stretch: stretch
+) !default;
 
-.align-items-center {
-  align-items: center;
-}
-
-.align-items-end {
-  align-items: flex-end;
-}
-
-.align-items-start {
-  align-items: flex-start;
-}
-
-.align-items-stretch {
-  align-items: stretch;
-}
+@include generateClasses($alignItems, 'align-items-', align-items);
 
 
-// --- Align Self ---
+/* --- Align Self --- */
 
-.align-self-auto {
-  align-self: auto;
-}
+$alignSelf: (
+  auto: auto,
+  baseline: baseline,
+  center: center,
+  end: flex-end,
+  start: flex-start,
+  stretch: stretch
+) !default;
 
-.align-self-baseline {
-  align-self: baseline;
-}
-
-.align-self-center {
-  align-self: center;
-}
-
-.align-self-end {
-  align-self: flex-end;
-}
-
-.align-self-start {
-  align-self: flex-start;
-}
-
-.align-self-stretch {
-  align-self: stretch;
-}
+@include generateClasses($alignSelf, 'align-self-', align-self);

@@ -1,43 +1,21 @@
-// --- Overflow ---
+@import "./mixins.scss";
 
-.overflow-hidden {
-  overflow: hidden;
-}
+/* --- Overflow --- */
 
-.overflow-scroll {
-  overflow: scroll;
-}
+$overflow: (
+  hidden: hidden,
+  scroll: scroll,
+  visible: visible
+) !default;
 
-.overflow-visible {
-  overflow: visible;
-}
+@include generateClasses($overflow, 'overflow-', overflow);
 
 
-// --- Overflow X ---
+/* --- Overflow X --- */
 
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-
-.overflow-x-visible {
-  overflow-x: visible;
-}
+@include generateClasses($overflow, 'overflow-x-', overflow-x);
 
 
-// --- Overflow Y ---
+/* --- Overflow Y --- */
 
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
-.overflow-y-scroll {
-  overflow-y: scroll;
-}
-
-.overflow-y-visible {
-  overflow-y: visible;
-}
+@include generateClasses($overflow, 'overflow-y-', overflow-y);

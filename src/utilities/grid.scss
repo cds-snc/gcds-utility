@@ -1,97 +1,63 @@
-// --- Grid Template Columns ---
+@import "./mixins.scss";
+
+/* --- Grid Template Columns & Rows --- */
 
 @for $i from 1 through 12 {
-  .grid-cols-#{$i} {
+  // Cols
+  @include classBreakpoints('grid-cols-' + #{$i}) {
     grid-template-columns: repeat($i, minmax(0, 1fr));
   }
-}
 
-.grid-cols-none {
-  grid-template-columns: none;
-}
-
-
-// --- Grid Template Rows ---
-
-@for $i from 1 through 12 {
-  .grid-rows-#{$i} {
+  // Rows
+  @include classBreakpoints('grid-rows-' + #{$i}) {
     grid-template-rows: repeat($i, minmax(0, 1fr));
   }
 }
 
-.grid-rows-none {
+@include classBreakpoints('grid-cols-none') {
+  grid-template-columns: none;
+}
+
+@include classBreakpoints('grid-rows-none') {
   grid-template-rows: none;
 }
 
 
-// --- Place Content ---
+/* --- Place Content --- */
 
-.place-content-around {
-  place-content: space-around;
-}
+$placeContent: (
+  around: space-around,
+  between: space-between,
+  center: center,
+  end: end,
+  evenly: space-evenly,
+  start: start,
+  stretch: stretch
+) !default;
 
-.place-content-between {
-  place-content: space-between;
-}
-
-.place-content-center {
-  place-content: center;
-}
-
-.place-content-end {
-  place-content: end;
-}
-
-.place-content-evenly {
-  place-content: space-evenly;
-}
-
-.place-content-start {
-  place-content: start;
-}
-
-.place-content-stretch {
-  place-content: stretch;
-}
+@include generateClasses($placeContent, 'place-content-', place-content);
 
 
-// --- Place Items ---
+/* --- Place Items --- */
 
-.place-items-center {
-  place-items: center;
-}
+$placeItems: (
+  center: center,
+  end: end,
+  start: start,
+  stretch: stretch
+) !default;
 
-.place-items-end {
-  place-items: end;
-}
-
-.place-items-start {
-  place-items: start;
-}
-
-.place-items-stretch {
-  place-items: stretch;
-}
+@include generateClasses($placeItems, 'place-items-', place-items);
 
 
-// --- Place Self ---
+/* --- Place Self --- */
 
-.place-self-auto {
-  place-self: auto;
-}
+$placeSelf: (
+  auto: auto,
+  center: center,
+  end: end,
+  start: start,
+  stretch: stretch
+) !default;
 
-.place-self-center {
-  place-self: center;
-}
-
-.place-self-end {
-  place-self: end;
-}
-
-.place-self-start {
-  place-self: start;
-}
-
-.place-self-stretch {
-  place-self: stretch;
-}
+@include generateClasses($placeSelf, 'place-self-', place-self);

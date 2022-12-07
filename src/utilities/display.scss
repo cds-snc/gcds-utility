@@ -1,41 +1,18 @@
-// --- Display ---
+@import "./mixins.scss";
 
-.d-block {
-  display: block;
-}
+/* --- Display --- */
 
-.d-flex {
-  display: flex;
-}
+$display: (
+  block: block,
+  flex: flex,
+  grid: grid,
+  inline: inline,
+  inline-block: inline-block,
+  inline-flex: inline-flex,
+  inline-grid: inline-grid,
+  inline-table: inline-table,
+  none: none,
+  table: table
+) !default;
 
-.d-grid {
-  display: grid;
-}
-
-.d-inline {
-  display: inline;
-}
-
-.d-inline-block {
-  display: inline-block;
-}
-
-.d-inline-flex {
-  display: inline-flex;
-}
-
-.d-inline-grid {
-  display: inline-grid;
-}
-
-.d-inline-table {
-  display: inline-table;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-table {
-  display: table;
-}
+@include generateClasses($display, 'd-', display);

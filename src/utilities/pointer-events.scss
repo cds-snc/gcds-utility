@@ -1,9 +1,10 @@
-// --- Pointer Events ---
+@import "./mixins.scss";
 
-.pointer-events-auto {
-  pointer-events: auto;
-}
+/* --- Pointer Events --- */
 
-.pointer-events-none {
-  pointer-events: none;
-}
+$pointerEvents: (
+  auto: auto,
+  none: none
+) !default;
+
+@include generateClasses($pointerEvents, 'pointer-events-', pointer-events);

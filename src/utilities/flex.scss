@@ -1,94 +1,72 @@
-// --- Flex ---
+@import "./mixins.scss";
 
-.flex-1 {
-  flex: 1 1 0%;
-}
+/* --- Flex --- */
 
-.flex-auto {
-  flex: 1 1 auto;
-}
+$flex: (
+  1: 1 1 0%,
+  auto: 1 1 auto,
+  initial: 0 1 auto,
+  none: none
+) !default;
 
-.flex-initial {
-  flex: 0 1 auto;
-}
-
-.flex-none {
-  flex: none;
-}
+@include generateClasses($flex, 'flex-', flex);
 
 
-// --- Flex Direction ---
+/* --- Flex Direction --- */
 
-.flex-col {
-  flex-direction: column;
-}
+$flexDirection: (
+  col: column,
+  col-reverse: column-reverse,
+  row: row,
+  row-reverse: row-reverse
+) !default;
 
-.flex-col-reverse {
-  flex-direction: column-reverse;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
+@include generateClasses($flexDirection, 'flex-', flex-direction);
 
 
-// --- Flex Wrap ---
+/* --- Flex Wrap --- */
 
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
+$flexWrap: (
+  nowrap: nowrap,
+  wrap: wrap,
+  wrap-reverse: wrap-reverse
+) !default;
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.flex-wrap-reverse {
-  flex-wrap: wrap-reverse;
-}
+@include generateClasses($flexWrap, 'flex-', flex-wrap);
 
 
-// --- Flex Grow ---
+/* --- Flex Grow --- */
 
-.flex-grow {
-  flex-grow: 1;
-}
+$flexGrow: (
+  grow: 1,
+  grow-0: 0
+) !default;
 
-.flex-grow-0 {
-  flex-grow: 0;
-}
-
-
-// --- Flex Shrink ---
-
-.flex-shrink {
-  flex-shrink: 1;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0;
-}
+@include generateClasses($flexGrow, 'flex-', flex-grow);
 
 
-// --- Order ---
+/* --- Flex Shrink --- */
+
+$flexShrink: (
+  shrink: 1,
+  shrink-0: 0
+) !default;
+
+@include generateClasses($flexShrink, 'flex-', flex-shrink);
+
+
+/* --- Order --- */
 
 @for $i from 1 through 12 {
-  .order-#{$i} {
+  @include classBreakpoints('order-' + #{$i}) {
     order: $i;
   }
 }
 
-.order-first {
-  order: -9999;;
-}
+$order: (
+  first: -9999,
+  last: 9999,
+  none: 0
+) !default;
 
-.order-last {
-  order: 9999;
-}
-
-.order-none {
-  order: 0;
-}
+@include generateClasses($order, 'order-', order);

@@ -1,9 +1,13 @@
-// --- Images ---
+@import "./mixins.scss";
 
-.img-full {
+/* --- Images --- */
+
+// Img full width
+@include classBreakpoints('img-full' ) {
   width: 100%;
 }
 
-.img-responsive {
+// Img responsive
+@include classBreakpoints('img-responsive' ) {
   max-width: 100%;
 }
