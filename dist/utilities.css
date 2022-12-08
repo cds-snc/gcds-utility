@@ -8345,6 +8345,152 @@ table {
     pointer-events: none;
   }
 }
+/* --- Position --- */
+.position-absolute {
+  position: absolute;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:position-absolute {
+    position: absolute;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:position-absolute {
+    position: absolute;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:position-absolute {
+    position: absolute;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:position-absolute {
+    position: absolute;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:position-absolute {
+    position: absolute;
+  }
+}
+.position-fixed {
+  position: fixed;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:position-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:position-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:position-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:position-fixed {
+    position: fixed;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:position-fixed {
+    position: fixed;
+  }
+}
+.position-relative {
+  position: relative;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:position-relative {
+    position: relative;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:position-relative {
+    position: relative;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:position-relative {
+    position: relative;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:position-relative {
+    position: relative;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:position-relative {
+    position: relative;
+  }
+}
+.position-static {
+  position: static;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:position-static {
+    position: static;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:position-static {
+    position: static;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:position-static {
+    position: static;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:position-static {
+    position: static;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:position-static {
+    position: static;
+  }
+}
+.position-sticky {
+  position: sticky;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:position-sticky {
+    position: sticky;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:position-sticky {
+    position: sticky;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:position-sticky {
+    position: sticky;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:position-sticky {
+    position: sticky;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:position-sticky {
+    position: sticky;
+  }
+}
 /* --- Margin + Padding Spacing Classes --- */
 .m-0 {
   margin: 0;
