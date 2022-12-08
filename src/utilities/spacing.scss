@@ -4,23 +4,13 @@
 /* --- Margin + Padding Spacing Classes --- */
 
 @each $className, $value in $spacing {
-  // classes for all sides
-  @include classBreakpoints('m-' + #{$className}) {
-    margin: $value;
-  }
-
-  @include classBreakpoints('p-' + #{$className}) {
-    padding: $value;
-  }
-
-  // classes for each side
-  @each $classSide, $side in $spacingSides {
+  @each $classSide, $side in $sides {
     @include classBreakpoints('m' + #{$classSide} + '-' + #{$className}) {
-      margin-#{$side}: #{$value};
+      margin#{$side}: #{$value};
     }
 
     @include classBreakpoints('p' + #{$classSide} + '-' + #{$className}) {
-      padding-#{$side}: #{$value};
+      padding#{$side}: #{$value};
     }
   }
 }
@@ -28,12 +18,8 @@
 
 // --- Margin Auto Spacing Classes ---
 
-@include classBreakpoints('m-auto') {
-  margin: auto;
-}
-
-@each $classSide, $side in $spacingSides {
+@each $classSide, $side in $sides {
   @include classBreakpoints('m' + #{$classSide} + '-auto') {
-    margin-#{$side}: auto;
+    margin#{$side}: auto;
   }
 }

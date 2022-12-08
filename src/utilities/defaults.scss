@@ -26,11 +26,15 @@ $spacing: (
   1000: var(--gcds-spacing-1000),
 ) !default;
 
-$spacingSides: (
-  t: 'top',
-  r: 'right',
-  b: 'bottom',
-  l: 'left',
-  x: 'inline',
-  y: 'block'
+
+// --- Sides ---
+
+$sides: (
+  '': '',
+  t: '-top',
+  r: '-right',
+  b: '-bottom',
+  l: '-left',
+  x: '-inline',
+  y: '-block'
 ) !default;

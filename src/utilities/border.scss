@@ -1,13 +1,7 @@
+@import "./defaults.scss";
 @import "./mixins.scss";
 
 /* --- Border --- */
-
-$borderSides: (
-  t: 'top',
-  r: 'right',
-  b: 'bottom',
-  l: 'left'
-) !default;
 
 $borderSizes: (
   0: none,
@@ -19,15 +13,9 @@ $borderSizes: (
 ) !default;
 
 @each $className, $value in $borderSizes {
-  // classes for all sides
-  @include classBreakpoints('b-' + #{$className}) {
-    border: $value;
-  }
-
-  // classes for each side
-  @each $classSide, $side in $borderSides {
+  @each $classSide, $side in $sides {
     @include classBreakpoints('b' + #{$classSide} + '-' + #{$className}) {
-      border-#{$side}: #{$value};
+      border#{$side}: #{$value};
     }
   }
 }
