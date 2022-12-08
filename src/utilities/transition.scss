@@ -1,6 +1,8 @@
-// --- Transition ---
+@import "./mixins.scss";
 
-.transition-fade-in {
+/* --- Transition --- */
+
+@include classBreakpoints('transition-fade-in' ) {
   opacity: 0;
   transition: opacity .15s ease-in-out;
 
@@ -9,7 +11,7 @@
   }
 }
 
-.transition-fade-out {
+@include classBreakpoints('transition-fade-out' ) {
   opacity: 1;
   transition: opacity .15s ease-in-out;
 

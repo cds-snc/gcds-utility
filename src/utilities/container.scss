@@ -1,18 +1,13 @@
 @import "./mixins.scss";
 
-// --- Container Sizes ---
+/* --- Container Sizes --- */
 
-// Container 100
-@include classBreakpoints('container-100', max-width, var(--gcds-container-100));
+$container: (
+  100: var(--gcds-container-100),
+  200: var(--gcds-container-200),
+  300: var(--gcds-container-300),
+  400: var(--gcds-container-400),
+  500: var(--gcds-container-500),
+) !default;
 
-// Container 200
-@include classBreakpoints('container-200', max-width, var(--gcds-container-200));
-
-// Container 300
-@include classBreakpoints('container-300', max-width, var(--gcds-container-300));
-
-// Container 400
-@include classBreakpoints('container-400', max-width, var(--gcds-container-400));
-
-// Container 500
-@include classBreakpoints('container-500', max-width, var(--gcds-container-500));
+@include generateClasses($container, 'container-', max-width);

@@ -1,25 +1,26 @@
 @import "./defaults.scss";
+@import "./mixins.scss";
 
-// --- Margin + Padding Spacing Classes ---
+/* --- Margin + Padding Spacing Classes --- */
 
-@each $spaceClass, $spaceValue in $spacing {
+@each $className, $value in $spacing {
   // classes for all sides
-  .m-#{$spaceClass} {
-    margin: $spaceValue;
+  @include classBreakpoints('m-' + #{$className}) {
+    margin: $value;
   }
 
-  .p-#{$spaceClass} {
-    padding: $spaceValue;
+  @include classBreakpoints('p-' + #{$className}) {
+    padding: $value;
   }
 
   // classes for each side
-  @each $sideClass, $side in $spacingSides {
-    .m#{$sideClass}-#{$spaceClass} {
-      margin-#{$side}: #{$spaceValue};
+  @each $classSide, $side in $spacingSides {
+    @include classBreakpoints('m' + #{$classSide} + '-' + #{$className}) {
+      margin-#{$side}: #{$value};
     }
 
-    .p#{$sideClass}-#{$spaceClass} {
-      padding-#{$side}: #{$spaceValue};
+    @include classBreakpoints('p' + #{$classSide} + '-' + #{$className}) {
+      padding-#{$side}: #{$value};
     }
   }
 }
@@ -27,12 +28,12 @@
 
 // --- Margin Auto Spacing Classes ---
 
-.m-auto {
+@include classBreakpoints('m-auto') {
   margin: auto;
 }
 
-@each $sideClass, $side in $spacingSides {
-  .m#{$sideClass}-auto {
+@each $classSide, $side in $spacingSides {
+  @include classBreakpoints('m' + #{$classSide} + '-auto') {
     margin-#{$side}: auto;
   }
 }

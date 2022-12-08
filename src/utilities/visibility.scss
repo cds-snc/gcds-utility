@@ -1,14 +1,16 @@
-// --- Visibility ---
+@import "./mixins.scss";
 
-.visibility-hidden {
-  visibility: hidden;
-}
+/* --- Visibility --- */
 
-.visibility-visible {
-  visibility: visible;
-}
+$visibility: (
+  hidden: hidden,
+  visible: visible,
+) !default;
 
-.visibility-sr-only {
+@include generateClasses($visibility, 'visibility-', visibility);
+
+// Text for screen readers only
+@include classBreakpoints('visibility-sr-only' ) {
   display: block;
   width: 0;
   height: 0;

@@ -1,18 +1,19 @@
-// --- List Style ---
+@import "./mixins.scss";
 
-.list-decimal,
-.list-disc {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
+/* --- List Style --- */
 
-.list-decimal {
-  list-style: decimal;
-}
+$listStyle: (
+  decimal: decimal,
+  disc: disc,
+  none: none
+) !default;
 
-.list-disc {
-  list-style: disc;
-}
+@include generateClasses($listStyle, 'list-', list-style);
 
-.list-none {
-  list-style: none;
-}
+// Add margin to decimal + disc lists
+$listMargin: (
+  decimal: 0 0 0 var(--gcds-spacing-400),
+  disc: 0 0 0 var(--gcds-spacing-400)
+) !default;
+
+@include generateClasses($listMargin, 'list-', margin);

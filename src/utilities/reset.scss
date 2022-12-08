@@ -1,5 +1,7 @@
-/* Include fonts - Lato + Noto Sans */
+/* Include Fonts */
+/* Lato + Noto Sans */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
 
 /* Reset Styles */
 * {
@@ -34,8 +36,17 @@ h4 {
   font-family: var(--gcds-font-families-heading);
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--gcds-font-weights-bold);
+}
+
 h1 {
   font-size: var(--gcds-font-sizes-h1);
+  font-weight: var(--gcds-font-weights-regular);
   line-height: var(--gcds-line-heights-h1);
 }
 

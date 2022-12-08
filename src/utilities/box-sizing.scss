@@ -1,9 +1,10 @@
-// --- Box Sizing ---
+@import "./mixins.scss";
 
-.box-border {
-  box-sizing: border-box;
-}
+/* --- Box Sizing --- */
 
-.box-content {
-  box-sizing: content-box;
-}
+$boxSizing: (
+  border: border-box,
+  content: content-box,
+) !default;
+
+@include generateClasses($boxSizing, 'box-', box-sizing);

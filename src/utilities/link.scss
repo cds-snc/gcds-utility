@@ -1,29 +1,24 @@
-// --- Link Color ---
+@import "./mixins.scss";
 
-.link-dark {
-  color: var(--gcds-link-dark-text);
-}
+/* --- Link Color --- */
 
-.link-destructive {
-  color: var(--gcds-link-destructive-text);
-}
+$linkColor: (
+  dark: var(--gcds-link-dark-text),
+  destructive: var(--gcds-link-destructive-text),
+  inherit: inherit,
+  light: var(--gcds-link-light-text)
+) !default;
 
-.link-inherit {
-  color: inherit;
-}
-
-.link-light {
-  color: var(--gcds-link-light-text);
-}
+@include generateClasses($linkColor, 'link-', color);
 
 
-// --- Link Text Decoration ---
+/* --- Link Text Decoration --- */
 
-.link-no-underline {
+@include classBreakpoints('link-no-underline' ) {
   text-decoration: none;
 }
 
-.link-underline {
+@include classBreakpoints('link-underline' ) {
   text-decoration: underline;
   text-underline-position: under;
 }

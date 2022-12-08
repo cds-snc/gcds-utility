@@ -1,183 +1,114 @@
-// --- Font Families ---
+@import "./mixins.scss";
 
-.font-heading {
-  font-family: var(--gcds-font-families-heading);
-}
+/* --- Font Families --- */
 
-.font-body {
-  font-family: var(--gcds-font-families-body);
-}
+$fontFamily: (
+  heading: var(--gcds-font-families-heading),
+  body: var(--gcds-font-families-body),
+  monospace: var(--gcds-font-families-monospace),
+  icon: var(--gcds-font-families-icon)
+) !default;
 
-.font-monospace {
-  font-family: var(--gcds-font-families-monospace);
-}
-
-.font-icon {
-  font-family: var(--gcds-font-families-icon);
-}
+@include generateClasses($fontFamily, 'font-', font-family);
 
 
-// --- Font Sizes ---
+/* --- Font Sizes --- */
 
-.font-size-caption {
-  font-size: var(--gcds-font-sizes-caption);
-}
+$fontSize: (
+  caption: var(--gcds-font-sizes-caption),
+  h1: var(--gcds-font-sizes-h1),
+  h2: var(--gcds-font-sizes-h2),
+  h3: var(--gcds-font-sizes-h3),
+  h4: var(--gcds-font-sizes-h4),
+  h5: var(--gcds-font-sizes-h5),
+  h6: var(--gcds-font-sizes-h6),
+  text: var(--gcds-font-sizes-text)
+) !default;
 
-.font-size-h1 {
-  font-size: var(--gcds-font-sizes-h1);
-}
-
-.font-size-h2 {
-  font-size: var(--gcds-font-sizes-h2);
-}
-
-.font-size-h3 {
-  font-size: var(--gcds-font-sizes-h3);
-}
-
-.font-size-h4 {
-  font-size: var(--gcds-font-sizes-h4);
-}
-
-.font-size-h5 {
-  font-size: var(--gcds-font-sizes-h5);
-}
-
-.font-size-h6 {
-  font-size: var(--gcds-font-sizes-h6);
-}
-
-.font-size-text {
-  font-size: var(--gcds-font-sizes-text);
-}
+@include generateClasses($fontSize, 'font-size-', font-size);
 
 
-// --- Font Styles ---
+/* --- Font Styles --- */
 
-.font-italic {
-  font-style: italic;
-}
+$fontStyle: (
+  italic: italic,
+  normal: normal
+) !default;
 
-.font-normal {
-  font-style: normal;
-}
-
-
-// --- Font Weights ---
-
-.font-light {
-  font-weight: var(--gcds-font-weights-light);
-}
-
-.font-regular {
-  font-weight: var(--gcds-font-weights-regular);
-}
-
-.font-semibold {
-  font-weight: var(--gcds-font-weights-semibold);
-}
-
-.font-bold {
-  font-weight: var(--gcds-font-weights-bold);
-}
+@include generateClasses($fontStyle, 'font-', font-style);
 
 
-// --- Line Heights ---
+/* --- Font Weights --- */
 
-.line-caption {
-  line-height: var(--gcds-line-heights-caption);
-}
+$fontWeight: (
+  light: var(--gcds-font-weights-light),
+  regular: var(--gcds-font-weights-regular),
+  semibold: var(--gcds-font-weights-semibold),
+  bold: var(--gcds-font-weights-bold)
+) !default;
 
-.line-h1 {
-  line-height: var(--gcds-line-heights-h1);
-}
-
-.line-h2 {
-  line-height: var(--gcds-line-heights-h2);
-}
-
-.line-h3 {
-  line-height: var(--gcds-line-heights-h3);
-}
-
-.line-h4 {
-  line-height: var(--gcds-line-heights-h4);
-}
-
-.line-h5 {
-  line-height: var(--gcds-line-heights-h5);
-}
-
-.line-h6 {
-  line-height: var(--gcds-line-heights-h6);
-}
-
-.line-text {
-  line-height: var(--gcds-line-heights-text);
-}
+@include generateClasses($fontWeight, 'font-', font-weight);
 
 
-// --- Text Align ---
+/* --- Line Heights --- */
 
-.text-center {
-  text-align: center;
-}
+$lineHeight: (
+  caption: var(--gcds-line-heights-caption),
+  h1: var(--gcds-line-heights-h1),
+  h2: var(--gcds-line-heights-h2),
+  h3: var(--gcds-line-heights-h3),
+  h4: var(--gcds-line-heights-h4),
+  h5: var(--gcds-line-heights-h5),
+  h6: var(--gcds-line-heights-h6),
+  text: var(--gcds-line-heights-text)
+) !default;
 
-.text-left {
-  text-align: left;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-right {
-  text-align: right;
-}
+@include generateClasses($lineHeight, 'line-', line-height);
 
 
-// --- Text Overflow ---
+/* --- Text Align --- */
 
-.text-clip {
+$textAlign: (
+  center: center,
+  left: left,
+  justify: justify,
+  right: right
+) !default;
+
+@include generateClasses($textAlign, 'text-', text-align);
+
+
+/* --- Text Overflow --- */
+
+@include classBreakpoints('text-clip' ) {
   text-overflow: clip;
 }
 
-.text-truncate {
+@include classBreakpoints('text-truncate' ) {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 
-// --- Text Transform ---
+/* --- Text Transform --- */
 
-.text-capitalize {
-  text-transform: capitalize;
-}
+$textTransform: (
+  capitalize: capitalize,
+  lowercase: lowercase,
+  none: none,
+  uppercase: uppercase
+) !default;
 
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-none {
-  text-transform: none;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
+@include generateClasses($textTransform, 'text-', text-transform);
 
 
-// --- Word Break ---
+/* --- Word Break --- */
 
-.break-all {
-  word-break: break-all;
-}
+$wordBreak: (
+  all: all,
+  normal: normal,
+  word: break-word
+) !default;
 
-.break-normal {
-  word-break: normal;
-}
-
-.break-word {
-  word-break: break-word;
-}
+@include generateClasses($wordBreak, 'break-', word-break);

@@ -1,3 +1,7 @@
+@import "./mixins.scss";
+
+/* --- Border --- */
+
 $borderSides: (
   t: 'top',
   r: 'right',
@@ -14,61 +18,41 @@ $borderSizes: (
   8: .5rem solid currentColor
 ) !default;
 
-
-// --- Border ---
-
-@each $sizeClass, $sizeValue in $borderSizes {
+@each $className, $value in $borderSizes {
   // classes for all sides
-  .b-#{$sizeClass} {
-    border: $sizeValue;
+  @include classBreakpoints('b-' + #{$className}) {
+    border: $value;
   }
 
   // classes for each side
-  @each $sideClass, $side in $borderSides {
-    .b#{$sideClass}-#{$sizeClass} {
-      border-#{$side}: #{$sizeValue};
+  @each $classSide, $side in $borderSides {
+    @include classBreakpoints('b' + #{$classSide} + '-' + #{$className}) {
+      border-#{$side}: #{$value};
     }
   }
 }
 
 
-// --- Border Style ---
+/* --- Border Style --- */
 
-.b-dashed {
-  border-style: dashed;
-}
+$borderStyle: (
+  dashed: dashed,
+  dotted: dotted,
+  none: none,
+  solid: solid
+) !default;
 
-.b-dotted {
-  border-style: dotted;
-}
-
-.b-none {
-  border-style: none;
-}
-
-.b-solid {
-  border-style: solid;
-}
+@include generateClasses($borderStyle, 'b-', border-style);
 
 
-// --- Border Color ---
+/* --- Border Color --- */
 
-.b-inherit {
-  border-color: inherit;
-}
+$borderColor: (
+  inherit: inherit,
+  current: currentColor,
+  dark: var(--gcds-color-grayscale-1000),
+  light: var(--gcds-color-grayscale-0),
+  transparent: transparent
+) !default;
 
-.b-current {
-  border-color: currentColor;
-}
-
-.b-dark {
-  border-color: var(--gcds-color-grayscale-1000);
-}
-
-.b-light {
-  border-color: var(--gcds-color-grayscale-0);
-}
-
-.b-transparent {
-  border-color: transparent;
-}
+@include generateClasses($borderColor, 'b-', border-color);
