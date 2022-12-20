@@ -1,4 +1,3 @@
-@import "./defaults.scss";
 @import "./mixins.scss";
 
 /* --- Border --- */
@@ -12,14 +11,9 @@ $borderSizes: (
   8: .5rem solid currentColor
 ) !default;
 
-@each $className, $value in $borderSizes {
-  @each $classSide, $side in $sides {
-    @include classBreakpoints('b' + #{$classSide} + '-' + #{$className}) {
-      border#{$side}: #{$value};
-    }
-  }
+@each $classSide, $side in $sides {
+  @include generateClasses($borderSizes, 'b' + #{$classSide} + '-', border#{$side});
 }
-
 
 /* --- Border Style --- */
 

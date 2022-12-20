@@ -80,11 +80,11 @@ $textAlign: (
 
 /* --- Text Overflow --- */
 
-@include classBreakpoints('text-clip' ) {
+@include classWithBreakpoints('text-clip' ) {
   text-overflow: clip;
 }
 
-@include classBreakpoints('text-truncate' ) {
+@include classWithBreakpoints('text-truncate' ) {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

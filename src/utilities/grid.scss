@@ -1,26 +1,40 @@
 @import "./mixins.scss";
 
-/* --- Grid Template Columns & Rows --- */
-
-@for $i from 1 through 12 {
-  // Cols
-  @include classBreakpoints('grid-cols-' + #{$i}) {
-    grid-template-columns: repeat($i, minmax(0, 1fr));
+@mixin gridTemplate($trackClass, $track) {
+  @for $i from 1 through 12 {
+    .grid-#{$trackClass}-#{$i} {
+      grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+    }
   }
 
-  // Rows
-  @include classBreakpoints('grid-rows-' + #{$i}) {
-    grid-template-rows: repeat($i, minmax(0, 1fr));
+  .grid-#{$trackClass}-none {
+    grid-template-#{$track}: none;
+  }
+
+  @each $classBreakpoint, $breakpoint in $breakpoints {
+    @media only screen and (width > $breakpoint) {
+      @for $i from 1 through 12 {
+        .#{$classBreakpoint}\:grid-#{$trackClass}-#{$i} {
+          grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+        }
+      }
+
+      .#{$classBreakpoint}\:grid-#{$trackClass}-none {
+        grid-template-#{$track}: none;
+      }
+    }
   }
 }
 
-@include classBreakpoints('grid-cols-none') {
-  grid-template-columns: none;
-}
 
-@include classBreakpoints('grid-rows-none') {
-  grid-template-rows: none;
-}
+/* --- Grid Template Columns --- */
+
+@include gridTemplate(cols, columns);
+
+
+/* --- Grid Template Rows --- */
+
+@include gridTemplate(rows, rows);
 
 
 /* --- Place Content --- */

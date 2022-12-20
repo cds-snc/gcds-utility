@@ -14,11 +14,11 @@ $linkColor: (
 
 /* --- Link Text Decoration --- */
 
-@include classBreakpoints('link-no-underline' ) {
+@include classWithBreakpoints('link-no-underline' ) {
   text-decoration: none;
 }
 
-@include classBreakpoints('link-underline' ) {
+@include classWithBreakpoints('link-underline' ) {
   text-decoration: underline;
   text-underline-position: under;
 }

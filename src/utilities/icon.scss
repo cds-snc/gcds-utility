@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import "./defaults.scss";
 
 // Import Font Awesome Icons
 @import url('https://unpkg.com/font-awesome/css/font-awesome.min.css');
@@ -6,32 +6,28 @@
 
 /* --- Icon Sizes --- */
 
-// Icon - Size XS
-@include classBreakpoints('icon-xs' ) {
-  font-size: var(--gcds-font-sizes-caption);
-  line-height: var(--gcds-line-heights-caption);
+$sizes: (
+  xs: caption,
+  sm: text,
+  md: h5,
+  lg: h3,
+  xl: h1,
+) !default;
+
+@each $className, $value in $sizes {
+  .icon-#{"" + $className} {
+    font-size: var(--gcds-font-sizes-#{$value});
+    line-height: var(--gcds-line-heights-#{$value});
+  }
 }
 
-// Icon - Size SM
-@include classBreakpoints('icon-sm' ) {
-  font-size: var(--gcds-font-sizes-text);
-  line-height: var(--gcds-line-heights-text);
-}
-
-// Icon - Size MD
-@include classBreakpoints('icon-md' ) {
-  font-size: var(--gcds-font-sizes-h5);
-  line-height: var(--gcds-line-heights-h5);
-}
-
-// Icon - Size LG
-@include classBreakpoints('icon-lg' ) {
-  font-size: var(--gcds-font-sizes-h3);
-  line-height: var(--gcds-line-heights-h3);
-}
-
-// Icon - Size XL
-@include classBreakpoints('icon-xl' ) {
-  font-size: var(--gcds-font-sizes-h1);
-  line-height: var(--gcds-line-heights-h1);
+@each $classBreakpoint, $breakpoint in $breakpoints {
+  @media only screen and (width > $breakpoint) {
+    @each $className, $value in $sizes {
+      .#{$classBreakpoint}\:icon-#{"" + $className} {
+        font-size: var(--gcds-font-sizes-#{$value});
+        line-height: var(--gcds-line-heights-#{$value});
+      }
+    }
+  }
 }
