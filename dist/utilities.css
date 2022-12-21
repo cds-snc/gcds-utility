@@ -65,8 +65,7 @@
   --gcds-spacing-800: 6.5rem;
   --gcds-spacing-900: 7.800000000000001rem;
   --gcds-spacing-1000: 9.1rem;
-  --gcds-base-font-size: 1.25;
-  /* Sets base font size to 20px */
+  --gcds-base-font-size: 1.25; /* Sets base font size to 20px */
   --gcds-base-line-height: 1.3;
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: Lato;
@@ -399,27 +398,22 @@ table {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
-
   .xs\:align-content-between {
     -ms-flex-line-pack: justify;
         align-content: space-between;
   }
-
   .xs\:align-content-center {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-
   .xs\:align-content-end {
     -ms-flex-line-pack: end;
         align-content: flex-end;
   }
-
   .xs\:align-content-evenly {
     -ms-flex-line-pack: space-evenly;
         align-content: space-evenly;
   }
-
   .xs\:align-content-start {
     -ms-flex-line-pack: start;
         align-content: flex-start;
@@ -430,27 +424,22 @@ table {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
-
   .sm\:align-content-between {
     -ms-flex-line-pack: justify;
         align-content: space-between;
   }
-
   .sm\:align-content-center {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-
   .sm\:align-content-end {
     -ms-flex-line-pack: end;
         align-content: flex-end;
   }
-
   .sm\:align-content-evenly {
     -ms-flex-line-pack: space-evenly;
         align-content: space-evenly;
   }
-
   .sm\:align-content-start {
     -ms-flex-line-pack: start;
         align-content: flex-start;
@@ -461,27 +450,22 @@ table {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
-
   .md\:align-content-between {
     -ms-flex-line-pack: justify;
         align-content: space-between;
   }
-
   .md\:align-content-center {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-
   .md\:align-content-end {
     -ms-flex-line-pack: end;
         align-content: flex-end;
   }
-
   .md\:align-content-evenly {
     -ms-flex-line-pack: space-evenly;
         align-content: space-evenly;
   }
-
   .md\:align-content-start {
     -ms-flex-line-pack: start;
         align-content: flex-start;
@@ -492,27 +476,22 @@ table {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
-
   .lg\:align-content-between {
     -ms-flex-line-pack: justify;
         align-content: space-between;
   }
-
   .lg\:align-content-center {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-
   .lg\:align-content-end {
     -ms-flex-line-pack: end;
         align-content: flex-end;
   }
-
   .lg\:align-content-evenly {
     -ms-flex-line-pack: space-evenly;
         align-content: space-evenly;
   }
-
   .lg\:align-content-start {
     -ms-flex-line-pack: start;
         align-content: flex-start;
@@ -523,27 +502,22 @@ table {
     -ms-flex-line-pack: distribute;
         align-content: space-around;
   }
-
   .xl\:align-content-between {
     -ms-flex-line-pack: justify;
         align-content: space-between;
   }
-
   .xl\:align-content-center {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-
   .xl\:align-content-end {
     -ms-flex-line-pack: end;
         align-content: flex-end;
   }
-
   .xl\:align-content-evenly {
     -ms-flex-line-pack: space-evenly;
         align-content: space-evenly;
   }
-
   .xl\:align-content-start {
     -ms-flex-line-pack: start;
         align-content: flex-start;
@@ -586,25 +560,21 @@ table {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
-
   .xs\:align-items-center {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-
   .xs\:align-items-end {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .xs\:align-items-start {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-
   .xs\:align-items-stretch {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -617,25 +587,21 @@ table {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
-
   .sm\:align-items-center {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-
   .sm\:align-items-end {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .sm\:align-items-start {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-
   .sm\:align-items-stretch {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -648,25 +614,21 @@ table {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
-
   .md\:align-items-center {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-
   .md\:align-items-end {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .md\:align-items-start {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-
   .md\:align-items-stretch {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -679,25 +641,21 @@ table {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
-
   .lg\:align-items-center {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-
   .lg\:align-items-end {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .lg\:align-items-start {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-
   .lg\:align-items-stretch {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -710,25 +668,21 @@ table {
         -ms-flex-align: baseline;
             align-items: baseline;
   }
-
   .xl\:align-items-center {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-
   .xl\:align-items-end {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .xl\:align-items-start {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
   }
-
   .xl\:align-items-stretch {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -771,27 +725,22 @@ table {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
-
   .xs\:align-self-baseline {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
-
   .xs\:align-self-center {
     -ms-flex-item-align: center;
         align-self: center;
   }
-
   .xs\:align-self-end {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-
   .xs\:align-self-start {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-
   .xs\:align-self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
@@ -802,27 +751,22 @@ table {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
-
   .sm\:align-self-baseline {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
-
   .sm\:align-self-center {
     -ms-flex-item-align: center;
         align-self: center;
   }
-
   .sm\:align-self-end {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-
   .sm\:align-self-start {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-
   .sm\:align-self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
@@ -833,27 +777,22 @@ table {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
-
   .md\:align-self-baseline {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
-
   .md\:align-self-center {
     -ms-flex-item-align: center;
         align-self: center;
   }
-
   .md\:align-self-end {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-
   .md\:align-self-start {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-
   .md\:align-self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
@@ -864,27 +803,22 @@ table {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
-
   .lg\:align-self-baseline {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
-
   .lg\:align-self-center {
     -ms-flex-item-align: center;
         align-self: center;
   }
-
   .lg\:align-self-end {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-
   .lg\:align-self-start {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-
   .lg\:align-self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
@@ -895,27 +829,22 @@ table {
     -ms-flex-item-align: auto;
         align-self: auto;
   }
-
   .xl\:align-self-baseline {
     -ms-flex-item-align: baseline;
         align-self: baseline;
   }
-
   .xl\:align-self-center {
     -ms-flex-item-align: center;
         align-self: center;
   }
-
   .xl\:align-self-end {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
-
   .xl\:align-self-start {
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
-
   .xl\:align-self-stretch {
     -ms-flex-item-align: stretch;
         align-self: stretch;
@@ -950,23 +879,18 @@ table {
   .xs\:b-0 {
     border: none;
   }
-
   .xs\:b-1 {
     border: 1px solid currentColor;
   }
-
   .xs\:b-2 {
     border: 0.125rem solid currentColor;
   }
-
   .xs\:b-4 {
     border: 0.25rem solid currentColor;
   }
-
   .xs\:b-6 {
     border: 0.375rem solid currentColor;
   }
-
   .xs\:b-8 {
     border: 0.5rem solid currentColor;
   }
@@ -975,23 +899,18 @@ table {
   .sm\:b-0 {
     border: none;
   }
-
   .sm\:b-1 {
     border: 1px solid currentColor;
   }
-
   .sm\:b-2 {
     border: 0.125rem solid currentColor;
   }
-
   .sm\:b-4 {
     border: 0.25rem solid currentColor;
   }
-
   .sm\:b-6 {
     border: 0.375rem solid currentColor;
   }
-
   .sm\:b-8 {
     border: 0.5rem solid currentColor;
   }
@@ -1000,23 +919,18 @@ table {
   .md\:b-0 {
     border: none;
   }
-
   .md\:b-1 {
     border: 1px solid currentColor;
   }
-
   .md\:b-2 {
     border: 0.125rem solid currentColor;
   }
-
   .md\:b-4 {
     border: 0.25rem solid currentColor;
   }
-
   .md\:b-6 {
     border: 0.375rem solid currentColor;
   }
-
   .md\:b-8 {
     border: 0.5rem solid currentColor;
   }
@@ -1025,23 +939,18 @@ table {
   .lg\:b-0 {
     border: none;
   }
-
   .lg\:b-1 {
     border: 1px solid currentColor;
   }
-
   .lg\:b-2 {
     border: 0.125rem solid currentColor;
   }
-
   .lg\:b-4 {
     border: 0.25rem solid currentColor;
   }
-
   .lg\:b-6 {
     border: 0.375rem solid currentColor;
   }
-
   .lg\:b-8 {
     border: 0.5rem solid currentColor;
   }
@@ -1050,23 +959,18 @@ table {
   .xl\:b-0 {
     border: none;
   }
-
   .xl\:b-1 {
     border: 1px solid currentColor;
   }
-
   .xl\:b-2 {
     border: 0.125rem solid currentColor;
   }
-
   .xl\:b-4 {
     border: 0.25rem solid currentColor;
   }
-
   .xl\:b-6 {
     border: 0.375rem solid currentColor;
   }
-
   .xl\:b-8 {
     border: 0.5rem solid currentColor;
   }
@@ -1099,23 +1003,18 @@ table {
   .xs\:bt-0 {
     border-top: none;
   }
-
   .xs\:bt-1 {
     border-top: 1px solid currentColor;
   }
-
   .xs\:bt-2 {
     border-top: 0.125rem solid currentColor;
   }
-
   .xs\:bt-4 {
     border-top: 0.25rem solid currentColor;
   }
-
   .xs\:bt-6 {
     border-top: 0.375rem solid currentColor;
   }
-
   .xs\:bt-8 {
     border-top: 0.5rem solid currentColor;
   }
@@ -1124,23 +1023,18 @@ table {
   .sm\:bt-0 {
     border-top: none;
   }
-
   .sm\:bt-1 {
     border-top: 1px solid currentColor;
   }
-
   .sm\:bt-2 {
     border-top: 0.125rem solid currentColor;
   }
-
   .sm\:bt-4 {
     border-top: 0.25rem solid currentColor;
   }
-
   .sm\:bt-6 {
     border-top: 0.375rem solid currentColor;
   }
-
   .sm\:bt-8 {
     border-top: 0.5rem solid currentColor;
   }
@@ -1149,23 +1043,18 @@ table {
   .md\:bt-0 {
     border-top: none;
   }
-
   .md\:bt-1 {
     border-top: 1px solid currentColor;
   }
-
   .md\:bt-2 {
     border-top: 0.125rem solid currentColor;
   }
-
   .md\:bt-4 {
     border-top: 0.25rem solid currentColor;
   }
-
   .md\:bt-6 {
     border-top: 0.375rem solid currentColor;
   }
-
   .md\:bt-8 {
     border-top: 0.5rem solid currentColor;
   }
@@ -1174,23 +1063,18 @@ table {
   .lg\:bt-0 {
     border-top: none;
   }
-
   .lg\:bt-1 {
     border-top: 1px solid currentColor;
   }
-
   .lg\:bt-2 {
     border-top: 0.125rem solid currentColor;
   }
-
   .lg\:bt-4 {
     border-top: 0.25rem solid currentColor;
   }
-
   .lg\:bt-6 {
     border-top: 0.375rem solid currentColor;
   }
-
   .lg\:bt-8 {
     border-top: 0.5rem solid currentColor;
   }
@@ -1199,23 +1083,18 @@ table {
   .xl\:bt-0 {
     border-top: none;
   }
-
   .xl\:bt-1 {
     border-top: 1px solid currentColor;
   }
-
   .xl\:bt-2 {
     border-top: 0.125rem solid currentColor;
   }
-
   .xl\:bt-4 {
     border-top: 0.25rem solid currentColor;
   }
-
   .xl\:bt-6 {
     border-top: 0.375rem solid currentColor;
   }
-
   .xl\:bt-8 {
     border-top: 0.5rem solid currentColor;
   }
@@ -1248,23 +1127,18 @@ table {
   .xs\:br-0 {
     border-right: none;
   }
-
   .xs\:br-1 {
     border-right: 1px solid currentColor;
   }
-
   .xs\:br-2 {
     border-right: 0.125rem solid currentColor;
   }
-
   .xs\:br-4 {
     border-right: 0.25rem solid currentColor;
   }
-
   .xs\:br-6 {
     border-right: 0.375rem solid currentColor;
   }
-
   .xs\:br-8 {
     border-right: 0.5rem solid currentColor;
   }
@@ -1273,23 +1147,18 @@ table {
   .sm\:br-0 {
     border-right: none;
   }
-
   .sm\:br-1 {
     border-right: 1px solid currentColor;
   }
-
   .sm\:br-2 {
     border-right: 0.125rem solid currentColor;
   }
-
   .sm\:br-4 {
     border-right: 0.25rem solid currentColor;
   }
-
   .sm\:br-6 {
     border-right: 0.375rem solid currentColor;
   }
-
   .sm\:br-8 {
     border-right: 0.5rem solid currentColor;
   }
@@ -1298,23 +1167,18 @@ table {
   .md\:br-0 {
     border-right: none;
   }
-
   .md\:br-1 {
     border-right: 1px solid currentColor;
   }
-
   .md\:br-2 {
     border-right: 0.125rem solid currentColor;
   }
-
   .md\:br-4 {
     border-right: 0.25rem solid currentColor;
   }
-
   .md\:br-6 {
     border-right: 0.375rem solid currentColor;
   }
-
   .md\:br-8 {
     border-right: 0.5rem solid currentColor;
   }
@@ -1323,23 +1187,18 @@ table {
   .lg\:br-0 {
     border-right: none;
   }
-
   .lg\:br-1 {
     border-right: 1px solid currentColor;
   }
-
   .lg\:br-2 {
     border-right: 0.125rem solid currentColor;
   }
-
   .lg\:br-4 {
     border-right: 0.25rem solid currentColor;
   }
-
   .lg\:br-6 {
     border-right: 0.375rem solid currentColor;
   }
-
   .lg\:br-8 {
     border-right: 0.5rem solid currentColor;
   }
@@ -1348,23 +1207,18 @@ table {
   .xl\:br-0 {
     border-right: none;
   }
-
   .xl\:br-1 {
     border-right: 1px solid currentColor;
   }
-
   .xl\:br-2 {
     border-right: 0.125rem solid currentColor;
   }
-
   .xl\:br-4 {
     border-right: 0.25rem solid currentColor;
   }
-
   .xl\:br-6 {
     border-right: 0.375rem solid currentColor;
   }
-
   .xl\:br-8 {
     border-right: 0.5rem solid currentColor;
   }
@@ -1397,23 +1251,18 @@ table {
   .xs\:bb-0 {
     border-bottom: none;
   }
-
   .xs\:bb-1 {
     border-bottom: 1px solid currentColor;
   }
-
   .xs\:bb-2 {
     border-bottom: 0.125rem solid currentColor;
   }
-
   .xs\:bb-4 {
     border-bottom: 0.25rem solid currentColor;
   }
-
   .xs\:bb-6 {
     border-bottom: 0.375rem solid currentColor;
   }
-
   .xs\:bb-8 {
     border-bottom: 0.5rem solid currentColor;
   }
@@ -1422,23 +1271,18 @@ table {
   .sm\:bb-0 {
     border-bottom: none;
   }
-
   .sm\:bb-1 {
     border-bottom: 1px solid currentColor;
   }
-
   .sm\:bb-2 {
     border-bottom: 0.125rem solid currentColor;
   }
-
   .sm\:bb-4 {
     border-bottom: 0.25rem solid currentColor;
   }
-
   .sm\:bb-6 {
     border-bottom: 0.375rem solid currentColor;
   }
-
   .sm\:bb-8 {
     border-bottom: 0.5rem solid currentColor;
   }
@@ -1447,23 +1291,18 @@ table {
   .md\:bb-0 {
     border-bottom: none;
   }
-
   .md\:bb-1 {
     border-bottom: 1px solid currentColor;
   }
-
   .md\:bb-2 {
     border-bottom: 0.125rem solid currentColor;
   }
-
   .md\:bb-4 {
     border-bottom: 0.25rem solid currentColor;
   }
-
   .md\:bb-6 {
     border-bottom: 0.375rem solid currentColor;
   }
-
   .md\:bb-8 {
     border-bottom: 0.5rem solid currentColor;
   }
@@ -1472,23 +1311,18 @@ table {
   .lg\:bb-0 {
     border-bottom: none;
   }
-
   .lg\:bb-1 {
     border-bottom: 1px solid currentColor;
   }
-
   .lg\:bb-2 {
     border-bottom: 0.125rem solid currentColor;
   }
-
   .lg\:bb-4 {
     border-bottom: 0.25rem solid currentColor;
   }
-
   .lg\:bb-6 {
     border-bottom: 0.375rem solid currentColor;
   }
-
   .lg\:bb-8 {
     border-bottom: 0.5rem solid currentColor;
   }
@@ -1497,23 +1331,18 @@ table {
   .xl\:bb-0 {
     border-bottom: none;
   }
-
   .xl\:bb-1 {
     border-bottom: 1px solid currentColor;
   }
-
   .xl\:bb-2 {
     border-bottom: 0.125rem solid currentColor;
   }
-
   .xl\:bb-4 {
     border-bottom: 0.25rem solid currentColor;
   }
-
   .xl\:bb-6 {
     border-bottom: 0.375rem solid currentColor;
   }
-
   .xl\:bb-8 {
     border-bottom: 0.5rem solid currentColor;
   }
@@ -1546,23 +1375,18 @@ table {
   .xs\:bl-0 {
     border-left: none;
   }
-
   .xs\:bl-1 {
     border-left: 1px solid currentColor;
   }
-
   .xs\:bl-2 {
     border-left: 0.125rem solid currentColor;
   }
-
   .xs\:bl-4 {
     border-left: 0.25rem solid currentColor;
   }
-
   .xs\:bl-6 {
     border-left: 0.375rem solid currentColor;
   }
-
   .xs\:bl-8 {
     border-left: 0.5rem solid currentColor;
   }
@@ -1571,23 +1395,18 @@ table {
   .sm\:bl-0 {
     border-left: none;
   }
-
   .sm\:bl-1 {
     border-left: 1px solid currentColor;
   }
-
   .sm\:bl-2 {
     border-left: 0.125rem solid currentColor;
   }
-
   .sm\:bl-4 {
     border-left: 0.25rem solid currentColor;
   }
-
   .sm\:bl-6 {
     border-left: 0.375rem solid currentColor;
   }
-
   .sm\:bl-8 {
     border-left: 0.5rem solid currentColor;
   }
@@ -1596,23 +1415,18 @@ table {
   .md\:bl-0 {
     border-left: none;
   }
-
   .md\:bl-1 {
     border-left: 1px solid currentColor;
   }
-
   .md\:bl-2 {
     border-left: 0.125rem solid currentColor;
   }
-
   .md\:bl-4 {
     border-left: 0.25rem solid currentColor;
   }
-
   .md\:bl-6 {
     border-left: 0.375rem solid currentColor;
   }
-
   .md\:bl-8 {
     border-left: 0.5rem solid currentColor;
   }
@@ -1621,23 +1435,18 @@ table {
   .lg\:bl-0 {
     border-left: none;
   }
-
   .lg\:bl-1 {
     border-left: 1px solid currentColor;
   }
-
   .lg\:bl-2 {
     border-left: 0.125rem solid currentColor;
   }
-
   .lg\:bl-4 {
     border-left: 0.25rem solid currentColor;
   }
-
   .lg\:bl-6 {
     border-left: 0.375rem solid currentColor;
   }
-
   .lg\:bl-8 {
     border-left: 0.5rem solid currentColor;
   }
@@ -1646,23 +1455,18 @@ table {
   .xl\:bl-0 {
     border-left: none;
   }
-
   .xl\:bl-1 {
     border-left: 1px solid currentColor;
   }
-
   .xl\:bl-2 {
     border-left: 0.125rem solid currentColor;
   }
-
   .xl\:bl-4 {
     border-left: 0.25rem solid currentColor;
   }
-
   .xl\:bl-6 {
     border-left: 0.375rem solid currentColor;
   }
-
   .xl\:bl-8 {
     border-left: 0.5rem solid currentColor;
   }
@@ -1695,23 +1499,18 @@ table {
   .xs\:bx-0 {
     border-inline: none;
   }
-
   .xs\:bx-1 {
     border-inline: 1px solid currentColor;
   }
-
   .xs\:bx-2 {
     border-inline: 0.125rem solid currentColor;
   }
-
   .xs\:bx-4 {
     border-inline: 0.25rem solid currentColor;
   }
-
   .xs\:bx-6 {
     border-inline: 0.375rem solid currentColor;
   }
-
   .xs\:bx-8 {
     border-inline: 0.5rem solid currentColor;
   }
@@ -1720,23 +1519,18 @@ table {
   .sm\:bx-0 {
     border-inline: none;
   }
-
   .sm\:bx-1 {
     border-inline: 1px solid currentColor;
   }
-
   .sm\:bx-2 {
     border-inline: 0.125rem solid currentColor;
   }
-
   .sm\:bx-4 {
     border-inline: 0.25rem solid currentColor;
   }
-
   .sm\:bx-6 {
     border-inline: 0.375rem solid currentColor;
   }
-
   .sm\:bx-8 {
     border-inline: 0.5rem solid currentColor;
   }
@@ -1745,23 +1539,18 @@ table {
   .md\:bx-0 {
     border-inline: none;
   }
-
   .md\:bx-1 {
     border-inline: 1px solid currentColor;
   }
-
   .md\:bx-2 {
     border-inline: 0.125rem solid currentColor;
   }
-
   .md\:bx-4 {
     border-inline: 0.25rem solid currentColor;
   }
-
   .md\:bx-6 {
     border-inline: 0.375rem solid currentColor;
   }
-
   .md\:bx-8 {
     border-inline: 0.5rem solid currentColor;
   }
@@ -1770,23 +1559,18 @@ table {
   .lg\:bx-0 {
     border-inline: none;
   }
-
   .lg\:bx-1 {
     border-inline: 1px solid currentColor;
   }
-
   .lg\:bx-2 {
     border-inline: 0.125rem solid currentColor;
   }
-
   .lg\:bx-4 {
     border-inline: 0.25rem solid currentColor;
   }
-
   .lg\:bx-6 {
     border-inline: 0.375rem solid currentColor;
   }
-
   .lg\:bx-8 {
     border-inline: 0.5rem solid currentColor;
   }
@@ -1795,23 +1579,18 @@ table {
   .xl\:bx-0 {
     border-inline: none;
   }
-
   .xl\:bx-1 {
     border-inline: 1px solid currentColor;
   }
-
   .xl\:bx-2 {
     border-inline: 0.125rem solid currentColor;
   }
-
   .xl\:bx-4 {
     border-inline: 0.25rem solid currentColor;
   }
-
   .xl\:bx-6 {
     border-inline: 0.375rem solid currentColor;
   }
-
   .xl\:bx-8 {
     border-inline: 0.5rem solid currentColor;
   }
@@ -1844,23 +1623,18 @@ table {
   .xs\:by-0 {
     border-block: none;
   }
-
   .xs\:by-1 {
     border-block: 1px solid currentColor;
   }
-
   .xs\:by-2 {
     border-block: 0.125rem solid currentColor;
   }
-
   .xs\:by-4 {
     border-block: 0.25rem solid currentColor;
   }
-
   .xs\:by-6 {
     border-block: 0.375rem solid currentColor;
   }
-
   .xs\:by-8 {
     border-block: 0.5rem solid currentColor;
   }
@@ -1869,23 +1643,18 @@ table {
   .sm\:by-0 {
     border-block: none;
   }
-
   .sm\:by-1 {
     border-block: 1px solid currentColor;
   }
-
   .sm\:by-2 {
     border-block: 0.125rem solid currentColor;
   }
-
   .sm\:by-4 {
     border-block: 0.25rem solid currentColor;
   }
-
   .sm\:by-6 {
     border-block: 0.375rem solid currentColor;
   }
-
   .sm\:by-8 {
     border-block: 0.5rem solid currentColor;
   }
@@ -1894,23 +1663,18 @@ table {
   .md\:by-0 {
     border-block: none;
   }
-
   .md\:by-1 {
     border-block: 1px solid currentColor;
   }
-
   .md\:by-2 {
     border-block: 0.125rem solid currentColor;
   }
-
   .md\:by-4 {
     border-block: 0.25rem solid currentColor;
   }
-
   .md\:by-6 {
     border-block: 0.375rem solid currentColor;
   }
-
   .md\:by-8 {
     border-block: 0.5rem solid currentColor;
   }
@@ -1919,23 +1683,18 @@ table {
   .lg\:by-0 {
     border-block: none;
   }
-
   .lg\:by-1 {
     border-block: 1px solid currentColor;
   }
-
   .lg\:by-2 {
     border-block: 0.125rem solid currentColor;
   }
-
   .lg\:by-4 {
     border-block: 0.25rem solid currentColor;
   }
-
   .lg\:by-6 {
     border-block: 0.375rem solid currentColor;
   }
-
   .lg\:by-8 {
     border-block: 0.5rem solid currentColor;
   }
@@ -1944,23 +1703,18 @@ table {
   .xl\:by-0 {
     border-block: none;
   }
-
   .xl\:by-1 {
     border-block: 1px solid currentColor;
   }
-
   .xl\:by-2 {
     border-block: 0.125rem solid currentColor;
   }
-
   .xl\:by-4 {
     border-block: 0.25rem solid currentColor;
   }
-
   .xl\:by-6 {
     border-block: 0.375rem solid currentColor;
   }
-
   .xl\:by-8 {
     border-block: 0.5rem solid currentColor;
   }
@@ -1986,15 +1740,12 @@ table {
   .xs\:b-dashed {
     border-style: dashed;
   }
-
   .xs\:b-dotted {
     border-style: dotted;
   }
-
   .xs\:b-none {
     border-style: none;
   }
-
   .xs\:b-solid {
     border-style: solid;
   }
@@ -2003,15 +1754,12 @@ table {
   .sm\:b-dashed {
     border-style: dashed;
   }
-
   .sm\:b-dotted {
     border-style: dotted;
   }
-
   .sm\:b-none {
     border-style: none;
   }
-
   .sm\:b-solid {
     border-style: solid;
   }
@@ -2020,15 +1768,12 @@ table {
   .md\:b-dashed {
     border-style: dashed;
   }
-
   .md\:b-dotted {
     border-style: dotted;
   }
-
   .md\:b-none {
     border-style: none;
   }
-
   .md\:b-solid {
     border-style: solid;
   }
@@ -2037,15 +1782,12 @@ table {
   .lg\:b-dashed {
     border-style: dashed;
   }
-
   .lg\:b-dotted {
     border-style: dotted;
   }
-
   .lg\:b-none {
     border-style: none;
   }
-
   .lg\:b-solid {
     border-style: solid;
   }
@@ -2054,15 +1796,12 @@ table {
   .xl\:b-dashed {
     border-style: dashed;
   }
-
   .xl\:b-dotted {
     border-style: dotted;
   }
-
   .xl\:b-none {
     border-style: none;
   }
-
   .xl\:b-solid {
     border-style: solid;
   }
@@ -2092,19 +1831,15 @@ table {
   .xs\:b-inherit {
     border-color: inherit;
   }
-
   .xs\:b-current {
     border-color: currentColor;
   }
-
   .xs\:b-dark {
     border-color: var(--gcds-color-grayscale-1000);
   }
-
   .xs\:b-light {
     border-color: var(--gcds-color-grayscale-0);
   }
-
   .xs\:b-transparent {
     border-color: transparent;
   }
@@ -2113,19 +1848,15 @@ table {
   .sm\:b-inherit {
     border-color: inherit;
   }
-
   .sm\:b-current {
     border-color: currentColor;
   }
-
   .sm\:b-dark {
     border-color: var(--gcds-color-grayscale-1000);
   }
-
   .sm\:b-light {
     border-color: var(--gcds-color-grayscale-0);
   }
-
   .sm\:b-transparent {
     border-color: transparent;
   }
@@ -2134,19 +1865,15 @@ table {
   .md\:b-inherit {
     border-color: inherit;
   }
-
   .md\:b-current {
     border-color: currentColor;
   }
-
   .md\:b-dark {
     border-color: var(--gcds-color-grayscale-1000);
   }
-
   .md\:b-light {
     border-color: var(--gcds-color-grayscale-0);
   }
-
   .md\:b-transparent {
     border-color: transparent;
   }
@@ -2155,19 +1882,15 @@ table {
   .lg\:b-inherit {
     border-color: inherit;
   }
-
   .lg\:b-current {
     border-color: currentColor;
   }
-
   .lg\:b-dark {
     border-color: var(--gcds-color-grayscale-1000);
   }
-
   .lg\:b-light {
     border-color: var(--gcds-color-grayscale-0);
   }
-
   .lg\:b-transparent {
     border-color: transparent;
   }
@@ -2176,19 +1899,15 @@ table {
   .xl\:b-inherit {
     border-color: inherit;
   }
-
   .xl\:b-current {
     border-color: currentColor;
   }
-
   .xl\:b-dark {
     border-color: var(--gcds-color-grayscale-1000);
   }
-
   .xl\:b-light {
     border-color: var(--gcds-color-grayscale-0);
   }
-
   .xl\:b-transparent {
     border-color: transparent;
   }
@@ -2209,7 +1928,6 @@ table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .xs\:box-content {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -2220,7 +1938,6 @@ table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .sm\:box-content {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -2231,7 +1948,6 @@ table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .md\:box-content {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -2242,7 +1958,6 @@ table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .lg\:box-content {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -2253,7 +1968,6 @@ table {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .xl\:box-content {
     -webkit-box-sizing: content-box;
             box-sizing: content-box;
@@ -2284,19 +1998,15 @@ table {
   .xs\:container-100 {
     max-width: var(--gcds-container-100);
   }
-
   .xs\:container-200 {
     max-width: var(--gcds-container-200);
   }
-
   .xs\:container-300 {
     max-width: var(--gcds-container-300);
   }
-
   .xs\:container-400 {
     max-width: var(--gcds-container-400);
   }
-
   .xs\:container-500 {
     max-width: var(--gcds-container-500);
   }
@@ -2305,19 +2015,15 @@ table {
   .sm\:container-100 {
     max-width: var(--gcds-container-100);
   }
-
   .sm\:container-200 {
     max-width: var(--gcds-container-200);
   }
-
   .sm\:container-300 {
     max-width: var(--gcds-container-300);
   }
-
   .sm\:container-400 {
     max-width: var(--gcds-container-400);
   }
-
   .sm\:container-500 {
     max-width: var(--gcds-container-500);
   }
@@ -2326,19 +2032,15 @@ table {
   .md\:container-100 {
     max-width: var(--gcds-container-100);
   }
-
   .md\:container-200 {
     max-width: var(--gcds-container-200);
   }
-
   .md\:container-300 {
     max-width: var(--gcds-container-300);
   }
-
   .md\:container-400 {
     max-width: var(--gcds-container-400);
   }
-
   .md\:container-500 {
     max-width: var(--gcds-container-500);
   }
@@ -2347,19 +2049,15 @@ table {
   .lg\:container-100 {
     max-width: var(--gcds-container-100);
   }
-
   .lg\:container-200 {
     max-width: var(--gcds-container-200);
   }
-
   .lg\:container-300 {
     max-width: var(--gcds-container-300);
   }
-
   .lg\:container-400 {
     max-width: var(--gcds-container-400);
   }
-
   .lg\:container-500 {
     max-width: var(--gcds-container-500);
   }
@@ -2368,19 +2066,15 @@ table {
   .xl\:container-100 {
     max-width: var(--gcds-container-100);
   }
-
   .xl\:container-200 {
     max-width: var(--gcds-container-200);
   }
-
   .xl\:container-300 {
     max-width: var(--gcds-container-300);
   }
-
   .xl\:container-400 {
     max-width: var(--gcds-container-400);
   }
-
   .xl\:container-500 {
     max-width: var(--gcds-container-500);
   }
@@ -2433,41 +2127,32 @@ table {
   .xs\:cursor-copy {
     cursor: copy;
   }
-
   .xs\:cursor-default {
     cursor: default;
   }
-
   .xs\:cursor-grab {
     cursor: -webkit-grab;
     cursor: grab;
   }
-
   .xs\:cursor-help {
     cursor: help;
   }
-
   .xs\:cursor-move {
     cursor: move;
   }
-
   .xs\:cursor-not-allowed {
     cursor: not-allowed;
   }
-
   .xs\:cursor-pointer {
     cursor: pointer;
   }
-
   .xs\:cursor-text {
     cursor: text;
   }
-
   .xs\:cursor-zoom-in {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
   }
-
   .xs\:cursor-zoom-out {
     cursor: -webkit-zoom-out;
     cursor: zoom-out;
@@ -2477,41 +2162,32 @@ table {
   .sm\:cursor-copy {
     cursor: copy;
   }
-
   .sm\:cursor-default {
     cursor: default;
   }
-
   .sm\:cursor-grab {
     cursor: -webkit-grab;
     cursor: grab;
   }
-
   .sm\:cursor-help {
     cursor: help;
   }
-
   .sm\:cursor-move {
     cursor: move;
   }
-
   .sm\:cursor-not-allowed {
     cursor: not-allowed;
   }
-
   .sm\:cursor-pointer {
     cursor: pointer;
   }
-
   .sm\:cursor-text {
     cursor: text;
   }
-
   .sm\:cursor-zoom-in {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
   }
-
   .sm\:cursor-zoom-out {
     cursor: -webkit-zoom-out;
     cursor: zoom-out;
@@ -2521,41 +2197,32 @@ table {
   .md\:cursor-copy {
     cursor: copy;
   }
-
   .md\:cursor-default {
     cursor: default;
   }
-
   .md\:cursor-grab {
     cursor: -webkit-grab;
     cursor: grab;
   }
-
   .md\:cursor-help {
     cursor: help;
   }
-
   .md\:cursor-move {
     cursor: move;
   }
-
   .md\:cursor-not-allowed {
     cursor: not-allowed;
   }
-
   .md\:cursor-pointer {
     cursor: pointer;
   }
-
   .md\:cursor-text {
     cursor: text;
   }
-
   .md\:cursor-zoom-in {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
   }
-
   .md\:cursor-zoom-out {
     cursor: -webkit-zoom-out;
     cursor: zoom-out;
@@ -2565,41 +2232,32 @@ table {
   .lg\:cursor-copy {
     cursor: copy;
   }
-
   .lg\:cursor-default {
     cursor: default;
   }
-
   .lg\:cursor-grab {
     cursor: -webkit-grab;
     cursor: grab;
   }
-
   .lg\:cursor-help {
     cursor: help;
   }
-
   .lg\:cursor-move {
     cursor: move;
   }
-
   .lg\:cursor-not-allowed {
     cursor: not-allowed;
   }
-
   .lg\:cursor-pointer {
     cursor: pointer;
   }
-
   .lg\:cursor-text {
     cursor: text;
   }
-
   .lg\:cursor-zoom-in {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
   }
-
   .lg\:cursor-zoom-out {
     cursor: -webkit-zoom-out;
     cursor: zoom-out;
@@ -2609,41 +2267,32 @@ table {
   .xl\:cursor-copy {
     cursor: copy;
   }
-
   .xl\:cursor-default {
     cursor: default;
   }
-
   .xl\:cursor-grab {
     cursor: -webkit-grab;
     cursor: grab;
   }
-
   .xl\:cursor-help {
     cursor: help;
   }
-
   .xl\:cursor-move {
     cursor: move;
   }
-
   .xl\:cursor-not-allowed {
     cursor: not-allowed;
   }
-
   .xl\:cursor-pointer {
     cursor: pointer;
   }
-
   .xl\:cursor-text {
     cursor: text;
   }
-
   .xl\:cursor-zoom-in {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
   }
-
   .xl\:cursor-zoom-out {
     cursor: -webkit-zoom-out;
     cursor: zoom-out;
@@ -2698,43 +2347,34 @@ table {
   .xs\:d-block {
     display: block;
   }
-
   .xs\:d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .xs\:d-grid {
     display: grid;
   }
-
   .xs\:d-inline {
     display: inline;
   }
-
   .xs\:d-inline-block {
     display: inline-block;
   }
-
   .xs\:d-inline-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-
   .xs\:d-inline-grid {
     display: inline-grid;
   }
-
   .xs\:d-inline-table {
     display: inline-table;
   }
-
   .xs\:d-none {
     display: none;
   }
-
   .xs\:d-table {
     display: table;
   }
@@ -2743,43 +2383,34 @@ table {
   .sm\:d-block {
     display: block;
   }
-
   .sm\:d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .sm\:d-grid {
     display: grid;
   }
-
   .sm\:d-inline {
     display: inline;
   }
-
   .sm\:d-inline-block {
     display: inline-block;
   }
-
   .sm\:d-inline-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-
   .sm\:d-inline-grid {
     display: inline-grid;
   }
-
   .sm\:d-inline-table {
     display: inline-table;
   }
-
   .sm\:d-none {
     display: none;
   }
-
   .sm\:d-table {
     display: table;
   }
@@ -2788,43 +2419,34 @@ table {
   .md\:d-block {
     display: block;
   }
-
   .md\:d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .md\:d-grid {
     display: grid;
   }
-
   .md\:d-inline {
     display: inline;
   }
-
   .md\:d-inline-block {
     display: inline-block;
   }
-
   .md\:d-inline-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-
   .md\:d-inline-grid {
     display: inline-grid;
   }
-
   .md\:d-inline-table {
     display: inline-table;
   }
-
   .md\:d-none {
     display: none;
   }
-
   .md\:d-table {
     display: table;
   }
@@ -2833,43 +2455,34 @@ table {
   .lg\:d-block {
     display: block;
   }
-
   .lg\:d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .lg\:d-grid {
     display: grid;
   }
-
   .lg\:d-inline {
     display: inline;
   }
-
   .lg\:d-inline-block {
     display: inline-block;
   }
-
   .lg\:d-inline-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-
   .lg\:d-inline-grid {
     display: inline-grid;
   }
-
   .lg\:d-inline-table {
     display: inline-table;
   }
-
   .lg\:d-none {
     display: none;
   }
-
   .lg\:d-table {
     display: table;
   }
@@ -2878,43 +2491,34 @@ table {
   .xl\:d-block {
     display: block;
   }
-
   .xl\:d-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .xl\:d-grid {
     display: grid;
   }
-
   .xl\:d-inline {
     display: inline;
   }
-
   .xl\:d-inline-block {
     display: inline-block;
   }
-
   .xl\:d-inline-flex {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
   }
-
   .xl\:d-inline-grid {
     display: inline-grid;
   }
-
   .xl\:d-inline-table {
     display: inline-table;
   }
-
   .xl\:d-none {
     display: none;
   }
-
   .xl\:d-table {
     display: table;
   }
@@ -2950,19 +2554,16 @@ table {
         -ms-flex: 1 1 0%;
             flex: 1 1 0%;
   }
-
   .xs\:flex-auto {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
-
   .xs\:flex-initial {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
   }
-
   .xs\:flex-none {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -2975,19 +2576,16 @@ table {
         -ms-flex: 1 1 0%;
             flex: 1 1 0%;
   }
-
   .sm\:flex-auto {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
-
   .sm\:flex-initial {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
   }
-
   .sm\:flex-none {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -3000,19 +2598,16 @@ table {
         -ms-flex: 1 1 0%;
             flex: 1 1 0%;
   }
-
   .md\:flex-auto {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
-
   .md\:flex-initial {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
   }
-
   .md\:flex-none {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -3025,19 +2620,16 @@ table {
         -ms-flex: 1 1 0%;
             flex: 1 1 0%;
   }
-
   .lg\:flex-auto {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
-
   .lg\:flex-initial {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
   }
-
   .lg\:flex-none {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -3050,19 +2642,16 @@ table {
         -ms-flex: 1 1 0%;
             flex: 1 1 0%;
   }
-
   .xl\:flex-auto {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
   }
-
   .xl\:flex-initial {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
   }
-
   .xl\:flex-none {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -3105,21 +2694,18 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .xs\:flex-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .xs\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .xs\:flex-row-reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -3134,21 +2720,18 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .sm\:flex-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .sm\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .sm\:flex-row-reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -3163,21 +2746,18 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .md\:flex-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .md\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .md\:flex-row-reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -3192,21 +2772,18 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .lg\:flex-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .lg\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .lg\:flex-row-reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -3221,21 +2798,18 @@ table {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .xl\:flex-col-reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .xl\:flex-row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
   }
-
   .xl\:flex-row-reverse {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -3264,12 +2838,10 @@ table {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .xs\:flex-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .xs\:flex-wrap-reverse {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -3280,12 +2852,10 @@ table {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .sm\:flex-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .sm\:flex-wrap-reverse {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -3296,12 +2866,10 @@ table {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .md\:flex-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .md\:flex-wrap-reverse {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -3312,12 +2880,10 @@ table {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .lg\:flex-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .lg\:flex-wrap-reverse {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -3328,12 +2894,10 @@ table {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-
   .xl\:flex-wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .xl\:flex-wrap-reverse {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
@@ -3358,7 +2922,6 @@ table {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-
   .xs\:flex-grow-0 {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -3371,7 +2934,6 @@ table {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-
   .sm\:flex-grow-0 {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -3384,7 +2946,6 @@ table {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-
   .md\:flex-grow-0 {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -3397,7 +2958,6 @@ table {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-
   .lg\:flex-grow-0 {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -3410,7 +2970,6 @@ table {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
-
   .xl\:flex-grow-0 {
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
@@ -3433,7 +2992,6 @@ table {
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-
   .xs\:flex-shrink-0 {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -3444,7 +3002,6 @@ table {
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-
   .sm\:flex-shrink-0 {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -3455,7 +3012,6 @@ table {
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-
   .md\:flex-shrink-0 {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -3466,7 +3022,6 @@ table {
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-
   .lg\:flex-shrink-0 {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -3477,7 +3032,6 @@ table {
     -ms-flex-negative: 1;
         flex-shrink: 1;
   }
-
   .xl\:flex-shrink-0 {
     -ms-flex-negative: 0;
         flex-shrink: 0;
@@ -3562,67 +3116,56 @@ table {
         -ms-flex-order: 1;
             order: 1;
   }
-
   .xs\:order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-
   .xs\:order-3 {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-
   .xs\:order-4 {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
-
   .xs\:order-5 {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
-
   .xs\:order-6 {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-
   .xs\:order-7 {
     -webkit-box-ordinal-group: 8;
         -ms-flex-order: 7;
             order: 7;
   }
-
   .xs\:order-8 {
     -webkit-box-ordinal-group: 9;
         -ms-flex-order: 8;
             order: 8;
   }
-
   .xs\:order-9 {
     -webkit-box-ordinal-group: 10;
         -ms-flex-order: 9;
             order: 9;
   }
-
   .xs\:order-10 {
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
   }
-
   .xs\:order-11 {
     -webkit-box-ordinal-group: 12;
         -ms-flex-order: 11;
             order: 11;
   }
-
   .xs\:order-12 {
     -webkit-box-ordinal-group: 13;
         -ms-flex-order: 12;
@@ -3635,67 +3178,56 @@ table {
         -ms-flex-order: 1;
             order: 1;
   }
-
   .sm\:order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-
   .sm\:order-3 {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-
   .sm\:order-4 {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
-
   .sm\:order-5 {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
-
   .sm\:order-6 {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-
   .sm\:order-7 {
     -webkit-box-ordinal-group: 8;
         -ms-flex-order: 7;
             order: 7;
   }
-
   .sm\:order-8 {
     -webkit-box-ordinal-group: 9;
         -ms-flex-order: 8;
             order: 8;
   }
-
   .sm\:order-9 {
     -webkit-box-ordinal-group: 10;
         -ms-flex-order: 9;
             order: 9;
   }
-
   .sm\:order-10 {
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
   }
-
   .sm\:order-11 {
     -webkit-box-ordinal-group: 12;
         -ms-flex-order: 11;
             order: 11;
   }
-
   .sm\:order-12 {
     -webkit-box-ordinal-group: 13;
         -ms-flex-order: 12;
@@ -3708,67 +3240,56 @@ table {
         -ms-flex-order: 1;
             order: 1;
   }
-
   .md\:order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-
   .md\:order-3 {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-
   .md\:order-4 {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
-
   .md\:order-5 {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
-
   .md\:order-6 {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-
   .md\:order-7 {
     -webkit-box-ordinal-group: 8;
         -ms-flex-order: 7;
             order: 7;
   }
-
   .md\:order-8 {
     -webkit-box-ordinal-group: 9;
         -ms-flex-order: 8;
             order: 8;
   }
-
   .md\:order-9 {
     -webkit-box-ordinal-group: 10;
         -ms-flex-order: 9;
             order: 9;
   }
-
   .md\:order-10 {
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
   }
-
   .md\:order-11 {
     -webkit-box-ordinal-group: 12;
         -ms-flex-order: 11;
             order: 11;
   }
-
   .md\:order-12 {
     -webkit-box-ordinal-group: 13;
         -ms-flex-order: 12;
@@ -3781,67 +3302,56 @@ table {
         -ms-flex-order: 1;
             order: 1;
   }
-
   .lg\:order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-
   .lg\:order-3 {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-
   .lg\:order-4 {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
-
   .lg\:order-5 {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
-
   .lg\:order-6 {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-
   .lg\:order-7 {
     -webkit-box-ordinal-group: 8;
         -ms-flex-order: 7;
             order: 7;
   }
-
   .lg\:order-8 {
     -webkit-box-ordinal-group: 9;
         -ms-flex-order: 8;
             order: 8;
   }
-
   .lg\:order-9 {
     -webkit-box-ordinal-group: 10;
         -ms-flex-order: 9;
             order: 9;
   }
-
   .lg\:order-10 {
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
   }
-
   .lg\:order-11 {
     -webkit-box-ordinal-group: 12;
         -ms-flex-order: 11;
             order: 11;
   }
-
   .lg\:order-12 {
     -webkit-box-ordinal-group: 13;
         -ms-flex-order: 12;
@@ -3854,67 +3364,56 @@ table {
         -ms-flex-order: 1;
             order: 1;
   }
-
   .xl\:order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-
   .xl\:order-3 {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
   }
-
   .xl\:order-4 {
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
-
   .xl\:order-5 {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
-
   .xl\:order-6 {
     -webkit-box-ordinal-group: 7;
         -ms-flex-order: 6;
             order: 6;
   }
-
   .xl\:order-7 {
     -webkit-box-ordinal-group: 8;
         -ms-flex-order: 7;
             order: 7;
   }
-
   .xl\:order-8 {
     -webkit-box-ordinal-group: 9;
         -ms-flex-order: 8;
             order: 8;
   }
-
   .xl\:order-9 {
     -webkit-box-ordinal-group: 10;
         -ms-flex-order: 9;
             order: 9;
   }
-
   .xl\:order-10 {
     -webkit-box-ordinal-group: 11;
         -ms-flex-order: 10;
             order: 10;
   }
-
   .xl\:order-11 {
     -webkit-box-ordinal-group: 12;
         -ms-flex-order: 11;
             order: 11;
   }
-
   .xl\:order-12 {
     -webkit-box-ordinal-group: 13;
         -ms-flex-order: 12;
@@ -3945,13 +3444,11 @@ table {
         -ms-flex-order: -9999;
             order: -9999;
   }
-
   .xs\:order-last {
     -webkit-box-ordinal-group: 10000;
         -ms-flex-order: 9999;
             order: 9999;
   }
-
   .xs\:order-none {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -3964,13 +3461,11 @@ table {
         -ms-flex-order: -9999;
             order: -9999;
   }
-
   .sm\:order-last {
     -webkit-box-ordinal-group: 10000;
         -ms-flex-order: 9999;
             order: 9999;
   }
-
   .sm\:order-none {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -3983,13 +3478,11 @@ table {
         -ms-flex-order: -9999;
             order: -9999;
   }
-
   .md\:order-last {
     -webkit-box-ordinal-group: 10000;
         -ms-flex-order: 9999;
             order: 9999;
   }
-
   .md\:order-none {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -4002,13 +3495,11 @@ table {
         -ms-flex-order: -9999;
             order: -9999;
   }
-
   .lg\:order-last {
     -webkit-box-ordinal-group: 10000;
         -ms-flex-order: 9999;
             order: 9999;
   }
-
   .lg\:order-none {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -4021,13 +3512,11 @@ table {
         -ms-flex-order: -9999;
             order: -9999;
   }
-
   .xl\:order-last {
     -webkit-box-ordinal-group: 10000;
         -ms-flex-order: 9999;
             order: 9999;
   }
-
   .xl\:order-none {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -4087,47 +3576,36 @@ table {
   .xs\:gap-0 {
     gap: 0;
   }
-
   .xs\:gap-50 {
     gap: var(--gcds-spacing-50);
   }
-
   .xs\:gap-100 {
     gap: var(--gcds-spacing-100);
   }
-
   .xs\:gap-200 {
     gap: var(--gcds-spacing-200);
   }
-
   .xs\:gap-300 {
     gap: var(--gcds-spacing-300);
   }
-
   .xs\:gap-400 {
     gap: var(--gcds-spacing-400);
   }
-
   .xs\:gap-500 {
     gap: var(--gcds-spacing-500);
   }
-
   .xs\:gap-600 {
     gap: var(--gcds-spacing-600);
   }
-
   .xs\:gap-700 {
     gap: var(--gcds-spacing-700);
   }
-
   .xs\:gap-800 {
     gap: var(--gcds-spacing-800);
   }
-
   .xs\:gap-900 {
     gap: var(--gcds-spacing-900);
   }
-
   .xs\:gap-1000 {
     gap: var(--gcds-spacing-1000);
   }
@@ -4136,47 +3614,36 @@ table {
   .sm\:gap-0 {
     gap: 0;
   }
-
   .sm\:gap-50 {
     gap: var(--gcds-spacing-50);
   }
-
   .sm\:gap-100 {
     gap: var(--gcds-spacing-100);
   }
-
   .sm\:gap-200 {
     gap: var(--gcds-spacing-200);
   }
-
   .sm\:gap-300 {
     gap: var(--gcds-spacing-300);
   }
-
   .sm\:gap-400 {
     gap: var(--gcds-spacing-400);
   }
-
   .sm\:gap-500 {
     gap: var(--gcds-spacing-500);
   }
-
   .sm\:gap-600 {
     gap: var(--gcds-spacing-600);
   }
-
   .sm\:gap-700 {
     gap: var(--gcds-spacing-700);
   }
-
   .sm\:gap-800 {
     gap: var(--gcds-spacing-800);
   }
-
   .sm\:gap-900 {
     gap: var(--gcds-spacing-900);
   }
-
   .sm\:gap-1000 {
     gap: var(--gcds-spacing-1000);
   }
@@ -4185,47 +3652,36 @@ table {
   .md\:gap-0 {
     gap: 0;
   }
-
   .md\:gap-50 {
     gap: var(--gcds-spacing-50);
   }
-
   .md\:gap-100 {
     gap: var(--gcds-spacing-100);
   }
-
   .md\:gap-200 {
     gap: var(--gcds-spacing-200);
   }
-
   .md\:gap-300 {
     gap: var(--gcds-spacing-300);
   }
-
   .md\:gap-400 {
     gap: var(--gcds-spacing-400);
   }
-
   .md\:gap-500 {
     gap: var(--gcds-spacing-500);
   }
-
   .md\:gap-600 {
     gap: var(--gcds-spacing-600);
   }
-
   .md\:gap-700 {
     gap: var(--gcds-spacing-700);
   }
-
   .md\:gap-800 {
     gap: var(--gcds-spacing-800);
   }
-
   .md\:gap-900 {
     gap: var(--gcds-spacing-900);
   }
-
   .md\:gap-1000 {
     gap: var(--gcds-spacing-1000);
   }
@@ -4234,47 +3690,36 @@ table {
   .lg\:gap-0 {
     gap: 0;
   }
-
   .lg\:gap-50 {
     gap: var(--gcds-spacing-50);
   }
-
   .lg\:gap-100 {
     gap: var(--gcds-spacing-100);
   }
-
   .lg\:gap-200 {
     gap: var(--gcds-spacing-200);
   }
-
   .lg\:gap-300 {
     gap: var(--gcds-spacing-300);
   }
-
   .lg\:gap-400 {
     gap: var(--gcds-spacing-400);
   }
-
   .lg\:gap-500 {
     gap: var(--gcds-spacing-500);
   }
-
   .lg\:gap-600 {
     gap: var(--gcds-spacing-600);
   }
-
   .lg\:gap-700 {
     gap: var(--gcds-spacing-700);
   }
-
   .lg\:gap-800 {
     gap: var(--gcds-spacing-800);
   }
-
   .lg\:gap-900 {
     gap: var(--gcds-spacing-900);
   }
-
   .lg\:gap-1000 {
     gap: var(--gcds-spacing-1000);
   }
@@ -4283,47 +3728,36 @@ table {
   .xl\:gap-0 {
     gap: 0;
   }
-
   .xl\:gap-50 {
     gap: var(--gcds-spacing-50);
   }
-
   .xl\:gap-100 {
     gap: var(--gcds-spacing-100);
   }
-
   .xl\:gap-200 {
     gap: var(--gcds-spacing-200);
   }
-
   .xl\:gap-300 {
     gap: var(--gcds-spacing-300);
   }
-
   .xl\:gap-400 {
     gap: var(--gcds-spacing-400);
   }
-
   .xl\:gap-500 {
     gap: var(--gcds-spacing-500);
   }
-
   .xl\:gap-600 {
     gap: var(--gcds-spacing-600);
   }
-
   .xl\:gap-700 {
     gap: var(--gcds-spacing-700);
   }
-
   .xl\:gap-800 {
     gap: var(--gcds-spacing-800);
   }
-
   .xl\:gap-900 {
     gap: var(--gcds-spacing-900);
   }
-
   .xl\:gap-1000 {
     gap: var(--gcds-spacing-1000);
   }
@@ -4406,67 +3840,56 @@ table {
        -moz-column-gap: 0;
             column-gap: 0;
   }
-
   .xs\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
        -moz-column-gap: var(--gcds-spacing-50);
             column-gap: var(--gcds-spacing-50);
   }
-
   .xs\:gap-x-100 {
     -webkit-column-gap: var(--gcds-spacing-100);
        -moz-column-gap: var(--gcds-spacing-100);
             column-gap: var(--gcds-spacing-100);
   }
-
   .xs\:gap-x-200 {
     -webkit-column-gap: var(--gcds-spacing-200);
        -moz-column-gap: var(--gcds-spacing-200);
             column-gap: var(--gcds-spacing-200);
   }
-
   .xs\:gap-x-300 {
     -webkit-column-gap: var(--gcds-spacing-300);
        -moz-column-gap: var(--gcds-spacing-300);
             column-gap: var(--gcds-spacing-300);
   }
-
   .xs\:gap-x-400 {
     -webkit-column-gap: var(--gcds-spacing-400);
        -moz-column-gap: var(--gcds-spacing-400);
             column-gap: var(--gcds-spacing-400);
   }
-
   .xs\:gap-x-500 {
     -webkit-column-gap: var(--gcds-spacing-500);
        -moz-column-gap: var(--gcds-spacing-500);
             column-gap: var(--gcds-spacing-500);
   }
-
   .xs\:gap-x-600 {
     -webkit-column-gap: var(--gcds-spacing-600);
        -moz-column-gap: var(--gcds-spacing-600);
             column-gap: var(--gcds-spacing-600);
   }
-
   .xs\:gap-x-700 {
     -webkit-column-gap: var(--gcds-spacing-700);
        -moz-column-gap: var(--gcds-spacing-700);
             column-gap: var(--gcds-spacing-700);
   }
-
   .xs\:gap-x-800 {
     -webkit-column-gap: var(--gcds-spacing-800);
        -moz-column-gap: var(--gcds-spacing-800);
             column-gap: var(--gcds-spacing-800);
   }
-
   .xs\:gap-x-900 {
     -webkit-column-gap: var(--gcds-spacing-900);
        -moz-column-gap: var(--gcds-spacing-900);
             column-gap: var(--gcds-spacing-900);
   }
-
   .xs\:gap-x-1000 {
     -webkit-column-gap: var(--gcds-spacing-1000);
        -moz-column-gap: var(--gcds-spacing-1000);
@@ -4479,67 +3902,56 @@ table {
        -moz-column-gap: 0;
             column-gap: 0;
   }
-
   .sm\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
        -moz-column-gap: var(--gcds-spacing-50);
             column-gap: var(--gcds-spacing-50);
   }
-
   .sm\:gap-x-100 {
     -webkit-column-gap: var(--gcds-spacing-100);
        -moz-column-gap: var(--gcds-spacing-100);
             column-gap: var(--gcds-spacing-100);
   }
-
   .sm\:gap-x-200 {
     -webkit-column-gap: var(--gcds-spacing-200);
        -moz-column-gap: var(--gcds-spacing-200);
             column-gap: var(--gcds-spacing-200);
   }
-
   .sm\:gap-x-300 {
     -webkit-column-gap: var(--gcds-spacing-300);
        -moz-column-gap: var(--gcds-spacing-300);
             column-gap: var(--gcds-spacing-300);
   }
-
   .sm\:gap-x-400 {
     -webkit-column-gap: var(--gcds-spacing-400);
        -moz-column-gap: var(--gcds-spacing-400);
             column-gap: var(--gcds-spacing-400);
   }
-
   .sm\:gap-x-500 {
     -webkit-column-gap: var(--gcds-spacing-500);
        -moz-column-gap: var(--gcds-spacing-500);
             column-gap: var(--gcds-spacing-500);
   }
-
   .sm\:gap-x-600 {
     -webkit-column-gap: var(--gcds-spacing-600);
        -moz-column-gap: var(--gcds-spacing-600);
             column-gap: var(--gcds-spacing-600);
   }
-
   .sm\:gap-x-700 {
     -webkit-column-gap: var(--gcds-spacing-700);
        -moz-column-gap: var(--gcds-spacing-700);
             column-gap: var(--gcds-spacing-700);
   }
-
   .sm\:gap-x-800 {
     -webkit-column-gap: var(--gcds-spacing-800);
        -moz-column-gap: var(--gcds-spacing-800);
             column-gap: var(--gcds-spacing-800);
   }
-
   .sm\:gap-x-900 {
     -webkit-column-gap: var(--gcds-spacing-900);
        -moz-column-gap: var(--gcds-spacing-900);
             column-gap: var(--gcds-spacing-900);
   }
-
   .sm\:gap-x-1000 {
     -webkit-column-gap: var(--gcds-spacing-1000);
        -moz-column-gap: var(--gcds-spacing-1000);
@@ -4552,67 +3964,56 @@ table {
        -moz-column-gap: 0;
             column-gap: 0;
   }
-
   .md\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
        -moz-column-gap: var(--gcds-spacing-50);
             column-gap: var(--gcds-spacing-50);
   }
-
   .md\:gap-x-100 {
     -webkit-column-gap: var(--gcds-spacing-100);
        -moz-column-gap: var(--gcds-spacing-100);
             column-gap: var(--gcds-spacing-100);
   }
-
   .md\:gap-x-200 {
     -webkit-column-gap: var(--gcds-spacing-200);
        -moz-column-gap: var(--gcds-spacing-200);
             column-gap: var(--gcds-spacing-200);
   }
-
   .md\:gap-x-300 {
     -webkit-column-gap: var(--gcds-spacing-300);
        -moz-column-gap: var(--gcds-spacing-300);
             column-gap: var(--gcds-spacing-300);
   }
-
   .md\:gap-x-400 {
     -webkit-column-gap: var(--gcds-spacing-400);
        -moz-column-gap: var(--gcds-spacing-400);
             column-gap: var(--gcds-spacing-400);
   }
-
   .md\:gap-x-500 {
     -webkit-column-gap: var(--gcds-spacing-500);
        -moz-column-gap: var(--gcds-spacing-500);
             column-gap: var(--gcds-spacing-500);
   }
-
   .md\:gap-x-600 {
     -webkit-column-gap: var(--gcds-spacing-600);
        -moz-column-gap: var(--gcds-spacing-600);
             column-gap: var(--gcds-spacing-600);
   }
-
   .md\:gap-x-700 {
     -webkit-column-gap: var(--gcds-spacing-700);
        -moz-column-gap: var(--gcds-spacing-700);
             column-gap: var(--gcds-spacing-700);
   }
-
   .md\:gap-x-800 {
     -webkit-column-gap: var(--gcds-spacing-800);
        -moz-column-gap: var(--gcds-spacing-800);
             column-gap: var(--gcds-spacing-800);
   }
-
   .md\:gap-x-900 {
     -webkit-column-gap: var(--gcds-spacing-900);
        -moz-column-gap: var(--gcds-spacing-900);
             column-gap: var(--gcds-spacing-900);
   }
-
   .md\:gap-x-1000 {
     -webkit-column-gap: var(--gcds-spacing-1000);
        -moz-column-gap: var(--gcds-spacing-1000);
@@ -4625,67 +4026,56 @@ table {
        -moz-column-gap: 0;
             column-gap: 0;
   }
-
   .lg\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
        -moz-column-gap: var(--gcds-spacing-50);
             column-gap: var(--gcds-spacing-50);
   }
-
   .lg\:gap-x-100 {
     -webkit-column-gap: var(--gcds-spacing-100);
        -moz-column-gap: var(--gcds-spacing-100);
             column-gap: var(--gcds-spacing-100);
   }
-
   .lg\:gap-x-200 {
     -webkit-column-gap: var(--gcds-spacing-200);
        -moz-column-gap: var(--gcds-spacing-200);
             column-gap: var(--gcds-spacing-200);
   }
-
   .lg\:gap-x-300 {
     -webkit-column-gap: var(--gcds-spacing-300);
        -moz-column-gap: var(--gcds-spacing-300);
             column-gap: var(--gcds-spacing-300);
   }
-
   .lg\:gap-x-400 {
     -webkit-column-gap: var(--gcds-spacing-400);
        -moz-column-gap: var(--gcds-spacing-400);
             column-gap: var(--gcds-spacing-400);
   }
-
   .lg\:gap-x-500 {
     -webkit-column-gap: var(--gcds-spacing-500);
        -moz-column-gap: var(--gcds-spacing-500);
             column-gap: var(--gcds-spacing-500);
   }
-
   .lg\:gap-x-600 {
     -webkit-column-gap: var(--gcds-spacing-600);
        -moz-column-gap: var(--gcds-spacing-600);
             column-gap: var(--gcds-spacing-600);
   }
-
   .lg\:gap-x-700 {
     -webkit-column-gap: var(--gcds-spacing-700);
        -moz-column-gap: var(--gcds-spacing-700);
             column-gap: var(--gcds-spacing-700);
   }
-
   .lg\:gap-x-800 {
     -webkit-column-gap: var(--gcds-spacing-800);
        -moz-column-gap: var(--gcds-spacing-800);
             column-gap: var(--gcds-spacing-800);
   }
-
   .lg\:gap-x-900 {
     -webkit-column-gap: var(--gcds-spacing-900);
        -moz-column-gap: var(--gcds-spacing-900);
             column-gap: var(--gcds-spacing-900);
   }
-
   .lg\:gap-x-1000 {
     -webkit-column-gap: var(--gcds-spacing-1000);
        -moz-column-gap: var(--gcds-spacing-1000);
@@ -4698,67 +4088,56 @@ table {
        -moz-column-gap: 0;
             column-gap: 0;
   }
-
   .xl\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
        -moz-column-gap: var(--gcds-spacing-50);
             column-gap: var(--gcds-spacing-50);
   }
-
   .xl\:gap-x-100 {
     -webkit-column-gap: var(--gcds-spacing-100);
        -moz-column-gap: var(--gcds-spacing-100);
             column-gap: var(--gcds-spacing-100);
   }
-
   .xl\:gap-x-200 {
     -webkit-column-gap: var(--gcds-spacing-200);
        -moz-column-gap: var(--gcds-spacing-200);
             column-gap: var(--gcds-spacing-200);
   }
-
   .xl\:gap-x-300 {
     -webkit-column-gap: var(--gcds-spacing-300);
        -moz-column-gap: var(--gcds-spacing-300);
             column-gap: var(--gcds-spacing-300);
   }
-
   .xl\:gap-x-400 {
     -webkit-column-gap: var(--gcds-spacing-400);
        -moz-column-gap: var(--gcds-spacing-400);
             column-gap: var(--gcds-spacing-400);
   }
-
   .xl\:gap-x-500 {
     -webkit-column-gap: var(--gcds-spacing-500);
        -moz-column-gap: var(--gcds-spacing-500);
             column-gap: var(--gcds-spacing-500);
   }
-
   .xl\:gap-x-600 {
     -webkit-column-gap: var(--gcds-spacing-600);
        -moz-column-gap: var(--gcds-spacing-600);
             column-gap: var(--gcds-spacing-600);
   }
-
   .xl\:gap-x-700 {
     -webkit-column-gap: var(--gcds-spacing-700);
        -moz-column-gap: var(--gcds-spacing-700);
             column-gap: var(--gcds-spacing-700);
   }
-
   .xl\:gap-x-800 {
     -webkit-column-gap: var(--gcds-spacing-800);
        -moz-column-gap: var(--gcds-spacing-800);
             column-gap: var(--gcds-spacing-800);
   }
-
   .xl\:gap-x-900 {
     -webkit-column-gap: var(--gcds-spacing-900);
        -moz-column-gap: var(--gcds-spacing-900);
             column-gap: var(--gcds-spacing-900);
   }
-
   .xl\:gap-x-1000 {
     -webkit-column-gap: var(--gcds-spacing-1000);
        -moz-column-gap: var(--gcds-spacing-1000);
@@ -4817,47 +4196,36 @@ table {
   .xs\:gap-y-0 {
     row-gap: 0;
   }
-
   .xs\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
   }
-
   .xs\:gap-y-100 {
     row-gap: var(--gcds-spacing-100);
   }
-
   .xs\:gap-y-200 {
     row-gap: var(--gcds-spacing-200);
   }
-
   .xs\:gap-y-300 {
     row-gap: var(--gcds-spacing-300);
   }
-
   .xs\:gap-y-400 {
     row-gap: var(--gcds-spacing-400);
   }
-
   .xs\:gap-y-500 {
     row-gap: var(--gcds-spacing-500);
   }
-
   .xs\:gap-y-600 {
     row-gap: var(--gcds-spacing-600);
   }
-
   .xs\:gap-y-700 {
     row-gap: var(--gcds-spacing-700);
   }
-
   .xs\:gap-y-800 {
     row-gap: var(--gcds-spacing-800);
   }
-
   .xs\:gap-y-900 {
     row-gap: var(--gcds-spacing-900);
   }
-
   .xs\:gap-y-1000 {
     row-gap: var(--gcds-spacing-1000);
   }
@@ -4866,47 +4234,36 @@ table {
   .sm\:gap-y-0 {
     row-gap: 0;
   }
-
   .sm\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
   }
-
   .sm\:gap-y-100 {
     row-gap: var(--gcds-spacing-100);
   }
-
   .sm\:gap-y-200 {
     row-gap: var(--gcds-spacing-200);
   }
-
   .sm\:gap-y-300 {
     row-gap: var(--gcds-spacing-300);
   }
-
   .sm\:gap-y-400 {
     row-gap: var(--gcds-spacing-400);
   }
-
   .sm\:gap-y-500 {
     row-gap: var(--gcds-spacing-500);
   }
-
   .sm\:gap-y-600 {
     row-gap: var(--gcds-spacing-600);
   }
-
   .sm\:gap-y-700 {
     row-gap: var(--gcds-spacing-700);
   }
-
   .sm\:gap-y-800 {
     row-gap: var(--gcds-spacing-800);
   }
-
   .sm\:gap-y-900 {
     row-gap: var(--gcds-spacing-900);
   }
-
   .sm\:gap-y-1000 {
     row-gap: var(--gcds-spacing-1000);
   }
@@ -4915,47 +4272,36 @@ table {
   .md\:gap-y-0 {
     row-gap: 0;
   }
-
   .md\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
   }
-
   .md\:gap-y-100 {
     row-gap: var(--gcds-spacing-100);
   }
-
   .md\:gap-y-200 {
     row-gap: var(--gcds-spacing-200);
   }
-
   .md\:gap-y-300 {
     row-gap: var(--gcds-spacing-300);
   }
-
   .md\:gap-y-400 {
     row-gap: var(--gcds-spacing-400);
   }
-
   .md\:gap-y-500 {
     row-gap: var(--gcds-spacing-500);
   }
-
   .md\:gap-y-600 {
     row-gap: var(--gcds-spacing-600);
   }
-
   .md\:gap-y-700 {
     row-gap: var(--gcds-spacing-700);
   }
-
   .md\:gap-y-800 {
     row-gap: var(--gcds-spacing-800);
   }
-
   .md\:gap-y-900 {
     row-gap: var(--gcds-spacing-900);
   }
-
   .md\:gap-y-1000 {
     row-gap: var(--gcds-spacing-1000);
   }
@@ -4964,47 +4310,36 @@ table {
   .lg\:gap-y-0 {
     row-gap: 0;
   }
-
   .lg\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
   }
-
   .lg\:gap-y-100 {
     row-gap: var(--gcds-spacing-100);
   }
-
   .lg\:gap-y-200 {
     row-gap: var(--gcds-spacing-200);
   }
-
   .lg\:gap-y-300 {
     row-gap: var(--gcds-spacing-300);
   }
-
   .lg\:gap-y-400 {
     row-gap: var(--gcds-spacing-400);
   }
-
   .lg\:gap-y-500 {
     row-gap: var(--gcds-spacing-500);
   }
-
   .lg\:gap-y-600 {
     row-gap: var(--gcds-spacing-600);
   }
-
   .lg\:gap-y-700 {
     row-gap: var(--gcds-spacing-700);
   }
-
   .lg\:gap-y-800 {
     row-gap: var(--gcds-spacing-800);
   }
-
   .lg\:gap-y-900 {
     row-gap: var(--gcds-spacing-900);
   }
-
   .lg\:gap-y-1000 {
     row-gap: var(--gcds-spacing-1000);
   }
@@ -5013,47 +4348,36 @@ table {
   .xl\:gap-y-0 {
     row-gap: 0;
   }
-
   .xl\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
   }
-
   .xl\:gap-y-100 {
     row-gap: var(--gcds-spacing-100);
   }
-
   .xl\:gap-y-200 {
     row-gap: var(--gcds-spacing-200);
   }
-
   .xl\:gap-y-300 {
     row-gap: var(--gcds-spacing-300);
   }
-
   .xl\:gap-y-400 {
     row-gap: var(--gcds-spacing-400);
   }
-
   .xl\:gap-y-500 {
     row-gap: var(--gcds-spacing-500);
   }
-
   .xl\:gap-y-600 {
     row-gap: var(--gcds-spacing-600);
   }
-
   .xl\:gap-y-700 {
     row-gap: var(--gcds-spacing-700);
   }
-
   .xl\:gap-y-800 {
     row-gap: var(--gcds-spacing-800);
   }
-
   .xl\:gap-y-900 {
     row-gap: var(--gcds-spacing-900);
   }
-
   .xl\:gap-y-1000 {
     row-gap: var(--gcds-spacing-1000);
   }
@@ -5115,51 +4439,39 @@ table {
   .xs\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-11 {
     grid-template-columns: repeat(11, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
-
   .xs\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -5168,51 +4480,39 @@ table {
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-11 {
     grid-template-columns: repeat(11, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
-
   .sm\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -5221,51 +4521,39 @@ table {
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
   .md\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
   .md\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
   .md\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
-
   .md\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
-
   .md\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
-
   .md\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
-
   .md\:grid-cols-11 {
     grid-template-columns: repeat(11, minmax(0, 1fr));
   }
-
   .md\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
-
   .md\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -5274,51 +4562,39 @@ table {
   .lg\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-11 {
     grid-template-columns: repeat(11, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
-
   .lg\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -5327,51 +4603,39 @@ table {
   .xl\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-10 {
     grid-template-columns: repeat(10, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-11 {
     grid-template-columns: repeat(11, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
-
   .xl\:grid-cols-none {
     grid-template-columns: none;
   }
@@ -5433,51 +4697,39 @@ table {
   .xs\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-5 {
     grid-template-rows: repeat(5, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-6 {
     grid-template-rows: repeat(6, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-7 {
     grid-template-rows: repeat(7, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-8 {
     grid-template-rows: repeat(8, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-9 {
     grid-template-rows: repeat(9, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-10 {
     grid-template-rows: repeat(10, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-11 {
     grid-template-rows: repeat(11, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
   }
-
   .xs\:grid-rows-none {
     grid-template-rows: none;
   }
@@ -5486,51 +4738,39 @@ table {
   .sm\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-5 {
     grid-template-rows: repeat(5, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-6 {
     grid-template-rows: repeat(6, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-7 {
     grid-template-rows: repeat(7, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-8 {
     grid-template-rows: repeat(8, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-9 {
     grid-template-rows: repeat(9, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-10 {
     grid-template-rows: repeat(10, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-11 {
     grid-template-rows: repeat(11, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
   }
-
   .sm\:grid-rows-none {
     grid-template-rows: none;
   }
@@ -5539,51 +4779,39 @@ table {
   .md\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-
   .md\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
-
   .md\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
-
   .md\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
-
   .md\:grid-rows-5 {
     grid-template-rows: repeat(5, minmax(0, 1fr));
   }
-
   .md\:grid-rows-6 {
     grid-template-rows: repeat(6, minmax(0, 1fr));
   }
-
   .md\:grid-rows-7 {
     grid-template-rows: repeat(7, minmax(0, 1fr));
   }
-
   .md\:grid-rows-8 {
     grid-template-rows: repeat(8, minmax(0, 1fr));
   }
-
   .md\:grid-rows-9 {
     grid-template-rows: repeat(9, minmax(0, 1fr));
   }
-
   .md\:grid-rows-10 {
     grid-template-rows: repeat(10, minmax(0, 1fr));
   }
-
   .md\:grid-rows-11 {
     grid-template-rows: repeat(11, minmax(0, 1fr));
   }
-
   .md\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
   }
-
   .md\:grid-rows-none {
     grid-template-rows: none;
   }
@@ -5592,51 +4820,39 @@ table {
   .lg\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-5 {
     grid-template-rows: repeat(5, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-6 {
     grid-template-rows: repeat(6, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-7 {
     grid-template-rows: repeat(7, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-8 {
     grid-template-rows: repeat(8, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-9 {
     grid-template-rows: repeat(9, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-10 {
     grid-template-rows: repeat(10, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-11 {
     grid-template-rows: repeat(11, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
   }
-
   .lg\:grid-rows-none {
     grid-template-rows: none;
   }
@@ -5645,51 +4861,39 @@ table {
   .xl\:grid-rows-1 {
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-3 {
     grid-template-rows: repeat(3, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-4 {
     grid-template-rows: repeat(4, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-5 {
     grid-template-rows: repeat(5, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-6 {
     grid-template-rows: repeat(6, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-7 {
     grid-template-rows: repeat(7, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-8 {
     grid-template-rows: repeat(8, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-9 {
     grid-template-rows: repeat(9, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-10 {
     grid-template-rows: repeat(10, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-11 {
     grid-template-rows: repeat(11, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-12 {
     grid-template-rows: repeat(12, minmax(0, 1fr));
   }
-
   .xl\:grid-rows-none {
     grid-template-rows: none;
   }
@@ -5727,27 +4931,21 @@ table {
   .xs\:place-content-around {
     place-content: space-around;
   }
-
   .xs\:place-content-between {
     place-content: space-between;
   }
-
   .xs\:place-content-center {
     place-content: center;
   }
-
   .xs\:place-content-end {
     place-content: end;
   }
-
   .xs\:place-content-evenly {
     place-content: space-evenly;
   }
-
   .xs\:place-content-start {
     place-content: start;
   }
-
   .xs\:place-content-stretch {
     place-content: stretch;
   }
@@ -5756,27 +4954,21 @@ table {
   .sm\:place-content-around {
     place-content: space-around;
   }
-
   .sm\:place-content-between {
     place-content: space-between;
   }
-
   .sm\:place-content-center {
     place-content: center;
   }
-
   .sm\:place-content-end {
     place-content: end;
   }
-
   .sm\:place-content-evenly {
     place-content: space-evenly;
   }
-
   .sm\:place-content-start {
     place-content: start;
   }
-
   .sm\:place-content-stretch {
     place-content: stretch;
   }
@@ -5785,27 +4977,21 @@ table {
   .md\:place-content-around {
     place-content: space-around;
   }
-
   .md\:place-content-between {
     place-content: space-between;
   }
-
   .md\:place-content-center {
     place-content: center;
   }
-
   .md\:place-content-end {
     place-content: end;
   }
-
   .md\:place-content-evenly {
     place-content: space-evenly;
   }
-
   .md\:place-content-start {
     place-content: start;
   }
-
   .md\:place-content-stretch {
     place-content: stretch;
   }
@@ -5814,27 +5000,21 @@ table {
   .lg\:place-content-around {
     place-content: space-around;
   }
-
   .lg\:place-content-between {
     place-content: space-between;
   }
-
   .lg\:place-content-center {
     place-content: center;
   }
-
   .lg\:place-content-end {
     place-content: end;
   }
-
   .lg\:place-content-evenly {
     place-content: space-evenly;
   }
-
   .lg\:place-content-start {
     place-content: start;
   }
-
   .lg\:place-content-stretch {
     place-content: stretch;
   }
@@ -5843,27 +5023,21 @@ table {
   .xl\:place-content-around {
     place-content: space-around;
   }
-
   .xl\:place-content-between {
     place-content: space-between;
   }
-
   .xl\:place-content-center {
     place-content: center;
   }
-
   .xl\:place-content-end {
     place-content: end;
   }
-
   .xl\:place-content-evenly {
     place-content: space-evenly;
   }
-
   .xl\:place-content-start {
     place-content: start;
   }
-
   .xl\:place-content-stretch {
     place-content: stretch;
   }
@@ -5889,15 +5063,12 @@ table {
   .xs\:place-items-center {
     place-items: center;
   }
-
   .xs\:place-items-end {
     place-items: end;
   }
-
   .xs\:place-items-start {
     place-items: start;
   }
-
   .xs\:place-items-stretch {
     place-items: stretch;
   }
@@ -5906,15 +5077,12 @@ table {
   .sm\:place-items-center {
     place-items: center;
   }
-
   .sm\:place-items-end {
     place-items: end;
   }
-
   .sm\:place-items-start {
     place-items: start;
   }
-
   .sm\:place-items-stretch {
     place-items: stretch;
   }
@@ -5923,15 +5091,12 @@ table {
   .md\:place-items-center {
     place-items: center;
   }
-
   .md\:place-items-end {
     place-items: end;
   }
-
   .md\:place-items-start {
     place-items: start;
   }
-
   .md\:place-items-stretch {
     place-items: stretch;
   }
@@ -5940,15 +5105,12 @@ table {
   .lg\:place-items-center {
     place-items: center;
   }
-
   .lg\:place-items-end {
     place-items: end;
   }
-
   .lg\:place-items-start {
     place-items: start;
   }
-
   .lg\:place-items-stretch {
     place-items: stretch;
   }
@@ -5957,15 +5119,12 @@ table {
   .xl\:place-items-center {
     place-items: center;
   }
-
   .xl\:place-items-end {
     place-items: end;
   }
-
   .xl\:place-items-start {
     place-items: start;
   }
-
   .xl\:place-items-stretch {
     place-items: stretch;
   }
@@ -5995,19 +5154,15 @@ table {
   .xs\:place-self-auto {
     place-self: auto;
   }
-
   .xs\:place-self-center {
     place-self: center;
   }
-
   .xs\:place-self-end {
     place-self: end;
   }
-
   .xs\:place-self-start {
     place-self: start;
   }
-
   .xs\:place-self-stretch {
     place-self: stretch;
   }
@@ -6016,19 +5171,15 @@ table {
   .sm\:place-self-auto {
     place-self: auto;
   }
-
   .sm\:place-self-center {
     place-self: center;
   }
-
   .sm\:place-self-end {
     place-self: end;
   }
-
   .sm\:place-self-start {
     place-self: start;
   }
-
   .sm\:place-self-stretch {
     place-self: stretch;
   }
@@ -6037,19 +5188,15 @@ table {
   .md\:place-self-auto {
     place-self: auto;
   }
-
   .md\:place-self-center {
     place-self: center;
   }
-
   .md\:place-self-end {
     place-self: end;
   }
-
   .md\:place-self-start {
     place-self: start;
   }
-
   .md\:place-self-stretch {
     place-self: stretch;
   }
@@ -6058,19 +5205,15 @@ table {
   .lg\:place-self-auto {
     place-self: auto;
   }
-
   .lg\:place-self-center {
     place-self: center;
   }
-
   .lg\:place-self-end {
     place-self: end;
   }
-
   .lg\:place-self-start {
     place-self: start;
   }
-
   .lg\:place-self-stretch {
     place-self: stretch;
   }
@@ -6079,19 +5222,15 @@ table {
   .xl\:place-self-auto {
     place-self: auto;
   }
-
   .xl\:place-self-center {
     place-self: center;
   }
-
   .xl\:place-self-end {
     place-self: end;
   }
-
   .xl\:place-self-start {
     place-self: start;
   }
-
   .xl\:place-self-stretch {
     place-self: stretch;
   }
@@ -6127,22 +5266,18 @@ table {
     font-size: var(--gcds-font-sizes-caption);
     line-height: var(--gcds-line-heights-caption);
   }
-
   .xs\:icon-sm {
     font-size: var(--gcds-font-sizes-text);
     line-height: var(--gcds-line-heights-text);
   }
-
   .xs\:icon-md {
     font-size: var(--gcds-font-sizes-h5);
     line-height: var(--gcds-line-heights-h5);
   }
-
   .xs\:icon-lg {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-
   .xs\:icon-xl {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -6153,22 +5288,18 @@ table {
     font-size: var(--gcds-font-sizes-caption);
     line-height: var(--gcds-line-heights-caption);
   }
-
   .sm\:icon-sm {
     font-size: var(--gcds-font-sizes-text);
     line-height: var(--gcds-line-heights-text);
   }
-
   .sm\:icon-md {
     font-size: var(--gcds-font-sizes-h5);
     line-height: var(--gcds-line-heights-h5);
   }
-
   .sm\:icon-lg {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-
   .sm\:icon-xl {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -6179,22 +5310,18 @@ table {
     font-size: var(--gcds-font-sizes-caption);
     line-height: var(--gcds-line-heights-caption);
   }
-
   .md\:icon-sm {
     font-size: var(--gcds-font-sizes-text);
     line-height: var(--gcds-line-heights-text);
   }
-
   .md\:icon-md {
     font-size: var(--gcds-font-sizes-h5);
     line-height: var(--gcds-line-heights-h5);
   }
-
   .md\:icon-lg {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-
   .md\:icon-xl {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -6205,22 +5332,18 @@ table {
     font-size: var(--gcds-font-sizes-caption);
     line-height: var(--gcds-line-heights-caption);
   }
-
   .lg\:icon-sm {
     font-size: var(--gcds-font-sizes-text);
     line-height: var(--gcds-line-heights-text);
   }
-
   .lg\:icon-md {
     font-size: var(--gcds-font-sizes-h5);
     line-height: var(--gcds-line-heights-h5);
   }
-
   .lg\:icon-lg {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-
   .lg\:icon-xl {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -6231,22 +5354,18 @@ table {
     font-size: var(--gcds-font-sizes-caption);
     line-height: var(--gcds-line-heights-caption);
   }
-
   .xl\:icon-sm {
     font-size: var(--gcds-font-sizes-text);
     line-height: var(--gcds-line-heights-text);
   }
-
   .xl\:icon-md {
     font-size: var(--gcds-font-sizes-h5);
     line-height: var(--gcds-line-heights-h5);
   }
-
   .xl\:icon-lg {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-
   .xl\:icon-xl {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -6265,7 +5384,6 @@ table {
   .xs\:img-full {
     width: 100%;
   }
-
   .xs\:img-responsive {
     max-width: 100%;
   }
@@ -6274,7 +5392,6 @@ table {
   .sm\:img-full {
     width: 100%;
   }
-
   .sm\:img-responsive {
     max-width: 100%;
   }
@@ -6283,7 +5400,6 @@ table {
   .md\:img-full {
     width: 100%;
   }
-
   .md\:img-responsive {
     max-width: 100%;
   }
@@ -6292,7 +5408,6 @@ table {
   .lg\:img-full {
     width: 100%;
   }
-
   .lg\:img-responsive {
     max-width: 100%;
   }
@@ -6301,7 +5416,6 @@ table {
   .xl\:img-full {
     width: 100%;
   }
-
   .xl\:img-responsive {
     max-width: 100%;
   }
@@ -6347,31 +5461,26 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .xs\:justify-content-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-
   .xs\:justify-content-center {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .xs\:justify-content-end {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
   .xs\:justify-content-evenly {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-
   .xs\:justify-content-start {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -6383,31 +5492,26 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .sm\:justify-content-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-
   .sm\:justify-content-center {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .sm\:justify-content-end {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
   .sm\:justify-content-evenly {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-
   .sm\:justify-content-start {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -6419,31 +5523,26 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .md\:justify-content-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-
   .md\:justify-content-center {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .md\:justify-content-end {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
   .md\:justify-content-evenly {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-
   .md\:justify-content-start {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -6455,31 +5554,26 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .lg\:justify-content-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-
   .lg\:justify-content-center {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .lg\:justify-content-end {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
   .lg\:justify-content-evenly {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-
   .lg\:justify-content-start {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -6491,31 +5585,26 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-
   .xl\:justify-content-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-
   .xl\:justify-content-center {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .xl\:justify-content-end {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
   .xl\:justify-content-evenly {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-
   .xl\:justify-content-start {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -6543,15 +5632,12 @@ table {
   .xs\:justify-items-center {
     justify-items: center;
   }
-
   .xs\:justify-items-end {
     justify-items: end;
   }
-
   .xs\:justify-items-start {
     justify-items: start;
   }
-
   .xs\:justify-items-stretch {
     justify-items: stretch;
   }
@@ -6560,15 +5646,12 @@ table {
   .sm\:justify-items-center {
     justify-items: center;
   }
-
   .sm\:justify-items-end {
     justify-items: end;
   }
-
   .sm\:justify-items-start {
     justify-items: start;
   }
-
   .sm\:justify-items-stretch {
     justify-items: stretch;
   }
@@ -6577,15 +5660,12 @@ table {
   .md\:justify-items-center {
     justify-items: center;
   }
-
   .md\:justify-items-end {
     justify-items: end;
   }
-
   .md\:justify-items-start {
     justify-items: start;
   }
-
   .md\:justify-items-stretch {
     justify-items: stretch;
   }
@@ -6594,15 +5674,12 @@ table {
   .lg\:justify-items-center {
     justify-items: center;
   }
-
   .lg\:justify-items-end {
     justify-items: end;
   }
-
   .lg\:justify-items-start {
     justify-items: start;
   }
-
   .lg\:justify-items-stretch {
     justify-items: stretch;
   }
@@ -6611,15 +5688,12 @@ table {
   .xl\:justify-items-center {
     justify-items: center;
   }
-
   .xl\:justify-items-end {
     justify-items: end;
   }
-
   .xl\:justify-items-start {
     justify-items: start;
   }
-
   .xl\:justify-items-stretch {
     justify-items: stretch;
   }
@@ -6649,19 +5723,15 @@ table {
   .xs\:justify-self-auto {
     justify-self: auto;
   }
-
   .xs\:justify-self-center {
     justify-self: center;
   }
-
   .xs\:justify-self-end {
     justify-self: end;
   }
-
   .xs\:justify-self-start {
     justify-self: start;
   }
-
   .xs\:justify-self-stretch {
     justify-self: stretch;
   }
@@ -6670,19 +5740,15 @@ table {
   .sm\:justify-self-auto {
     justify-self: auto;
   }
-
   .sm\:justify-self-center {
     justify-self: center;
   }
-
   .sm\:justify-self-end {
     justify-self: end;
   }
-
   .sm\:justify-self-start {
     justify-self: start;
   }
-
   .sm\:justify-self-stretch {
     justify-self: stretch;
   }
@@ -6691,19 +5757,15 @@ table {
   .md\:justify-self-auto {
     justify-self: auto;
   }
-
   .md\:justify-self-center {
     justify-self: center;
   }
-
   .md\:justify-self-end {
     justify-self: end;
   }
-
   .md\:justify-self-start {
     justify-self: start;
   }
-
   .md\:justify-self-stretch {
     justify-self: stretch;
   }
@@ -6712,19 +5774,15 @@ table {
   .lg\:justify-self-auto {
     justify-self: auto;
   }
-
   .lg\:justify-self-center {
     justify-self: center;
   }
-
   .lg\:justify-self-end {
     justify-self: end;
   }
-
   .lg\:justify-self-start {
     justify-self: start;
   }
-
   .lg\:justify-self-stretch {
     justify-self: stretch;
   }
@@ -6733,19 +5791,15 @@ table {
   .xl\:justify-self-auto {
     justify-self: auto;
   }
-
   .xl\:justify-self-center {
     justify-self: center;
   }
-
   .xl\:justify-self-end {
     justify-self: end;
   }
-
   .xl\:justify-self-start {
     justify-self: start;
   }
-
   .xl\:justify-self-stretch {
     justify-self: stretch;
   }
@@ -6771,15 +5825,12 @@ table {
   .xs\:link-dark {
     color: var(--gcds-link-dark-text);
   }
-
   .xs\:link-destructive {
     color: var(--gcds-link-destructive-text);
   }
-
   .xs\:link-inherit {
     color: inherit;
   }
-
   .xs\:link-light {
     color: var(--gcds-link-light-text);
   }
@@ -6788,15 +5839,12 @@ table {
   .sm\:link-dark {
     color: var(--gcds-link-dark-text);
   }
-
   .sm\:link-destructive {
     color: var(--gcds-link-destructive-text);
   }
-
   .sm\:link-inherit {
     color: inherit;
   }
-
   .sm\:link-light {
     color: var(--gcds-link-light-text);
   }
@@ -6805,15 +5853,12 @@ table {
   .md\:link-dark {
     color: var(--gcds-link-dark-text);
   }
-
   .md\:link-destructive {
     color: var(--gcds-link-destructive-text);
   }
-
   .md\:link-inherit {
     color: inherit;
   }
-
   .md\:link-light {
     color: var(--gcds-link-light-text);
   }
@@ -6822,15 +5867,12 @@ table {
   .lg\:link-dark {
     color: var(--gcds-link-dark-text);
   }
-
   .lg\:link-destructive {
     color: var(--gcds-link-destructive-text);
   }
-
   .lg\:link-inherit {
     color: inherit;
   }
-
   .lg\:link-light {
     color: var(--gcds-link-light-text);
   }
@@ -6839,15 +5881,12 @@ table {
   .xl\:link-dark {
     color: var(--gcds-link-dark-text);
   }
-
   .xl\:link-destructive {
     color: var(--gcds-link-destructive-text);
   }
-
   .xl\:link-inherit {
     color: inherit;
   }
-
   .xl\:link-light {
     color: var(--gcds-link-light-text);
   }
@@ -6934,11 +5973,9 @@ table {
   .xs\:list-decimal {
     list-style: decimal;
   }
-
   .xs\:list-disc {
     list-style: disc;
   }
-
   .xs\:list-none {
     list-style: none;
   }
@@ -6947,11 +5984,9 @@ table {
   .sm\:list-decimal {
     list-style: decimal;
   }
-
   .sm\:list-disc {
     list-style: disc;
   }
-
   .sm\:list-none {
     list-style: none;
   }
@@ -6960,11 +5995,9 @@ table {
   .md\:list-decimal {
     list-style: decimal;
   }
-
   .md\:list-disc {
     list-style: disc;
   }
-
   .md\:list-none {
     list-style: none;
   }
@@ -6973,11 +6006,9 @@ table {
   .lg\:list-decimal {
     list-style: decimal;
   }
-
   .lg\:list-disc {
     list-style: disc;
   }
-
   .lg\:list-none {
     list-style: none;
   }
@@ -6986,11 +6017,9 @@ table {
   .xl\:list-decimal {
     list-style: decimal;
   }
-
   .xl\:list-disc {
     list-style: disc;
   }
-
   .xl\:list-none {
     list-style: none;
   }
@@ -7007,7 +6036,6 @@ table {
   .xs\:list-decimal {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-
   .xs\:list-disc {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
@@ -7016,7 +6044,6 @@ table {
   .sm\:list-decimal {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-
   .sm\:list-disc {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
@@ -7025,7 +6052,6 @@ table {
   .md\:list-decimal {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-
   .md\:list-disc {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
@@ -7034,7 +6060,6 @@ table {
   .lg\:list-decimal {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-
   .lg\:list-disc {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
@@ -7043,7 +6068,6 @@ table {
   .xl\:list-decimal {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-
   .xl\:list-disc {
     margin: 0 0 0 var(--gcds-spacing-400);
   }
@@ -7065,11 +6089,9 @@ table {
   .xs\:overflow-hidden {
     overflow: hidden;
   }
-
   .xs\:overflow-scroll {
     overflow: scroll;
   }
-
   .xs\:overflow-visible {
     overflow: visible;
   }
@@ -7078,11 +6100,9 @@ table {
   .sm\:overflow-hidden {
     overflow: hidden;
   }
-
   .sm\:overflow-scroll {
     overflow: scroll;
   }
-
   .sm\:overflow-visible {
     overflow: visible;
   }
@@ -7091,11 +6111,9 @@ table {
   .md\:overflow-hidden {
     overflow: hidden;
   }
-
   .md\:overflow-scroll {
     overflow: scroll;
   }
-
   .md\:overflow-visible {
     overflow: visible;
   }
@@ -7104,11 +6122,9 @@ table {
   .lg\:overflow-hidden {
     overflow: hidden;
   }
-
   .lg\:overflow-scroll {
     overflow: scroll;
   }
-
   .lg\:overflow-visible {
     overflow: visible;
   }
@@ -7117,11 +6133,9 @@ table {
   .xl\:overflow-hidden {
     overflow: hidden;
   }
-
   .xl\:overflow-scroll {
     overflow: scroll;
   }
-
   .xl\:overflow-visible {
     overflow: visible;
   }
@@ -7143,11 +6157,9 @@ table {
   .xs\:overflow-x-hidden {
     overflow-x: hidden;
   }
-
   .xs\:overflow-x-scroll {
     overflow-x: scroll;
   }
-
   .xs\:overflow-x-visible {
     overflow-x: visible;
   }
@@ -7156,11 +6168,9 @@ table {
   .sm\:overflow-x-hidden {
     overflow-x: hidden;
   }
-
   .sm\:overflow-x-scroll {
     overflow-x: scroll;
   }
-
   .sm\:overflow-x-visible {
     overflow-x: visible;
   }
@@ -7169,11 +6179,9 @@ table {
   .md\:overflow-x-hidden {
     overflow-x: hidden;
   }
-
   .md\:overflow-x-scroll {
     overflow-x: scroll;
   }
-
   .md\:overflow-x-visible {
     overflow-x: visible;
   }
@@ -7182,11 +6190,9 @@ table {
   .lg\:overflow-x-hidden {
     overflow-x: hidden;
   }
-
   .lg\:overflow-x-scroll {
     overflow-x: scroll;
   }
-
   .lg\:overflow-x-visible {
     overflow-x: visible;
   }
@@ -7195,11 +6201,9 @@ table {
   .xl\:overflow-x-hidden {
     overflow-x: hidden;
   }
-
   .xl\:overflow-x-scroll {
     overflow-x: scroll;
   }
-
   .xl\:overflow-x-visible {
     overflow-x: visible;
   }
@@ -7221,11 +6225,9 @@ table {
   .xs\:overflow-y-hidden {
     overflow-y: hidden;
   }
-
   .xs\:overflow-y-scroll {
     overflow-y: scroll;
   }
-
   .xs\:overflow-y-visible {
     overflow-y: visible;
   }
@@ -7234,11 +6236,9 @@ table {
   .sm\:overflow-y-hidden {
     overflow-y: hidden;
   }
-
   .sm\:overflow-y-scroll {
     overflow-y: scroll;
   }
-
   .sm\:overflow-y-visible {
     overflow-y: visible;
   }
@@ -7247,11 +6247,9 @@ table {
   .md\:overflow-y-hidden {
     overflow-y: hidden;
   }
-
   .md\:overflow-y-scroll {
     overflow-y: scroll;
   }
-
   .md\:overflow-y-visible {
     overflow-y: visible;
   }
@@ -7260,11 +6258,9 @@ table {
   .lg\:overflow-y-hidden {
     overflow-y: hidden;
   }
-
   .lg\:overflow-y-scroll {
     overflow-y: scroll;
   }
-
   .lg\:overflow-y-visible {
     overflow-y: visible;
   }
@@ -7273,11 +6269,9 @@ table {
   .xl\:overflow-y-hidden {
     overflow-y: hidden;
   }
-
   .xl\:overflow-y-scroll {
     overflow-y: scroll;
   }
-
   .xl\:overflow-y-visible {
     overflow-y: visible;
   }
@@ -7295,7 +6289,6 @@ table {
   .xs\:pointer-events-auto {
     pointer-events: auto;
   }
-
   .xs\:pointer-events-none {
     pointer-events: none;
   }
@@ -7304,7 +6297,6 @@ table {
   .sm\:pointer-events-auto {
     pointer-events: auto;
   }
-
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -7313,7 +6305,6 @@ table {
   .md\:pointer-events-auto {
     pointer-events: auto;
   }
-
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -7322,7 +6313,6 @@ table {
   .lg\:pointer-events-auto {
     pointer-events: auto;
   }
-
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -7331,7 +6321,6 @@ table {
   .xl\:pointer-events-auto {
     pointer-events: auto;
   }
-
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -7361,19 +6350,15 @@ table {
   .xs\:position-absolute {
     position: absolute;
   }
-
   .xs\:position-fixed {
     position: fixed;
   }
-
   .xs\:position-relative {
     position: relative;
   }
-
   .xs\:position-static {
     position: static;
   }
-
   .xs\:position-sticky {
     position: sticky;
   }
@@ -7382,19 +6367,15 @@ table {
   .sm\:position-absolute {
     position: absolute;
   }
-
   .sm\:position-fixed {
     position: fixed;
   }
-
   .sm\:position-relative {
     position: relative;
   }
-
   .sm\:position-static {
     position: static;
   }
-
   .sm\:position-sticky {
     position: sticky;
   }
@@ -7403,19 +6384,15 @@ table {
   .md\:position-absolute {
     position: absolute;
   }
-
   .md\:position-fixed {
     position: fixed;
   }
-
   .md\:position-relative {
     position: relative;
   }
-
   .md\:position-static {
     position: static;
   }
-
   .md\:position-sticky {
     position: sticky;
   }
@@ -7424,19 +6401,15 @@ table {
   .lg\:position-absolute {
     position: absolute;
   }
-
   .lg\:position-fixed {
     position: fixed;
   }
-
   .lg\:position-relative {
     position: relative;
   }
-
   .lg\:position-static {
     position: static;
   }
-
   .lg\:position-sticky {
     position: sticky;
   }
@@ -7445,19 +6418,15 @@ table {
   .xl\:position-absolute {
     position: absolute;
   }
-
   .xl\:position-fixed {
     position: fixed;
   }
-
   .xl\:position-relative {
     position: relative;
   }
-
   .xl\:position-static {
     position: static;
   }
-
   .xl\:position-sticky {
     position: sticky;
   }
@@ -7519,51 +6488,39 @@ table {
   .xs\:m-0 {
     margin: 0;
   }
-
   .xs\:m-50 {
     margin: var(--gcds-spacing-50);
   }
-
   .xs\:m-100 {
     margin: var(--gcds-spacing-100);
   }
-
   .xs\:m-200 {
     margin: var(--gcds-spacing-200);
   }
-
   .xs\:m-300 {
     margin: var(--gcds-spacing-300);
   }
-
   .xs\:m-400 {
     margin: var(--gcds-spacing-400);
   }
-
   .xs\:m-500 {
     margin: var(--gcds-spacing-500);
   }
-
   .xs\:m-600 {
     margin: var(--gcds-spacing-600);
   }
-
   .xs\:m-700 {
     margin: var(--gcds-spacing-700);
   }
-
   .xs\:m-800 {
     margin: var(--gcds-spacing-800);
   }
-
   .xs\:m-900 {
     margin: var(--gcds-spacing-900);
   }
-
   .xs\:m-1000 {
     margin: var(--gcds-spacing-1000);
   }
-
   .xs\:m-auto {
     margin: auto;
   }
@@ -7572,51 +6529,39 @@ table {
   .sm\:m-0 {
     margin: 0;
   }
-
   .sm\:m-50 {
     margin: var(--gcds-spacing-50);
   }
-
   .sm\:m-100 {
     margin: var(--gcds-spacing-100);
   }
-
   .sm\:m-200 {
     margin: var(--gcds-spacing-200);
   }
-
   .sm\:m-300 {
     margin: var(--gcds-spacing-300);
   }
-
   .sm\:m-400 {
     margin: var(--gcds-spacing-400);
   }
-
   .sm\:m-500 {
     margin: var(--gcds-spacing-500);
   }
-
   .sm\:m-600 {
     margin: var(--gcds-spacing-600);
   }
-
   .sm\:m-700 {
     margin: var(--gcds-spacing-700);
   }
-
   .sm\:m-800 {
     margin: var(--gcds-spacing-800);
   }
-
   .sm\:m-900 {
     margin: var(--gcds-spacing-900);
   }
-
   .sm\:m-1000 {
     margin: var(--gcds-spacing-1000);
   }
-
   .sm\:m-auto {
     margin: auto;
   }
@@ -7625,51 +6570,39 @@ table {
   .md\:m-0 {
     margin: 0;
   }
-
   .md\:m-50 {
     margin: var(--gcds-spacing-50);
   }
-
   .md\:m-100 {
     margin: var(--gcds-spacing-100);
   }
-
   .md\:m-200 {
     margin: var(--gcds-spacing-200);
   }
-
   .md\:m-300 {
     margin: var(--gcds-spacing-300);
   }
-
   .md\:m-400 {
     margin: var(--gcds-spacing-400);
   }
-
   .md\:m-500 {
     margin: var(--gcds-spacing-500);
   }
-
   .md\:m-600 {
     margin: var(--gcds-spacing-600);
   }
-
   .md\:m-700 {
     margin: var(--gcds-spacing-700);
   }
-
   .md\:m-800 {
     margin: var(--gcds-spacing-800);
   }
-
   .md\:m-900 {
     margin: var(--gcds-spacing-900);
   }
-
   .md\:m-1000 {
     margin: var(--gcds-spacing-1000);
   }
-
   .md\:m-auto {
     margin: auto;
   }
@@ -7678,51 +6611,39 @@ table {
   .lg\:m-0 {
     margin: 0;
   }
-
   .lg\:m-50 {
     margin: var(--gcds-spacing-50);
   }
-
   .lg\:m-100 {
     margin: var(--gcds-spacing-100);
   }
-
   .lg\:m-200 {
     margin: var(--gcds-spacing-200);
   }
-
   .lg\:m-300 {
     margin: var(--gcds-spacing-300);
   }
-
   .lg\:m-400 {
     margin: var(--gcds-spacing-400);
   }
-
   .lg\:m-500 {
     margin: var(--gcds-spacing-500);
   }
-
   .lg\:m-600 {
     margin: var(--gcds-spacing-600);
   }
-
   .lg\:m-700 {
     margin: var(--gcds-spacing-700);
   }
-
   .lg\:m-800 {
     margin: var(--gcds-spacing-800);
   }
-
   .lg\:m-900 {
     margin: var(--gcds-spacing-900);
   }
-
   .lg\:m-1000 {
     margin: var(--gcds-spacing-1000);
   }
-
   .lg\:m-auto {
     margin: auto;
   }
@@ -7731,51 +6652,39 @@ table {
   .xl\:m-0 {
     margin: 0;
   }
-
   .xl\:m-50 {
     margin: var(--gcds-spacing-50);
   }
-
   .xl\:m-100 {
     margin: var(--gcds-spacing-100);
   }
-
   .xl\:m-200 {
     margin: var(--gcds-spacing-200);
   }
-
   .xl\:m-300 {
     margin: var(--gcds-spacing-300);
   }
-
   .xl\:m-400 {
     margin: var(--gcds-spacing-400);
   }
-
   .xl\:m-500 {
     margin: var(--gcds-spacing-500);
   }
-
   .xl\:m-600 {
     margin: var(--gcds-spacing-600);
   }
-
   .xl\:m-700 {
     margin: var(--gcds-spacing-700);
   }
-
   .xl\:m-800 {
     margin: var(--gcds-spacing-800);
   }
-
   .xl\:m-900 {
     margin: var(--gcds-spacing-900);
   }
-
   .xl\:m-1000 {
     margin: var(--gcds-spacing-1000);
   }
-
   .xl\:m-auto {
     margin: auto;
   }
@@ -7836,51 +6745,39 @@ table {
   .xs\:mt-0 {
     margin-top: 0;
   }
-
   .xs\:mt-50 {
     margin-top: var(--gcds-spacing-50);
   }
-
   .xs\:mt-100 {
     margin-top: var(--gcds-spacing-100);
   }
-
   .xs\:mt-200 {
     margin-top: var(--gcds-spacing-200);
   }
-
   .xs\:mt-300 {
     margin-top: var(--gcds-spacing-300);
   }
-
   .xs\:mt-400 {
     margin-top: var(--gcds-spacing-400);
   }
-
   .xs\:mt-500 {
     margin-top: var(--gcds-spacing-500);
   }
-
   .xs\:mt-600 {
     margin-top: var(--gcds-spacing-600);
   }
-
   .xs\:mt-700 {
     margin-top: var(--gcds-spacing-700);
   }
-
   .xs\:mt-800 {
     margin-top: var(--gcds-spacing-800);
   }
-
   .xs\:mt-900 {
     margin-top: var(--gcds-spacing-900);
   }
-
   .xs\:mt-1000 {
     margin-top: var(--gcds-spacing-1000);
   }
-
   .xs\:mt-auto {
     margin-top: auto;
   }
@@ -7889,51 +6786,39 @@ table {
   .sm\:mt-0 {
     margin-top: 0;
   }
-
   .sm\:mt-50 {
     margin-top: var(--gcds-spacing-50);
   }
-
   .sm\:mt-100 {
     margin-top: var(--gcds-spacing-100);
   }
-
   .sm\:mt-200 {
     margin-top: var(--gcds-spacing-200);
   }
-
   .sm\:mt-300 {
     margin-top: var(--gcds-spacing-300);
   }
-
   .sm\:mt-400 {
     margin-top: var(--gcds-spacing-400);
   }
-
   .sm\:mt-500 {
     margin-top: var(--gcds-spacing-500);
   }
-
   .sm\:mt-600 {
     margin-top: var(--gcds-spacing-600);
   }
-
   .sm\:mt-700 {
     margin-top: var(--gcds-spacing-700);
   }
-
   .sm\:mt-800 {
     margin-top: var(--gcds-spacing-800);
   }
-
   .sm\:mt-900 {
     margin-top: var(--gcds-spacing-900);
   }
-
   .sm\:mt-1000 {
     margin-top: var(--gcds-spacing-1000);
   }
-
   .sm\:mt-auto {
     margin-top: auto;
   }
@@ -7942,51 +6827,39 @@ table {
   .md\:mt-0 {
     margin-top: 0;
   }
-
   .md\:mt-50 {
     margin-top: var(--gcds-spacing-50);
   }
-
   .md\:mt-100 {
     margin-top: var(--gcds-spacing-100);
   }
-
   .md\:mt-200 {
     margin-top: var(--gcds-spacing-200);
   }
-
   .md\:mt-300 {
     margin-top: var(--gcds-spacing-300);
   }
-
   .md\:mt-400 {
     margin-top: var(--gcds-spacing-400);
   }
-
   .md\:mt-500 {
     margin-top: var(--gcds-spacing-500);
   }
-
   .md\:mt-600 {
     margin-top: var(--gcds-spacing-600);
   }
-
   .md\:mt-700 {
     margin-top: var(--gcds-spacing-700);
   }
-
   .md\:mt-800 {
     margin-top: var(--gcds-spacing-800);
   }
-
   .md\:mt-900 {
     margin-top: var(--gcds-spacing-900);
   }
-
   .md\:mt-1000 {
     margin-top: var(--gcds-spacing-1000);
   }
-
   .md\:mt-auto {
     margin-top: auto;
   }
@@ -7995,51 +6868,39 @@ table {
   .lg\:mt-0 {
     margin-top: 0;
   }
-
   .lg\:mt-50 {
     margin-top: var(--gcds-spacing-50);
   }
-
   .lg\:mt-100 {
     margin-top: var(--gcds-spacing-100);
   }
-
   .lg\:mt-200 {
     margin-top: var(--gcds-spacing-200);
   }
-
   .lg\:mt-300 {
     margin-top: var(--gcds-spacing-300);
   }
-
   .lg\:mt-400 {
     margin-top: var(--gcds-spacing-400);
   }
-
   .lg\:mt-500 {
     margin-top: var(--gcds-spacing-500);
   }
-
   .lg\:mt-600 {
     margin-top: var(--gcds-spacing-600);
   }
-
   .lg\:mt-700 {
     margin-top: var(--gcds-spacing-700);
   }
-
   .lg\:mt-800 {
     margin-top: var(--gcds-spacing-800);
   }
-
   .lg\:mt-900 {
     margin-top: var(--gcds-spacing-900);
   }
-
   .lg\:mt-1000 {
     margin-top: var(--gcds-spacing-1000);
   }
-
   .lg\:mt-auto {
     margin-top: auto;
   }
@@ -8048,51 +6909,39 @@ table {
   .xl\:mt-0 {
     margin-top: 0;
   }
-
   .xl\:mt-50 {
     margin-top: var(--gcds-spacing-50);
   }
-
   .xl\:mt-100 {
     margin-top: var(--gcds-spacing-100);
   }
-
   .xl\:mt-200 {
     margin-top: var(--gcds-spacing-200);
   }
-
   .xl\:mt-300 {
     margin-top: var(--gcds-spacing-300);
   }
-
   .xl\:mt-400 {
     margin-top: var(--gcds-spacing-400);
   }
-
   .xl\:mt-500 {
     margin-top: var(--gcds-spacing-500);
   }
-
   .xl\:mt-600 {
     margin-top: var(--gcds-spacing-600);
   }
-
   .xl\:mt-700 {
     margin-top: var(--gcds-spacing-700);
   }
-
   .xl\:mt-800 {
     margin-top: var(--gcds-spacing-800);
   }
-
   .xl\:mt-900 {
     margin-top: var(--gcds-spacing-900);
   }
-
   .xl\:mt-1000 {
     margin-top: var(--gcds-spacing-1000);
   }
-
   .xl\:mt-auto {
     margin-top: auto;
   }
@@ -8153,51 +7002,39 @@ table {
   .xs\:mr-0 {
     margin-right: 0;
   }
-
   .xs\:mr-50 {
     margin-right: var(--gcds-spacing-50);
   }
-
   .xs\:mr-100 {
     margin-right: var(--gcds-spacing-100);
   }
-
   .xs\:mr-200 {
     margin-right: var(--gcds-spacing-200);
   }
-
   .xs\:mr-300 {
     margin-right: var(--gcds-spacing-300);
   }
-
   .xs\:mr-400 {
     margin-right: var(--gcds-spacing-400);
   }
-
   .xs\:mr-500 {
     margin-right: var(--gcds-spacing-500);
   }
-
   .xs\:mr-600 {
     margin-right: var(--gcds-spacing-600);
   }
-
   .xs\:mr-700 {
     margin-right: var(--gcds-spacing-700);
   }
-
   .xs\:mr-800 {
     margin-right: var(--gcds-spacing-800);
   }
-
   .xs\:mr-900 {
     margin-right: var(--gcds-spacing-900);
   }
-
   .xs\:mr-1000 {
     margin-right: var(--gcds-spacing-1000);
   }
-
   .xs\:mr-auto {
     margin-right: auto;
   }
@@ -8206,51 +7043,39 @@ table {
   .sm\:mr-0 {
     margin-right: 0;
   }
-
   .sm\:mr-50 {
     margin-right: var(--gcds-spacing-50);
   }
-
   .sm\:mr-100 {
     margin-right: var(--gcds-spacing-100);
   }
-
   .sm\:mr-200 {
     margin-right: var(--gcds-spacing-200);
   }
-
   .sm\:mr-300 {
     margin-right: var(--gcds-spacing-300);
   }
-
   .sm\:mr-400 {
     margin-right: var(--gcds-spacing-400);
   }
-
   .sm\:mr-500 {
     margin-right: var(--gcds-spacing-500);
   }
-
   .sm\:mr-600 {
     margin-right: var(--gcds-spacing-600);
   }
-
   .sm\:mr-700 {
     margin-right: var(--gcds-spacing-700);
   }
-
   .sm\:mr-800 {
     margin-right: var(--gcds-spacing-800);
   }
-
   .sm\:mr-900 {
     margin-right: var(--gcds-spacing-900);
   }
-
   .sm\:mr-1000 {
     margin-right: var(--gcds-spacing-1000);
   }
-
   .sm\:mr-auto {
     margin-right: auto;
   }
@@ -8259,51 +7084,39 @@ table {
   .md\:mr-0 {
     margin-right: 0;
   }
-
   .md\:mr-50 {
     margin-right: var(--gcds-spacing-50);
   }
-
   .md\:mr-100 {
     margin-right: var(--gcds-spacing-100);
   }
-
   .md\:mr-200 {
     margin-right: var(--gcds-spacing-200);
   }
-
   .md\:mr-300 {
     margin-right: var(--gcds-spacing-300);
   }
-
   .md\:mr-400 {
     margin-right: var(--gcds-spacing-400);
   }
-
   .md\:mr-500 {
     margin-right: var(--gcds-spacing-500);
   }
-
   .md\:mr-600 {
     margin-right: var(--gcds-spacing-600);
   }
-
   .md\:mr-700 {
     margin-right: var(--gcds-spacing-700);
   }
-
   .md\:mr-800 {
     margin-right: var(--gcds-spacing-800);
   }
-
   .md\:mr-900 {
     margin-right: var(--gcds-spacing-900);
   }
-
   .md\:mr-1000 {
     margin-right: var(--gcds-spacing-1000);
   }
-
   .md\:mr-auto {
     margin-right: auto;
   }
@@ -8312,51 +7125,39 @@ table {
   .lg\:mr-0 {
     margin-right: 0;
   }
-
   .lg\:mr-50 {
     margin-right: var(--gcds-spacing-50);
   }
-
   .lg\:mr-100 {
     margin-right: var(--gcds-spacing-100);
   }
-
   .lg\:mr-200 {
     margin-right: var(--gcds-spacing-200);
   }
-
   .lg\:mr-300 {
     margin-right: var(--gcds-spacing-300);
   }
-
   .lg\:mr-400 {
     margin-right: var(--gcds-spacing-400);
   }
-
   .lg\:mr-500 {
     margin-right: var(--gcds-spacing-500);
   }
-
   .lg\:mr-600 {
     margin-right: var(--gcds-spacing-600);
   }
-
   .lg\:mr-700 {
     margin-right: var(--gcds-spacing-700);
   }
-
   .lg\:mr-800 {
     margin-right: var(--gcds-spacing-800);
   }
-
   .lg\:mr-900 {
     margin-right: var(--gcds-spacing-900);
   }
-
   .lg\:mr-1000 {
     margin-right: var(--gcds-spacing-1000);
   }
-
   .lg\:mr-auto {
     margin-right: auto;
   }
@@ -8365,51 +7166,39 @@ table {
   .xl\:mr-0 {
     margin-right: 0;
   }
-
   .xl\:mr-50 {
     margin-right: var(--gcds-spacing-50);
   }
-
   .xl\:mr-100 {
     margin-right: var(--gcds-spacing-100);
   }
-
   .xl\:mr-200 {
     margin-right: var(--gcds-spacing-200);
   }
-
   .xl\:mr-300 {
     margin-right: var(--gcds-spacing-300);
   }
-
   .xl\:mr-400 {
     margin-right: var(--gcds-spacing-400);
   }
-
   .xl\:mr-500 {
     margin-right: var(--gcds-spacing-500);
   }
-
   .xl\:mr-600 {
     margin-right: var(--gcds-spacing-600);
   }
-
   .xl\:mr-700 {
     margin-right: var(--gcds-spacing-700);
   }
-
   .xl\:mr-800 {
     margin-right: var(--gcds-spacing-800);
   }
-
   .xl\:mr-900 {
     margin-right: var(--gcds-spacing-900);
   }
-
   .xl\:mr-1000 {
     margin-right: var(--gcds-spacing-1000);
   }
-
   .xl\:mr-auto {
     margin-right: auto;
   }
@@ -8470,51 +7259,39 @@ table {
   .xs\:mb-0 {
     margin-bottom: 0;
   }
-
   .xs\:mb-50 {
     margin-bottom: var(--gcds-spacing-50);
   }
-
   .xs\:mb-100 {
     margin-bottom: var(--gcds-spacing-100);
   }
-
   .xs\:mb-200 {
     margin-bottom: var(--gcds-spacing-200);
   }
-
   .xs\:mb-300 {
     margin-bottom: var(--gcds-spacing-300);
   }
-
   .xs\:mb-400 {
     margin-bottom: var(--gcds-spacing-400);
   }
-
   .xs\:mb-500 {
     margin-bottom: var(--gcds-spacing-500);
   }
-
   .xs\:mb-600 {
     margin-bottom: var(--gcds-spacing-600);
   }
-
   .xs\:mb-700 {
     margin-bottom: var(--gcds-spacing-700);
   }
-
   .xs\:mb-800 {
     margin-bottom: var(--gcds-spacing-800);
   }
-
   .xs\:mb-900 {
     margin-bottom: var(--gcds-spacing-900);
   }
-
   .xs\:mb-1000 {
     margin-bottom: var(--gcds-spacing-1000);
   }
-
   .xs\:mb-auto {
     margin-bottom: auto;
   }
@@ -8523,51 +7300,39 @@ table {
   .sm\:mb-0 {
     margin-bottom: 0;
   }
-
   .sm\:mb-50 {
     margin-bottom: var(--gcds-spacing-50);
   }
-
   .sm\:mb-100 {
     margin-bottom: var(--gcds-spacing-100);
   }
-
   .sm\:mb-200 {
     margin-bottom: var(--gcds-spacing-200);
   }
-
   .sm\:mb-300 {
     margin-bottom: var(--gcds-spacing-300);
   }
-
   .sm\:mb-400 {
     margin-bottom: var(--gcds-spacing-400);
   }
-
   .sm\:mb-500 {
     margin-bottom: var(--gcds-spacing-500);
   }
-
   .sm\:mb-600 {
     margin-bottom: var(--gcds-spacing-600);
   }
-
   .sm\:mb-700 {
     margin-bottom: var(--gcds-spacing-700);
   }
-
   .sm\:mb-800 {
     margin-bottom: var(--gcds-spacing-800);
   }
-
   .sm\:mb-900 {
     margin-bottom: var(--gcds-spacing-900);
   }
-
   .sm\:mb-1000 {
     margin-bottom: var(--gcds-spacing-1000);
   }
-
   .sm\:mb-auto {
     margin-bottom: auto;
   }
@@ -8576,51 +7341,39 @@ table {
   .md\:mb-0 {
     margin-bottom: 0;
   }
-
   .md\:mb-50 {
     margin-bottom: var(--gcds-spacing-50);
   }
-
   .md\:mb-100 {
     margin-bottom: var(--gcds-spacing-100);
   }
-
   .md\:mb-200 {
     margin-bottom: var(--gcds-spacing-200);
   }
-
   .md\:mb-300 {
     margin-bottom: var(--gcds-spacing-300);
   }
-
   .md\:mb-400 {
     margin-bottom: var(--gcds-spacing-400);
   }
-
   .md\:mb-500 {
     margin-bottom: var(--gcds-spacing-500);
   }
-
   .md\:mb-600 {
     margin-bottom: var(--gcds-spacing-600);
   }
-
   .md\:mb-700 {
     margin-bottom: var(--gcds-spacing-700);
   }
-
   .md\:mb-800 {
     margin-bottom: var(--gcds-spacing-800);
   }
-
   .md\:mb-900 {
     margin-bottom: var(--gcds-spacing-900);
   }
-
   .md\:mb-1000 {
     margin-bottom: var(--gcds-spacing-1000);
   }
-
   .md\:mb-auto {
     margin-bottom: auto;
   }
@@ -8629,51 +7382,39 @@ table {
   .lg\:mb-0 {
     margin-bottom: 0;
   }
-
   .lg\:mb-50 {
     margin-bottom: var(--gcds-spacing-50);
   }
-
   .lg\:mb-100 {
     margin-bottom: var(--gcds-spacing-100);
   }
-
   .lg\:mb-200 {
     margin-bottom: var(--gcds-spacing-200);
   }
-
   .lg\:mb-300 {
     margin-bottom: var(--gcds-spacing-300);
   }
-
   .lg\:mb-400 {
     margin-bottom: var(--gcds-spacing-400);
   }
-
   .lg\:mb-500 {
     margin-bottom: var(--gcds-spacing-500);
   }
-
   .lg\:mb-600 {
     margin-bottom: var(--gcds-spacing-600);
   }
-
   .lg\:mb-700 {
     margin-bottom: var(--gcds-spacing-700);
   }
-
   .lg\:mb-800 {
     margin-bottom: var(--gcds-spacing-800);
   }
-
   .lg\:mb-900 {
     margin-bottom: var(--gcds-spacing-900);
   }
-
   .lg\:mb-1000 {
     margin-bottom: var(--gcds-spacing-1000);
   }
-
   .lg\:mb-auto {
     margin-bottom: auto;
   }
@@ -8682,51 +7423,39 @@ table {
   .xl\:mb-0 {
     margin-bottom: 0;
   }
-
   .xl\:mb-50 {
     margin-bottom: var(--gcds-spacing-50);
   }
-
   .xl\:mb-100 {
     margin-bottom: var(--gcds-spacing-100);
   }
-
   .xl\:mb-200 {
     margin-bottom: var(--gcds-spacing-200);
   }
-
   .xl\:mb-300 {
     margin-bottom: var(--gcds-spacing-300);
   }
-
   .xl\:mb-400 {
     margin-bottom: var(--gcds-spacing-400);
   }
-
   .xl\:mb-500 {
     margin-bottom: var(--gcds-spacing-500);
   }
-
   .xl\:mb-600 {
     margin-bottom: var(--gcds-spacing-600);
   }
-
   .xl\:mb-700 {
     margin-bottom: var(--gcds-spacing-700);
   }
-
   .xl\:mb-800 {
     margin-bottom: var(--gcds-spacing-800);
   }
-
   .xl\:mb-900 {
     margin-bottom: var(--gcds-spacing-900);
   }
-
   .xl\:mb-1000 {
     margin-bottom: var(--gcds-spacing-1000);
   }
-
   .xl\:mb-auto {
     margin-bottom: auto;
   }
@@ -8787,51 +7516,39 @@ table {
   .xs\:ml-0 {
     margin-left: 0;
   }
-
   .xs\:ml-50 {
     margin-left: var(--gcds-spacing-50);
   }
-
   .xs\:ml-100 {
     margin-left: var(--gcds-spacing-100);
   }
-
   .xs\:ml-200 {
     margin-left: var(--gcds-spacing-200);
   }
-
   .xs\:ml-300 {
     margin-left: var(--gcds-spacing-300);
   }
-
   .xs\:ml-400 {
     margin-left: var(--gcds-spacing-400);
   }
-
   .xs\:ml-500 {
     margin-left: var(--gcds-spacing-500);
   }
-
   .xs\:ml-600 {
     margin-left: var(--gcds-spacing-600);
   }
-
   .xs\:ml-700 {
     margin-left: var(--gcds-spacing-700);
   }
-
   .xs\:ml-800 {
     margin-left: var(--gcds-spacing-800);
   }
-
   .xs\:ml-900 {
     margin-left: var(--gcds-spacing-900);
   }
-
   .xs\:ml-1000 {
     margin-left: var(--gcds-spacing-1000);
   }
-
   .xs\:ml-auto {
     margin-left: auto;
   }
@@ -8840,51 +7557,39 @@ table {
   .sm\:ml-0 {
     margin-left: 0;
   }
-
   .sm\:ml-50 {
     margin-left: var(--gcds-spacing-50);
   }
-
   .sm\:ml-100 {
     margin-left: var(--gcds-spacing-100);
   }
-
   .sm\:ml-200 {
     margin-left: var(--gcds-spacing-200);
   }
-
   .sm\:ml-300 {
     margin-left: var(--gcds-spacing-300);
   }
-
   .sm\:ml-400 {
     margin-left: var(--gcds-spacing-400);
   }
-
   .sm\:ml-500 {
     margin-left: var(--gcds-spacing-500);
   }
-
   .sm\:ml-600 {
     margin-left: var(--gcds-spacing-600);
   }
-
   .sm\:ml-700 {
     margin-left: var(--gcds-spacing-700);
   }
-
   .sm\:ml-800 {
     margin-left: var(--gcds-spacing-800);
   }
-
   .sm\:ml-900 {
     margin-left: var(--gcds-spacing-900);
   }
-
   .sm\:ml-1000 {
     margin-left: var(--gcds-spacing-1000);
   }
-
   .sm\:ml-auto {
     margin-left: auto;
   }
@@ -8893,51 +7598,39 @@ table {
   .md\:ml-0 {
     margin-left: 0;
   }
-
   .md\:ml-50 {
     margin-left: var(--gcds-spacing-50);
   }
-
   .md\:ml-100 {
     margin-left: var(--gcds-spacing-100);
   }
-
   .md\:ml-200 {
     margin-left: var(--gcds-spacing-200);
   }
-
   .md\:ml-300 {
     margin-left: var(--gcds-spacing-300);
   }
-
   .md\:ml-400 {
     margin-left: var(--gcds-spacing-400);
   }
-
   .md\:ml-500 {
     margin-left: var(--gcds-spacing-500);
   }
-
   .md\:ml-600 {
     margin-left: var(--gcds-spacing-600);
   }
-
   .md\:ml-700 {
     margin-left: var(--gcds-spacing-700);
   }
-
   .md\:ml-800 {
     margin-left: var(--gcds-spacing-800);
   }
-
   .md\:ml-900 {
     margin-left: var(--gcds-spacing-900);
   }
-
   .md\:ml-1000 {
     margin-left: var(--gcds-spacing-1000);
   }
-
   .md\:ml-auto {
     margin-left: auto;
   }
@@ -8946,51 +7639,39 @@ table {
   .lg\:ml-0 {
     margin-left: 0;
   }
-
   .lg\:ml-50 {
     margin-left: var(--gcds-spacing-50);
   }
-
   .lg\:ml-100 {
     margin-left: var(--gcds-spacing-100);
   }
-
   .lg\:ml-200 {
     margin-left: var(--gcds-spacing-200);
   }
-
   .lg\:ml-300 {
     margin-left: var(--gcds-spacing-300);
   }
-
   .lg\:ml-400 {
     margin-left: var(--gcds-spacing-400);
   }
-
   .lg\:ml-500 {
     margin-left: var(--gcds-spacing-500);
   }
-
   .lg\:ml-600 {
     margin-left: var(--gcds-spacing-600);
   }
-
   .lg\:ml-700 {
     margin-left: var(--gcds-spacing-700);
   }
-
   .lg\:ml-800 {
     margin-left: var(--gcds-spacing-800);
   }
-
   .lg\:ml-900 {
     margin-left: var(--gcds-spacing-900);
   }
-
   .lg\:ml-1000 {
     margin-left: var(--gcds-spacing-1000);
   }
-
   .lg\:ml-auto {
     margin-left: auto;
   }
@@ -8999,51 +7680,39 @@ table {
   .xl\:ml-0 {
     margin-left: 0;
   }
-
   .xl\:ml-50 {
     margin-left: var(--gcds-spacing-50);
   }
-
   .xl\:ml-100 {
     margin-left: var(--gcds-spacing-100);
   }
-
   .xl\:ml-200 {
     margin-left: var(--gcds-spacing-200);
   }
-
   .xl\:ml-300 {
     margin-left: var(--gcds-spacing-300);
   }
-
   .xl\:ml-400 {
     margin-left: var(--gcds-spacing-400);
   }
-
   .xl\:ml-500 {
     margin-left: var(--gcds-spacing-500);
   }
-
   .xl\:ml-600 {
     margin-left: var(--gcds-spacing-600);
   }
-
   .xl\:ml-700 {
     margin-left: var(--gcds-spacing-700);
   }
-
   .xl\:ml-800 {
     margin-left: var(--gcds-spacing-800);
   }
-
   .xl\:ml-900 {
     margin-left: var(--gcds-spacing-900);
   }
-
   .xl\:ml-1000 {
     margin-left: var(--gcds-spacing-1000);
   }
-
   .xl\:ml-auto {
     margin-left: auto;
   }
@@ -9104,51 +7773,39 @@ table {
   .xs\:mx-0 {
     margin-inline: 0;
   }
-
   .xs\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
   }
-
   .xs\:mx-100 {
     margin-inline: var(--gcds-spacing-100);
   }
-
   .xs\:mx-200 {
     margin-inline: var(--gcds-spacing-200);
   }
-
   .xs\:mx-300 {
     margin-inline: var(--gcds-spacing-300);
   }
-
   .xs\:mx-400 {
     margin-inline: var(--gcds-spacing-400);
   }
-
   .xs\:mx-500 {
     margin-inline: var(--gcds-spacing-500);
   }
-
   .xs\:mx-600 {
     margin-inline: var(--gcds-spacing-600);
   }
-
   .xs\:mx-700 {
     margin-inline: var(--gcds-spacing-700);
   }
-
   .xs\:mx-800 {
     margin-inline: var(--gcds-spacing-800);
   }
-
   .xs\:mx-900 {
     margin-inline: var(--gcds-spacing-900);
   }
-
   .xs\:mx-1000 {
     margin-inline: var(--gcds-spacing-1000);
   }
-
   .xs\:mx-auto {
     margin-inline: auto;
   }
@@ -9157,51 +7814,39 @@ table {
   .sm\:mx-0 {
     margin-inline: 0;
   }
-
   .sm\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
   }
-
   .sm\:mx-100 {
     margin-inline: var(--gcds-spacing-100);
   }
-
   .sm\:mx-200 {
     margin-inline: var(--gcds-spacing-200);
   }
-
   .sm\:mx-300 {
     margin-inline: var(--gcds-spacing-300);
   }
-
   .sm\:mx-400 {
     margin-inline: var(--gcds-spacing-400);
   }
-
   .sm\:mx-500 {
     margin-inline: var(--gcds-spacing-500);
   }
-
   .sm\:mx-600 {
     margin-inline: var(--gcds-spacing-600);
   }
-
   .sm\:mx-700 {
     margin-inline: var(--gcds-spacing-700);
   }
-
   .sm\:mx-800 {
     margin-inline: var(--gcds-spacing-800);
   }
-
   .sm\:mx-900 {
     margin-inline: var(--gcds-spacing-900);
   }
-
   .sm\:mx-1000 {
     margin-inline: var(--gcds-spacing-1000);
   }
-
   .sm\:mx-auto {
     margin-inline: auto;
   }
@@ -9210,51 +7855,39 @@ table {
   .md\:mx-0 {
     margin-inline: 0;
   }
-
   .md\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
   }
-
   .md\:mx-100 {
     margin-inline: var(--gcds-spacing-100);
   }
-
   .md\:mx-200 {
     margin-inline: var(--gcds-spacing-200);
   }
-
   .md\:mx-300 {
     margin-inline: var(--gcds-spacing-300);
   }
-
   .md\:mx-400 {
     margin-inline: var(--gcds-spacing-400);
   }
-
   .md\:mx-500 {
     margin-inline: var(--gcds-spacing-500);
   }
-
   .md\:mx-600 {
     margin-inline: var(--gcds-spacing-600);
   }
-
   .md\:mx-700 {
     margin-inline: var(--gcds-spacing-700);
   }
-
   .md\:mx-800 {
     margin-inline: var(--gcds-spacing-800);
   }
-
   .md\:mx-900 {
     margin-inline: var(--gcds-spacing-900);
   }
-
   .md\:mx-1000 {
     margin-inline: var(--gcds-spacing-1000);
   }
-
   .md\:mx-auto {
     margin-inline: auto;
   }
@@ -9263,51 +7896,39 @@ table {
   .lg\:mx-0 {
     margin-inline: 0;
   }
-
   .lg\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
   }
-
   .lg\:mx-100 {
     margin-inline: var(--gcds-spacing-100);
   }
-
   .lg\:mx-200 {
     margin-inline: var(--gcds-spacing-200);
   }
-
   .lg\:mx-300 {
     margin-inline: var(--gcds-spacing-300);
   }
-
   .lg\:mx-400 {
     margin-inline: var(--gcds-spacing-400);
   }
-
   .lg\:mx-500 {
     margin-inline: var(--gcds-spacing-500);
   }
-
   .lg\:mx-600 {
     margin-inline: var(--gcds-spacing-600);
   }
-
   .lg\:mx-700 {
     margin-inline: var(--gcds-spacing-700);
   }
-
   .lg\:mx-800 {
     margin-inline: var(--gcds-spacing-800);
   }
-
   .lg\:mx-900 {
     margin-inline: var(--gcds-spacing-900);
   }
-
   .lg\:mx-1000 {
     margin-inline: var(--gcds-spacing-1000);
   }
-
   .lg\:mx-auto {
     margin-inline: auto;
   }
@@ -9316,51 +7937,39 @@ table {
   .xl\:mx-0 {
     margin-inline: 0;
   }
-
   .xl\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
   }
-
   .xl\:mx-100 {
     margin-inline: var(--gcds-spacing-100);
   }
-
   .xl\:mx-200 {
     margin-inline: var(--gcds-spacing-200);
   }
-
   .xl\:mx-300 {
     margin-inline: var(--gcds-spacing-300);
   }
-
   .xl\:mx-400 {
     margin-inline: var(--gcds-spacing-400);
   }
-
   .xl\:mx-500 {
     margin-inline: var(--gcds-spacing-500);
   }
-
   .xl\:mx-600 {
     margin-inline: var(--gcds-spacing-600);
   }
-
   .xl\:mx-700 {
     margin-inline: var(--gcds-spacing-700);
   }
-
   .xl\:mx-800 {
     margin-inline: var(--gcds-spacing-800);
   }
-
   .xl\:mx-900 {
     margin-inline: var(--gcds-spacing-900);
   }
-
   .xl\:mx-1000 {
     margin-inline: var(--gcds-spacing-1000);
   }
-
   .xl\:mx-auto {
     margin-inline: auto;
   }
@@ -9421,51 +8030,39 @@ table {
   .xs\:my-0 {
     margin-block: 0;
   }
-
   .xs\:my-50 {
     margin-block: var(--gcds-spacing-50);
   }
-
   .xs\:my-100 {
     margin-block: var(--gcds-spacing-100);
   }
-
   .xs\:my-200 {
     margin-block: var(--gcds-spacing-200);
   }
-
   .xs\:my-300 {
     margin-block: var(--gcds-spacing-300);
   }
-
   .xs\:my-400 {
     margin-block: var(--gcds-spacing-400);
   }
-
   .xs\:my-500 {
     margin-block: var(--gcds-spacing-500);
   }
-
   .xs\:my-600 {
     margin-block: var(--gcds-spacing-600);
   }
-
   .xs\:my-700 {
     margin-block: var(--gcds-spacing-700);
   }
-
   .xs\:my-800 {
     margin-block: var(--gcds-spacing-800);
   }
-
   .xs\:my-900 {
     margin-block: var(--gcds-spacing-900);
   }
-
   .xs\:my-1000 {
     margin-block: var(--gcds-spacing-1000);
   }
-
   .xs\:my-auto {
     margin-block: auto;
   }
@@ -9474,51 +8071,39 @@ table {
   .sm\:my-0 {
     margin-block: 0;
   }
-
   .sm\:my-50 {
     margin-block: var(--gcds-spacing-50);
   }
-
   .sm\:my-100 {
     margin-block: var(--gcds-spacing-100);
   }
-
   .sm\:my-200 {
     margin-block: var(--gcds-spacing-200);
   }
-
   .sm\:my-300 {
     margin-block: var(--gcds-spacing-300);
   }
-
   .sm\:my-400 {
     margin-block: var(--gcds-spacing-400);
   }
-
   .sm\:my-500 {
     margin-block: var(--gcds-spacing-500);
   }
-
   .sm\:my-600 {
     margin-block: var(--gcds-spacing-600);
   }
-
   .sm\:my-700 {
     margin-block: var(--gcds-spacing-700);
   }
-
   .sm\:my-800 {
     margin-block: var(--gcds-spacing-800);
   }
-
   .sm\:my-900 {
     margin-block: var(--gcds-spacing-900);
   }
-
   .sm\:my-1000 {
     margin-block: var(--gcds-spacing-1000);
   }
-
   .sm\:my-auto {
     margin-block: auto;
   }
@@ -9527,51 +8112,39 @@ table {
   .md\:my-0 {
     margin-block: 0;
   }
-
   .md\:my-50 {
     margin-block: var(--gcds-spacing-50);
   }
-
   .md\:my-100 {
     margin-block: var(--gcds-spacing-100);
   }
-
   .md\:my-200 {
     margin-block: var(--gcds-spacing-200);
   }
-
   .md\:my-300 {
     margin-block: var(--gcds-spacing-300);
   }
-
   .md\:my-400 {
     margin-block: var(--gcds-spacing-400);
   }
-
   .md\:my-500 {
     margin-block: var(--gcds-spacing-500);
   }
-
   .md\:my-600 {
     margin-block: var(--gcds-spacing-600);
   }
-
   .md\:my-700 {
     margin-block: var(--gcds-spacing-700);
   }
-
   .md\:my-800 {
     margin-block: var(--gcds-spacing-800);
   }
-
   .md\:my-900 {
     margin-block: var(--gcds-spacing-900);
   }
-
   .md\:my-1000 {
     margin-block: var(--gcds-spacing-1000);
   }
-
   .md\:my-auto {
     margin-block: auto;
   }
@@ -9580,51 +8153,39 @@ table {
   .lg\:my-0 {
     margin-block: 0;
   }
-
   .lg\:my-50 {
     margin-block: var(--gcds-spacing-50);
   }
-
   .lg\:my-100 {
     margin-block: var(--gcds-spacing-100);
   }
-
   .lg\:my-200 {
     margin-block: var(--gcds-spacing-200);
   }
-
   .lg\:my-300 {
     margin-block: var(--gcds-spacing-300);
   }
-
   .lg\:my-400 {
     margin-block: var(--gcds-spacing-400);
   }
-
   .lg\:my-500 {
     margin-block: var(--gcds-spacing-500);
   }
-
   .lg\:my-600 {
     margin-block: var(--gcds-spacing-600);
   }
-
   .lg\:my-700 {
     margin-block: var(--gcds-spacing-700);
   }
-
   .lg\:my-800 {
     margin-block: var(--gcds-spacing-800);
   }
-
   .lg\:my-900 {
     margin-block: var(--gcds-spacing-900);
   }
-
   .lg\:my-1000 {
     margin-block: var(--gcds-spacing-1000);
   }
-
   .lg\:my-auto {
     margin-block: auto;
   }
@@ -9633,51 +8194,39 @@ table {
   .xl\:my-0 {
     margin-block: 0;
   }
-
   .xl\:my-50 {
     margin-block: var(--gcds-spacing-50);
   }
-
   .xl\:my-100 {
     margin-block: var(--gcds-spacing-100);
   }
-
   .xl\:my-200 {
     margin-block: var(--gcds-spacing-200);
   }
-
   .xl\:my-300 {
     margin-block: var(--gcds-spacing-300);
   }
-
   .xl\:my-400 {
     margin-block: var(--gcds-spacing-400);
   }
-
   .xl\:my-500 {
     margin-block: var(--gcds-spacing-500);
   }
-
   .xl\:my-600 {
     margin-block: var(--gcds-spacing-600);
   }
-
   .xl\:my-700 {
     margin-block: var(--gcds-spacing-700);
   }
-
   .xl\:my-800 {
     margin-block: var(--gcds-spacing-800);
   }
-
   .xl\:my-900 {
     margin-block: var(--gcds-spacing-900);
   }
-
   .xl\:my-1000 {
     margin-block: var(--gcds-spacing-1000);
   }
-
   .xl\:my-auto {
     margin-block: auto;
   }
@@ -9735,47 +8284,36 @@ table {
   .xs\:p-0 {
     padding: 0;
   }
-
   .xs\:p-50 {
     padding: var(--gcds-spacing-50);
   }
-
   .xs\:p-100 {
     padding: var(--gcds-spacing-100);
   }
-
   .xs\:p-200 {
     padding: var(--gcds-spacing-200);
   }
-
   .xs\:p-300 {
     padding: var(--gcds-spacing-300);
   }
-
   .xs\:p-400 {
     padding: var(--gcds-spacing-400);
   }
-
   .xs\:p-500 {
     padding: var(--gcds-spacing-500);
   }
-
   .xs\:p-600 {
     padding: var(--gcds-spacing-600);
   }
-
   .xs\:p-700 {
     padding: var(--gcds-spacing-700);
   }
-
   .xs\:p-800 {
     padding: var(--gcds-spacing-800);
   }
-
   .xs\:p-900 {
     padding: var(--gcds-spacing-900);
   }
-
   .xs\:p-1000 {
     padding: var(--gcds-spacing-1000);
   }
@@ -9784,47 +8322,36 @@ table {
   .sm\:p-0 {
     padding: 0;
   }
-
   .sm\:p-50 {
     padding: var(--gcds-spacing-50);
   }
-
   .sm\:p-100 {
     padding: var(--gcds-spacing-100);
   }
-
   .sm\:p-200 {
     padding: var(--gcds-spacing-200);
   }
-
   .sm\:p-300 {
     padding: var(--gcds-spacing-300);
   }
-
   .sm\:p-400 {
     padding: var(--gcds-spacing-400);
   }
-
   .sm\:p-500 {
     padding: var(--gcds-spacing-500);
   }
-
   .sm\:p-600 {
     padding: var(--gcds-spacing-600);
   }
-
   .sm\:p-700 {
     padding: var(--gcds-spacing-700);
   }
-
   .sm\:p-800 {
     padding: var(--gcds-spacing-800);
   }
-
   .sm\:p-900 {
     padding: var(--gcds-spacing-900);
   }
-
   .sm\:p-1000 {
     padding: var(--gcds-spacing-1000);
   }
@@ -9833,47 +8360,36 @@ table {
   .md\:p-0 {
     padding: 0;
   }
-
   .md\:p-50 {
     padding: var(--gcds-spacing-50);
   }
-
   .md\:p-100 {
     padding: var(--gcds-spacing-100);
   }
-
   .md\:p-200 {
     padding: var(--gcds-spacing-200);
   }
-
   .md\:p-300 {
     padding: var(--gcds-spacing-300);
   }
-
   .md\:p-400 {
     padding: var(--gcds-spacing-400);
   }
-
   .md\:p-500 {
     padding: var(--gcds-spacing-500);
   }
-
   .md\:p-600 {
     padding: var(--gcds-spacing-600);
   }
-
   .md\:p-700 {
     padding: var(--gcds-spacing-700);
   }
-
   .md\:p-800 {
     padding: var(--gcds-spacing-800);
   }
-
   .md\:p-900 {
     padding: var(--gcds-spacing-900);
   }
-
   .md\:p-1000 {
     padding: var(--gcds-spacing-1000);
   }
@@ -9882,47 +8398,36 @@ table {
   .lg\:p-0 {
     padding: 0;
   }
-
   .lg\:p-50 {
     padding: var(--gcds-spacing-50);
   }
-
   .lg\:p-100 {
     padding: var(--gcds-spacing-100);
   }
-
   .lg\:p-200 {
     padding: var(--gcds-spacing-200);
   }
-
   .lg\:p-300 {
     padding: var(--gcds-spacing-300);
   }
-
   .lg\:p-400 {
     padding: var(--gcds-spacing-400);
   }
-
   .lg\:p-500 {
     padding: var(--gcds-spacing-500);
   }
-
   .lg\:p-600 {
     padding: var(--gcds-spacing-600);
   }
-
   .lg\:p-700 {
     padding: var(--gcds-spacing-700);
   }
-
   .lg\:p-800 {
     padding: var(--gcds-spacing-800);
   }
-
   .lg\:p-900 {
     padding: var(--gcds-spacing-900);
   }
-
   .lg\:p-1000 {
     padding: var(--gcds-spacing-1000);
   }
@@ -9931,47 +8436,36 @@ table {
   .xl\:p-0 {
     padding: 0;
   }
-
   .xl\:p-50 {
     padding: var(--gcds-spacing-50);
   }
-
   .xl\:p-100 {
     padding: var(--gcds-spacing-100);
   }
-
   .xl\:p-200 {
     padding: var(--gcds-spacing-200);
   }
-
   .xl\:p-300 {
     padding: var(--gcds-spacing-300);
   }
-
   .xl\:p-400 {
     padding: var(--gcds-spacing-400);
   }
-
   .xl\:p-500 {
     padding: var(--gcds-spacing-500);
   }
-
   .xl\:p-600 {
     padding: var(--gcds-spacing-600);
   }
-
   .xl\:p-700 {
     padding: var(--gcds-spacing-700);
   }
-
   .xl\:p-800 {
     padding: var(--gcds-spacing-800);
   }
-
   .xl\:p-900 {
     padding: var(--gcds-spacing-900);
   }
-
   .xl\:p-1000 {
     padding: var(--gcds-spacing-1000);
   }
@@ -10028,47 +8522,36 @@ table {
   .xs\:pt-0 {
     padding-top: 0;
   }
-
   .xs\:pt-50 {
     padding-top: var(--gcds-spacing-50);
   }
-
   .xs\:pt-100 {
     padding-top: var(--gcds-spacing-100);
   }
-
   .xs\:pt-200 {
     padding-top: var(--gcds-spacing-200);
   }
-
   .xs\:pt-300 {
     padding-top: var(--gcds-spacing-300);
   }
-
   .xs\:pt-400 {
     padding-top: var(--gcds-spacing-400);
   }
-
   .xs\:pt-500 {
     padding-top: var(--gcds-spacing-500);
   }
-
   .xs\:pt-600 {
     padding-top: var(--gcds-spacing-600);
   }
-
   .xs\:pt-700 {
     padding-top: var(--gcds-spacing-700);
   }
-
   .xs\:pt-800 {
     padding-top: var(--gcds-spacing-800);
   }
-
   .xs\:pt-900 {
     padding-top: var(--gcds-spacing-900);
   }
-
   .xs\:pt-1000 {
     padding-top: var(--gcds-spacing-1000);
   }
@@ -10077,47 +8560,36 @@ table {
   .sm\:pt-0 {
     padding-top: 0;
   }
-
   .sm\:pt-50 {
     padding-top: var(--gcds-spacing-50);
   }
-
   .sm\:pt-100 {
     padding-top: var(--gcds-spacing-100);
   }
-
   .sm\:pt-200 {
     padding-top: var(--gcds-spacing-200);
   }
-
   .sm\:pt-300 {
     padding-top: var(--gcds-spacing-300);
   }
-
   .sm\:pt-400 {
     padding-top: var(--gcds-spacing-400);
   }
-
   .sm\:pt-500 {
     padding-top: var(--gcds-spacing-500);
   }
-
   .sm\:pt-600 {
     padding-top: var(--gcds-spacing-600);
   }
-
   .sm\:pt-700 {
     padding-top: var(--gcds-spacing-700);
   }
-
   .sm\:pt-800 {
     padding-top: var(--gcds-spacing-800);
   }
-
   .sm\:pt-900 {
     padding-top: var(--gcds-spacing-900);
   }
-
   .sm\:pt-1000 {
     padding-top: var(--gcds-spacing-1000);
   }
@@ -10126,47 +8598,36 @@ table {
   .md\:pt-0 {
     padding-top: 0;
   }
-
   .md\:pt-50 {
     padding-top: var(--gcds-spacing-50);
   }
-
   .md\:pt-100 {
     padding-top: var(--gcds-spacing-100);
   }
-
   .md\:pt-200 {
     padding-top: var(--gcds-spacing-200);
   }
-
   .md\:pt-300 {
     padding-top: var(--gcds-spacing-300);
   }
-
   .md\:pt-400 {
     padding-top: var(--gcds-spacing-400);
   }
-
   .md\:pt-500 {
     padding-top: var(--gcds-spacing-500);
   }
-
   .md\:pt-600 {
     padding-top: var(--gcds-spacing-600);
   }
-
   .md\:pt-700 {
     padding-top: var(--gcds-spacing-700);
   }
-
   .md\:pt-800 {
     padding-top: var(--gcds-spacing-800);
   }
-
   .md\:pt-900 {
     padding-top: var(--gcds-spacing-900);
   }
-
   .md\:pt-1000 {
     padding-top: var(--gcds-spacing-1000);
   }
@@ -10175,47 +8636,36 @@ table {
   .lg\:pt-0 {
     padding-top: 0;
   }
-
   .lg\:pt-50 {
     padding-top: var(--gcds-spacing-50);
   }
-
   .lg\:pt-100 {
     padding-top: var(--gcds-spacing-100);
   }
-
   .lg\:pt-200 {
     padding-top: var(--gcds-spacing-200);
   }
-
   .lg\:pt-300 {
     padding-top: var(--gcds-spacing-300);
   }
-
   .lg\:pt-400 {
     padding-top: var(--gcds-spacing-400);
   }
-
   .lg\:pt-500 {
     padding-top: var(--gcds-spacing-500);
   }
-
   .lg\:pt-600 {
     padding-top: var(--gcds-spacing-600);
   }
-
   .lg\:pt-700 {
     padding-top: var(--gcds-spacing-700);
   }
-
   .lg\:pt-800 {
     padding-top: var(--gcds-spacing-800);
   }
-
   .lg\:pt-900 {
     padding-top: var(--gcds-spacing-900);
   }
-
   .lg\:pt-1000 {
     padding-top: var(--gcds-spacing-1000);
   }
@@ -10224,47 +8674,36 @@ table {
   .xl\:pt-0 {
     padding-top: 0;
   }
-
   .xl\:pt-50 {
     padding-top: var(--gcds-spacing-50);
   }
-
   .xl\:pt-100 {
     padding-top: var(--gcds-spacing-100);
   }
-
   .xl\:pt-200 {
     padding-top: var(--gcds-spacing-200);
   }
-
   .xl\:pt-300 {
     padding-top: var(--gcds-spacing-300);
   }
-
   .xl\:pt-400 {
     padding-top: var(--gcds-spacing-400);
   }
-
   .xl\:pt-500 {
     padding-top: var(--gcds-spacing-500);
   }
-
   .xl\:pt-600 {
     padding-top: var(--gcds-spacing-600);
   }
-
   .xl\:pt-700 {
     padding-top: var(--gcds-spacing-700);
   }
-
   .xl\:pt-800 {
     padding-top: var(--gcds-spacing-800);
   }
-
   .xl\:pt-900 {
     padding-top: var(--gcds-spacing-900);
   }
-
   .xl\:pt-1000 {
     padding-top: var(--gcds-spacing-1000);
   }
@@ -10321,47 +8760,36 @@ table {
   .xs\:pr-0 {
     padding-right: 0;
   }
-
   .xs\:pr-50 {
     padding-right: var(--gcds-spacing-50);
   }
-
   .xs\:pr-100 {
     padding-right: var(--gcds-spacing-100);
   }
-
   .xs\:pr-200 {
     padding-right: var(--gcds-spacing-200);
   }
-
   .xs\:pr-300 {
     padding-right: var(--gcds-spacing-300);
   }
-
   .xs\:pr-400 {
     padding-right: var(--gcds-spacing-400);
   }
-
   .xs\:pr-500 {
     padding-right: var(--gcds-spacing-500);
   }
-
   .xs\:pr-600 {
     padding-right: var(--gcds-spacing-600);
   }
-
   .xs\:pr-700 {
     padding-right: var(--gcds-spacing-700);
   }
-
   .xs\:pr-800 {
     padding-right: var(--gcds-spacing-800);
   }
-
   .xs\:pr-900 {
     padding-right: var(--gcds-spacing-900);
   }
-
   .xs\:pr-1000 {
     padding-right: var(--gcds-spacing-1000);
   }
@@ -10370,47 +8798,36 @@ table {
   .sm\:pr-0 {
     padding-right: 0;
   }
-
   .sm\:pr-50 {
     padding-right: var(--gcds-spacing-50);
   }
-
   .sm\:pr-100 {
     padding-right: var(--gcds-spacing-100);
   }
-
   .sm\:pr-200 {
     padding-right: var(--gcds-spacing-200);
   }
-
   .sm\:pr-300 {
     padding-right: var(--gcds-spacing-300);
   }
-
   .sm\:pr-400 {
     padding-right: var(--gcds-spacing-400);
   }
-
   .sm\:pr-500 {
     padding-right: var(--gcds-spacing-500);
   }
-
   .sm\:pr-600 {
     padding-right: var(--gcds-spacing-600);
   }
-
   .sm\:pr-700 {
     padding-right: var(--gcds-spacing-700);
   }
-
   .sm\:pr-800 {
     padding-right: var(--gcds-spacing-800);
   }
-
   .sm\:pr-900 {
     padding-right: var(--gcds-spacing-900);
   }
-
   .sm\:pr-1000 {
     padding-right: var(--gcds-spacing-1000);
   }
@@ -10419,47 +8836,36 @@ table {
   .md\:pr-0 {
     padding-right: 0;
   }
-
   .md\:pr-50 {
     padding-right: var(--gcds-spacing-50);
   }
-
   .md\:pr-100 {
     padding-right: var(--gcds-spacing-100);
   }
-
   .md\:pr-200 {
     padding-right: var(--gcds-spacing-200);
   }
-
   .md\:pr-300 {
     padding-right: var(--gcds-spacing-300);
   }
-
   .md\:pr-400 {
     padding-right: var(--gcds-spacing-400);
   }
-
   .md\:pr-500 {
     padding-right: var(--gcds-spacing-500);
   }
-
   .md\:pr-600 {
     padding-right: var(--gcds-spacing-600);
   }
-
   .md\:pr-700 {
     padding-right: var(--gcds-spacing-700);
   }
-
   .md\:pr-800 {
     padding-right: var(--gcds-spacing-800);
   }
-
   .md\:pr-900 {
     padding-right: var(--gcds-spacing-900);
   }
-
   .md\:pr-1000 {
     padding-right: var(--gcds-spacing-1000);
   }
@@ -10468,47 +8874,36 @@ table {
   .lg\:pr-0 {
     padding-right: 0;
   }
-
   .lg\:pr-50 {
     padding-right: var(--gcds-spacing-50);
   }
-
   .lg\:pr-100 {
     padding-right: var(--gcds-spacing-100);
   }
-
   .lg\:pr-200 {
     padding-right: var(--gcds-spacing-200);
   }
-
   .lg\:pr-300 {
     padding-right: var(--gcds-spacing-300);
   }
-
   .lg\:pr-400 {
     padding-right: var(--gcds-spacing-400);
   }
-
   .lg\:pr-500 {
     padding-right: var(--gcds-spacing-500);
   }
-
   .lg\:pr-600 {
     padding-right: var(--gcds-spacing-600);
   }
-
   .lg\:pr-700 {
     padding-right: var(--gcds-spacing-700);
   }
-
   .lg\:pr-800 {
     padding-right: var(--gcds-spacing-800);
   }
-
   .lg\:pr-900 {
     padding-right: var(--gcds-spacing-900);
   }
-
   .lg\:pr-1000 {
     padding-right: var(--gcds-spacing-1000);
   }
@@ -10517,47 +8912,36 @@ table {
   .xl\:pr-0 {
     padding-right: 0;
   }
-
   .xl\:pr-50 {
     padding-right: var(--gcds-spacing-50);
   }
-
   .xl\:pr-100 {
     padding-right: var(--gcds-spacing-100);
   }
-
   .xl\:pr-200 {
     padding-right: var(--gcds-spacing-200);
   }
-
   .xl\:pr-300 {
     padding-right: var(--gcds-spacing-300);
   }
-
   .xl\:pr-400 {
     padding-right: var(--gcds-spacing-400);
   }
-
   .xl\:pr-500 {
     padding-right: var(--gcds-spacing-500);
   }
-
   .xl\:pr-600 {
     padding-right: var(--gcds-spacing-600);
   }
-
   .xl\:pr-700 {
     padding-right: var(--gcds-spacing-700);
   }
-
   .xl\:pr-800 {
     padding-right: var(--gcds-spacing-800);
   }
-
   .xl\:pr-900 {
     padding-right: var(--gcds-spacing-900);
   }
-
   .xl\:pr-1000 {
     padding-right: var(--gcds-spacing-1000);
   }
@@ -10614,47 +8998,36 @@ table {
   .xs\:pb-0 {
     padding-bottom: 0;
   }
-
   .xs\:pb-50 {
     padding-bottom: var(--gcds-spacing-50);
   }
-
   .xs\:pb-100 {
     padding-bottom: var(--gcds-spacing-100);
   }
-
   .xs\:pb-200 {
     padding-bottom: var(--gcds-spacing-200);
   }
-
   .xs\:pb-300 {
     padding-bottom: var(--gcds-spacing-300);
   }
-
   .xs\:pb-400 {
     padding-bottom: var(--gcds-spacing-400);
   }
-
   .xs\:pb-500 {
     padding-bottom: var(--gcds-spacing-500);
   }
-
   .xs\:pb-600 {
     padding-bottom: var(--gcds-spacing-600);
   }
-
   .xs\:pb-700 {
     padding-bottom: var(--gcds-spacing-700);
   }
-
   .xs\:pb-800 {
     padding-bottom: var(--gcds-spacing-800);
   }
-
   .xs\:pb-900 {
     padding-bottom: var(--gcds-spacing-900);
   }
-
   .xs\:pb-1000 {
     padding-bottom: var(--gcds-spacing-1000);
   }
@@ -10663,47 +9036,36 @@ table {
   .sm\:pb-0 {
     padding-bottom: 0;
   }
-
   .sm\:pb-50 {
     padding-bottom: var(--gcds-spacing-50);
   }
-
   .sm\:pb-100 {
     padding-bottom: var(--gcds-spacing-100);
   }
-
   .sm\:pb-200 {
     padding-bottom: var(--gcds-spacing-200);
   }
-
   .sm\:pb-300 {
     padding-bottom: var(--gcds-spacing-300);
   }
-
   .sm\:pb-400 {
     padding-bottom: var(--gcds-spacing-400);
   }
-
   .sm\:pb-500 {
     padding-bottom: var(--gcds-spacing-500);
   }
-
   .sm\:pb-600 {
     padding-bottom: var(--gcds-spacing-600);
   }
-
   .sm\:pb-700 {
     padding-bottom: var(--gcds-spacing-700);
   }
-
   .sm\:pb-800 {
     padding-bottom: var(--gcds-spacing-800);
   }
-
   .sm\:pb-900 {
     padding-bottom: var(--gcds-spacing-900);
   }
-
   .sm\:pb-1000 {
     padding-bottom: var(--gcds-spacing-1000);
   }
@@ -10712,47 +9074,36 @@ table {
   .md\:pb-0 {
     padding-bottom: 0;
   }
-
   .md\:pb-50 {
     padding-bottom: var(--gcds-spacing-50);
   }
-
   .md\:pb-100 {
     padding-bottom: var(--gcds-spacing-100);
   }
-
   .md\:pb-200 {
     padding-bottom: var(--gcds-spacing-200);
   }
-
   .md\:pb-300 {
     padding-bottom: var(--gcds-spacing-300);
   }
-
   .md\:pb-400 {
     padding-bottom: var(--gcds-spacing-400);
   }
-
   .md\:pb-500 {
     padding-bottom: var(--gcds-spacing-500);
   }
-
   .md\:pb-600 {
     padding-bottom: var(--gcds-spacing-600);
   }
-
   .md\:pb-700 {
     padding-bottom: var(--gcds-spacing-700);
   }
-
   .md\:pb-800 {
     padding-bottom: var(--gcds-spacing-800);
   }
-
   .md\:pb-900 {
     padding-bottom: var(--gcds-spacing-900);
   }
-
   .md\:pb-1000 {
     padding-bottom: var(--gcds-spacing-1000);
   }
@@ -10761,47 +9112,36 @@ table {
   .lg\:pb-0 {
     padding-bottom: 0;
   }
-
   .lg\:pb-50 {
     padding-bottom: var(--gcds-spacing-50);
   }
-
   .lg\:pb-100 {
     padding-bottom: var(--gcds-spacing-100);
   }
-
   .lg\:pb-200 {
     padding-bottom: var(--gcds-spacing-200);
   }
-
   .lg\:pb-300 {
     padding-bottom: var(--gcds-spacing-300);
   }
-
   .lg\:pb-400 {
     padding-bottom: var(--gcds-spacing-400);
   }
-
   .lg\:pb-500 {
     padding-bottom: var(--gcds-spacing-500);
   }
-
   .lg\:pb-600 {
     padding-bottom: var(--gcds-spacing-600);
   }
-
   .lg\:pb-700 {
     padding-bottom: var(--gcds-spacing-700);
   }
-
   .lg\:pb-800 {
     padding-bottom: var(--gcds-spacing-800);
   }
-
   .lg\:pb-900 {
     padding-bottom: var(--gcds-spacing-900);
   }
-
   .lg\:pb-1000 {
     padding-bottom: var(--gcds-spacing-1000);
   }
@@ -10810,47 +9150,36 @@ table {
   .xl\:pb-0 {
     padding-bottom: 0;
   }
-
   .xl\:pb-50 {
     padding-bottom: var(--gcds-spacing-50);
   }
-
   .xl\:pb-100 {
     padding-bottom: var(--gcds-spacing-100);
   }
-
   .xl\:pb-200 {
     padding-bottom: var(--gcds-spacing-200);
   }
-
   .xl\:pb-300 {
     padding-bottom: var(--gcds-spacing-300);
   }
-
   .xl\:pb-400 {
     padding-bottom: var(--gcds-spacing-400);
   }
-
   .xl\:pb-500 {
     padding-bottom: var(--gcds-spacing-500);
   }
-
   .xl\:pb-600 {
     padding-bottom: var(--gcds-spacing-600);
   }
-
   .xl\:pb-700 {
     padding-bottom: var(--gcds-spacing-700);
   }
-
   .xl\:pb-800 {
     padding-bottom: var(--gcds-spacing-800);
   }
-
   .xl\:pb-900 {
     padding-bottom: var(--gcds-spacing-900);
   }
-
   .xl\:pb-1000 {
     padding-bottom: var(--gcds-spacing-1000);
   }
@@ -10907,47 +9236,36 @@ table {
   .xs\:pl-0 {
     padding-left: 0;
   }
-
   .xs\:pl-50 {
     padding-left: var(--gcds-spacing-50);
   }
-
   .xs\:pl-100 {
     padding-left: var(--gcds-spacing-100);
   }
-
   .xs\:pl-200 {
     padding-left: var(--gcds-spacing-200);
   }
-
   .xs\:pl-300 {
     padding-left: var(--gcds-spacing-300);
   }
-
   .xs\:pl-400 {
     padding-left: var(--gcds-spacing-400);
   }
-
   .xs\:pl-500 {
     padding-left: var(--gcds-spacing-500);
   }
-
   .xs\:pl-600 {
     padding-left: var(--gcds-spacing-600);
   }
-
   .xs\:pl-700 {
     padding-left: var(--gcds-spacing-700);
   }
-
   .xs\:pl-800 {
     padding-left: var(--gcds-spacing-800);
   }
-
   .xs\:pl-900 {
     padding-left: var(--gcds-spacing-900);
   }
-
   .xs\:pl-1000 {
     padding-left: var(--gcds-spacing-1000);
   }
@@ -10956,47 +9274,36 @@ table {
   .sm\:pl-0 {
     padding-left: 0;
   }
-
   .sm\:pl-50 {
     padding-left: var(--gcds-spacing-50);
   }
-
   .sm\:pl-100 {
     padding-left: var(--gcds-spacing-100);
   }
-
   .sm\:pl-200 {
     padding-left: var(--gcds-spacing-200);
   }
-
   .sm\:pl-300 {
     padding-left: var(--gcds-spacing-300);
   }
-
   .sm\:pl-400 {
     padding-left: var(--gcds-spacing-400);
   }
-
   .sm\:pl-500 {
     padding-left: var(--gcds-spacing-500);
   }
-
   .sm\:pl-600 {
     padding-left: var(--gcds-spacing-600);
   }
-
   .sm\:pl-700 {
     padding-left: var(--gcds-spacing-700);
   }
-
   .sm\:pl-800 {
     padding-left: var(--gcds-spacing-800);
   }
-
   .sm\:pl-900 {
     padding-left: var(--gcds-spacing-900);
   }
-
   .sm\:pl-1000 {
     padding-left: var(--gcds-spacing-1000);
   }
@@ -11005,47 +9312,36 @@ table {
   .md\:pl-0 {
     padding-left: 0;
   }
-
   .md\:pl-50 {
     padding-left: var(--gcds-spacing-50);
   }
-
   .md\:pl-100 {
     padding-left: var(--gcds-spacing-100);
   }
-
   .md\:pl-200 {
     padding-left: var(--gcds-spacing-200);
   }
-
   .md\:pl-300 {
     padding-left: var(--gcds-spacing-300);
   }
-
   .md\:pl-400 {
     padding-left: var(--gcds-spacing-400);
   }
-
   .md\:pl-500 {
     padding-left: var(--gcds-spacing-500);
   }
-
   .md\:pl-600 {
     padding-left: var(--gcds-spacing-600);
   }
-
   .md\:pl-700 {
     padding-left: var(--gcds-spacing-700);
   }
-
   .md\:pl-800 {
     padding-left: var(--gcds-spacing-800);
   }
-
   .md\:pl-900 {
     padding-left: var(--gcds-spacing-900);
   }
-
   .md\:pl-1000 {
     padding-left: var(--gcds-spacing-1000);
   }
@@ -11054,47 +9350,36 @@ table {
   .lg\:pl-0 {
     padding-left: 0;
   }
-
   .lg\:pl-50 {
     padding-left: var(--gcds-spacing-50);
   }
-
   .lg\:pl-100 {
     padding-left: var(--gcds-spacing-100);
   }
-
   .lg\:pl-200 {
     padding-left: var(--gcds-spacing-200);
   }
-
   .lg\:pl-300 {
     padding-left: var(--gcds-spacing-300);
   }
-
   .lg\:pl-400 {
     padding-left: var(--gcds-spacing-400);
   }
-
   .lg\:pl-500 {
     padding-left: var(--gcds-spacing-500);
   }
-
   .lg\:pl-600 {
     padding-left: var(--gcds-spacing-600);
   }
-
   .lg\:pl-700 {
     padding-left: var(--gcds-spacing-700);
   }
-
   .lg\:pl-800 {
     padding-left: var(--gcds-spacing-800);
   }
-
   .lg\:pl-900 {
     padding-left: var(--gcds-spacing-900);
   }
-
   .lg\:pl-1000 {
     padding-left: var(--gcds-spacing-1000);
   }
@@ -11103,47 +9388,36 @@ table {
   .xl\:pl-0 {
     padding-left: 0;
   }
-
   .xl\:pl-50 {
     padding-left: var(--gcds-spacing-50);
   }
-
   .xl\:pl-100 {
     padding-left: var(--gcds-spacing-100);
   }
-
   .xl\:pl-200 {
     padding-left: var(--gcds-spacing-200);
   }
-
   .xl\:pl-300 {
     padding-left: var(--gcds-spacing-300);
   }
-
   .xl\:pl-400 {
     padding-left: var(--gcds-spacing-400);
   }
-
   .xl\:pl-500 {
     padding-left: var(--gcds-spacing-500);
   }
-
   .xl\:pl-600 {
     padding-left: var(--gcds-spacing-600);
   }
-
   .xl\:pl-700 {
     padding-left: var(--gcds-spacing-700);
   }
-
   .xl\:pl-800 {
     padding-left: var(--gcds-spacing-800);
   }
-
   .xl\:pl-900 {
     padding-left: var(--gcds-spacing-900);
   }
-
   .xl\:pl-1000 {
     padding-left: var(--gcds-spacing-1000);
   }
@@ -11200,47 +9474,36 @@ table {
   .xs\:px-0 {
     padding-inline: 0;
   }
-
   .xs\:px-50 {
     padding-inline: var(--gcds-spacing-50);
   }
-
   .xs\:px-100 {
     padding-inline: var(--gcds-spacing-100);
   }
-
   .xs\:px-200 {
     padding-inline: var(--gcds-spacing-200);
   }
-
   .xs\:px-300 {
     padding-inline: var(--gcds-spacing-300);
   }
-
   .xs\:px-400 {
     padding-inline: var(--gcds-spacing-400);
   }
-
   .xs\:px-500 {
     padding-inline: var(--gcds-spacing-500);
   }
-
   .xs\:px-600 {
     padding-inline: var(--gcds-spacing-600);
   }
-
   .xs\:px-700 {
     padding-inline: var(--gcds-spacing-700);
   }
-
   .xs\:px-800 {
     padding-inline: var(--gcds-spacing-800);
   }
-
   .xs\:px-900 {
     padding-inline: var(--gcds-spacing-900);
   }
-
   .xs\:px-1000 {
     padding-inline: var(--gcds-spacing-1000);
   }
@@ -11249,47 +9512,36 @@ table {
   .sm\:px-0 {
     padding-inline: 0;
   }
-
   .sm\:px-50 {
     padding-inline: var(--gcds-spacing-50);
   }
-
   .sm\:px-100 {
     padding-inline: var(--gcds-spacing-100);
   }
-
   .sm\:px-200 {
     padding-inline: var(--gcds-spacing-200);
   }
-
   .sm\:px-300 {
     padding-inline: var(--gcds-spacing-300);
   }
-
   .sm\:px-400 {
     padding-inline: var(--gcds-spacing-400);
   }
-
   .sm\:px-500 {
     padding-inline: var(--gcds-spacing-500);
   }
-
   .sm\:px-600 {
     padding-inline: var(--gcds-spacing-600);
   }
-
   .sm\:px-700 {
     padding-inline: var(--gcds-spacing-700);
   }
-
   .sm\:px-800 {
     padding-inline: var(--gcds-spacing-800);
   }
-
   .sm\:px-900 {
     padding-inline: var(--gcds-spacing-900);
   }
-
   .sm\:px-1000 {
     padding-inline: var(--gcds-spacing-1000);
   }
@@ -11298,47 +9550,36 @@ table {
   .md\:px-0 {
     padding-inline: 0;
   }
-
   .md\:px-50 {
     padding-inline: var(--gcds-spacing-50);
   }
-
   .md\:px-100 {
     padding-inline: var(--gcds-spacing-100);
   }
-
   .md\:px-200 {
     padding-inline: var(--gcds-spacing-200);
   }
-
   .md\:px-300 {
     padding-inline: var(--gcds-spacing-300);
   }
-
   .md\:px-400 {
     padding-inline: var(--gcds-spacing-400);
   }
-
   .md\:px-500 {
     padding-inline: var(--gcds-spacing-500);
   }
-
   .md\:px-600 {
     padding-inline: var(--gcds-spacing-600);
   }
-
   .md\:px-700 {
     padding-inline: var(--gcds-spacing-700);
   }
-
   .md\:px-800 {
     padding-inline: var(--gcds-spacing-800);
   }
-
   .md\:px-900 {
     padding-inline: var(--gcds-spacing-900);
   }
-
   .md\:px-1000 {
     padding-inline: var(--gcds-spacing-1000);
   }
@@ -11347,47 +9588,36 @@ table {
   .lg\:px-0 {
     padding-inline: 0;
   }
-
   .lg\:px-50 {
     padding-inline: var(--gcds-spacing-50);
   }
-
   .lg\:px-100 {
     padding-inline: var(--gcds-spacing-100);
   }
-
   .lg\:px-200 {
     padding-inline: var(--gcds-spacing-200);
   }
-
   .lg\:px-300 {
     padding-inline: var(--gcds-spacing-300);
   }
-
   .lg\:px-400 {
     padding-inline: var(--gcds-spacing-400);
   }
-
   .lg\:px-500 {
     padding-inline: var(--gcds-spacing-500);
   }
-
   .lg\:px-600 {
     padding-inline: var(--gcds-spacing-600);
   }
-
   .lg\:px-700 {
     padding-inline: var(--gcds-spacing-700);
   }
-
   .lg\:px-800 {
     padding-inline: var(--gcds-spacing-800);
   }
-
   .lg\:px-900 {
     padding-inline: var(--gcds-spacing-900);
   }
-
   .lg\:px-1000 {
     padding-inline: var(--gcds-spacing-1000);
   }
@@ -11396,47 +9626,36 @@ table {
   .xl\:px-0 {
     padding-inline: 0;
   }
-
   .xl\:px-50 {
     padding-inline: var(--gcds-spacing-50);
   }
-
   .xl\:px-100 {
     padding-inline: var(--gcds-spacing-100);
   }
-
   .xl\:px-200 {
     padding-inline: var(--gcds-spacing-200);
   }
-
   .xl\:px-300 {
     padding-inline: var(--gcds-spacing-300);
   }
-
   .xl\:px-400 {
     padding-inline: var(--gcds-spacing-400);
   }
-
   .xl\:px-500 {
     padding-inline: var(--gcds-spacing-500);
   }
-
   .xl\:px-600 {
     padding-inline: var(--gcds-spacing-600);
   }
-
   .xl\:px-700 {
     padding-inline: var(--gcds-spacing-700);
   }
-
   .xl\:px-800 {
     padding-inline: var(--gcds-spacing-800);
   }
-
   .xl\:px-900 {
     padding-inline: var(--gcds-spacing-900);
   }
-
   .xl\:px-1000 {
     padding-inline: var(--gcds-spacing-1000);
   }
@@ -11493,47 +9712,36 @@ table {
   .xs\:py-0 {
     padding-block: 0;
   }
-
   .xs\:py-50 {
     padding-block: var(--gcds-spacing-50);
   }
-
   .xs\:py-100 {
     padding-block: var(--gcds-spacing-100);
   }
-
   .xs\:py-200 {
     padding-block: var(--gcds-spacing-200);
   }
-
   .xs\:py-300 {
     padding-block: var(--gcds-spacing-300);
   }
-
   .xs\:py-400 {
     padding-block: var(--gcds-spacing-400);
   }
-
   .xs\:py-500 {
     padding-block: var(--gcds-spacing-500);
   }
-
   .xs\:py-600 {
     padding-block: var(--gcds-spacing-600);
   }
-
   .xs\:py-700 {
     padding-block: var(--gcds-spacing-700);
   }
-
   .xs\:py-800 {
     padding-block: var(--gcds-spacing-800);
   }
-
   .xs\:py-900 {
     padding-block: var(--gcds-spacing-900);
   }
-
   .xs\:py-1000 {
     padding-block: var(--gcds-spacing-1000);
   }
@@ -11542,47 +9750,36 @@ table {
   .sm\:py-0 {
     padding-block: 0;
   }
-
   .sm\:py-50 {
     padding-block: var(--gcds-spacing-50);
   }
-
   .sm\:py-100 {
     padding-block: var(--gcds-spacing-100);
   }
-
   .sm\:py-200 {
     padding-block: var(--gcds-spacing-200);
   }
-
   .sm\:py-300 {
     padding-block: var(--gcds-spacing-300);
   }
-
   .sm\:py-400 {
     padding-block: var(--gcds-spacing-400);
   }
-
   .sm\:py-500 {
     padding-block: var(--gcds-spacing-500);
   }
-
   .sm\:py-600 {
     padding-block: var(--gcds-spacing-600);
   }
-
   .sm\:py-700 {
     padding-block: var(--gcds-spacing-700);
   }
-
   .sm\:py-800 {
     padding-block: var(--gcds-spacing-800);
   }
-
   .sm\:py-900 {
     padding-block: var(--gcds-spacing-900);
   }
-
   .sm\:py-1000 {
     padding-block: var(--gcds-spacing-1000);
   }
@@ -11591,47 +9788,36 @@ table {
   .md\:py-0 {
     padding-block: 0;
   }
-
   .md\:py-50 {
     padding-block: var(--gcds-spacing-50);
   }
-
   .md\:py-100 {
     padding-block: var(--gcds-spacing-100);
   }
-
   .md\:py-200 {
     padding-block: var(--gcds-spacing-200);
   }
-
   .md\:py-300 {
     padding-block: var(--gcds-spacing-300);
   }
-
   .md\:py-400 {
     padding-block: var(--gcds-spacing-400);
   }
-
   .md\:py-500 {
     padding-block: var(--gcds-spacing-500);
   }
-
   .md\:py-600 {
     padding-block: var(--gcds-spacing-600);
   }
-
   .md\:py-700 {
     padding-block: var(--gcds-spacing-700);
   }
-
   .md\:py-800 {
     padding-block: var(--gcds-spacing-800);
   }
-
   .md\:py-900 {
     padding-block: var(--gcds-spacing-900);
   }
-
   .md\:py-1000 {
     padding-block: var(--gcds-spacing-1000);
   }
@@ -11640,47 +9826,36 @@ table {
   .lg\:py-0 {
     padding-block: 0;
   }
-
   .lg\:py-50 {
     padding-block: var(--gcds-spacing-50);
   }
-
   .lg\:py-100 {
     padding-block: var(--gcds-spacing-100);
   }
-
   .lg\:py-200 {
     padding-block: var(--gcds-spacing-200);
   }
-
   .lg\:py-300 {
     padding-block: var(--gcds-spacing-300);
   }
-
   .lg\:py-400 {
     padding-block: var(--gcds-spacing-400);
   }
-
   .lg\:py-500 {
     padding-block: var(--gcds-spacing-500);
   }
-
   .lg\:py-600 {
     padding-block: var(--gcds-spacing-600);
   }
-
   .lg\:py-700 {
     padding-block: var(--gcds-spacing-700);
   }
-
   .lg\:py-800 {
     padding-block: var(--gcds-spacing-800);
   }
-
   .lg\:py-900 {
     padding-block: var(--gcds-spacing-900);
   }
-
   .lg\:py-1000 {
     padding-block: var(--gcds-spacing-1000);
   }
@@ -11689,47 +9864,36 @@ table {
   .xl\:py-0 {
     padding-block: 0;
   }
-
   .xl\:py-50 {
     padding-block: var(--gcds-spacing-50);
   }
-
   .xl\:py-100 {
     padding-block: var(--gcds-spacing-100);
   }
-
   .xl\:py-200 {
     padding-block: var(--gcds-spacing-200);
   }
-
   .xl\:py-300 {
     padding-block: var(--gcds-spacing-300);
   }
-
   .xl\:py-400 {
     padding-block: var(--gcds-spacing-400);
   }
-
   .xl\:py-500 {
     padding-block: var(--gcds-spacing-500);
   }
-
   .xl\:py-600 {
     padding-block: var(--gcds-spacing-600);
   }
-
   .xl\:py-700 {
     padding-block: var(--gcds-spacing-700);
   }
-
   .xl\:py-800 {
     padding-block: var(--gcds-spacing-800);
   }
-
   .xl\:py-900 {
     padding-block: var(--gcds-spacing-900);
   }
-
   .xl\:py-1000 {
     padding-block: var(--gcds-spacing-1000);
   }
@@ -11874,15 +10038,12 @@ table {
   .xs\:font-heading {
     font-family: var(--gcds-font-families-heading);
   }
-
   .xs\:font-body {
     font-family: var(--gcds-font-families-body);
   }
-
   .xs\:font-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-
   .xs\:font-icon {
     font-family: var(--gcds-font-families-icon);
   }
@@ -11891,15 +10052,12 @@ table {
   .sm\:font-heading {
     font-family: var(--gcds-font-families-heading);
   }
-
   .sm\:font-body {
     font-family: var(--gcds-font-families-body);
   }
-
   .sm\:font-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-
   .sm\:font-icon {
     font-family: var(--gcds-font-families-icon);
   }
@@ -11908,15 +10066,12 @@ table {
   .md\:font-heading {
     font-family: var(--gcds-font-families-heading);
   }
-
   .md\:font-body {
     font-family: var(--gcds-font-families-body);
   }
-
   .md\:font-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-
   .md\:font-icon {
     font-family: var(--gcds-font-families-icon);
   }
@@ -11925,15 +10080,12 @@ table {
   .lg\:font-heading {
     font-family: var(--gcds-font-families-heading);
   }
-
   .lg\:font-body {
     font-family: var(--gcds-font-families-body);
   }
-
   .lg\:font-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-
   .lg\:font-icon {
     font-family: var(--gcds-font-families-icon);
   }
@@ -11942,15 +10094,12 @@ table {
   .xl\:font-heading {
     font-family: var(--gcds-font-families-heading);
   }
-
   .xl\:font-body {
     font-family: var(--gcds-font-families-body);
   }
-
   .xl\:font-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-
   .xl\:font-icon {
     font-family: var(--gcds-font-families-icon);
   }
@@ -11992,31 +10141,24 @@ table {
   .xs\:font-size-caption {
     font-size: var(--gcds-font-sizes-caption);
   }
-
   .xs\:font-size-h1 {
     font-size: var(--gcds-font-sizes-h1);
   }
-
   .xs\:font-size-h2 {
     font-size: var(--gcds-font-sizes-h2);
   }
-
   .xs\:font-size-h3 {
     font-size: var(--gcds-font-sizes-h3);
   }
-
   .xs\:font-size-h4 {
     font-size: var(--gcds-font-sizes-h4);
   }
-
   .xs\:font-size-h5 {
     font-size: var(--gcds-font-sizes-h5);
   }
-
   .xs\:font-size-h6 {
     font-size: var(--gcds-font-sizes-h6);
   }
-
   .xs\:font-size-text {
     font-size: var(--gcds-font-sizes-text);
   }
@@ -12025,31 +10167,24 @@ table {
   .sm\:font-size-caption {
     font-size: var(--gcds-font-sizes-caption);
   }
-
   .sm\:font-size-h1 {
     font-size: var(--gcds-font-sizes-h1);
   }
-
   .sm\:font-size-h2 {
     font-size: var(--gcds-font-sizes-h2);
   }
-
   .sm\:font-size-h3 {
     font-size: var(--gcds-font-sizes-h3);
   }
-
   .sm\:font-size-h4 {
     font-size: var(--gcds-font-sizes-h4);
   }
-
   .sm\:font-size-h5 {
     font-size: var(--gcds-font-sizes-h5);
   }
-
   .sm\:font-size-h6 {
     font-size: var(--gcds-font-sizes-h6);
   }
-
   .sm\:font-size-text {
     font-size: var(--gcds-font-sizes-text);
   }
@@ -12058,31 +10193,24 @@ table {
   .md\:font-size-caption {
     font-size: var(--gcds-font-sizes-caption);
   }
-
   .md\:font-size-h1 {
     font-size: var(--gcds-font-sizes-h1);
   }
-
   .md\:font-size-h2 {
     font-size: var(--gcds-font-sizes-h2);
   }
-
   .md\:font-size-h3 {
     font-size: var(--gcds-font-sizes-h3);
   }
-
   .md\:font-size-h4 {
     font-size: var(--gcds-font-sizes-h4);
   }
-
   .md\:font-size-h5 {
     font-size: var(--gcds-font-sizes-h5);
   }
-
   .md\:font-size-h6 {
     font-size: var(--gcds-font-sizes-h6);
   }
-
   .md\:font-size-text {
     font-size: var(--gcds-font-sizes-text);
   }
@@ -12091,31 +10219,24 @@ table {
   .lg\:font-size-caption {
     font-size: var(--gcds-font-sizes-caption);
   }
-
   .lg\:font-size-h1 {
     font-size: var(--gcds-font-sizes-h1);
   }
-
   .lg\:font-size-h2 {
     font-size: var(--gcds-font-sizes-h2);
   }
-
   .lg\:font-size-h3 {
     font-size: var(--gcds-font-sizes-h3);
   }
-
   .lg\:font-size-h4 {
     font-size: var(--gcds-font-sizes-h4);
   }
-
   .lg\:font-size-h5 {
     font-size: var(--gcds-font-sizes-h5);
   }
-
   .lg\:font-size-h6 {
     font-size: var(--gcds-font-sizes-h6);
   }
-
   .lg\:font-size-text {
     font-size: var(--gcds-font-sizes-text);
   }
@@ -12124,31 +10245,24 @@ table {
   .xl\:font-size-caption {
     font-size: var(--gcds-font-sizes-caption);
   }
-
   .xl\:font-size-h1 {
     font-size: var(--gcds-font-sizes-h1);
   }
-
   .xl\:font-size-h2 {
     font-size: var(--gcds-font-sizes-h2);
   }
-
   .xl\:font-size-h3 {
     font-size: var(--gcds-font-sizes-h3);
   }
-
   .xl\:font-size-h4 {
     font-size: var(--gcds-font-sizes-h4);
   }
-
   .xl\:font-size-h5 {
     font-size: var(--gcds-font-sizes-h5);
   }
-
   .xl\:font-size-h6 {
     font-size: var(--gcds-font-sizes-h6);
   }
-
   .xl\:font-size-text {
     font-size: var(--gcds-font-sizes-text);
   }
@@ -12166,7 +10280,6 @@ table {
   .xs\:font-italic {
     font-style: italic;
   }
-
   .xs\:font-normal {
     font-style: normal;
   }
@@ -12175,7 +10288,6 @@ table {
   .sm\:font-italic {
     font-style: italic;
   }
-
   .sm\:font-normal {
     font-style: normal;
   }
@@ -12184,7 +10296,6 @@ table {
   .md\:font-italic {
     font-style: italic;
   }
-
   .md\:font-normal {
     font-style: normal;
   }
@@ -12193,7 +10304,6 @@ table {
   .lg\:font-italic {
     font-style: italic;
   }
-
   .lg\:font-normal {
     font-style: normal;
   }
@@ -12202,7 +10312,6 @@ table {
   .xl\:font-italic {
     font-style: italic;
   }
-
   .xl\:font-normal {
     font-style: normal;
   }
@@ -12228,15 +10337,12 @@ table {
   .xs\:font-light {
     font-weight: var(--gcds-font-weights-light);
   }
-
   .xs\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
-
   .xs\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
-
   .xs\:font-bold {
     font-weight: var(--gcds-font-weights-bold);
   }
@@ -12245,15 +10351,12 @@ table {
   .sm\:font-light {
     font-weight: var(--gcds-font-weights-light);
   }
-
   .sm\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
-
   .sm\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
-
   .sm\:font-bold {
     font-weight: var(--gcds-font-weights-bold);
   }
@@ -12262,15 +10365,12 @@ table {
   .md\:font-light {
     font-weight: var(--gcds-font-weights-light);
   }
-
   .md\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
-
   .md\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
-
   .md\:font-bold {
     font-weight: var(--gcds-font-weights-bold);
   }
@@ -12279,15 +10379,12 @@ table {
   .lg\:font-light {
     font-weight: var(--gcds-font-weights-light);
   }
-
   .lg\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
-
   .lg\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
-
   .lg\:font-bold {
     font-weight: var(--gcds-font-weights-bold);
   }
@@ -12296,15 +10393,12 @@ table {
   .xl\:font-light {
     font-weight: var(--gcds-font-weights-light);
   }
-
   .xl\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
-
   .xl\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
-
   .xl\:font-bold {
     font-weight: var(--gcds-font-weights-bold);
   }
@@ -12346,31 +10440,24 @@ table {
   .xs\:line-caption {
     line-height: var(--gcds-line-heights-caption);
   }
-
   .xs\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
-
   .xs\:line-h2 {
     line-height: var(--gcds-line-heights-h2);
   }
-
   .xs\:line-h3 {
     line-height: var(--gcds-line-heights-h3);
   }
-
   .xs\:line-h4 {
     line-height: var(--gcds-line-heights-h4);
   }
-
   .xs\:line-h5 {
     line-height: var(--gcds-line-heights-h5);
   }
-
   .xs\:line-h6 {
     line-height: var(--gcds-line-heights-h6);
   }
-
   .xs\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
@@ -12379,31 +10466,24 @@ table {
   .sm\:line-caption {
     line-height: var(--gcds-line-heights-caption);
   }
-
   .sm\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
-
   .sm\:line-h2 {
     line-height: var(--gcds-line-heights-h2);
   }
-
   .sm\:line-h3 {
     line-height: var(--gcds-line-heights-h3);
   }
-
   .sm\:line-h4 {
     line-height: var(--gcds-line-heights-h4);
   }
-
   .sm\:line-h5 {
     line-height: var(--gcds-line-heights-h5);
   }
-
   .sm\:line-h6 {
     line-height: var(--gcds-line-heights-h6);
   }
-
   .sm\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
@@ -12412,31 +10492,24 @@ table {
   .md\:line-caption {
     line-height: var(--gcds-line-heights-caption);
   }
-
   .md\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
-
   .md\:line-h2 {
     line-height: var(--gcds-line-heights-h2);
   }
-
   .md\:line-h3 {
     line-height: var(--gcds-line-heights-h3);
   }
-
   .md\:line-h4 {
     line-height: var(--gcds-line-heights-h4);
   }
-
   .md\:line-h5 {
     line-height: var(--gcds-line-heights-h5);
   }
-
   .md\:line-h6 {
     line-height: var(--gcds-line-heights-h6);
   }
-
   .md\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
@@ -12445,31 +10518,24 @@ table {
   .lg\:line-caption {
     line-height: var(--gcds-line-heights-caption);
   }
-
   .lg\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
-
   .lg\:line-h2 {
     line-height: var(--gcds-line-heights-h2);
   }
-
   .lg\:line-h3 {
     line-height: var(--gcds-line-heights-h3);
   }
-
   .lg\:line-h4 {
     line-height: var(--gcds-line-heights-h4);
   }
-
   .lg\:line-h5 {
     line-height: var(--gcds-line-heights-h5);
   }
-
   .lg\:line-h6 {
     line-height: var(--gcds-line-heights-h6);
   }
-
   .lg\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
@@ -12478,31 +10544,24 @@ table {
   .xl\:line-caption {
     line-height: var(--gcds-line-heights-caption);
   }
-
   .xl\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
-
   .xl\:line-h2 {
     line-height: var(--gcds-line-heights-h2);
   }
-
   .xl\:line-h3 {
     line-height: var(--gcds-line-heights-h3);
   }
-
   .xl\:line-h4 {
     line-height: var(--gcds-line-heights-h4);
   }
-
   .xl\:line-h5 {
     line-height: var(--gcds-line-heights-h5);
   }
-
   .xl\:line-h6 {
     line-height: var(--gcds-line-heights-h6);
   }
-
   .xl\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
@@ -12528,15 +10587,12 @@ table {
   .xs\:text-center {
     text-align: center;
   }
-
   .xs\:text-left {
     text-align: left;
   }
-
   .xs\:text-justify {
     text-align: justify;
   }
-
   .xs\:text-right {
     text-align: right;
   }
@@ -12545,15 +10601,12 @@ table {
   .sm\:text-center {
     text-align: center;
   }
-
   .sm\:text-left {
     text-align: left;
   }
-
   .sm\:text-justify {
     text-align: justify;
   }
-
   .sm\:text-right {
     text-align: right;
   }
@@ -12562,15 +10615,12 @@ table {
   .md\:text-center {
     text-align: center;
   }
-
   .md\:text-left {
     text-align: left;
   }
-
   .md\:text-justify {
     text-align: justify;
   }
-
   .md\:text-right {
     text-align: right;
   }
@@ -12579,15 +10629,12 @@ table {
   .lg\:text-center {
     text-align: center;
   }
-
   .lg\:text-left {
     text-align: left;
   }
-
   .lg\:text-justify {
     text-align: justify;
   }
-
   .lg\:text-right {
     text-align: right;
   }
@@ -12596,15 +10643,12 @@ table {
   .xl\:text-center {
     text-align: center;
   }
-
   .xl\:text-left {
     text-align: left;
   }
-
   .xl\:text-justify {
     text-align: justify;
   }
-
   .xl\:text-right {
     text-align: right;
   }
@@ -12701,15 +10745,12 @@ table {
   .xs\:text-capitalize {
     text-transform: capitalize;
   }
-
   .xs\:text-lowercase {
     text-transform: lowercase;
   }
-
   .xs\:text-none {
     text-transform: none;
   }
-
   .xs\:text-uppercase {
     text-transform: uppercase;
   }
@@ -12718,15 +10759,12 @@ table {
   .sm\:text-capitalize {
     text-transform: capitalize;
   }
-
   .sm\:text-lowercase {
     text-transform: lowercase;
   }
-
   .sm\:text-none {
     text-transform: none;
   }
-
   .sm\:text-uppercase {
     text-transform: uppercase;
   }
@@ -12735,15 +10773,12 @@ table {
   .md\:text-capitalize {
     text-transform: capitalize;
   }
-
   .md\:text-lowercase {
     text-transform: lowercase;
   }
-
   .md\:text-none {
     text-transform: none;
   }
-
   .md\:text-uppercase {
     text-transform: uppercase;
   }
@@ -12752,15 +10787,12 @@ table {
   .lg\:text-capitalize {
     text-transform: capitalize;
   }
-
   .lg\:text-lowercase {
     text-transform: lowercase;
   }
-
   .lg\:text-none {
     text-transform: none;
   }
-
   .lg\:text-uppercase {
     text-transform: uppercase;
   }
@@ -12769,15 +10801,12 @@ table {
   .xl\:text-capitalize {
     text-transform: capitalize;
   }
-
   .xl\:text-lowercase {
     text-transform: lowercase;
   }
-
   .xl\:text-none {
     text-transform: none;
   }
-
   .xl\:text-uppercase {
     text-transform: uppercase;
   }
@@ -12799,11 +10828,9 @@ table {
   .xs\:break-all {
     word-break: all;
   }
-
   .xs\:break-normal {
     word-break: normal;
   }
-
   .xs\:break-word {
     word-break: break-word;
   }
@@ -12812,11 +10839,9 @@ table {
   .sm\:break-all {
     word-break: all;
   }
-
   .sm\:break-normal {
     word-break: normal;
   }
-
   .sm\:break-word {
     word-break: break-word;
   }
@@ -12825,11 +10850,9 @@ table {
   .md\:break-all {
     word-break: all;
   }
-
   .md\:break-normal {
     word-break: normal;
   }
-
   .md\:break-word {
     word-break: break-word;
   }
@@ -12838,11 +10861,9 @@ table {
   .lg\:break-all {
     word-break: all;
   }
-
   .lg\:break-normal {
     word-break: normal;
   }
-
   .lg\:break-word {
     word-break: break-word;
   }
@@ -12851,11 +10872,9 @@ table {
   .xl\:break-all {
     word-break: all;
   }
-
   .xl\:break-normal {
     word-break: normal;
   }
-
   .xl\:break-word {
     word-break: break-word;
   }
@@ -12873,7 +10892,6 @@ table {
   .xs\:visibility-hidden {
     visibility: hidden;
   }
-
   .xs\:visibility-visible {
     visibility: visible;
   }
@@ -12882,7 +10900,6 @@ table {
   .sm\:visibility-hidden {
     visibility: hidden;
   }
-
   .sm\:visibility-visible {
     visibility: visible;
   }
@@ -12891,7 +10908,6 @@ table {
   .md\:visibility-hidden {
     visibility: hidden;
   }
-
   .md\:visibility-visible {
     visibility: visible;
   }
@@ -12900,7 +10916,6 @@ table {
   .lg\:visibility-hidden {
     visibility: hidden;
   }
-
   .lg\:visibility-visible {
     visibility: visible;
   }
@@ -12909,7 +10924,6 @@ table {
   .xl\:visibility-hidden {
     visibility: hidden;
   }
-
   .xl\:visibility-visible {
     visibility: visible;
   }
@@ -12970,8 +10984,8 @@ table {
 /* --- Accessibility --- */
 @media (prefers-reduced-motion: reduce) {
   *,
-::before,
-::after {
+  ::before,
+  ::after {
     -webkit-animation-delay: -1ms !important;
             animation-delay: -1ms !important;
     -webkit-animation-duration: 1ms !important;
