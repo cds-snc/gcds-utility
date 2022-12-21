@@ -58,8 +58,18 @@ $flexShrink: (
 /* --- Order --- */
 
 @for $i from 1 through 12 {
-  @include classBreakpoints('order-' + #{$i}) {
-    order: $i;
+  .order-#{$i} {
+    order: #{$i};
+  }
+}
+
+@each $classBreakpoint, $breakpoint in $breakpoints {
+  @media only screen and (width > $breakpoint) {
+    @for $i from 1 through 12 {
+      .#{$classBreakpoint}\:order-#{$i} {
+        order: $i;
+      }
+    }
   }
 }
 

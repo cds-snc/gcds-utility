@@ -1,8 +1,7 @@
 @import "./defaults.scss";
 
-// --- Add breakpoints to classes ---
-
-@mixin classBreakpoints($class) {
+// --- Add breakpoints with class ---
+@mixin classWithBreakpoints($class) {
   .#{$class} {
     @content;
   }
@@ -17,16 +16,18 @@
 }
 
 
-// --- Generate classes with breakpoints---
+// --- Generate classes with breakpoints ---
 
 @mixin generateClasses($classes, $classPrefix, $property) {
   @each $className, $value in $classes {
     .#{$classPrefix}#{"" + $className} {
       #{$property}: $value;
     }
+  }
 
-    @each $classBreakpoint, $breakpoint in $breakpoints {
-      @media only screen and (width > $breakpoint) {
+  @each $classBreakpoint, $breakpoint in $breakpoints {
+    @media only screen and (width > $breakpoint) {
+      @each $className, $value in $classes {
         .#{$classBreakpoint}\:#{$classPrefix}#{"" + $className} {
           #{$property}: $value;
         }

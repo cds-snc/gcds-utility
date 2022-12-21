@@ -34,7 +34,6 @@ Place the following code in the `<head>` element of your site.
 - Run `gulp` to monitor your source files for any changes.
 - Run `gulp compile` to compile and minify all CSS files.
 <br/>
-<br/>
 
 ## How to contribute
 

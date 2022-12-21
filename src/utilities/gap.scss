@@ -1,21 +1,11 @@
-@import "./defaults.scss";
 @import "./mixins.scss";
 
 /* --- Gap --- */
 
-@each $spaceClass, $space in $spacing {
-  // --- Gap ---
-  @include classBreakpoints('gap-' + #{$spaceClass}) {
-    gap: $space;
-  }
+@include generateClasses($spacing, 'gap-', gap);
 
-  // --- Gap Column ---
-  @include classBreakpoints('gap-x-' + #{$spaceClass}) {
-    column-gap: $space;
-  }
+// --- Gap Column ---
+@include generateClasses($spacing, 'gap-x-', column-gap);
 
-  // --- Gap Row ---
-  @include classBreakpoints('gap-y-' + #{$spaceClass}) {
-    row-gap: $space;
-  }
-}
+// --- Gap Row ---
+@include generateClasses($spacing, 'gap-y-', row-gap);

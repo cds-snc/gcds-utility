@@ -1,13 +1,27 @@
-@import "./mixins.scss";
+@import "./defaults.scss";
 
 /* --- Images --- */
 
 // Img full width
-@include classBreakpoints('img-full' ) {
+.img-full {
   width: 100%;
 }
 
 // Img responsive
-@include classBreakpoints('img-responsive' ) {
+.img-responsive {
   max-width: 100%;
+}
+
+@each $classBreakpoint, $breakpoint in $breakpoints {
+  @media only screen and (width > $breakpoint) {
+    // Img full width
+    .#{$classBreakpoint}\:img-full {
+      width: 100%;
+    }
+
+    // Img responsive
+    .#{$classBreakpoint}\:img-responsive {
+      max-width: 100%;
+    }
+  }
 }
