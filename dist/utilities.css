@@ -1,6 +1,6 @@
 /* Include Fonts */
 /* Lato + Noto Sans */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly
@@ -10318,6 +10318,10 @@ table {
   font-weight: var(--gcds-font-weights-regular);
 }
 
+.font-medium {
+  font-weight: var(--gcds-font-weights-medium);
+}
+
 .font-semibold {
   font-weight: var(--gcds-font-weights-semibold);
 }
@@ -10333,6 +10337,9 @@ table {
   .xs\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
+  .xs\:font-medium {
+    font-weight: var(--gcds-font-weights-medium);
+  }
   .xs\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
@@ -10346,6 +10353,9 @@ table {
   }
   .sm\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
+  }
+  .sm\:font-medium {
+    font-weight: var(--gcds-font-weights-medium);
   }
   .sm\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
@@ -10361,6 +10371,9 @@ table {
   .md\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
+  .md\:font-medium {
+    font-weight: var(--gcds-font-weights-medium);
+  }
   .md\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
@@ -10375,6 +10388,9 @@ table {
   .lg\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
   }
+  .lg\:font-medium {
+    font-weight: var(--gcds-font-weights-medium);
+  }
   .lg\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
   }
@@ -10388,6 +10404,9 @@ table {
   }
   .xl\:font-regular {
     font-weight: var(--gcds-font-weights-regular);
+  }
+  .xl\:font-medium {
+    font-weight: var(--gcds-font-weights-medium);
   }
   .xl\:font-semibold {
     font-weight: var(--gcds-font-weights-semibold);
