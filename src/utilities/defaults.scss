@@ -35,10 +35,10 @@ $spacing: (
 
 $sides: (
   '': '',
-  t: '-top',
-  r: '-right',
-  b: '-bottom',
-  l: '-left',
+  t: '-block-start',
+  e: '-inline-end',
+  b: '-block-end',
+  s: '-inline-start',
   x: '-inline',
   y: '-block'
 ) !default;
