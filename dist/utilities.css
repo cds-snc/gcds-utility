@@ -2144,109 +2144,128 @@ table {
   }
 }
 /* --- Container Sizes --- */
-.container-100 {
-  max-width: var(--gcds-container-100);
+.container-xs {
+  max-width: var(--gcds-container-xs);
 }
 
-.container-200 {
-  max-width: var(--gcds-container-200);
+.container-sm {
+  max-width: var(--gcds-container-sm);
 }
 
-.container-300 {
-  max-width: var(--gcds-container-300);
+.container-md {
+  max-width: var(--gcds-container-md);
 }
 
-.container-400 {
-  max-width: var(--gcds-container-400);
+.container-lg {
+  max-width: var(--gcds-container-lg);
 }
 
-.container-500 {
-  max-width: var(--gcds-container-500);
+.container-xl {
+  max-width: var(--gcds-container-xl);
+}
+
+.container-full {
+  max-width: var(--gcds-container-full);
 }
 
 @media only screen and (width > 30em) {
-  .xs\:container-100 {
-    max-width: var(--gcds-container-100);
+  .xs\:container-xs {
+    max-width: var(--gcds-container-xs);
   }
-  .xs\:container-200 {
-    max-width: var(--gcds-container-200);
+  .xs\:container-sm {
+    max-width: var(--gcds-container-sm);
   }
-  .xs\:container-300 {
-    max-width: var(--gcds-container-300);
+  .xs\:container-md {
+    max-width: var(--gcds-container-md);
   }
-  .xs\:container-400 {
-    max-width: var(--gcds-container-400);
+  .xs\:container-lg {
+    max-width: var(--gcds-container-lg);
   }
-  .xs\:container-500 {
-    max-width: var(--gcds-container-500);
+  .xs\:container-xl {
+    max-width: var(--gcds-container-xl);
+  }
+  .xs\:container-full {
+    max-width: var(--gcds-container-full);
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:container-100 {
-    max-width: var(--gcds-container-100);
+  .sm\:container-xs {
+    max-width: var(--gcds-container-xs);
   }
-  .sm\:container-200 {
-    max-width: var(--gcds-container-200);
+  .sm\:container-sm {
+    max-width: var(--gcds-container-sm);
   }
-  .sm\:container-300 {
-    max-width: var(--gcds-container-300);
+  .sm\:container-md {
+    max-width: var(--gcds-container-md);
   }
-  .sm\:container-400 {
-    max-width: var(--gcds-container-400);
+  .sm\:container-lg {
+    max-width: var(--gcds-container-lg);
   }
-  .sm\:container-500 {
-    max-width: var(--gcds-container-500);
+  .sm\:container-xl {
+    max-width: var(--gcds-container-xl);
+  }
+  .sm\:container-full {
+    max-width: var(--gcds-container-full);
   }
 }
 @media only screen and (width > 48em) {
-  .md\:container-100 {
-    max-width: var(--gcds-container-100);
+  .md\:container-xs {
+    max-width: var(--gcds-container-xs);
   }
-  .md\:container-200 {
-    max-width: var(--gcds-container-200);
+  .md\:container-sm {
+    max-width: var(--gcds-container-sm);
   }
-  .md\:container-300 {
-    max-width: var(--gcds-container-300);
+  .md\:container-md {
+    max-width: var(--gcds-container-md);
   }
-  .md\:container-400 {
-    max-width: var(--gcds-container-400);
+  .md\:container-lg {
+    max-width: var(--gcds-container-lg);
   }
-  .md\:container-500 {
-    max-width: var(--gcds-container-500);
+  .md\:container-xl {
+    max-width: var(--gcds-container-xl);
+  }
+  .md\:container-full {
+    max-width: var(--gcds-container-full);
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:container-100 {
-    max-width: var(--gcds-container-100);
+  .lg\:container-xs {
+    max-width: var(--gcds-container-xs);
   }
-  .lg\:container-200 {
-    max-width: var(--gcds-container-200);
+  .lg\:container-sm {
+    max-width: var(--gcds-container-sm);
   }
-  .lg\:container-300 {
-    max-width: var(--gcds-container-300);
+  .lg\:container-md {
+    max-width: var(--gcds-container-md);
   }
-  .lg\:container-400 {
-    max-width: var(--gcds-container-400);
+  .lg\:container-lg {
+    max-width: var(--gcds-container-lg);
   }
-  .lg\:container-500 {
-    max-width: var(--gcds-container-500);
+  .lg\:container-xl {
+    max-width: var(--gcds-container-xl);
+  }
+  .lg\:container-full {
+    max-width: var(--gcds-container-full);
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:container-100 {
-    max-width: var(--gcds-container-100);
+  .xl\:container-xs {
+    max-width: var(--gcds-container-xs);
   }
-  .xl\:container-200 {
-    max-width: var(--gcds-container-200);
+  .xl\:container-sm {
+    max-width: var(--gcds-container-sm);
   }
-  .xl\:container-300 {
-    max-width: var(--gcds-container-300);
+  .xl\:container-md {
+    max-width: var(--gcds-container-md);
   }
-  .xl\:container-400 {
-    max-width: var(--gcds-container-400);
+  .xl\:container-lg {
+    max-width: var(--gcds-container-lg);
   }
-  .xl\:container-500 {
-    max-width: var(--gcds-container-500);
+  .xl\:container-xl {
+    max-width: var(--gcds-container-xl);
+  }
+  .xl\:container-full {
+    max-width: var(--gcds-container-full);
   }
 }
 /* --- Cursor --- */

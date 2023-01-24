@@ -3,11 +3,12 @@
 /* --- Container Sizes --- */
 
 $container: (
-  100: var(--gcds-container-100),
-  200: var(--gcds-container-200),
-  300: var(--gcds-container-300),
-  400: var(--gcds-container-400),
-  500: var(--gcds-container-500),
+  xs: var(--gcds-container-xs),
+  sm: var(--gcds-container-sm),
+  md: var(--gcds-container-md),
+  lg: var(--gcds-container-lg),
+  xl: var(--gcds-container-xl),
+  full: var(--gcds-container-full),
 ) !default;
 
 @include generateClasses($container, 'container-', max-width);
