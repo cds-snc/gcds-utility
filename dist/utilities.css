@@ -446,21 +446,15 @@ fieldset {
 h1,
 h2,
 h3,
-h4 {
-  font-family: var(--gcds-font-families-heading);
-}
-
-h2,
-h3,
 h4,
 h5,
 h6 {
+  font-family: var(--gcds-font-families-heading);
   font-weight: var(--gcds-font-weights-bold);
 }
 
 h1 {
   font-size: var(--gcds-font-sizes-h1);
-  font-weight: var(--gcds-font-weights-regular);
   line-height: var(--gcds-line-heights-h1);
 }
 
@@ -480,13 +474,11 @@ h4 {
 }
 
 h5 {
-  font-family: var(--gcds-font-families-body);
   font-size: var(--gcds-font-sizes-h5);
   line-height: var(--gcds-line-heights-h5);
 }
 
 h6 {
-  font-family: var(--gcds-font-families-body);
   font-size: var(--gcds-font-sizes-h6);
   line-height: var(--gcds-line-heights-h6);
 }
