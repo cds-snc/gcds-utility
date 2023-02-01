@@ -3951,7 +3951,7 @@ table {
 }
 /* --- Gap --- */
 .gap-0 {
-  gap: 0;
+  gap: var(--gcds-spacing-0);
 }
 
 .gap-50 {
@@ -4016,7 +4016,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .xs\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4066,7 +4066,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .sm\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4116,7 +4116,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .md\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4166,7 +4166,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .lg\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4216,7 +4216,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .xl\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4265,9 +4265,9 @@ table {
   }
 }
 .gap-x-0 {
-  -webkit-column-gap: 0;
-     -moz-column-gap: 0;
-          column-gap: 0;
+  -webkit-column-gap: var(--gcds-spacing-0);
+     -moz-column-gap: var(--gcds-spacing-0);
+          column-gap: var(--gcds-spacing-0);
 }
 
 .gap-x-50 {
@@ -4362,9 +4362,9 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .xs\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4444,9 +4444,9 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .sm\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4526,9 +4526,9 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .md\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4608,9 +4608,9 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .lg\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4690,9 +4690,9 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .xl\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4771,7 +4771,7 @@ table {
   }
 }
 .gap-y-0 {
-  row-gap: 0;
+  row-gap: var(--gcds-spacing-0);
 }
 
 .gap-y-50 {
@@ -4836,7 +4836,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .xs\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -4886,7 +4886,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .sm\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -4936,7 +4936,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .md\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -4986,7 +4986,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .lg\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -5036,7 +5036,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .xl\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -7135,7 +7135,7 @@ table {
 }
 /* --- Margin Spacing Classes --- */
 .m-0 {
-  margin: 0;
+  margin: var(--gcds-spacing-0);
 }
 
 .m-50 {
@@ -7204,7 +7204,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .xs\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7257,7 +7257,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .sm\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7310,7 +7310,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .md\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7363,7 +7363,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .lg\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7416,7 +7416,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .xl\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7468,8 +7468,8 @@ table {
   }
 }
 .mt-0 {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  -webkit-margin-before: var(--gcds-spacing-0);
+          margin-block-start: var(--gcds-spacing-0);
 }
 
 .mt-50 {
@@ -7554,8 +7554,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .xs\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7624,8 +7624,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .sm\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7694,8 +7694,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .md\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7764,8 +7764,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .lg\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7834,8 +7834,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .xl\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7903,8 +7903,8 @@ table {
   }
 }
 .me-0 {
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
+  -webkit-margin-end: var(--gcds-spacing-0);
+          margin-inline-end: var(--gcds-spacing-0);
 }
 
 .me-50 {
@@ -7989,8 +7989,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .xs\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8059,8 +8059,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .sm\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8129,8 +8129,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .md\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8199,8 +8199,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .lg\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8269,8 +8269,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .xl\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8338,8 +8338,8 @@ table {
   }
 }
 .mb-0 {
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
+  -webkit-margin-after: var(--gcds-spacing-0);
+          margin-block-end: var(--gcds-spacing-0);
 }
 
 .mb-50 {
@@ -8424,8 +8424,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .xs\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8494,8 +8494,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .sm\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8564,8 +8564,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .md\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8634,8 +8634,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .lg\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8704,8 +8704,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .xl\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8773,8 +8773,8 @@ table {
   }
 }
 .ms-0 {
-  -webkit-margin-start: 0;
-          margin-inline-start: 0;
+  -webkit-margin-start: var(--gcds-spacing-0);
+          margin-inline-start: var(--gcds-spacing-0);
 }
 
 .ms-50 {
@@ -8859,8 +8859,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .xs\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -8929,8 +8929,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .sm\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -8999,8 +8999,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .md\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9069,8 +9069,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .lg\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9139,8 +9139,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .xl\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9208,7 +9208,7 @@ table {
   }
 }
 .mx-0 {
-  margin-inline: 0;
+  margin-inline: var(--gcds-spacing-0);
 }
 
 .mx-50 {
@@ -9277,7 +9277,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .xs\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9330,7 +9330,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .sm\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9383,7 +9383,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .md\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9436,7 +9436,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .lg\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9489,7 +9489,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .xl\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9541,7 +9541,7 @@ table {
   }
 }
 .my-0 {
-  margin-block: 0;
+  margin-block: var(--gcds-spacing-0);
 }
 
 .my-50 {
@@ -9610,7 +9610,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .xs\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9663,7 +9663,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .sm\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9716,7 +9716,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .md\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9769,7 +9769,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .lg\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9822,7 +9822,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .xl\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9875,7 +9875,7 @@ table {
 }
 /* --- Padding Spacing Classes --- */
 .p-0 {
-  padding: 0;
+  padding: var(--gcds-spacing-0);
 }
 
 .p-50 {
@@ -9940,7 +9940,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .xs\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -9990,7 +9990,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .sm\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10040,7 +10040,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .md\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10090,7 +10090,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .lg\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10140,7 +10140,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .xl\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10189,8 +10189,8 @@ table {
   }
 }
 .pt-0 {
-  -webkit-padding-before: 0;
-          padding-block-start: 0;
+  -webkit-padding-before: var(--gcds-spacing-0);
+          padding-block-start: var(--gcds-spacing-0);
 }
 
 .pt-50 {
@@ -10270,8 +10270,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .xs\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10336,8 +10336,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .sm\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10402,8 +10402,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .md\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10468,8 +10468,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .lg\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10534,8 +10534,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .xl\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10599,8 +10599,8 @@ table {
   }
 }
 .pe-0 {
-  -webkit-padding-end: 0;
-          padding-inline-end: 0;
+  -webkit-padding-end: var(--gcds-spacing-0);
+          padding-inline-end: var(--gcds-spacing-0);
 }
 
 .pe-50 {
@@ -10680,8 +10680,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .xs\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10746,8 +10746,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .sm\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10812,8 +10812,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .md\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10878,8 +10878,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .lg\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10944,8 +10944,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .xl\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -11009,8 +11009,8 @@ table {
   }
 }
 .pb-0 {
-  -webkit-padding-after: 0;
-          padding-block-end: 0;
+  -webkit-padding-after: var(--gcds-spacing-0);
+          padding-block-end: var(--gcds-spacing-0);
 }
 
 .pb-50 {
@@ -11090,8 +11090,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .xs\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11156,8 +11156,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .sm\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11222,8 +11222,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .md\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11288,8 +11288,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .lg\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11354,8 +11354,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .xl\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11419,8 +11419,8 @@ table {
   }
 }
 .ps-0 {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  -webkit-padding-start: var(--gcds-spacing-0);
+          padding-inline-start: var(--gcds-spacing-0);
 }
 
 .ps-50 {
@@ -11500,8 +11500,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .xs\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11566,8 +11566,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .sm\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11632,8 +11632,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .md\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11698,8 +11698,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .lg\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11764,8 +11764,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .xl\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11829,7 +11829,7 @@ table {
   }
 }
 .px-0 {
-  padding-inline: 0;
+  padding-inline: var(--gcds-spacing-0);
 }
 
 .px-50 {
@@ -11894,7 +11894,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .xs\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -11944,7 +11944,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .sm\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -11994,7 +11994,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .md\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12044,7 +12044,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .lg\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12094,7 +12094,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .xl\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12143,7 +12143,7 @@ table {
   }
 }
 .py-0 {
-  padding-block: 0;
+  padding-block: var(--gcds-spacing-0);
 }
 
 .py-50 {
@@ -12208,7 +12208,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .xs\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12258,7 +12258,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .sm\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12308,7 +12308,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .md\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12358,7 +12358,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .lg\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12408,7 +12408,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .xl\:py-50 {
     padding-block: var(--gcds-spacing-50);
