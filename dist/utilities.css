@@ -4,7 +4,11 @@
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly
+<<<<<<< HEAD
  * Generated on Wed, 01 Feb 2023 21:20:36 GMT
+=======
+ * Generated on Wed, 01 Feb 2023 17:49:31 GMT
+>>>>>>> 22ed40c (add text colour classes)
  */
 :root {
   --gcds-color-blue-100: #d7e5f5;
@@ -1114,1016 +1118,702 @@ table {
   }
 }
 /* --- Border --- */
-.b-0 {
+.b-none {
   border: none;
 }
 
-.b-1 {
-  border: 1px solid currentColor;
+.b-sm {
+  border: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.b-2 {
-  border: 0.125rem solid currentColor;
+.b-md {
+  border: var(--gcds-border-width-md) solid currentColor;
 }
 
-.b-4 {
-  border: 0.25rem solid currentColor;
-}
-
-.b-6 {
-  border: 0.375rem solid currentColor;
-}
-
-.b-8 {
-  border: 0.5rem solid currentColor;
+.b-xl {
+  border: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:b-0 {
+  .xs\:b-none {
     border: none;
   }
-  .xs\:b-1 {
-    border: 1px solid currentColor;
+  .xs\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:b-2 {
-    border: 0.125rem solid currentColor;
+  .xs\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:b-4 {
-    border: 0.25rem solid currentColor;
-  }
-  .xs\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .xs\:b-8 {
-    border: 0.5rem solid currentColor;
+  .xs\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:b-0 {
+  .sm\:b-none {
     border: none;
   }
-  .sm\:b-1 {
-    border: 1px solid currentColor;
+  .sm\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:b-2 {
-    border: 0.125rem solid currentColor;
+  .sm\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:b-4 {
-    border: 0.25rem solid currentColor;
-  }
-  .sm\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .sm\:b-8 {
-    border: 0.5rem solid currentColor;
+  .sm\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:b-0 {
+  .md\:b-none {
     border: none;
   }
-  .md\:b-1 {
-    border: 1px solid currentColor;
+  .md\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:b-2 {
-    border: 0.125rem solid currentColor;
+  .md\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:b-4 {
-    border: 0.25rem solid currentColor;
-  }
-  .md\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .md\:b-8 {
-    border: 0.5rem solid currentColor;
+  .md\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:b-0 {
+  .lg\:b-none {
     border: none;
   }
-  .lg\:b-1 {
-    border: 1px solid currentColor;
+  .lg\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:b-2 {
-    border: 0.125rem solid currentColor;
+  .lg\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:b-4 {
-    border: 0.25rem solid currentColor;
-  }
-  .lg\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .lg\:b-8 {
-    border: 0.5rem solid currentColor;
+  .lg\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:b-0 {
+  .xl\:b-none {
     border: none;
   }
-  .xl\:b-1 {
-    border: 1px solid currentColor;
+  .xl\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:b-2 {
-    border: 0.125rem solid currentColor;
+  .xl\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:b-4 {
-    border: 0.25rem solid currentColor;
-  }
-  .xl\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .xl\:b-8 {
-    border: 0.5rem solid currentColor;
+  .xl\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bt-0 {
+.bt-none {
   -webkit-border-before: none;
           border-block-start: none;
 }
 
-.bt-1 {
-  -webkit-border-before: 1px solid currentColor;
-          border-block-start: 1px solid currentColor;
+.bt-sm {
+  -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+          border-block-start: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bt-2 {
-  -webkit-border-before: 0.125rem solid currentColor;
-          border-block-start: 0.125rem solid currentColor;
+.bt-md {
+  -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+          border-block-start: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bt-4 {
-  -webkit-border-before: 0.25rem solid currentColor;
-          border-block-start: 0.25rem solid currentColor;
-}
-
-.bt-6 {
-  -webkit-border-before: 0.375rem solid currentColor;
-          border-block-start: 0.375rem solid currentColor;
-}
-
-.bt-8 {
-  -webkit-border-before: 0.5rem solid currentColor;
-          border-block-start: 0.5rem solid currentColor;
+.bt-xl {
+  -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+          border-block-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bt-0 {
+  .xs\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .xs\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .xs\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .xs\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
-  }
-  .xs\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .xs\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .xs\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bt-0 {
+  .sm\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .sm\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .sm\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .sm\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
-  }
-  .sm\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .sm\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .sm\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bt-0 {
+  .md\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .md\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .md\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .md\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
-  }
-  .md\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .md\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .md\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bt-0 {
+  .lg\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .lg\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .lg\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .lg\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
-  }
-  .lg\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .lg\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .lg\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bt-0 {
+  .xl\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .xl\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .xl\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .xl\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
-  }
-  .xl\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .xl\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .xl\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.be-0 {
+.be-none {
   -webkit-border-end: none;
           border-inline-end: none;
 }
 
-.be-1 {
-  -webkit-border-end: 1px solid currentColor;
-          border-inline-end: 1px solid currentColor;
+.be-sm {
+  -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+          border-inline-end: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.be-2 {
-  -webkit-border-end: 0.125rem solid currentColor;
-          border-inline-end: 0.125rem solid currentColor;
+.be-md {
+  -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+          border-inline-end: var(--gcds-border-width-md) solid currentColor;
 }
 
-.be-4 {
-  -webkit-border-end: 0.25rem solid currentColor;
-          border-inline-end: 0.25rem solid currentColor;
-}
-
-.be-6 {
-  -webkit-border-end: 0.375rem solid currentColor;
-          border-inline-end: 0.375rem solid currentColor;
-}
-
-.be-8 {
-  -webkit-border-end: 0.5rem solid currentColor;
-          border-inline-end: 0.5rem solid currentColor;
+.be-xl {
+  -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+          border-inline-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:be-0 {
+  .xs\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .xs\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .xs\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .xs\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
-  }
-  .xs\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .xs\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .xs\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:be-0 {
+  .sm\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .sm\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .sm\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .sm\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
-  }
-  .sm\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .sm\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .sm\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:be-0 {
+  .md\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .md\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .md\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .md\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
-  }
-  .md\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .md\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .md\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:be-0 {
+  .lg\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .lg\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .lg\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .lg\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
-  }
-  .lg\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .lg\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .lg\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:be-0 {
+  .xl\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .xl\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .xl\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .xl\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
-  }
-  .xl\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .xl\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .xl\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bb-0 {
+.bb-none {
   -webkit-border-after: none;
           border-block-end: none;
 }
 
-.bb-1 {
-  -webkit-border-after: 1px solid currentColor;
-          border-block-end: 1px solid currentColor;
+.bb-sm {
+  -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+          border-block-end: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bb-2 {
-  -webkit-border-after: 0.125rem solid currentColor;
-          border-block-end: 0.125rem solid currentColor;
+.bb-md {
+  -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+          border-block-end: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bb-4 {
-  -webkit-border-after: 0.25rem solid currentColor;
-          border-block-end: 0.25rem solid currentColor;
-}
-
-.bb-6 {
-  -webkit-border-after: 0.375rem solid currentColor;
-          border-block-end: 0.375rem solid currentColor;
-}
-
-.bb-8 {
-  -webkit-border-after: 0.5rem solid currentColor;
-          border-block-end: 0.5rem solid currentColor;
+.bb-xl {
+  -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+          border-block-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bb-0 {
+  .xs\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .xs\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .xs\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .xs\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
-  }
-  .xs\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .xs\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .xs\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bb-0 {
+  .sm\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .sm\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .sm\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .sm\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
-  }
-  .sm\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .sm\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .sm\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bb-0 {
+  .md\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .md\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .md\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .md\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
-  }
-  .md\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .md\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .md\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bb-0 {
+  .lg\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .lg\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .lg\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .lg\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
-  }
-  .lg\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .lg\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .lg\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bb-0 {
+  .xl\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .xl\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .xl\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .xl\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
-  }
-  .xl\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .xl\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .xl\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bs-0 {
+.bs-none {
   -webkit-border-start: none;
           border-inline-start: none;
 }
 
-.bs-1 {
-  -webkit-border-start: 1px solid currentColor;
-          border-inline-start: 1px solid currentColor;
+.bs-sm {
+  -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+          border-inline-start: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bs-2 {
-  -webkit-border-start: 0.125rem solid currentColor;
-          border-inline-start: 0.125rem solid currentColor;
+.bs-md {
+  -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+          border-inline-start: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bs-4 {
-  -webkit-border-start: 0.25rem solid currentColor;
-          border-inline-start: 0.25rem solid currentColor;
-}
-
-.bs-6 {
-  -webkit-border-start: 0.375rem solid currentColor;
-          border-inline-start: 0.375rem solid currentColor;
-}
-
-.bs-8 {
-  -webkit-border-start: 0.5rem solid currentColor;
-          border-inline-start: 0.5rem solid currentColor;
+.bs-xl {
+  -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+          border-inline-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bs-0 {
+  .xs\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .xs\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .xs\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .xs\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
-  }
-  .xs\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .xs\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .xs\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bs-0 {
+  .sm\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .sm\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .sm\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .sm\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
-  }
-  .sm\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .sm\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .sm\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bs-0 {
+  .md\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .md\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .md\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .md\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
-  }
-  .md\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .md\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .md\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bs-0 {
+  .lg\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .lg\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .lg\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .lg\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
-  }
-  .lg\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .lg\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .lg\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bs-0 {
+  .xl\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .xl\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .xl\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .xl\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
-  }
-  .xl\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .xl\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .xl\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bx-0 {
+.bx-none {
   border-inline: none;
 }
 
-.bx-1 {
-  border-inline: 1px solid currentColor;
+.bx-sm {
+  border-inline: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bx-2 {
-  border-inline: 0.125rem solid currentColor;
+.bx-md {
+  border-inline: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bx-4 {
-  border-inline: 0.25rem solid currentColor;
-}
-
-.bx-6 {
-  border-inline: 0.375rem solid currentColor;
-}
-
-.bx-8 {
-  border-inline: 0.5rem solid currentColor;
+.bx-xl {
+  border-inline: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bx-0 {
+  .xs\:bx-none {
     border-inline: none;
   }
-  .xs\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .xs\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .xs\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
-  }
-  .xs\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .xs\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .xs\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bx-0 {
+  .sm\:bx-none {
     border-inline: none;
   }
-  .sm\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .sm\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .sm\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
-  }
-  .sm\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .sm\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .sm\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bx-0 {
+  .md\:bx-none {
     border-inline: none;
   }
-  .md\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .md\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .md\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
-  }
-  .md\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .md\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .md\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bx-0 {
+  .lg\:bx-none {
     border-inline: none;
   }
-  .lg\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .lg\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .lg\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
-  }
-  .lg\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .lg\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .lg\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bx-0 {
+  .xl\:bx-none {
     border-inline: none;
   }
-  .xl\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .xl\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .xl\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
-  }
-  .xl\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .xl\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .xl\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.by-0 {
+.by-none {
   border-block: none;
 }
 
-.by-1 {
-  border-block: 1px solid currentColor;
+.by-sm {
+  border-block: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.by-2 {
-  border-block: 0.125rem solid currentColor;
+.by-md {
+  border-block: var(--gcds-border-width-md) solid currentColor;
 }
 
-.by-4 {
-  border-block: 0.25rem solid currentColor;
-}
-
-.by-6 {
-  border-block: 0.375rem solid currentColor;
-}
-
-.by-8 {
-  border-block: 0.5rem solid currentColor;
+.by-xl {
+  border-block: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:by-0 {
+  .xs\:by-none {
     border-block: none;
   }
-  .xs\:by-1 {
-    border-block: 1px solid currentColor;
+  .xs\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .xs\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:by-4 {
-    border-block: 0.25rem solid currentColor;
-  }
-  .xs\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .xs\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .xs\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:by-0 {
+  .sm\:by-none {
     border-block: none;
   }
-  .sm\:by-1 {
-    border-block: 1px solid currentColor;
+  .sm\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .sm\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:by-4 {
-    border-block: 0.25rem solid currentColor;
-  }
-  .sm\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .sm\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .sm\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:by-0 {
+  .md\:by-none {
     border-block: none;
   }
-  .md\:by-1 {
-    border-block: 1px solid currentColor;
+  .md\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .md\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:by-4 {
-    border-block: 0.25rem solid currentColor;
-  }
-  .md\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .md\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .md\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:by-0 {
+  .lg\:by-none {
     border-block: none;
   }
-  .lg\:by-1 {
-    border-block: 1px solid currentColor;
+  .lg\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .lg\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:by-4 {
-    border-block: 0.25rem solid currentColor;
-  }
-  .lg\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .lg\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .lg\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:by-0 {
+  .xl\:by-none {
     border-block: none;
   }
-  .xl\:by-1 {
-    border-block: 1px solid currentColor;
+  .xl\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .xl\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:by-4 {
-    border-block: 0.25rem solid currentColor;
-  }
-  .xl\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .xl\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .xl\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 /* --- Border Style --- */
@@ -13391,6 +13081,131 @@ table {
   }
   .xl\:text-right {
     text-align: right;
+  }
+}
+/* --- Text Colours --- */
+.text-current {
+  color: currentColor;
+}
+
+.text-inherit {
+  color: inherit;
+}
+
+.text-light {
+  color: var(--gcds-text-light);
+}
+
+.text-primary {
+  color: var(--gcds-text-primary);
+}
+
+.text-secondary {
+  color: var(--gcds-text-secondary);
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:text-current {
+    color: currentColor;
+  }
+  .xs\:text-inherit {
+    color: inherit;
+  }
+  .xs\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .xs\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .xs\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .xs\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:text-current {
+    color: currentColor;
+  }
+  .sm\:text-inherit {
+    color: inherit;
+  }
+  .sm\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .sm\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .sm\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .sm\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:text-current {
+    color: currentColor;
+  }
+  .md\:text-inherit {
+    color: inherit;
+  }
+  .md\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .md\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .md\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .md\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:text-current {
+    color: currentColor;
+  }
+  .lg\:text-inherit {
+    color: inherit;
+  }
+  .lg\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .lg\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .lg\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .lg\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:text-current {
+    color: currentColor;
+  }
+  .xl\:text-inherit {
+    color: inherit;
+  }
+  .xl\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .xl\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .xl\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .xl\:text-transparent {
+    color: transparent;
   }
 }
 /* --- Text Overflow --- */

@@ -95,6 +95,20 @@ $textAlign: (
 @include generateClasses($textAlign, 'text-', text-align);
 
 
+/* --- Text Colours --- */
+
+$textColors: (
+  current: currentColor,
+  inherit: inherit,
+  light: var(--gcds-text-light),
+  primary: var(--gcds-text-primary),
+  secondary: var(--gcds-text-secondary),
+  transparent: transparent,
+) !default;
+
+@include generateClasses($textColors, 'text-', color);
+
+
 /* --- Text Overflow --- */
 
 @include classWithBreakpoints('text-clip' ) {

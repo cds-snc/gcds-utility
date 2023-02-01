@@ -3,12 +3,10 @@
 /* --- Border --- */
 
 $borderSizes: (
-  0: none,
-  1: 1px solid currentColor,
-  2: .125rem solid currentColor,
-  4: .25rem solid currentColor,
-  6: .375rem solid currentColor,
-  8: .5rem solid currentColor
+  none: none,
+  sm: var(--gcds-border-width-sm) solid currentColor,
+  md: var(--gcds-border-width-md) solid currentColor,
+  xl: var(--gcds-border-width-xl) solid currentColor,
 ) !default;
 
 @each $classSide, $side in $sides {
