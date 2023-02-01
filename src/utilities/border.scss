@@ -6,7 +6,8 @@ $borderSizes: (
   none: none,
   sm: var(--gcds-border-width-sm) solid currentColor,
   md: var(--gcds-border-width-md) solid currentColor,
-  xl: var(--gcds-border-width-xl) solid currentColor,
+  lg: var(--gcds-border-width-lg) solid currentColor,
+  xl: var(--gcds-border-width-xl) solid currentColor
 ) !default;
 
 @each $classSide, $side in $sides {
