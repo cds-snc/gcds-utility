@@ -25,7 +25,7 @@ $fontFamily: (
   icon: var(--gcds-font-families-icon)
 ) !default;
 
-@include generateClasses($fontFamily, 'font-', font-family);
+@include generateClasses($fontFamily, 'font-family-', font-family);
 
 
 /* --- Font Sizes --- */

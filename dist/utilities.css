@@ -12739,89 +12739,89 @@ table {
   }
 }
 /* --- Font Families --- */
-.font-heading {
+.font-family-heading {
   font-family: var(--gcds-font-families-heading);
 }
 
-.font-body {
+.font-family-body {
   font-family: var(--gcds-font-families-body);
 }
 
-.font-monospace {
+.font-family-monospace {
   font-family: var(--gcds-font-families-monospace);
 }
 
-.font-icon {
+.font-family-icon {
   font-family: var(--gcds-font-families-icon);
 }
 
 @media only screen and (width > 30em) {
-  .xs\:font-heading {
+  .xs\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .xs\:font-body {
+  .xs\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .xs\:font-monospace {
+  .xs\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .xs\:font-icon {
+  .xs\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:font-heading {
+  .sm\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .sm\:font-body {
+  .sm\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .sm\:font-monospace {
+  .sm\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .sm\:font-icon {
+  .sm\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 48em) {
-  .md\:font-heading {
+  .md\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .md\:font-body {
+  .md\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .md\:font-monospace {
+  .md\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .md\:font-icon {
+  .md\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:font-heading {
+  .lg\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .lg\:font-body {
+  .lg\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .lg\:font-monospace {
+  .lg\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .lg\:font-icon {
+  .lg\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:font-heading {
+  .xl\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .xl\:font-body {
+  .xl\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .xl\:font-monospace {
+  .xl\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .xl\:font-icon {
+  .xl\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
