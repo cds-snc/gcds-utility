@@ -6507,12 +6507,12 @@ table {
   }
 }
 /* --- Link Color --- */
-.link-dark {
-  color: var(--gcds-link-dark-text);
+.link-default {
+  color: var(--gcds-link-default);
 }
 
-.link-destructive {
-  color: var(--gcds-link-destructive-text);
+.link-hover {
+  color: var(--gcds-link-hover);
 }
 
 .link-inherit {
@@ -6520,77 +6520,77 @@ table {
 }
 
 .link-light {
-  color: var(--gcds-link-light-text);
+  color: var(--gcds-link-light);
 }
 
 @media only screen and (width > 30em) {
-  .xs\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .xs\:link-default {
+    color: var(--gcds-link-default);
   }
-  .xs\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .xs\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .xs\:link-inherit {
     color: inherit;
   }
   .xs\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .sm\:link-default {
+    color: var(--gcds-link-default);
   }
-  .sm\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .sm\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .sm\:link-inherit {
     color: inherit;
   }
   .sm\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 48em) {
-  .md\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .md\:link-default {
+    color: var(--gcds-link-default);
   }
-  .md\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .md\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .md\:link-inherit {
     color: inherit;
   }
   .md\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .lg\:link-default {
+    color: var(--gcds-link-default);
   }
-  .lg\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .lg\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .lg\:link-inherit {
     color: inherit;
   }
   .lg\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .xl\:link-default {
+    color: var(--gcds-link-default);
   }
-  .xl\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .xl\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .xl\:link-inherit {
     color: inherit;
   }
   .xl\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 /* --- Link Text Decoration --- */
