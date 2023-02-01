@@ -537,9 +537,7 @@ a {
 }
 
 body {
-  font-family: var(--gcds-font-families-body);
-  font-size: var(--gcds-font-sizes-text);
-  line-height: var(--gcds-line-heights-text);
+  font: var(--gcds-font-text);
 }
 
 button {
@@ -551,44 +549,28 @@ fieldset {
   border: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--gcds-font-families-heading);
-  font-weight: var(--gcds-font-weights-bold);
-}
-
 h1 {
-  font-size: var(--gcds-font-sizes-h1);
-  line-height: var(--gcds-line-heights-h1);
+  font: var(--gcds-font-h1);
 }
 
 h2 {
-  font-size: var(--gcds-font-sizes-h2);
-  line-height: var(--gcds-line-heights-h2);
+  font: var(--gcds-font-h2);
 }
 
 h3 {
-  font-size: var(--gcds-font-sizes-h3);
-  line-height: var(--gcds-line-heights-h3);
+  font: var(--gcds-font-h3);
 }
 
 h4 {
-  font-size: var(--gcds-font-sizes-h4);
-  line-height: var(--gcds-line-heights-h4);
+  font: var(--gcds-font-h4);
 }
 
 h5 {
-  font-size: var(--gcds-font-sizes-h5);
-  line-height: var(--gcds-line-heights-h5);
+  font: var(--gcds-font-h5);
 }
 
 h6 {
-  font-size: var(--gcds-font-sizes-h6);
-  line-height: var(--gcds-line-heights-h6);
+  font: var(--gcds-font-h6);
 }
 
 hr {
@@ -625,9 +607,12 @@ ul {
   list-style: none;
 }
 
+p {
+  font: var(--gcds-font-text);
+}
+
 small {
-  font-size: var(--gcds-font-sizes-caption);
-  line-height: var(--gcds-line-heights-caption);
+  font: var(--gcds-font-caption);
 }
 
 strong {
@@ -1129,1016 +1114,859 @@ table {
   }
 }
 /* --- Border --- */
-.b-0 {
+.b-none {
   border: none;
 }
 
-.b-1 {
-  border: 1px solid currentColor;
+.b-sm {
+  border: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.b-2 {
-  border: 0.125rem solid currentColor;
+.b-md {
+  border: var(--gcds-border-width-md) solid currentColor;
 }
 
-.b-4 {
-  border: 0.25rem solid currentColor;
+.b-lg {
+  border: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.b-6 {
-  border: 0.375rem solid currentColor;
-}
-
-.b-8 {
-  border: 0.5rem solid currentColor;
+.b-xl {
+  border: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:b-0 {
+  .xs\:b-none {
     border: none;
   }
-  .xs\:b-1 {
-    border: 1px solid currentColor;
+  .xs\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:b-2 {
-    border: 0.125rem solid currentColor;
+  .xs\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:b-4 {
-    border: 0.25rem solid currentColor;
+  .xs\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .xs\:b-8 {
-    border: 0.5rem solid currentColor;
+  .xs\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:b-0 {
+  .sm\:b-none {
     border: none;
   }
-  .sm\:b-1 {
-    border: 1px solid currentColor;
+  .sm\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:b-2 {
-    border: 0.125rem solid currentColor;
+  .sm\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:b-4 {
-    border: 0.25rem solid currentColor;
+  .sm\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .sm\:b-8 {
-    border: 0.5rem solid currentColor;
+  .sm\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:b-0 {
+  .md\:b-none {
     border: none;
   }
-  .md\:b-1 {
-    border: 1px solid currentColor;
+  .md\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:b-2 {
-    border: 0.125rem solid currentColor;
+  .md\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:b-4 {
-    border: 0.25rem solid currentColor;
+  .md\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .md\:b-8 {
-    border: 0.5rem solid currentColor;
+  .md\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:b-0 {
+  .lg\:b-none {
     border: none;
   }
-  .lg\:b-1 {
-    border: 1px solid currentColor;
+  .lg\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:b-2 {
-    border: 0.125rem solid currentColor;
+  .lg\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:b-4 {
-    border: 0.25rem solid currentColor;
+  .lg\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .lg\:b-8 {
-    border: 0.5rem solid currentColor;
+  .lg\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:b-0 {
+  .xl\:b-none {
     border: none;
   }
-  .xl\:b-1 {
-    border: 1px solid currentColor;
+  .xl\:b-sm {
+    border: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:b-2 {
-    border: 0.125rem solid currentColor;
+  .xl\:b-md {
+    border: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:b-4 {
-    border: 0.25rem solid currentColor;
+  .xl\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:b-6 {
-    border: 0.375rem solid currentColor;
-  }
-  .xl\:b-8 {
-    border: 0.5rem solid currentColor;
+  .xl\:b-xl {
+    border: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bt-0 {
+.bt-none {
   -webkit-border-before: none;
           border-block-start: none;
 }
 
-.bt-1 {
-  -webkit-border-before: 1px solid currentColor;
-          border-block-start: 1px solid currentColor;
+.bt-sm {
+  -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+          border-block-start: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bt-2 {
-  -webkit-border-before: 0.125rem solid currentColor;
-          border-block-start: 0.125rem solid currentColor;
+.bt-md {
+  -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+          border-block-start: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bt-4 {
-  -webkit-border-before: 0.25rem solid currentColor;
-          border-block-start: 0.25rem solid currentColor;
+.bt-lg {
+  -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+          border-block-start: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.bt-6 {
-  -webkit-border-before: 0.375rem solid currentColor;
-          border-block-start: 0.375rem solid currentColor;
-}
-
-.bt-8 {
-  -webkit-border-before: 0.5rem solid currentColor;
-          border-block-start: 0.5rem solid currentColor;
+.bt-xl {
+  -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+          border-block-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bt-0 {
+  .xs\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .xs\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .xs\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .xs\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
+  .xs\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .xs\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .xs\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bt-0 {
+  .sm\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .sm\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .sm\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .sm\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
+  .sm\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .sm\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .sm\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bt-0 {
+  .md\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .md\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .md\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .md\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
+  .md\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .md\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .md\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bt-0 {
+  .lg\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .lg\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .lg\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .lg\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
+  .lg\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .lg\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .lg\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bt-0 {
+  .xl\:bt-none {
     -webkit-border-before: none;
             border-block-start: none;
   }
-  .xl\:bt-1 {
-    -webkit-border-before: 1px solid currentColor;
-            border-block-start: 1px solid currentColor;
+  .xl\:bt-sm {
+    -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
+            border-block-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bt-2 {
-    -webkit-border-before: 0.125rem solid currentColor;
-            border-block-start: 0.125rem solid currentColor;
+  .xl\:bt-md {
+    -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
+            border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bt-4 {
-    -webkit-border-before: 0.25rem solid currentColor;
-            border-block-start: 0.25rem solid currentColor;
+  .xl\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:bt-6 {
-    -webkit-border-before: 0.375rem solid currentColor;
-            border-block-start: 0.375rem solid currentColor;
-  }
-  .xl\:bt-8 {
-    -webkit-border-before: 0.5rem solid currentColor;
-            border-block-start: 0.5rem solid currentColor;
+  .xl\:bt-xl {
+    -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
+            border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.be-0 {
+.be-none {
   -webkit-border-end: none;
           border-inline-end: none;
 }
 
-.be-1 {
-  -webkit-border-end: 1px solid currentColor;
-          border-inline-end: 1px solid currentColor;
+.be-sm {
+  -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+          border-inline-end: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.be-2 {
-  -webkit-border-end: 0.125rem solid currentColor;
-          border-inline-end: 0.125rem solid currentColor;
+.be-md {
+  -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+          border-inline-end: var(--gcds-border-width-md) solid currentColor;
 }
 
-.be-4 {
-  -webkit-border-end: 0.25rem solid currentColor;
-          border-inline-end: 0.25rem solid currentColor;
+.be-lg {
+  -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+          border-inline-end: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.be-6 {
-  -webkit-border-end: 0.375rem solid currentColor;
-          border-inline-end: 0.375rem solid currentColor;
-}
-
-.be-8 {
-  -webkit-border-end: 0.5rem solid currentColor;
-          border-inline-end: 0.5rem solid currentColor;
+.be-xl {
+  -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+          border-inline-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:be-0 {
+  .xs\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .xs\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .xs\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .xs\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
+  .xs\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .xs\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .xs\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:be-0 {
+  .sm\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .sm\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .sm\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .sm\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
+  .sm\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .sm\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .sm\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:be-0 {
+  .md\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .md\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .md\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .md\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
+  .md\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .md\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .md\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:be-0 {
+  .lg\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .lg\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .lg\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .lg\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
+  .lg\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .lg\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .lg\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:be-0 {
+  .xl\:be-none {
     -webkit-border-end: none;
             border-inline-end: none;
   }
-  .xl\:be-1 {
-    -webkit-border-end: 1px solid currentColor;
-            border-inline-end: 1px solid currentColor;
+  .xl\:be-sm {
+    -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:be-2 {
-    -webkit-border-end: 0.125rem solid currentColor;
-            border-inline-end: 0.125rem solid currentColor;
+  .xl\:be-md {
+    -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
+            border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:be-4 {
-    -webkit-border-end: 0.25rem solid currentColor;
-            border-inline-end: 0.25rem solid currentColor;
+  .xl\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:be-6 {
-    -webkit-border-end: 0.375rem solid currentColor;
-            border-inline-end: 0.375rem solid currentColor;
-  }
-  .xl\:be-8 {
-    -webkit-border-end: 0.5rem solid currentColor;
-            border-inline-end: 0.5rem solid currentColor;
+  .xl\:be-xl {
+    -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bb-0 {
+.bb-none {
   -webkit-border-after: none;
           border-block-end: none;
 }
 
-.bb-1 {
-  -webkit-border-after: 1px solid currentColor;
-          border-block-end: 1px solid currentColor;
+.bb-sm {
+  -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+          border-block-end: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bb-2 {
-  -webkit-border-after: 0.125rem solid currentColor;
-          border-block-end: 0.125rem solid currentColor;
+.bb-md {
+  -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+          border-block-end: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bb-4 {
-  -webkit-border-after: 0.25rem solid currentColor;
-          border-block-end: 0.25rem solid currentColor;
+.bb-lg {
+  -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+          border-block-end: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.bb-6 {
-  -webkit-border-after: 0.375rem solid currentColor;
-          border-block-end: 0.375rem solid currentColor;
-}
-
-.bb-8 {
-  -webkit-border-after: 0.5rem solid currentColor;
-          border-block-end: 0.5rem solid currentColor;
+.bb-xl {
+  -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+          border-block-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bb-0 {
+  .xs\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .xs\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .xs\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .xs\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
+  .xs\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .xs\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .xs\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bb-0 {
+  .sm\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .sm\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .sm\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .sm\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
+  .sm\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .sm\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .sm\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bb-0 {
+  .md\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .md\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .md\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .md\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
+  .md\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .md\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .md\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bb-0 {
+  .lg\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .lg\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .lg\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .lg\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
+  .lg\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .lg\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .lg\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bb-0 {
+  .xl\:bb-none {
     -webkit-border-after: none;
             border-block-end: none;
   }
-  .xl\:bb-1 {
-    -webkit-border-after: 1px solid currentColor;
-            border-block-end: 1px solid currentColor;
+  .xl\:bb-sm {
+    -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
+            border-block-end: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bb-2 {
-    -webkit-border-after: 0.125rem solid currentColor;
-            border-block-end: 0.125rem solid currentColor;
+  .xl\:bb-md {
+    -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
+            border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bb-4 {
-    -webkit-border-after: 0.25rem solid currentColor;
-            border-block-end: 0.25rem solid currentColor;
+  .xl\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:bb-6 {
-    -webkit-border-after: 0.375rem solid currentColor;
-            border-block-end: 0.375rem solid currentColor;
-  }
-  .xl\:bb-8 {
-    -webkit-border-after: 0.5rem solid currentColor;
-            border-block-end: 0.5rem solid currentColor;
+  .xl\:bb-xl {
+    -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
+            border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bs-0 {
+.bs-none {
   -webkit-border-start: none;
           border-inline-start: none;
 }
 
-.bs-1 {
-  -webkit-border-start: 1px solid currentColor;
-          border-inline-start: 1px solid currentColor;
+.bs-sm {
+  -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+          border-inline-start: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bs-2 {
-  -webkit-border-start: 0.125rem solid currentColor;
-          border-inline-start: 0.125rem solid currentColor;
+.bs-md {
+  -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+          border-inline-start: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bs-4 {
-  -webkit-border-start: 0.25rem solid currentColor;
-          border-inline-start: 0.25rem solid currentColor;
+.bs-lg {
+  -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+          border-inline-start: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.bs-6 {
-  -webkit-border-start: 0.375rem solid currentColor;
-          border-inline-start: 0.375rem solid currentColor;
-}
-
-.bs-8 {
-  -webkit-border-start: 0.5rem solid currentColor;
-          border-inline-start: 0.5rem solid currentColor;
+.bs-xl {
+  -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+          border-inline-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bs-0 {
+  .xs\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .xs\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .xs\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .xs\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
+  .xs\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .xs\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .xs\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bs-0 {
+  .sm\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .sm\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .sm\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .sm\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
+  .sm\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .sm\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .sm\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bs-0 {
+  .md\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .md\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .md\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .md\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
+  .md\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .md\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .md\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bs-0 {
+  .lg\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .lg\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .lg\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .lg\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
+  .lg\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .lg\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .lg\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bs-0 {
+  .xl\:bs-none {
     -webkit-border-start: none;
             border-inline-start: none;
   }
-  .xl\:bs-1 {
-    -webkit-border-start: 1px solid currentColor;
-            border-inline-start: 1px solid currentColor;
+  .xl\:bs-sm {
+    -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
+            border-inline-start: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bs-2 {
-    -webkit-border-start: 0.125rem solid currentColor;
-            border-inline-start: 0.125rem solid currentColor;
+  .xl\:bs-md {
+    -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
+            border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bs-4 {
-    -webkit-border-start: 0.25rem solid currentColor;
-            border-inline-start: 0.25rem solid currentColor;
+  .xl\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:bs-6 {
-    -webkit-border-start: 0.375rem solid currentColor;
-            border-inline-start: 0.375rem solid currentColor;
-  }
-  .xl\:bs-8 {
-    -webkit-border-start: 0.5rem solid currentColor;
-            border-inline-start: 0.5rem solid currentColor;
+  .xl\:bs-xl {
+    -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
+            border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.bx-0 {
+.bx-none {
   border-inline: none;
 }
 
-.bx-1 {
-  border-inline: 1px solid currentColor;
+.bx-sm {
+  border-inline: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.bx-2 {
-  border-inline: 0.125rem solid currentColor;
+.bx-md {
+  border-inline: var(--gcds-border-width-md) solid currentColor;
 }
 
-.bx-4 {
-  border-inline: 0.25rem solid currentColor;
+.bx-lg {
+  border-inline: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.bx-6 {
-  border-inline: 0.375rem solid currentColor;
-}
-
-.bx-8 {
-  border-inline: 0.5rem solid currentColor;
+.bx-xl {
+  border-inline: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:bx-0 {
+  .xs\:bx-none {
     border-inline: none;
   }
-  .xs\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .xs\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .xs\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
+  .xs\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .xs\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .xs\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:bx-0 {
+  .sm\:bx-none {
     border-inline: none;
   }
-  .sm\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .sm\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .sm\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
+  .sm\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .sm\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .sm\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:bx-0 {
+  .md\:bx-none {
     border-inline: none;
   }
-  .md\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .md\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .md\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
+  .md\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .md\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .md\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:bx-0 {
+  .lg\:bx-none {
     border-inline: none;
   }
-  .lg\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .lg\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .lg\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
+  .lg\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .lg\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .lg\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:bx-0 {
+  .xl\:bx-none {
     border-inline: none;
   }
-  .xl\:bx-1 {
-    border-inline: 1px solid currentColor;
+  .xl\:bx-sm {
+    border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:bx-2 {
-    border-inline: 0.125rem solid currentColor;
+  .xl\:bx-md {
+    border-inline: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:bx-4 {
-    border-inline: 0.25rem solid currentColor;
+  .xl\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:bx-6 {
-    border-inline: 0.375rem solid currentColor;
-  }
-  .xl\:bx-8 {
-    border-inline: 0.5rem solid currentColor;
+  .xl\:bx-xl {
+    border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
 }
-.by-0 {
+.by-none {
   border-block: none;
 }
 
-.by-1 {
-  border-block: 1px solid currentColor;
+.by-sm {
+  border-block: var(--gcds-border-width-sm) solid currentColor;
 }
 
-.by-2 {
-  border-block: 0.125rem solid currentColor;
+.by-md {
+  border-block: var(--gcds-border-width-md) solid currentColor;
 }
 
-.by-4 {
-  border-block: 0.25rem solid currentColor;
+.by-lg {
+  border-block: var(--gcds-border-width-lg) solid currentColor;
 }
 
-.by-6 {
-  border-block: 0.375rem solid currentColor;
-}
-
-.by-8 {
-  border-block: 0.5rem solid currentColor;
+.by-xl {
+  border-block: var(--gcds-border-width-xl) solid currentColor;
 }
 
 @media only screen and (width > 30em) {
-  .xs\:by-0 {
+  .xs\:by-none {
     border-block: none;
   }
-  .xs\:by-1 {
-    border-block: 1px solid currentColor;
+  .xs\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xs\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .xs\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .xs\:by-4 {
-    border-block: 0.25rem solid currentColor;
+  .xs\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xs\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .xs\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .xs\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:by-0 {
+  .sm\:by-none {
     border-block: none;
   }
-  .sm\:by-1 {
-    border-block: 1px solid currentColor;
+  .sm\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .sm\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .sm\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .sm\:by-4 {
-    border-block: 0.25rem solid currentColor;
+  .sm\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
-  .sm\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .sm\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .sm\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 48em) {
-  .md\:by-0 {
+  .md\:by-none {
     border-block: none;
   }
-  .md\:by-1 {
-    border-block: 1px solid currentColor;
+  .md\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .md\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .md\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .md\:by-4 {
-    border-block: 0.25rem solid currentColor;
+  .md\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
-  .md\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .md\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .md\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:by-0 {
+  .lg\:by-none {
     border-block: none;
   }
-  .lg\:by-1 {
-    border-block: 1px solid currentColor;
+  .lg\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .lg\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .lg\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .lg\:by-4 {
-    border-block: 0.25rem solid currentColor;
+  .lg\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
-  .lg\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .lg\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .lg\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:by-0 {
+  .xl\:by-none {
     border-block: none;
   }
-  .xl\:by-1 {
-    border-block: 1px solid currentColor;
+  .xl\:by-sm {
+    border-block: var(--gcds-border-width-sm) solid currentColor;
   }
-  .xl\:by-2 {
-    border-block: 0.125rem solid currentColor;
+  .xl\:by-md {
+    border-block: var(--gcds-border-width-md) solid currentColor;
   }
-  .xl\:by-4 {
-    border-block: 0.25rem solid currentColor;
+  .xl\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
-  .xl\:by-6 {
-    border-block: 0.375rem solid currentColor;
-  }
-  .xl\:by-8 {
-    border-block: 0.5rem solid currentColor;
+  .xl\:by-xl {
+    border-block: var(--gcds-border-width-xl) solid currentColor;
   }
 }
 /* --- Border Style --- */
@@ -3966,7 +3794,7 @@ table {
 }
 /* --- Gap --- */
 .gap-0 {
-  gap: 0;
+  gap: var(--gcds-spacing-0);
 }
 
 .gap-50 {
@@ -4031,7 +3859,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .xs\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4081,7 +3909,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .sm\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4131,7 +3959,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .md\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4181,7 +4009,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .lg\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4231,7 +4059,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-0 {
-    gap: 0;
+    gap: var(--gcds-spacing-0);
   }
   .xl\:gap-50 {
     gap: var(--gcds-spacing-50);
@@ -4280,9 +4108,9 @@ table {
   }
 }
 .gap-x-0 {
-  -webkit-column-gap: 0;
-     -moz-column-gap: 0;
-          column-gap: 0;
+  -webkit-column-gap: var(--gcds-spacing-0);
+     -moz-column-gap: var(--gcds-spacing-0);
+          column-gap: var(--gcds-spacing-0);
 }
 
 .gap-x-50 {
@@ -4377,9 +4205,9 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .xs\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4459,9 +4287,9 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .sm\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4541,9 +4369,9 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .md\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4623,9 +4451,9 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .lg\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4705,9 +4533,9 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-x-0 {
-    -webkit-column-gap: 0;
-       -moz-column-gap: 0;
-            column-gap: 0;
+    -webkit-column-gap: var(--gcds-spacing-0);
+       -moz-column-gap: var(--gcds-spacing-0);
+            column-gap: var(--gcds-spacing-0);
   }
   .xl\:gap-x-50 {
     -webkit-column-gap: var(--gcds-spacing-50);
@@ -4786,7 +4614,7 @@ table {
   }
 }
 .gap-y-0 {
-  row-gap: 0;
+  row-gap: var(--gcds-spacing-0);
 }
 
 .gap-y-50 {
@@ -4851,7 +4679,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .xs\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -4901,7 +4729,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .sm\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -4951,7 +4779,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .md\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -5001,7 +4829,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .lg\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -5051,7 +4879,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:gap-y-0 {
-    row-gap: 0;
+    row-gap: var(--gcds-spacing-0);
   }
   .xl\:gap-y-50 {
     row-gap: var(--gcds-spacing-50);
@@ -6522,12 +6350,12 @@ table {
   }
 }
 /* --- Link Color --- */
-.link-dark {
-  color: var(--gcds-link-dark-text);
+.link-default {
+  color: var(--gcds-link-default);
 }
 
-.link-destructive {
-  color: var(--gcds-link-destructive-text);
+.link-hover {
+  color: var(--gcds-link-hover);
 }
 
 .link-inherit {
@@ -6535,77 +6363,77 @@ table {
 }
 
 .link-light {
-  color: var(--gcds-link-light-text);
+  color: var(--gcds-link-light);
 }
 
 @media only screen and (width > 30em) {
-  .xs\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .xs\:link-default {
+    color: var(--gcds-link-default);
   }
-  .xs\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .xs\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .xs\:link-inherit {
     color: inherit;
   }
   .xs\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .sm\:link-default {
+    color: var(--gcds-link-default);
   }
-  .sm\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .sm\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .sm\:link-inherit {
     color: inherit;
   }
   .sm\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 48em) {
-  .md\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .md\:link-default {
+    color: var(--gcds-link-default);
   }
-  .md\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .md\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .md\:link-inherit {
     color: inherit;
   }
   .md\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .lg\:link-default {
+    color: var(--gcds-link-default);
   }
-  .lg\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .lg\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .lg\:link-inherit {
     color: inherit;
   }
   .lg\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:link-dark {
-    color: var(--gcds-link-dark-text);
+  .xl\:link-default {
+    color: var(--gcds-link-default);
   }
-  .xl\:link-destructive {
-    color: var(--gcds-link-destructive-text);
+  .xl\:link-hover {
+    color: var(--gcds-link-hover);
   }
   .xl\:link-inherit {
     color: inherit;
   }
   .xl\:link-light {
-    color: var(--gcds-link-light-text);
+    color: var(--gcds-link-light);
   }
 }
 /* --- Link Text Decoration --- */
@@ -7150,7 +6978,7 @@ table {
 }
 /* --- Margin Spacing Classes --- */
 .m-0 {
-  margin: 0;
+  margin: var(--gcds-spacing-0);
 }
 
 .m-50 {
@@ -7219,7 +7047,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .xs\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7272,7 +7100,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .sm\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7325,7 +7153,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .md\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7378,7 +7206,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .lg\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7431,7 +7259,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:m-0 {
-    margin: 0;
+    margin: var(--gcds-spacing-0);
   }
   .xl\:m-50 {
     margin: var(--gcds-spacing-50);
@@ -7483,8 +7311,8 @@ table {
   }
 }
 .mt-0 {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  -webkit-margin-before: var(--gcds-spacing-0);
+          margin-block-start: var(--gcds-spacing-0);
 }
 
 .mt-50 {
@@ -7569,8 +7397,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .xs\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7639,8 +7467,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .sm\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7709,8 +7537,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .md\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7779,8 +7607,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .lg\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7849,8 +7677,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mt-0 {
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
+    -webkit-margin-before: var(--gcds-spacing-0);
+            margin-block-start: var(--gcds-spacing-0);
   }
   .xl\:mt-50 {
     -webkit-margin-before: var(--gcds-spacing-50);
@@ -7918,8 +7746,8 @@ table {
   }
 }
 .me-0 {
-  -webkit-margin-end: 0;
-          margin-inline-end: 0;
+  -webkit-margin-end: var(--gcds-spacing-0);
+          margin-inline-end: var(--gcds-spacing-0);
 }
 
 .me-50 {
@@ -8004,8 +7832,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .xs\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8074,8 +7902,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .sm\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8144,8 +7972,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .md\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8214,8 +8042,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .lg\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8284,8 +8112,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:me-0 {
-    -webkit-margin-end: 0;
-            margin-inline-end: 0;
+    -webkit-margin-end: var(--gcds-spacing-0);
+            margin-inline-end: var(--gcds-spacing-0);
   }
   .xl\:me-50 {
     -webkit-margin-end: var(--gcds-spacing-50);
@@ -8353,8 +8181,8 @@ table {
   }
 }
 .mb-0 {
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
+  -webkit-margin-after: var(--gcds-spacing-0);
+          margin-block-end: var(--gcds-spacing-0);
 }
 
 .mb-50 {
@@ -8439,8 +8267,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .xs\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8509,8 +8337,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .sm\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8579,8 +8407,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .md\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8649,8 +8477,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .lg\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8719,8 +8547,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mb-0 {
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
+    -webkit-margin-after: var(--gcds-spacing-0);
+            margin-block-end: var(--gcds-spacing-0);
   }
   .xl\:mb-50 {
     -webkit-margin-after: var(--gcds-spacing-50);
@@ -8788,8 +8616,8 @@ table {
   }
 }
 .ms-0 {
-  -webkit-margin-start: 0;
-          margin-inline-start: 0;
+  -webkit-margin-start: var(--gcds-spacing-0);
+          margin-inline-start: var(--gcds-spacing-0);
 }
 
 .ms-50 {
@@ -8874,8 +8702,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .xs\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -8944,8 +8772,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .sm\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9014,8 +8842,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .md\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9084,8 +8912,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .lg\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9154,8 +8982,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:ms-0 {
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
+    -webkit-margin-start: var(--gcds-spacing-0);
+            margin-inline-start: var(--gcds-spacing-0);
   }
   .xl\:ms-50 {
     -webkit-margin-start: var(--gcds-spacing-50);
@@ -9223,7 +9051,7 @@ table {
   }
 }
 .mx-0 {
-  margin-inline: 0;
+  margin-inline: var(--gcds-spacing-0);
 }
 
 .mx-50 {
@@ -9292,7 +9120,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .xs\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9345,7 +9173,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .sm\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9398,7 +9226,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .md\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9451,7 +9279,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .lg\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9504,7 +9332,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:mx-0 {
-    margin-inline: 0;
+    margin-inline: var(--gcds-spacing-0);
   }
   .xl\:mx-50 {
     margin-inline: var(--gcds-spacing-50);
@@ -9556,7 +9384,7 @@ table {
   }
 }
 .my-0 {
-  margin-block: 0;
+  margin-block: var(--gcds-spacing-0);
 }
 
 .my-50 {
@@ -9625,7 +9453,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .xs\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9678,7 +9506,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .sm\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9731,7 +9559,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .md\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9784,7 +9612,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .lg\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9837,7 +9665,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:my-0 {
-    margin-block: 0;
+    margin-block: var(--gcds-spacing-0);
   }
   .xl\:my-50 {
     margin-block: var(--gcds-spacing-50);
@@ -9890,7 +9718,7 @@ table {
 }
 /* --- Padding Spacing Classes --- */
 .p-0 {
-  padding: 0;
+  padding: var(--gcds-spacing-0);
 }
 
 .p-50 {
@@ -9955,7 +9783,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .xs\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10005,7 +9833,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .sm\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10055,7 +9883,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .md\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10105,7 +9933,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .lg\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10155,7 +9983,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:p-0 {
-    padding: 0;
+    padding: var(--gcds-spacing-0);
   }
   .xl\:p-50 {
     padding: var(--gcds-spacing-50);
@@ -10204,8 +10032,8 @@ table {
   }
 }
 .pt-0 {
-  -webkit-padding-before: 0;
-          padding-block-start: 0;
+  -webkit-padding-before: var(--gcds-spacing-0);
+          padding-block-start: var(--gcds-spacing-0);
 }
 
 .pt-50 {
@@ -10285,8 +10113,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .xs\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10351,8 +10179,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .sm\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10417,8 +10245,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .md\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10483,8 +10311,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .lg\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10549,8 +10377,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pt-0 {
-    -webkit-padding-before: 0;
-            padding-block-start: 0;
+    -webkit-padding-before: var(--gcds-spacing-0);
+            padding-block-start: var(--gcds-spacing-0);
   }
   .xl\:pt-50 {
     -webkit-padding-before: var(--gcds-spacing-50);
@@ -10614,8 +10442,8 @@ table {
   }
 }
 .pe-0 {
-  -webkit-padding-end: 0;
-          padding-inline-end: 0;
+  -webkit-padding-end: var(--gcds-spacing-0);
+          padding-inline-end: var(--gcds-spacing-0);
 }
 
 .pe-50 {
@@ -10695,8 +10523,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .xs\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10761,8 +10589,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .sm\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10827,8 +10655,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .md\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10893,8 +10721,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .lg\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -10959,8 +10787,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pe-0 {
-    -webkit-padding-end: 0;
-            padding-inline-end: 0;
+    -webkit-padding-end: var(--gcds-spacing-0);
+            padding-inline-end: var(--gcds-spacing-0);
   }
   .xl\:pe-50 {
     -webkit-padding-end: var(--gcds-spacing-50);
@@ -11024,8 +10852,8 @@ table {
   }
 }
 .pb-0 {
-  -webkit-padding-after: 0;
-          padding-block-end: 0;
+  -webkit-padding-after: var(--gcds-spacing-0);
+          padding-block-end: var(--gcds-spacing-0);
 }
 
 .pb-50 {
@@ -11105,8 +10933,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .xs\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11171,8 +10999,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .sm\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11237,8 +11065,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .md\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11303,8 +11131,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .lg\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11369,8 +11197,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:pb-0 {
-    -webkit-padding-after: 0;
-            padding-block-end: 0;
+    -webkit-padding-after: var(--gcds-spacing-0);
+            padding-block-end: var(--gcds-spacing-0);
   }
   .xl\:pb-50 {
     -webkit-padding-after: var(--gcds-spacing-50);
@@ -11434,8 +11262,8 @@ table {
   }
 }
 .ps-0 {
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
+  -webkit-padding-start: var(--gcds-spacing-0);
+          padding-inline-start: var(--gcds-spacing-0);
 }
 
 .ps-50 {
@@ -11515,8 +11343,8 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .xs\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11581,8 +11409,8 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .sm\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11647,8 +11475,8 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .md\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11713,8 +11541,8 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .lg\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11779,8 +11607,8 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:ps-0 {
-    -webkit-padding-start: 0;
-            padding-inline-start: 0;
+    -webkit-padding-start: var(--gcds-spacing-0);
+            padding-inline-start: var(--gcds-spacing-0);
   }
   .xl\:ps-50 {
     -webkit-padding-start: var(--gcds-spacing-50);
@@ -11844,7 +11672,7 @@ table {
   }
 }
 .px-0 {
-  padding-inline: 0;
+  padding-inline: var(--gcds-spacing-0);
 }
 
 .px-50 {
@@ -11909,7 +11737,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .xs\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -11959,7 +11787,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .sm\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12009,7 +11837,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .md\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12059,7 +11887,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .lg\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12109,7 +11937,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:px-0 {
-    padding-inline: 0;
+    padding-inline: var(--gcds-spacing-0);
   }
   .xl\:px-50 {
     padding-inline: var(--gcds-spacing-50);
@@ -12158,7 +11986,7 @@ table {
   }
 }
 .py-0 {
-  padding-block: 0;
+  padding-block: var(--gcds-spacing-0);
 }
 
 .py-50 {
@@ -12223,7 +12051,7 @@ table {
 
 @media only screen and (width > 30em) {
   .xs\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .xs\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12273,7 +12101,7 @@ table {
 }
 @media only screen and (width > 40em) {
   .sm\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .sm\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12323,7 +12151,7 @@ table {
 }
 @media only screen and (width > 48em) {
   .md\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .md\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12373,7 +12201,7 @@ table {
 }
 @media only screen and (width > 64em) {
   .lg\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .lg\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12423,7 +12251,7 @@ table {
 }
 @media only screen and (width > 80em) {
   .xl\:py-0 {
-    padding-block: 0;
+    padding-block: var(--gcds-spacing-0);
   }
   .xl\:py-50 {
     padding-block: var(--gcds-spacing-50);
@@ -12590,90 +12418,253 @@ table {
     opacity: 0;
   }
 }
+/* --- Font --- */
+.font-h1 {
+  font: var(--gcds-font-h1);
+}
+
+.font-h2 {
+  font: var(--gcds-font-h2);
+}
+
+.font-h3 {
+  font: var(--gcds-font-h3);
+}
+
+.font-h4 {
+  font: var(--gcds-font-h4);
+}
+
+.font-h5 {
+  font: var(--gcds-font-h5);
+}
+
+.font-h6 {
+  font: var(--gcds-font-h6);
+}
+
+.font-text {
+  font: var(--gcds-font-text);
+}
+
+.font-caption {
+  font: var(--gcds-font-caption);
+}
+
+@media only screen and (width > 30em) {
+  .xs\:font-h1 {
+    font: var(--gcds-font-h1);
+  }
+  .xs\:font-h2 {
+    font: var(--gcds-font-h2);
+  }
+  .xs\:font-h3 {
+    font: var(--gcds-font-h3);
+  }
+  .xs\:font-h4 {
+    font: var(--gcds-font-h4);
+  }
+  .xs\:font-h5 {
+    font: var(--gcds-font-h5);
+  }
+  .xs\:font-h6 {
+    font: var(--gcds-font-h6);
+  }
+  .xs\:font-text {
+    font: var(--gcds-font-text);
+  }
+  .xs\:font-caption {
+    font: var(--gcds-font-caption);
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:font-h1 {
+    font: var(--gcds-font-h1);
+  }
+  .sm\:font-h2 {
+    font: var(--gcds-font-h2);
+  }
+  .sm\:font-h3 {
+    font: var(--gcds-font-h3);
+  }
+  .sm\:font-h4 {
+    font: var(--gcds-font-h4);
+  }
+  .sm\:font-h5 {
+    font: var(--gcds-font-h5);
+  }
+  .sm\:font-h6 {
+    font: var(--gcds-font-h6);
+  }
+  .sm\:font-text {
+    font: var(--gcds-font-text);
+  }
+  .sm\:font-caption {
+    font: var(--gcds-font-caption);
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:font-h1 {
+    font: var(--gcds-font-h1);
+  }
+  .md\:font-h2 {
+    font: var(--gcds-font-h2);
+  }
+  .md\:font-h3 {
+    font: var(--gcds-font-h3);
+  }
+  .md\:font-h4 {
+    font: var(--gcds-font-h4);
+  }
+  .md\:font-h5 {
+    font: var(--gcds-font-h5);
+  }
+  .md\:font-h6 {
+    font: var(--gcds-font-h6);
+  }
+  .md\:font-text {
+    font: var(--gcds-font-text);
+  }
+  .md\:font-caption {
+    font: var(--gcds-font-caption);
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:font-h1 {
+    font: var(--gcds-font-h1);
+  }
+  .lg\:font-h2 {
+    font: var(--gcds-font-h2);
+  }
+  .lg\:font-h3 {
+    font: var(--gcds-font-h3);
+  }
+  .lg\:font-h4 {
+    font: var(--gcds-font-h4);
+  }
+  .lg\:font-h5 {
+    font: var(--gcds-font-h5);
+  }
+  .lg\:font-h6 {
+    font: var(--gcds-font-h6);
+  }
+  .lg\:font-text {
+    font: var(--gcds-font-text);
+  }
+  .lg\:font-caption {
+    font: var(--gcds-font-caption);
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:font-h1 {
+    font: var(--gcds-font-h1);
+  }
+  .xl\:font-h2 {
+    font: var(--gcds-font-h2);
+  }
+  .xl\:font-h3 {
+    font: var(--gcds-font-h3);
+  }
+  .xl\:font-h4 {
+    font: var(--gcds-font-h4);
+  }
+  .xl\:font-h5 {
+    font: var(--gcds-font-h5);
+  }
+  .xl\:font-h6 {
+    font: var(--gcds-font-h6);
+  }
+  .xl\:font-text {
+    font: var(--gcds-font-text);
+  }
+  .xl\:font-caption {
+    font: var(--gcds-font-caption);
+  }
+}
 /* --- Font Families --- */
-.font-heading {
+.font-family-heading {
   font-family: var(--gcds-font-families-heading);
 }
 
-.font-body {
+.font-family-body {
   font-family: var(--gcds-font-families-body);
 }
 
-.font-monospace {
+.font-family-monospace {
   font-family: var(--gcds-font-families-monospace);
 }
 
-.font-icon {
+.font-family-icon {
   font-family: var(--gcds-font-families-icon);
 }
 
 @media only screen and (width > 30em) {
-  .xs\:font-heading {
+  .xs\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .xs\:font-body {
+  .xs\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .xs\:font-monospace {
+  .xs\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .xs\:font-icon {
+  .xs\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 40em) {
-  .sm\:font-heading {
+  .sm\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .sm\:font-body {
+  .sm\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .sm\:font-monospace {
+  .sm\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .sm\:font-icon {
+  .sm\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 48em) {
-  .md\:font-heading {
+  .md\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .md\:font-body {
+  .md\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .md\:font-monospace {
+  .md\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .md\:font-icon {
+  .md\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 64em) {
-  .lg\:font-heading {
+  .lg\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .lg\:font-body {
+  .lg\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .lg\:font-monospace {
+  .lg\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .lg\:font-icon {
+  .lg\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
 @media only screen and (width > 80em) {
-  .xl\:font-heading {
+  .xl\:font-family-heading {
     font-family: var(--gcds-font-families-heading);
   }
-  .xl\:font-body {
+  .xl\:font-family-body {
     font-family: var(--gcds-font-families-body);
   }
-  .xl\:font-monospace {
+  .xl\:font-family-monospace {
     font-family: var(--gcds-font-families-monospace);
   }
-  .xl\:font-icon {
+  .xl\:font-family-icon {
     font-family: var(--gcds-font-families-icon);
   }
 }
@@ -13243,6 +13234,131 @@ table {
   }
   .xl\:text-right {
     text-align: right;
+  }
+}
+/* --- Text Colours --- */
+.text-current {
+  color: currentColor;
+}
+
+.text-inherit {
+  color: inherit;
+}
+
+.text-light {
+  color: var(--gcds-text-light);
+}
+
+.text-primary {
+  color: var(--gcds-text-primary);
+}
+
+.text-secondary {
+  color: var(--gcds-text-secondary);
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+@media only screen and (width > 30em) {
+  .xs\:text-current {
+    color: currentColor;
+  }
+  .xs\:text-inherit {
+    color: inherit;
+  }
+  .xs\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .xs\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .xs\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .xs\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:text-current {
+    color: currentColor;
+  }
+  .sm\:text-inherit {
+    color: inherit;
+  }
+  .sm\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .sm\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .sm\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .sm\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:text-current {
+    color: currentColor;
+  }
+  .md\:text-inherit {
+    color: inherit;
+  }
+  .md\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .md\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .md\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .md\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:text-current {
+    color: currentColor;
+  }
+  .lg\:text-inherit {
+    color: inherit;
+  }
+  .lg\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .lg\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .lg\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .lg\:text-transparent {
+    color: transparent;
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:text-current {
+    color: currentColor;
+  }
+  .xl\:text-inherit {
+    color: inherit;
+  }
+  .xl\:text-light {
+    color: var(--gcds-text-light);
+  }
+  .xl\:text-primary {
+    color: var(--gcds-text-primary);
+  }
+  .xl\:text-secondary {
+    color: var(--gcds-text-secondary);
+  }
+  .xl\:text-transparent {
+    color: transparent;
   }
 }
 /* --- Text Overflow --- */

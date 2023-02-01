@@ -1,5 +1,21 @@
 @import "./mixins.scss";
 
+/* --- Font --- */
+
+$font: (
+  h1: var(--gcds-font-h1),
+  h2: var(--gcds-font-h2),
+  h3: var(--gcds-font-h3),
+  h4: var(--gcds-font-h4),
+  h5: var(--gcds-font-h5),
+  h6: var(--gcds-font-h6),
+  text: var(--gcds-font-text),
+  caption: var(--gcds-font-caption),
+) !default;
+
+@include generateClasses($font, 'font-', font);
+
+
 /* --- Font Families --- */
 
 $fontFamily: (
@@ -9,7 +25,7 @@ $fontFamily: (
   icon: var(--gcds-font-families-icon)
 ) !default;
 
-@include generateClasses($fontFamily, 'font-', font-family);
+@include generateClasses($fontFamily, 'font-family-', font-family);
 
 
 /* --- Font Sizes --- */
@@ -77,6 +93,20 @@ $textAlign: (
 ) !default;
 
 @include generateClasses($textAlign, 'text-', text-align);
+
+
+/* --- Text Colours --- */
+
+$textColors: (
+  current: currentColor,
+  inherit: inherit,
+  light: var(--gcds-text-light),
+  primary: var(--gcds-text-primary),
+  secondary: var(--gcds-text-secondary),
+  transparent: transparent,
+) !default;
+
+@include generateClasses($textColors, 'text-', color);
 
 
 /* --- Text Overflow --- */

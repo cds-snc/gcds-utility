@@ -3,10 +3,10 @@
 /* --- Link Color --- */
 
 $linkColor: (
-  dark: var(--gcds-link-dark-text),
-  destructive: var(--gcds-link-destructive-text),
+  default: var(--gcds-link-default),
+  hover: var(--gcds-link-hover),
   inherit: inherit,
-  light: var(--gcds-link-light-text)
+  light: var(--gcds-link-light),
 ) !default;
 
 @include generateClasses($linkColor, 'link-', color);
