@@ -4,11 +4,7 @@
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly
-<<<<<<< HEAD
  * Generated on Wed, 01 Feb 2023 21:20:36 GMT
-=======
- * Generated on Wed, 01 Feb 2023 17:49:31 GMT
->>>>>>> 22ed40c (add text colour classes)
  */
 :root {
   --gcds-color-blue-100: #d7e5f5;
@@ -1130,6 +1126,10 @@ table {
   border: var(--gcds-border-width-md) solid currentColor;
 }
 
+.b-lg {
+  border: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .b-xl {
   border: var(--gcds-border-width-xl) solid currentColor;
 }
@@ -1143,6 +1143,9 @@ table {
   }
   .xs\:b-md {
     border: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
@@ -1158,6 +1161,9 @@ table {
   .sm\:b-md {
     border: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1171,6 +1177,9 @@ table {
   }
   .md\:b-md {
     border: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
@@ -1186,6 +1195,9 @@ table {
   .lg\:b-md {
     border: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1199,6 +1211,9 @@ table {
   }
   .xl\:b-md {
     border: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:b-lg {
+    border: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
@@ -1219,6 +1234,11 @@ table {
           border-block-start: var(--gcds-border-width-md) solid currentColor;
 }
 
+.bt-lg {
+  -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+          border-block-start: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .bt-xl {
   -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
           border-block-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1236,6 +1256,10 @@ table {
   .xs\:bt-md {
     -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
             border-block-start: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:bt-xl {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
@@ -1255,6 +1279,10 @@ table {
     -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
             border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:bt-xl {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1272,6 +1300,10 @@ table {
   .md\:bt-md {
     -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
             border-block-start: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:bt-xl {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
@@ -1291,6 +1323,10 @@ table {
     -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
             border-block-start: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:bt-xl {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1308,6 +1344,10 @@ table {
   .xl\:bt-md {
     -webkit-border-before: var(--gcds-border-width-md) solid currentColor;
             border-block-start: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:bt-lg {
+    -webkit-border-before: var(--gcds-border-width-lg) solid currentColor;
+            border-block-start: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:bt-xl {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
@@ -1329,6 +1369,11 @@ table {
           border-inline-end: var(--gcds-border-width-md) solid currentColor;
 }
 
+.be-lg {
+  -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+          border-inline-end: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .be-xl {
   -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
           border-inline-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1346,6 +1391,10 @@ table {
   .xs\:be-md {
     -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
             border-inline-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:be-xl {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1365,6 +1414,10 @@ table {
     -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
             border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:be-xl {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1382,6 +1435,10 @@ table {
   .md\:be-md {
     -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
             border-inline-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:be-xl {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1401,6 +1458,10 @@ table {
     -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
             border-inline-end: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:be-xl {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1418,6 +1479,10 @@ table {
   .xl\:be-md {
     -webkit-border-end: var(--gcds-border-width-md) solid currentColor;
             border-inline-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:be-lg {
+    -webkit-border-end: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:be-xl {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1439,6 +1504,11 @@ table {
           border-block-end: var(--gcds-border-width-md) solid currentColor;
 }
 
+.bb-lg {
+  -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+          border-block-end: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .bb-xl {
   -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
           border-block-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1456,6 +1526,10 @@ table {
   .xs\:bb-md {
     -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
             border-block-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:bb-xl {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
@@ -1475,6 +1549,10 @@ table {
     -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
             border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:bb-xl {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1492,6 +1570,10 @@ table {
   .md\:bb-md {
     -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
             border-block-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:bb-xl {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
@@ -1511,6 +1593,10 @@ table {
     -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
             border-block-end: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:bb-xl {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
@@ -1528,6 +1614,10 @@ table {
   .xl\:bb-md {
     -webkit-border-after: var(--gcds-border-width-md) solid currentColor;
             border-block-end: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:bb-lg {
+    -webkit-border-after: var(--gcds-border-width-lg) solid currentColor;
+            border-block-end: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:bb-xl {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
@@ -1549,6 +1639,11 @@ table {
           border-inline-start: var(--gcds-border-width-md) solid currentColor;
 }
 
+.bs-lg {
+  -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+          border-inline-start: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .bs-xl {
   -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
           border-inline-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1566,6 +1661,10 @@ table {
   .xs\:bs-md {
     -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
             border-inline-start: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:bs-xl {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1585,6 +1684,10 @@ table {
     -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
             border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:bs-xl {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1602,6 +1705,10 @@ table {
   .md\:bs-md {
     -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
             border-inline-start: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:bs-xl {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1621,6 +1728,10 @@ table {
     -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
             border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:bs-xl {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1639,6 +1750,10 @@ table {
     -webkit-border-start: var(--gcds-border-width-md) solid currentColor;
             border-inline-start: var(--gcds-border-width-md) solid currentColor;
   }
+  .xl\:bs-lg {
+    -webkit-border-start: var(--gcds-border-width-lg) solid currentColor;
+            border-inline-start: var(--gcds-border-width-lg) solid currentColor;
+  }
   .xl\:bs-xl {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
@@ -1656,6 +1771,10 @@ table {
   border-inline: var(--gcds-border-width-md) solid currentColor;
 }
 
+.bx-lg {
+  border-inline: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .bx-xl {
   border-inline: var(--gcds-border-width-xl) solid currentColor;
 }
@@ -1669,6 +1788,9 @@ table {
   }
   .xs\:bx-md {
     border-inline: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
@@ -1684,6 +1806,9 @@ table {
   .sm\:bx-md {
     border-inline: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1697,6 +1822,9 @@ table {
   }
   .md\:bx-md {
     border-inline: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
@@ -1712,6 +1840,9 @@ table {
   .lg\:bx-md {
     border-inline: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1725,6 +1856,9 @@ table {
   }
   .xl\:bx-md {
     border-inline: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:bx-lg {
+    border-inline: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
@@ -1742,6 +1876,10 @@ table {
   border-block: var(--gcds-border-width-md) solid currentColor;
 }
 
+.by-lg {
+  border-block: var(--gcds-border-width-lg) solid currentColor;
+}
+
 .by-xl {
   border-block: var(--gcds-border-width-xl) solid currentColor;
 }
@@ -1755,6 +1893,9 @@ table {
   }
   .xs\:by-md {
     border-block: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xs\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
   .xs\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
@@ -1770,6 +1911,9 @@ table {
   .sm\:by-md {
     border-block: var(--gcds-border-width-md) solid currentColor;
   }
+  .sm\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
+  }
   .sm\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1783,6 +1927,9 @@ table {
   }
   .md\:by-md {
     border-block: var(--gcds-border-width-md) solid currentColor;
+  }
+  .md\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
   .md\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
@@ -1798,6 +1945,9 @@ table {
   .lg\:by-md {
     border-block: var(--gcds-border-width-md) solid currentColor;
   }
+  .lg\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
+  }
   .lg\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
@@ -1811,6 +1961,9 @@ table {
   }
   .xl\:by-md {
     border-block: var(--gcds-border-width-md) solid currentColor;
+  }
+  .xl\:by-lg {
+    border-block: var(--gcds-border-width-lg) solid currentColor;
   }
   .xl\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
