@@ -1,5 +1,21 @@
 @import "./mixins.scss";
 
+/* --- Font --- */
+
+$font: (
+  h1: var(--gcds-font-h1),
+  h2: var(--gcds-font-h2),
+  h3: var(--gcds-font-h3),
+  h4: var(--gcds-font-h4),
+  h5: var(--gcds-font-h5),
+  h6: var(--gcds-font-h6),
+  text: var(--gcds-font-text),
+  caption: var(--gcds-font-caption),
+) !default;
+
+@include generateClasses($font, 'font-', font);
+
+
 /* --- Font Families --- */
 
 $fontFamily: (
