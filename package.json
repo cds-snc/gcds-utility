@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cds-snc/gcds-utilities"
+    "url": "git+https://github.com/cds-snc/gcds-utility"
   },
   "bugs": {
-    "url": "https://github.com/cds-snc/gcds-utilities/issues"
+    "url": "https://github.com/cds-snc/gcds-utility/issues"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
