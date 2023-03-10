@@ -10,7 +10,7 @@ GC Design System Utility is a utility framework for the GC Design System core. I
 
 ## Documentation
 
-You can find the full documentation for GC Design System Utility on [https://cds-design-snc.netlify.app/](https://cds-design-snc.netlify.app/).
+You can find the full documentation for GC Design System Utility on [https://design-system.alpha.canada.ca/](https://design-system.alpha.canada.ca/).
 <br/>
 <br/>
 
@@ -60,7 +60,7 @@ L'utilitaire de Système de design GC est un cadre utilitaire pour la base de ce
 
 ## Documentation
 
-Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://cds-design-snc.netlify.app/fr/](https://cds-design-snc.netlify.app/).
+Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://systeme-design.alpha.canada.ca/](https://systeme-design.alpha.canada.ca/).
 <br/>
 <br/>
 

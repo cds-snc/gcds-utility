@@ -1,9 +1,9 @@
 {
   "name": "@cdssnc/gcds-utility",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Utility",
-  "homepage": "https://cds-design-snc.netlify.app/",
+  "homepage": "https://design-system.alpha.canada.ca/",
   "files": [
     "dist/"
   ],
