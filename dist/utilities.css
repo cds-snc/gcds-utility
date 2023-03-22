@@ -4,7 +4,7 @@
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly
- * Generated on Wed, 15 Mar 2023 12:46:49 GMT
+ * Generated on Tue, 14 Mar 2023 21:47:29 GMT
  */
 :root {
   --gcds-color-blue-100: #d7e5f5;
@@ -82,8 +82,10 @@
   --gcds-line-heights-h3: 124.85901539399482%;
   --gcds-line-heights-h2: 122.08437060746162%;
   --gcds-line-heights-h1: 118.38484422541731%;
-  --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% "Lato", sans-serif;
-  --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% "Lato", sans-serif;
+  --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% "Lato",
+    sans-serif;
+  --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% "Lato",
+    sans-serif;
   --gcds-font-h3: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
   --gcds-font-h4: 700 1.77978515625rem/126.41975308641973% "Lato", sans-serif;
   --gcds-font-h5: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
@@ -137,7 +139,9 @@
   --gcds-alert-container-lg: 64rem;
   --gcds-alert-container-xl: 75rem;
   --gcds-alert-container-full: 100%;
-  --gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
+  --gcds-alert-content-heading-font: 700 1.58203125rem/126.41975308641975%
+      "Lato",
+    sans-serif;
   --gcds-alert-content-heading-margin: 0 0 0.5625rem;
   --gcds-alert-content-heading-mobile-margin: 0 0 0.5625rem;
   --gcds-alert-content-slotted-list-margin: 1.5rem;
@@ -215,12 +219,14 @@
   --gcds-checkbox-input-border-radius: 0.1875rem;
   --gcds-checkbox-input-border-width: 0.125rem;
   --gcds-checkbox-input-height-and-width: 3rem;
-  --gcds-checkbox-hint-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-checkbox-hint-font: 400 1.1111111111111112rem/135% "Noto Sans",
+    sans-serif;
   --gcds-checkbox-label-padding: 0 0 0 3.75rem;
   --gcds-checkbox-margin: 2.25rem 0 1.5rem;
   --gcds-checkbox-top: -0.75rem;
   --gcds-date-modified-description-margin: 0 0 0 0.1875rem;
-  --gcds-date-modified-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-date-modified-font: 400 1.1111111111111112rem/135% "Noto Sans",
+    sans-serif;
   --gcds-date-modified-margin: 3rem 0 1.5rem;
   --gcds-date-modified-text: #000000;
   --gcds-details-default-text: #425a76;
@@ -229,7 +235,8 @@
   --gcds-details-focus-background: #303fc3;
   --gcds-details-focus-text: #ffffff;
   --gcds-details-font: 400 1.25rem/120% "Noto Sans", sans-serif;
-  --gcds-details-font-small: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-details-font-small: 400 1.1111111111111112rem/135% "Noto Sans",
+    sans-serif;
   --gcds-details-hover-text: #26374a;
   --gcds-details-panel-border-color: #7d828b;
   --gcds-details-panel-border-width: 0.375rem;
@@ -433,7 +440,7 @@
   --gcds-pagination-list-end-button-padding: 0.75rem 0.5625rem;
   --gcds-pagination-listitem-margin: 0.375rem;
   --gcds-pagination-mobile-list-border: #425a76;
-  --gcds-pagination-mobile-list-item-margin: .125rem;
+  --gcds-pagination-mobile-list-item-margin: 0.125rem;
   --gcds-pagination-mobile-list-prevnext-margin: 0.75rem auto 0;
   --gcds-pagination-simple-label-font-weight: 400;
   --gcds-pagination-simple-listitem-margin: 0.375rem 0.375rem 0.75rem;
@@ -446,7 +453,8 @@
   --gcds-phase-banner-container-xl: 75rem;
   --gcds-phase-banner-container-full: 100%;
   --gcds-phase-banner-details-cta-margin: 0 0 0 0.9375rem;
-  --gcds-phase-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-phase-banner-font: 400 1.1111111111111112rem/135% "Noto Sans",
+    sans-serif;
   --gcds-phase-banner-icon-margin: 1.125rem;
   --gcds-phase-banner-icon-max-height: 1.125rem;
   --gcds-phase-banner-padding: 0.9375rem;
@@ -540,7 +548,8 @@
   --gcds-verify-banner-content-list-svg-margin: 0.1875rem;
   --gcds-verify-banner-content-padding-block-start: 1.5rem;
   --gcds-verify-banner-content-padding-block-end: 0.75rem;
-  --gcds-verify-banner-font: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-verify-banner-font: 400 1.1111111111111112rem/135% "Noto Sans",
+    sans-serif;
   --gcds-verify-banner-summary-padding: 0.75rem;
   --gcds-verify-banner-summary-content-margin: 0 1.125rem 0 0;
   --gcds-verify-banner-text: #000000;
