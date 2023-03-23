@@ -1,6 +1,6 @@
 {
   "name": "@cdssnc/gcds-utility",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Government of Canada | Gouvernement du Canada",
   "description": "GC Design System Utility",
   "homepage": "https://design-system.alpha.canada.ca/",
@@ -19,6 +19,7 @@
     "url": "https://github.com/cds-snc/gcds-utility/issues"
   },
   "devDependencies": {
+    "@cdssnc/gcds-tokens": "^1.0.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
