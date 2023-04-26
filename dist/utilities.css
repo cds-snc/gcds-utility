@@ -2199,6 +2199,93 @@ table {
     border-color: transparent;
   }
 }
+/* --- Border Radius --- */
+.b-radius-sm {
+  border-radius: var(--gcds-border-radius-sm);
+}
+
+.b-radius-md {
+  border-radius: var(--gcds-border-radius-md);
+}
+
+.b-radius-lg {
+  border-radius: var(--gcds-border-radius-lg);
+}
+
+.b-radius-xl {
+  border-radius: var(--gcds-border-radius-xl);
+}
+
+@media only screen and (width >= 30em) {
+  .xs\:b-radius-sm {
+    border-radius: var(--gcds-border-radius-sm);
+  }
+  .xs\:b-radius-md {
+    border-radius: var(--gcds-border-radius-md);
+  }
+  .xs\:b-radius-lg {
+    border-radius: var(--gcds-border-radius-lg);
+  }
+  .xs\:b-radius-xl {
+    border-radius: var(--gcds-border-radius-xl);
+  }
+}
+@media only screen and (width >= 40em) {
+  .sm\:b-radius-sm {
+    border-radius: var(--gcds-border-radius-sm);
+  }
+  .sm\:b-radius-md {
+    border-radius: var(--gcds-border-radius-md);
+  }
+  .sm\:b-radius-lg {
+    border-radius: var(--gcds-border-radius-lg);
+  }
+  .sm\:b-radius-xl {
+    border-radius: var(--gcds-border-radius-xl);
+  }
+}
+@media only screen and (width >= 48em) {
+  .md\:b-radius-sm {
+    border-radius: var(--gcds-border-radius-sm);
+  }
+  .md\:b-radius-md {
+    border-radius: var(--gcds-border-radius-md);
+  }
+  .md\:b-radius-lg {
+    border-radius: var(--gcds-border-radius-lg);
+  }
+  .md\:b-radius-xl {
+    border-radius: var(--gcds-border-radius-xl);
+  }
+}
+@media only screen and (width >= 64em) {
+  .lg\:b-radius-sm {
+    border-radius: var(--gcds-border-radius-sm);
+  }
+  .lg\:b-radius-md {
+    border-radius: var(--gcds-border-radius-md);
+  }
+  .lg\:b-radius-lg {
+    border-radius: var(--gcds-border-radius-lg);
+  }
+  .lg\:b-radius-xl {
+    border-radius: var(--gcds-border-radius-xl);
+  }
+}
+@media only screen and (width >= 80em) {
+  .xl\:b-radius-sm {
+    border-radius: var(--gcds-border-radius-sm);
+  }
+  .xl\:b-radius-md {
+    border-radius: var(--gcds-border-radius-md);
+  }
+  .xl\:b-radius-lg {
+    border-radius: var(--gcds-border-radius-lg);
+  }
+  .xl\:b-radius-xl {
+    border-radius: var(--gcds-border-radius-xl);
+  }
+}
 /* --- Box Sizing --- */
 .box-border {
   -webkit-box-sizing: border-box;

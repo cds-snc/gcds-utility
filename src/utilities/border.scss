@@ -37,3 +37,15 @@ $borderColor: (
 ) !default;
 
 @include generateClasses($borderColor, 'b-', border-color);
+
+
+/* --- Border Radius --- */
+
+$borderRadius: (
+  sm: var(--gcds-border-radius-sm),
+  md: var(--gcds-border-radius-md),
+  lg: var(--gcds-border-radius-lg),
+  xl: var(--gcds-border-radius-xl),
+) !default;
+
+@include generateClasses($borderRadius, 'b-radius-', border-radius);
