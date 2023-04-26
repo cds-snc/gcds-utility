@@ -2,7 +2,7 @@
 
 /* --- Border --- */
 
-$borderSizes: (
+$borderWidth: (
   none: none,
   sm: var(--gcds-border-width-sm) solid currentColor,
   md: var(--gcds-border-width-md) solid currentColor,
@@ -11,7 +11,7 @@ $borderSizes: (
 ) !default;
 
 @each $classSide, $side in $sides {
-  @include generateClasses($borderSizes, 'b' + #{$classSide} + '-', border#{$side});
+  @include generateClasses($borderWidth, 'b' + #{$classSide} + '-', border#{$side});
 }
 
 /* --- Border Style --- */
