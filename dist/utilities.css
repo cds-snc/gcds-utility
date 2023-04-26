@@ -13729,7 +13729,7 @@ table {
 }
 /* --- Word Break --- */
 .break-all {
-  word-break: all;
+  word-break: break-all;
 }
 
 .break-normal {
@@ -13742,7 +13742,7 @@ table {
 
 @media only screen and (width >= 30em) {
   .xs\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .xs\:break-normal {
     word-break: normal;
@@ -13753,7 +13753,7 @@ table {
 }
 @media only screen and (width >= 40em) {
   .sm\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .sm\:break-normal {
     word-break: normal;
@@ -13764,7 +13764,7 @@ table {
 }
 @media only screen and (width >= 48em) {
   .md\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .md\:break-normal {
     word-break: normal;
@@ -13775,7 +13775,7 @@ table {
 }
 @media only screen and (width >= 64em) {
   .lg\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .lg\:break-normal {
     word-break: normal;
@@ -13786,7 +13786,7 @@ table {
 }
 @media only screen and (width >= 80em) {
   .xl\:break-all {
-    word-break: all;
+    word-break: break-all;
   }
   .xl\:break-normal {
     word-break: normal;
