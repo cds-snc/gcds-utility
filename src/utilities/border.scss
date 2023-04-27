@@ -3,11 +3,11 @@
 /* --- Border --- */
 
 $borderWidth: (
-  none: none,
   sm: var(--gcds-border-width-sm) solid currentColor,
   md: var(--gcds-border-width-md) solid currentColor,
   lg: var(--gcds-border-width-lg) solid currentColor,
-  xl: var(--gcds-border-width-xl) solid currentColor
+  xl: var(--gcds-border-width-xl) solid currentColor,
+  0: 0,
 ) !default;
 
 @each $classSide, $side in $sides {
@@ -20,7 +20,7 @@ $borderStyle: (
   dashed: dashed,
   dotted: dotted,
   none: none,
-  solid: solid
+  solid: solid,
 ) !default;
 
 @include generateClasses($borderStyle, 'b-', border-style);
@@ -33,7 +33,7 @@ $borderColor: (
   current: currentColor,
   dark: var(--gcds-color-grayscale-1000),
   light: var(--gcds-color-grayscale-0),
-  transparent: transparent
+  transparent: transparent,
 ) !default;
 
 @include generateClasses($borderColor, 'b-', border-color);

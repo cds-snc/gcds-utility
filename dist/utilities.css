@@ -1151,10 +1151,6 @@ table {
   }
 }
 /* --- Border --- */
-.b-none {
-  border: none;
-}
-
 .b-sm {
   border: var(--gcds-border-width-sm) solid currentColor;
 }
@@ -1171,10 +1167,11 @@ table {
   border: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.b-0 {
+  border: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:b-none {
-    border: none;
-  }
   .xs\:b-sm {
     border: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1187,11 +1184,11 @@ table {
   .xs\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:b-0 {
+    border: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:b-none {
-    border: none;
-  }
   .sm\:b-sm {
     border: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1204,11 +1201,11 @@ table {
   .sm\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:b-0 {
+    border: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:b-none {
-    border: none;
-  }
   .md\:b-sm {
     border: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1221,11 +1218,11 @@ table {
   .md\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:b-0 {
+    border: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:b-none {
-    border: none;
-  }
   .lg\:b-sm {
     border: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1238,11 +1235,11 @@ table {
   .lg\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:b-0 {
+    border: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:b-none {
-    border: none;
-  }
   .xl\:b-sm {
     border: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1255,12 +1252,10 @@ table {
   .xl\:b-xl {
     border: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:b-0 {
+    border: 0;
+  }
 }
-.bt-none {
-  -webkit-border-before: none;
-          border-block-start: none;
-}
-
 .bt-sm {
   -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
           border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1281,11 +1276,12 @@ table {
           border-block-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.bt-0 {
+  -webkit-border-before: 0;
+          border-block-start: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:bt-none {
-    -webkit-border-before: none;
-            border-block-start: none;
-  }
   .xs\:bt-sm {
     -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
             border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1302,12 +1298,12 @@ table {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:bt-0 {
+    -webkit-border-before: 0;
+            border-block-start: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:bt-none {
-    -webkit-border-before: none;
-            border-block-start: none;
-  }
   .sm\:bt-sm {
     -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
             border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1324,12 +1320,12 @@ table {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:bt-0 {
+    -webkit-border-before: 0;
+            border-block-start: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:bt-none {
-    -webkit-border-before: none;
-            border-block-start: none;
-  }
   .md\:bt-sm {
     -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
             border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1346,12 +1342,12 @@ table {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:bt-0 {
+    -webkit-border-before: 0;
+            border-block-start: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:bt-none {
-    -webkit-border-before: none;
-            border-block-start: none;
-  }
   .lg\:bt-sm {
     -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
             border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1368,12 +1364,12 @@ table {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:bt-0 {
+    -webkit-border-before: 0;
+            border-block-start: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:bt-none {
-    -webkit-border-before: none;
-            border-block-start: none;
-  }
   .xl\:bt-sm {
     -webkit-border-before: var(--gcds-border-width-sm) solid currentColor;
             border-block-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1390,12 +1386,11 @@ table {
     -webkit-border-before: var(--gcds-border-width-xl) solid currentColor;
             border-block-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:bt-0 {
+    -webkit-border-before: 0;
+            border-block-start: 0;
+  }
 }
-.be-none {
-  -webkit-border-end: none;
-          border-inline-end: none;
-}
-
 .be-sm {
   -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
           border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1416,11 +1411,12 @@ table {
           border-inline-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.be-0 {
+  -webkit-border-end: 0;
+          border-inline-end: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:be-none {
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
   .xs\:be-sm {
     -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
             border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1437,12 +1433,12 @@ table {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:be-0 {
+    -webkit-border-end: 0;
+            border-inline-end: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:be-none {
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
   .sm\:be-sm {
     -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
             border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1459,12 +1455,12 @@ table {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:be-0 {
+    -webkit-border-end: 0;
+            border-inline-end: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:be-none {
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
   .md\:be-sm {
     -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
             border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1481,12 +1477,12 @@ table {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:be-0 {
+    -webkit-border-end: 0;
+            border-inline-end: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:be-none {
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
   .lg\:be-sm {
     -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
             border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1503,12 +1499,12 @@ table {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:be-0 {
+    -webkit-border-end: 0;
+            border-inline-end: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:be-none {
-    -webkit-border-end: none;
-            border-inline-end: none;
-  }
   .xl\:be-sm {
     -webkit-border-end: var(--gcds-border-width-sm) solid currentColor;
             border-inline-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1525,12 +1521,11 @@ table {
     -webkit-border-end: var(--gcds-border-width-xl) solid currentColor;
             border-inline-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:be-0 {
+    -webkit-border-end: 0;
+            border-inline-end: 0;
+  }
 }
-.bb-none {
-  -webkit-border-after: none;
-          border-block-end: none;
-}
-
 .bb-sm {
   -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
           border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1551,11 +1546,12 @@ table {
           border-block-end: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.bb-0 {
+  -webkit-border-after: 0;
+          border-block-end: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:bb-none {
-    -webkit-border-after: none;
-            border-block-end: none;
-  }
   .xs\:bb-sm {
     -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
             border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1572,12 +1568,12 @@ table {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:bb-0 {
+    -webkit-border-after: 0;
+            border-block-end: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:bb-none {
-    -webkit-border-after: none;
-            border-block-end: none;
-  }
   .sm\:bb-sm {
     -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
             border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1594,12 +1590,12 @@ table {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:bb-0 {
+    -webkit-border-after: 0;
+            border-block-end: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:bb-none {
-    -webkit-border-after: none;
-            border-block-end: none;
-  }
   .md\:bb-sm {
     -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
             border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1616,12 +1612,12 @@ table {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:bb-0 {
+    -webkit-border-after: 0;
+            border-block-end: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:bb-none {
-    -webkit-border-after: none;
-            border-block-end: none;
-  }
   .lg\:bb-sm {
     -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
             border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1638,12 +1634,12 @@ table {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:bb-0 {
+    -webkit-border-after: 0;
+            border-block-end: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:bb-none {
-    -webkit-border-after: none;
-            border-block-end: none;
-  }
   .xl\:bb-sm {
     -webkit-border-after: var(--gcds-border-width-sm) solid currentColor;
             border-block-end: var(--gcds-border-width-sm) solid currentColor;
@@ -1660,12 +1656,11 @@ table {
     -webkit-border-after: var(--gcds-border-width-xl) solid currentColor;
             border-block-end: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:bb-0 {
+    -webkit-border-after: 0;
+            border-block-end: 0;
+  }
 }
-.bs-none {
-  -webkit-border-start: none;
-          border-inline-start: none;
-}
-
 .bs-sm {
   -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
           border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1686,11 +1681,12 @@ table {
           border-inline-start: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.bs-0 {
+  -webkit-border-start: 0;
+          border-inline-start: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:bs-none {
-    -webkit-border-start: none;
-            border-inline-start: none;
-  }
   .xs\:bs-sm {
     -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
             border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1707,12 +1703,12 @@ table {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:bs-0 {
+    -webkit-border-start: 0;
+            border-inline-start: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:bs-none {
-    -webkit-border-start: none;
-            border-inline-start: none;
-  }
   .sm\:bs-sm {
     -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
             border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1729,12 +1725,12 @@ table {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:bs-0 {
+    -webkit-border-start: 0;
+            border-inline-start: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:bs-none {
-    -webkit-border-start: none;
-            border-inline-start: none;
-  }
   .md\:bs-sm {
     -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
             border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1751,12 +1747,12 @@ table {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:bs-0 {
+    -webkit-border-start: 0;
+            border-inline-start: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:bs-none {
-    -webkit-border-start: none;
-            border-inline-start: none;
-  }
   .lg\:bs-sm {
     -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
             border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1773,12 +1769,12 @@ table {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:bs-0 {
+    -webkit-border-start: 0;
+            border-inline-start: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:bs-none {
-    -webkit-border-start: none;
-            border-inline-start: none;
-  }
   .xl\:bs-sm {
     -webkit-border-start: var(--gcds-border-width-sm) solid currentColor;
             border-inline-start: var(--gcds-border-width-sm) solid currentColor;
@@ -1795,11 +1791,11 @@ table {
     -webkit-border-start: var(--gcds-border-width-xl) solid currentColor;
             border-inline-start: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:bs-0 {
+    -webkit-border-start: 0;
+            border-inline-start: 0;
+  }
 }
-.bx-none {
-  border-inline: none;
-}
-
 .bx-sm {
   border-inline: var(--gcds-border-width-sm) solid currentColor;
 }
@@ -1816,10 +1812,11 @@ table {
   border-inline: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.bx-0 {
+  border-inline: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:bx-none {
-    border-inline: none;
-  }
   .xs\:bx-sm {
     border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1832,11 +1829,11 @@ table {
   .xs\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:bx-0 {
+    border-inline: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:bx-none {
-    border-inline: none;
-  }
   .sm\:bx-sm {
     border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1849,11 +1846,11 @@ table {
   .sm\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:bx-0 {
+    border-inline: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:bx-none {
-    border-inline: none;
-  }
   .md\:bx-sm {
     border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1866,11 +1863,11 @@ table {
   .md\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:bx-0 {
+    border-inline: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:bx-none {
-    border-inline: none;
-  }
   .lg\:bx-sm {
     border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1883,11 +1880,11 @@ table {
   .lg\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:bx-0 {
+    border-inline: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:bx-none {
-    border-inline: none;
-  }
   .xl\:bx-sm {
     border-inline: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1900,11 +1897,10 @@ table {
   .xl\:bx-xl {
     border-inline: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xl\:bx-0 {
+    border-inline: 0;
+  }
 }
-.by-none {
-  border-block: none;
-}
-
 .by-sm {
   border-block: var(--gcds-border-width-sm) solid currentColor;
 }
@@ -1921,10 +1917,11 @@ table {
   border-block: var(--gcds-border-width-xl) solid currentColor;
 }
 
+.by-0 {
+  border-block: 0;
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:by-none {
-    border-block: none;
-  }
   .xs\:by-sm {
     border-block: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1937,11 +1934,11 @@ table {
   .xs\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
+  .xs\:by-0 {
+    border-block: 0;
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:by-none {
-    border-block: none;
-  }
   .sm\:by-sm {
     border-block: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1954,11 +1951,11 @@ table {
   .sm\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
+  .sm\:by-0 {
+    border-block: 0;
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:by-none {
-    border-block: none;
-  }
   .md\:by-sm {
     border-block: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1971,11 +1968,11 @@ table {
   .md\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
+  .md\:by-0 {
+    border-block: 0;
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:by-none {
-    border-block: none;
-  }
   .lg\:by-sm {
     border-block: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -1988,11 +1985,11 @@ table {
   .lg\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
   }
+  .lg\:by-0 {
+    border-block: 0;
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:by-none {
-    border-block: none;
-  }
   .xl\:by-sm {
     border-block: var(--gcds-border-width-sm) solid currentColor;
   }
@@ -2004,6 +2001,9 @@ table {
   }
   .xl\:by-xl {
     border-block: var(--gcds-border-width-xl) solid currentColor;
+  }
+  .xl\:by-0 {
+    border-block: 0;
   }
 }
 /* --- Border Style --- */
