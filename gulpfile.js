@@ -6,7 +6,7 @@ const sass = require('gulp-sass')(require('sass'));
 
 // Compile + prefix SCSS
 function compileAndPrefix() {
-  return src('src/utilities.scss')
+  return src('src/gcds-utility.scss')
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
     .pipe(dest('dist'))
@@ -14,9 +14,9 @@ function compileAndPrefix() {
 
 // Minify CSS
 function minifyCss() {
-  return src('dist/utilities.css')
+  return src('dist/gcds-utility.css')
     .pipe(minify())
-    .pipe(rename('utilities.min.css'))
+    .pipe(rename('gcds-utility.min.css'))
     .pipe(dest('dist'))
 };
 
