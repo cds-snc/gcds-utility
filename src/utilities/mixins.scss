@@ -7,7 +7,7 @@
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
-    @media only screen and (width > $breakpoint) {
+    @media only screen and (width >= $breakpoint) {
       .#{$classBreakpoint}\:#{$class} {
         @content;
       }
@@ -26,7 +26,7 @@
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
-    @media only screen and (width > $breakpoint) {
+    @media only screen and (width >= $breakpoint) {
       @each $className, $value in $classes {
         .#{$classBreakpoint}\:#{$classPrefix}#{"" + $className} {
           #{$property}: $value;

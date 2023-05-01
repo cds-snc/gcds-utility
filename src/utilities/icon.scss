@@ -3,15 +3,27 @@
 // Import Font Awesome Icons
 @import url('https://unpkg.com/font-awesome/css/font-awesome.min.css');
 
+/* --- Icons --- */
+
+.icon {
+  display: inline-block;
+  font-family: var(--gcds-font-families-icons);
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
 
 /* --- Icon Sizes --- */
 
 $sizes: (
-  xs: caption,
-  sm: text,
-  md: h5,
-  lg: h3,
-  xl: h1,
+  caption: caption,
+  text: text,
+  h6: h6,
+  h5: h5,
+  h4: h4,
+  h3: h3,
+  h2: h2,
+  h1: h1,
 ) !default;
 
 @each $className, $value in $sizes {
