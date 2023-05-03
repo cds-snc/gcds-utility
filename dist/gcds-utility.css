@@ -2060,6 +2060,644 @@ table {
         align-self: stretch;
   }
 }
+/* --- Background Colours --- */
+.bg-active {
+  background-color: var(--gcds-active-background);
+}
+
+.bg-black {
+  background-color: var(--gcds-color-grayscale-1000);
+}
+
+.bg-current {
+  background-color: currentColor;
+}
+
+.bg-danger {
+  background-color: var(--gcds-danger-background);
+}
+
+.bg-dark {
+  background-color: var(--gcds-color-grayscale-900);
+}
+
+.bg-disabled {
+  background-color: var(--gcds-disabled-background);
+}
+
+.bg-inherit {
+  background-color: inherit;
+}
+
+.bg-primary {
+  background-color: var(--gcds-color-blue-900);
+}
+
+.bg-light {
+  background-color: var(--gcds-color-grayscale-50);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-white {
+  background-color: var(--gcds-color-grayscale-0);
+}
+
+.hover\:bg-active:hover {
+  background-color: var(--gcds-active-background);
+}
+
+.hover\:bg-black:hover {
+  background-color: var(--gcds-color-grayscale-1000);
+}
+
+.hover\:bg-current:hover {
+  background-color: currentColor;
+}
+
+.hover\:bg-danger:hover {
+  background-color: var(--gcds-danger-background);
+}
+
+.hover\:bg-dark:hover {
+  background-color: var(--gcds-color-grayscale-900);
+}
+
+.hover\:bg-disabled:hover {
+  background-color: var(--gcds-disabled-background);
+}
+
+.hover\:bg-inherit:hover {
+  background-color: inherit;
+}
+
+.hover\:bg-primary:hover {
+  background-color: var(--gcds-color-blue-900);
+}
+
+.hover\:bg-light:hover {
+  background-color: var(--gcds-color-grayscale-50);
+}
+
+.hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
+.hover\:bg-white:hover {
+  background-color: var(--gcds-color-grayscale-0);
+}
+
+.focus\:bg-active:focus {
+  background-color: var(--gcds-active-background);
+}
+
+.focus\:bg-black:focus {
+  background-color: var(--gcds-color-grayscale-1000);
+}
+
+.focus\:bg-current:focus {
+  background-color: currentColor;
+}
+
+.focus\:bg-danger:focus {
+  background-color: var(--gcds-danger-background);
+}
+
+.focus\:bg-dark:focus {
+  background-color: var(--gcds-color-grayscale-900);
+}
+
+.focus\:bg-disabled:focus {
+  background-color: var(--gcds-disabled-background);
+}
+
+.focus\:bg-inherit:focus {
+  background-color: inherit;
+}
+
+.focus\:bg-primary:focus {
+  background-color: var(--gcds-color-blue-900);
+}
+
+.focus\:bg-light:focus {
+  background-color: var(--gcds-color-grayscale-50);
+}
+
+.focus\:bg-transparent:focus {
+  background-color: transparent;
+}
+
+.focus\:bg-white:focus {
+  background-color: var(--gcds-color-grayscale-0);
+}
+
+@media only screen and (width >= 30em) {
+  .xs\:bg-active {
+    background-color: var(--gcds-active-background);
+  }
+  .xs\:bg-black {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xs\:bg-current {
+    background-color: currentColor;
+  }
+  .xs\:bg-danger {
+    background-color: var(--gcds-danger-background);
+  }
+  .xs\:bg-dark {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xs\:bg-disabled {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xs\:bg-inherit {
+    background-color: inherit;
+  }
+  .xs\:bg-primary {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xs\:bg-light {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xs\:bg-transparent {
+    background-color: transparent;
+  }
+  .xs\:bg-white {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .xs\:hover\:bg-active:hover {
+    background-color: var(--gcds-active-background);
+  }
+  .xs\:hover\:bg-black:hover {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xs\:hover\:bg-current:hover {
+    background-color: currentColor;
+  }
+  .xs\:hover\:bg-danger:hover {
+    background-color: var(--gcds-danger-background);
+  }
+  .xs\:hover\:bg-dark:hover {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xs\:hover\:bg-disabled:hover {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xs\:hover\:bg-inherit:hover {
+    background-color: inherit;
+  }
+  .xs\:hover\:bg-primary:hover {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xs\:hover\:bg-light:hover {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xs\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+  .xs\:hover\:bg-white:hover {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .xs\:focus\:bg-active:focus {
+    background-color: var(--gcds-active-background);
+  }
+  .xs\:focus\:bg-black:focus {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xs\:focus\:bg-current:focus {
+    background-color: currentColor;
+  }
+  .xs\:focus\:bg-danger:focus {
+    background-color: var(--gcds-danger-background);
+  }
+  .xs\:focus\:bg-dark:focus {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xs\:focus\:bg-disabled:focus {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xs\:focus\:bg-inherit:focus {
+    background-color: inherit;
+  }
+  .xs\:focus\:bg-primary:focus {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xs\:focus\:bg-light:focus {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xs\:focus\:bg-transparent:focus {
+    background-color: transparent;
+  }
+  .xs\:focus\:bg-white:focus {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+}
+@media only screen and (width >= 40em) {
+  .sm\:bg-active {
+    background-color: var(--gcds-active-background);
+  }
+  .sm\:bg-black {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .sm\:bg-current {
+    background-color: currentColor;
+  }
+  .sm\:bg-danger {
+    background-color: var(--gcds-danger-background);
+  }
+  .sm\:bg-dark {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .sm\:bg-disabled {
+    background-color: var(--gcds-disabled-background);
+  }
+  .sm\:bg-inherit {
+    background-color: inherit;
+  }
+  .sm\:bg-primary {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .sm\:bg-light {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .sm\:bg-transparent {
+    background-color: transparent;
+  }
+  .sm\:bg-white {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .sm\:hover\:bg-active:hover {
+    background-color: var(--gcds-active-background);
+  }
+  .sm\:hover\:bg-black:hover {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .sm\:hover\:bg-current:hover {
+    background-color: currentColor;
+  }
+  .sm\:hover\:bg-danger:hover {
+    background-color: var(--gcds-danger-background);
+  }
+  .sm\:hover\:bg-dark:hover {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .sm\:hover\:bg-disabled:hover {
+    background-color: var(--gcds-disabled-background);
+  }
+  .sm\:hover\:bg-inherit:hover {
+    background-color: inherit;
+  }
+  .sm\:hover\:bg-primary:hover {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .sm\:hover\:bg-light:hover {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .sm\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+  .sm\:hover\:bg-white:hover {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .sm\:focus\:bg-active:focus {
+    background-color: var(--gcds-active-background);
+  }
+  .sm\:focus\:bg-black:focus {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .sm\:focus\:bg-current:focus {
+    background-color: currentColor;
+  }
+  .sm\:focus\:bg-danger:focus {
+    background-color: var(--gcds-danger-background);
+  }
+  .sm\:focus\:bg-dark:focus {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .sm\:focus\:bg-disabled:focus {
+    background-color: var(--gcds-disabled-background);
+  }
+  .sm\:focus\:bg-inherit:focus {
+    background-color: inherit;
+  }
+  .sm\:focus\:bg-primary:focus {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .sm\:focus\:bg-light:focus {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .sm\:focus\:bg-transparent:focus {
+    background-color: transparent;
+  }
+  .sm\:focus\:bg-white:focus {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+}
+@media only screen and (width >= 48em) {
+  .md\:bg-active {
+    background-color: var(--gcds-active-background);
+  }
+  .md\:bg-black {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .md\:bg-current {
+    background-color: currentColor;
+  }
+  .md\:bg-danger {
+    background-color: var(--gcds-danger-background);
+  }
+  .md\:bg-dark {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .md\:bg-disabled {
+    background-color: var(--gcds-disabled-background);
+  }
+  .md\:bg-inherit {
+    background-color: inherit;
+  }
+  .md\:bg-primary {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .md\:bg-light {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+  .md\:bg-white {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .md\:hover\:bg-active:hover {
+    background-color: var(--gcds-active-background);
+  }
+  .md\:hover\:bg-black:hover {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .md\:hover\:bg-current:hover {
+    background-color: currentColor;
+  }
+  .md\:hover\:bg-danger:hover {
+    background-color: var(--gcds-danger-background);
+  }
+  .md\:hover\:bg-dark:hover {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .md\:hover\:bg-disabled:hover {
+    background-color: var(--gcds-disabled-background);
+  }
+  .md\:hover\:bg-inherit:hover {
+    background-color: inherit;
+  }
+  .md\:hover\:bg-primary:hover {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .md\:hover\:bg-light:hover {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .md\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+  .md\:hover\:bg-white:hover {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .md\:focus\:bg-active:focus {
+    background-color: var(--gcds-active-background);
+  }
+  .md\:focus\:bg-black:focus {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .md\:focus\:bg-current:focus {
+    background-color: currentColor;
+  }
+  .md\:focus\:bg-danger:focus {
+    background-color: var(--gcds-danger-background);
+  }
+  .md\:focus\:bg-dark:focus {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .md\:focus\:bg-disabled:focus {
+    background-color: var(--gcds-disabled-background);
+  }
+  .md\:focus\:bg-inherit:focus {
+    background-color: inherit;
+  }
+  .md\:focus\:bg-primary:focus {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .md\:focus\:bg-light:focus {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .md\:focus\:bg-transparent:focus {
+    background-color: transparent;
+  }
+  .md\:focus\:bg-white:focus {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+}
+@media only screen and (width >= 64em) {
+  .lg\:bg-active {
+    background-color: var(--gcds-active-background);
+  }
+  .lg\:bg-black {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .lg\:bg-current {
+    background-color: currentColor;
+  }
+  .lg\:bg-danger {
+    background-color: var(--gcds-danger-background);
+  }
+  .lg\:bg-dark {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .lg\:bg-disabled {
+    background-color: var(--gcds-disabled-background);
+  }
+  .lg\:bg-inherit {
+    background-color: inherit;
+  }
+  .lg\:bg-primary {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .lg\:bg-light {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+  .lg\:bg-white {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .lg\:hover\:bg-active:hover {
+    background-color: var(--gcds-active-background);
+  }
+  .lg\:hover\:bg-black:hover {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .lg\:hover\:bg-current:hover {
+    background-color: currentColor;
+  }
+  .lg\:hover\:bg-danger:hover {
+    background-color: var(--gcds-danger-background);
+  }
+  .lg\:hover\:bg-dark:hover {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .lg\:hover\:bg-disabled:hover {
+    background-color: var(--gcds-disabled-background);
+  }
+  .lg\:hover\:bg-inherit:hover {
+    background-color: inherit;
+  }
+  .lg\:hover\:bg-primary:hover {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .lg\:hover\:bg-light:hover {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .lg\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+  .lg\:hover\:bg-white:hover {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .lg\:focus\:bg-active:focus {
+    background-color: var(--gcds-active-background);
+  }
+  .lg\:focus\:bg-black:focus {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .lg\:focus\:bg-current:focus {
+    background-color: currentColor;
+  }
+  .lg\:focus\:bg-danger:focus {
+    background-color: var(--gcds-danger-background);
+  }
+  .lg\:focus\:bg-dark:focus {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .lg\:focus\:bg-disabled:focus {
+    background-color: var(--gcds-disabled-background);
+  }
+  .lg\:focus\:bg-inherit:focus {
+    background-color: inherit;
+  }
+  .lg\:focus\:bg-primary:focus {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .lg\:focus\:bg-light:focus {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .lg\:focus\:bg-transparent:focus {
+    background-color: transparent;
+  }
+  .lg\:focus\:bg-white:focus {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+}
+@media only screen and (width >= 80em) {
+  .xl\:bg-active {
+    background-color: var(--gcds-active-background);
+  }
+  .xl\:bg-black {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xl\:bg-current {
+    background-color: currentColor;
+  }
+  .xl\:bg-danger {
+    background-color: var(--gcds-danger-background);
+  }
+  .xl\:bg-dark {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xl\:bg-disabled {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xl\:bg-inherit {
+    background-color: inherit;
+  }
+  .xl\:bg-primary {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xl\:bg-light {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xl\:bg-transparent {
+    background-color: transparent;
+  }
+  .xl\:bg-white {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .xl\:hover\:bg-active:hover {
+    background-color: var(--gcds-active-background);
+  }
+  .xl\:hover\:bg-black:hover {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xl\:hover\:bg-current:hover {
+    background-color: currentColor;
+  }
+  .xl\:hover\:bg-danger:hover {
+    background-color: var(--gcds-danger-background);
+  }
+  .xl\:hover\:bg-dark:hover {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xl\:hover\:bg-disabled:hover {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xl\:hover\:bg-inherit:hover {
+    background-color: inherit;
+  }
+  .xl\:hover\:bg-primary:hover {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xl\:hover\:bg-light:hover {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xl\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
+  .xl\:hover\:bg-white:hover {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+  .xl\:focus\:bg-active:focus {
+    background-color: var(--gcds-active-background);
+  }
+  .xl\:focus\:bg-black:focus {
+    background-color: var(--gcds-color-grayscale-1000);
+  }
+  .xl\:focus\:bg-current:focus {
+    background-color: currentColor;
+  }
+  .xl\:focus\:bg-danger:focus {
+    background-color: var(--gcds-danger-background);
+  }
+  .xl\:focus\:bg-dark:focus {
+    background-color: var(--gcds-color-grayscale-900);
+  }
+  .xl\:focus\:bg-disabled:focus {
+    background-color: var(--gcds-disabled-background);
+  }
+  .xl\:focus\:bg-inherit:focus {
+    background-color: inherit;
+  }
+  .xl\:focus\:bg-primary:focus {
+    background-color: var(--gcds-color-blue-900);
+  }
+  .xl\:focus\:bg-light:focus {
+    background-color: var(--gcds-color-grayscale-50);
+  }
+  .xl\:focus\:bg-transparent:focus {
+    background-color: transparent;
+  }
+  .xl\:focus\:bg-white:focus {
+    background-color: var(--gcds-color-grayscale-0);
+  }
+}
 /* --- Border --- */
 .b-sm {
   border: var(--gcds-border-width-sm) solid currentColor;
