@@ -42,3 +42,11 @@ $sides: (
   x: '-inline',
   y: '-block'
 ) !default;
+
+
+// --- States ---
+$states: (
+  "": "",
+  "hover\\:": ":hover",
+  "focus\\:": ":focus",
+);

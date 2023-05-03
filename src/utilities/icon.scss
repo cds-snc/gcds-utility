@@ -26,19 +26,23 @@ $sizes: (
   h1: h1,
 ) !default;
 
-@each $className, $value in $sizes {
-  .icon-#{"" + $className} {
-    font-size: var(--gcds-font-sizes-#{$value});
-    line-height: var(--gcds-line-heights-#{$value});
+@each $classState, $state in $states {
+  @each $className, $value in $sizes {
+    .#{$classState}icon-#{"" + $className}#{$state} {
+      font-size: var(--gcds-font-sizes-#{$value});
+      line-height: var(--gcds-line-heights-#{$value});
+    }
   }
 }
 
 @each $classBreakpoint, $breakpoint in $breakpoints {
   @media only screen and (width > $breakpoint) {
-    @each $className, $value in $sizes {
-      .#{$classBreakpoint}\:icon-#{"" + $className} {
-        font-size: var(--gcds-font-sizes-#{$value});
-        line-height: var(--gcds-line-heights-#{$value});
+    @each $classState, $state in $states {
+      @each $className, $value in $sizes {
+        .#{$classBreakpoint}\:#{$classState}icon-#{"" + $className}#{$state} {
+          font-size: var(--gcds-font-sizes-#{$value});
+          line-height: var(--gcds-line-heights-#{$value});
+        }
       }
     }
   }

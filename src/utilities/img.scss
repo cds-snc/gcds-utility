@@ -2,26 +2,31 @@
 
 /* --- Images --- */
 
-// Img full width
-.img-full {
-  width: 100%;
+@each $classState, $state in $states {
+  // Img full width
+  .#{$classState}img-full#{$state} {
+    width: 100%;
+  }
+
+  // Img responsive
+  .#{$classState}img-responsive#{$state} {
+    max-width: 100%;
+  }
 }
 
-// Img responsive
-.img-responsive {
-  max-width: 100%;
-}
 
 @each $classBreakpoint, $breakpoint in $breakpoints {
   @media only screen and (width > $breakpoint) {
-    // Img full width
-    .#{$classBreakpoint}\:img-full {
-      width: 100%;
-    }
+    @each $classState, $state in $states {
+      // Img full width
+      .#{$classBreakpoint}\:#{$classState}img-full#{$state} {
+        width: 100%;
+      }
 
-    // Img responsive
-    .#{$classBreakpoint}\:img-responsive {
-      max-width: 100%;
+      // Img responsive
+      .#{$classBreakpoint}\:#{$classState}img-responsive#{$state} {
+        max-width: 100%;
+      }
     }
   }
 }

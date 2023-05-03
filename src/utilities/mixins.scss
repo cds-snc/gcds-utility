@@ -2,14 +2,18 @@
 
 // --- Add breakpoints with class ---
 @mixin classWithBreakpoints($class) {
-  .#{$class} {
-    @content;
+  @each $classState, $state in $states {
+    .#{$classState}#{$class}#{$state} {
+      @content;
+    }
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
     @media only screen and (width >= $breakpoint) {
-      .#{$classBreakpoint}\:#{$class} {
-        @content;
+      @each $classState, $state in $states {
+        .#{$classBreakpoint}\:#{$classState}#{$class}#{$state} {
+          @content;
+        }
       }
     }
   }
@@ -19,17 +23,21 @@
 // --- Generate classes with breakpoints ---
 
 @mixin generateClasses($classes, $classPrefix, $property) {
-  @each $className, $value in $classes {
-    .#{$classPrefix}#{"" + $className} {
-      #{$property}: $value;
+  @each $classState, $state in $states {
+    @each $className, $value in $classes {
+      .#{$classState}#{$classPrefix}#{"" + $className}#{$state} {
+        #{$property}: $value;
+      }
     }
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
     @media only screen and (width >= $breakpoint) {
-      @each $className, $value in $classes {
-        .#{$classBreakpoint}\:#{$classPrefix}#{"" + $className} {
-          #{$property}: $value;
+      @each $classState, $state in $states {
+        @each $className, $value in $classes {
+          .#{$classBreakpoint}\:#{$classState}#{$classPrefix}#{"" + $className}#{$state} {
+            #{$property}: $value;
+          }
         }
       }
     }
