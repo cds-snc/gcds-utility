@@ -5722,7 +5722,8 @@ table {
   .xl\:focus\:b-transparent:focus {
     border-color: transparent;
   }
-} /* --- Border Radius --- */
+}
+/* --- Border Radius --- */
 .b-radius-sm {
   border-radius: var(--gcds-border-radius-sm);
 }
@@ -10609,6 +10610,78 @@ table {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
+  }
+}
+/* --- Focus --- */
+.focus-styling:focus {
+  border-radius: var(--gcds-border-radius-sm);
+  background-color: var(--gcds-focus-background);
+  color: var(--gcds-focus-text);
+  text-decoration: none;
+  -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+          box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+  outline-offset: var(--gcds-border-width-md);
+  outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+}
+
+@media only screen and (width >= 30em) {
+  .xs\:focus-styling:focus {
+    border-radius: var(--gcds-border-radius-sm);
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    outline-offset: var(--gcds-border-width-md);
+    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+  }
+}
+@media only screen and (width >= 40em) {
+  .sm\:focus-styling:focus {
+    border-radius: var(--gcds-border-radius-sm);
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    outline-offset: var(--gcds-border-width-md);
+    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+  }
+}
+@media only screen and (width >= 48em) {
+  .md\:focus-styling:focus {
+    border-radius: var(--gcds-border-radius-sm);
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    outline-offset: var(--gcds-border-width-md);
+    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+  }
+}
+@media only screen and (width >= 64em) {
+  .lg\:focus-styling:focus {
+    border-radius: var(--gcds-border-radius-sm);
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    outline-offset: var(--gcds-border-width-md);
+    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+  }
+}
+@media only screen and (width >= 80em) {
+  .xl\:focus-styling:focus {
+    border-radius: var(--gcds-border-radius-sm);
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    text-decoration: none;
+    -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+            box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
+    outline-offset: var(--gcds-border-width-md);
+    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
   }
 }
 /* --- Gap --- */
@@ -37000,8 +37073,7 @@ table {
   .xl\:focus\:font-normal:focus {
     font-style: normal;
   }
-}
-/* --- Font Weights --- */
+} /* --- Font Weights --- */
 .font-light {
   font-weight: var(--gcds-font-weights-light);
 }

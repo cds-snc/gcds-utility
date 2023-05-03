@@ -10,7 +10,7 @@ $visibility: (
 @include generateClasses($visibility, 'visibility-', visibility);
 
 // Text for screen readers only
-@include classWithBreakpoints('visibility-sr-only' ) {
+@include classWithBreakpoints('visibility-sr-only') {
   display: block;
   width: 0;
   height: 0;

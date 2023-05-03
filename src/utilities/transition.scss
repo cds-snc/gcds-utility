@@ -1,22 +1,8 @@
-@import "./defaults.scss";
+@import "./mixins.scss";
 
 /* --- Transition --- */
 
-@mixin transition($class) {
-  .#{$class} {
-    @content;
-  }
-
-  @each $classBreakpoint, $breakpoint in $breakpoints {
-    @media only screen and (width >= $breakpoint) {
-      .#{$classBreakpoint}\:#{$class} {
-        @content;
-      }
-    }
-  }
-}
-
-@include transition('transition-fade-in' ) {
+@include classWithBreakpoints('transition-fade-in', 'false') {
   opacity: 0;
   transition: opacity .15s ease-in-out;
 
@@ -25,7 +11,7 @@
   }
 }
 
-@include transition('transition-fade-out' ) {
+@include classWithBreakpoints('transition-fade-out', 'false') {
   opacity: 1;
   transition: opacity .15s ease-in-out;
 
