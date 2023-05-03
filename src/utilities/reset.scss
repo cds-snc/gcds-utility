@@ -12,6 +12,13 @@
 
 a {
   text-underline-position: under;
+  text-underline-offset: -0.1em;
+  text-decoration-thickness: var(--gcds-border-width-sm);
+  transition: all .35s;
+
+  &:hover {
+    text-decoration-thickness: var(--gcds-border-width-md);
+  }
 }
 
 body {
