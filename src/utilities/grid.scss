@@ -1,26 +1,30 @@
 @import "./mixins.scss";
 
 @mixin gridTemplate($trackClass, $track) {
-  @for $i from 1 through 12 {
-    .grid-#{$trackClass}-#{$i} {
-      grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+  @each $classState, $state in $states {
+    @for $i from 1 through 12 {
+      .#{$classState}grid-#{$trackClass}-#{$i}#{$state} {
+        grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+      }
     }
-  }
 
-  .grid-#{$trackClass}-none {
-    grid-template-#{$track}: none;
+    .#{$classState}grid-#{$trackClass}-none#{$state} {
+      grid-template-#{$track}: none;
+    }
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
     @media only screen and (width > $breakpoint) {
-      @for $i from 1 through 12 {
-        .#{$classBreakpoint}\:grid-#{$trackClass}-#{$i} {
-          grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+      @each $classState, $state in $states {
+        @for $i from 1 through 12 {
+          .#{$classBreakpoint}\:#{$classState}grid-#{$trackClass}-#{$i}#{$state} {
+            grid-template-#{$track}: repeat($i, minmax(0, 1fr));
+          }
         }
-      }
 
-      .#{$classBreakpoint}\:grid-#{$trackClass}-none {
-        grid-template-#{$track}: none;
+        .#{$classBreakpoint}\:#{$classState}grid-#{$trackClass}-none#{$state} {
+          grid-template-#{$track}: none;
+        }
       }
     }
   }

@@ -32,6 +32,7 @@ $borderColor: (
   inherit: inherit,
   current: currentColor,
   dark: var(--gcds-color-grayscale-1000),
+  default: var(--gcds-border-default),
   light: var(--gcds-color-grayscale-0),
   transparent: transparent,
 ) !default;

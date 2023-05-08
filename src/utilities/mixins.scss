@@ -1,15 +1,33 @@
 @import "./defaults.scss";
 
 // --- Add breakpoints with class ---
-@mixin classWithBreakpoints($class) {
-  .#{$class} {
-    @content;
-  }
-
-  @each $classBreakpoint, $breakpoint in $breakpoints {
-    @media only screen and (width >= $breakpoint) {
-      .#{$classBreakpoint}\:#{$class} {
+@mixin classWithBreakpoints($class, $generateStates: "true") {
+  @if $generateStates == "true" {
+    @each $classState, $state in $states {
+      .#{$classState}#{$class}#{$state} {
         @content;
+      }
+    }
+
+    @each $classBreakpoint, $breakpoint in $breakpoints {
+      @media only screen and (width >= $breakpoint) {
+        @each $classState, $state in $states {
+          .#{$classBreakpoint}\:#{$classState}#{$class}#{$state} {
+            @content;
+          }
+        }
+      }
+    }
+  } @else {
+    .#{$class} {
+      @content;
+    }
+
+    @each $classBreakpoint, $breakpoint in $breakpoints {
+      @media only screen and (width >= $breakpoint) {
+        .#{$classBreakpoint}\:#{$class} {
+          @content;
+        }
       }
     }
   }
@@ -19,17 +37,21 @@
 // --- Generate classes with breakpoints ---
 
 @mixin generateClasses($classes, $classPrefix, $property) {
-  @each $className, $value in $classes {
-    .#{$classPrefix}#{"" + $className} {
-      #{$property}: $value;
+  @each $classState, $state in $states {
+    @each $className, $value in $classes {
+      .#{$classState}#{$classPrefix}#{"" + $className}#{$state} {
+        #{$property}: $value;
+      }
     }
   }
 
   @each $classBreakpoint, $breakpoint in $breakpoints {
     @media only screen and (width >= $breakpoint) {
-      @each $className, $value in $classes {
-        .#{$classBreakpoint}\:#{$classPrefix}#{"" + $className} {
-          #{$property}: $value;
+      @each $classState, $state in $states {
+        @each $className, $value in $classes {
+          .#{$classBreakpoint}\:#{$classState}#{$classPrefix}#{"" + $className}#{$state} {
+            #{$property}: $value;
+          }
         }
       }
     }

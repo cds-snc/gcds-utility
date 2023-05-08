@@ -111,11 +111,11 @@ $textColors: (
 
 /* --- Text Overflow --- */
 
-@include classWithBreakpoints('text-clip' ) {
+@include classWithBreakpoints('text-clip') {
   text-overflow: clip;
 }
 
-@include classWithBreakpoints('text-truncate' ) {
+@include classWithBreakpoints('text-truncate') {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

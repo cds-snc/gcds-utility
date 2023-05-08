@@ -1,0 +1,19 @@
+@import "./mixins.scss";
+
+/* --- Background Colours --- */
+
+$backgroundColors: (
+  active: var(--gcds-active-background),
+  black: var(--gcds-color-grayscale-1000),
+  current: currentColor,
+  danger: var(--gcds-danger-background),
+  dark: var(--gcds-color-grayscale-900),
+  disabled: var(--gcds-disabled-background),
+  inherit: inherit,
+  light: var(--gcds-color-grayscale-50),
+  primary: var(--gcds-color-blue-900),
+  transparent: transparent,
+  white: var(--gcds-color-grayscale-0),
+) !default;
+
+@include generateClasses($backgroundColors, 'bg-', background-color);
