@@ -2,7 +2,7 @@
 
 /* --- Focus --- */
 
-@include classWithBreakpoints('focus-styling', 'false') {
+@include classWithBreakpoints('focus\\:default', 'false') {
   &:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);

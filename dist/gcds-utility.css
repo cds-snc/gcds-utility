@@ -10613,7 +10613,7 @@ table {
   }
 }
 /* --- Focus --- */
-.focus-styling:focus {
+.focus\:default:focus {
   border-radius: var(--gcds-border-radius-sm);
   background-color: var(--gcds-focus-background);
   color: var(--gcds-focus-text);
@@ -10625,7 +10625,7 @@ table {
 }
 
 @media only screen and (width >= 30em) {
-  .xs\:focus-styling:focus {
+  .xs\:focus\:default:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
@@ -10637,7 +10637,7 @@ table {
   }
 }
 @media only screen and (width >= 40em) {
-  .sm\:focus-styling:focus {
+  .sm\:focus\:default:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
@@ -10649,7 +10649,7 @@ table {
   }
 }
 @media only screen and (width >= 48em) {
-  .md\:focus-styling:focus {
+  .md\:focus\:default:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
@@ -10661,7 +10661,7 @@ table {
   }
 }
 @media only screen and (width >= 64em) {
-  .lg\:focus-styling:focus {
+  .lg\:focus\:default:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
@@ -10673,7 +10673,7 @@ table {
   }
 }
 @media only screen and (width >= 80em) {
-  .xl\:focus-styling:focus {
+  .xl\:focus\:default:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);
     color: var(--gcds-focus-text);
