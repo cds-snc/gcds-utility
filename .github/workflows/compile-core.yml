@@ -1,5 +1,5 @@
 name: Compile Core
-on: 
+on:
   push:
     branches:
       - main
@@ -13,7 +13,7 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: "@cdssnc/gcds-utility" 
+  PACKAGE_NAME: "@cdssnc/gcds-utility"
 
 jobs:
   build-deploy:
@@ -58,3 +58,9 @@ jobs:
           aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/dist/gcds-utility.css
 
           aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
+
+      - name: Slack notify on failure
+        if: failure()
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-utility failed: <https://github.com/cds-snc/gcds-utility/actions/workflows/compile-core.yml|Compile Core>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
