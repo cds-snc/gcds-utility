@@ -26,7 +26,7 @@ You can find the full documentation for GC Design System Utility on [https://des
 Place the following code in the `<head>` element of your site.
 ```
 <!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://unpkg.com/@cdssnc/gcds-utility/dist/gcds-utility.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
 ```
 <br/>
 
@@ -76,7 +76,7 @@ Toute la documentation sur l'utilitaire de Système de design GC est accessible 
 Inscrivez le code suivant dans l'élément `<head>` de votre site Web :
 ```
 <!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://unpkg.com/@cdssnc/gcds-utility/dist/gcds-utility.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
 ```
 <br/>
 
