@@ -19,7 +19,7 @@ You can find the full documentation for GC Design System Utility on [https://des
 ### How to install using NPM
 
 - Create a new project or go to the root folder of your existing project.
-- Run `npm install gcds-utility` to install the GC Design System Utility package.
+- Run `npm install @cdssnc/gcds-utility` to install the GC Design System Utility package.
 
 ### How to install using CDN
 
@@ -69,7 +69,7 @@ Toute la documentation sur l'utilitaire de Système de design GC est accessible 
 ### Installation à l'aide de NPM
 
 - Créez un nouveau projet ou naviguez vers le dossier racine de votre projet existant.
-- Exécutez `npm install gcds-utility` pour installer le progiciel de l'utilitaire de Système de design GC.
+- Exécutez `npm install @cdssnc/gcds-utility` pour installer le progiciel de l'utilitaire de Système de design GC.
 
 ### Installation à l'aide de CDN
 
