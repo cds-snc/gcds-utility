@@ -1,10 +1,11 @@
-name: Compile Core
+name: Publish
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - 'src/**'
+      - 'package.json'
 
 permissions:
   id-token: write
@@ -17,30 +18,20 @@ env:
 
 jobs:
   build-deploy:
-    name: Compile Core
+    name: Publish
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
         uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
 
-      - name: Install
-        run: npm install
-
-      - name: Compile + Commit
-        run: |
-          gulp compile
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git commit -m "Compile utilities"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@df39337088a4cf2782a73f221bbd33f90e3e091d
+      - name: Publish @cdssnc/gcds-utility
+        uses: JS-DevTools/npm-publish@be39bf074cd386f38a375dd3d35464bf56735502
+        id: publish
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
+          token: ${{ secrets.NPM_TOKEN }}
 
       - name: Configure AWS credentials using OIDC
+        if: steps.publish.outputs.id != ''
         uses: aws-actions/configure-aws-credentials@e1e17a757e536f70e52b5a12b2e8d1d1c60e04ef # v2.0.0
         with:
           role-to-assume: arn:aws:iam::307395567143:role/gcds-utility-apply
@@ -48,6 +39,7 @@ jobs:
           aws-region: ${{ env.CDN_REGION }}
 
       - name: Update CDN
+        if: steps.publish.outputs.id != ''
         run: |
           VERSION="$(cat package.json | jq -r .version)"
           PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
