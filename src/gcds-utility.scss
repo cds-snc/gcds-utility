@@ -1,5 +1,8 @@
-@use '../node_modules/@cdssnc/gcds-tokens/build/web/variables.css';
+// GCDS tokens
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
 
+// GCDS Utility
 @use 'utilities/reset.scss';
 
 @use 'utilities/mixins.scss';
