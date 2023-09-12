@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -19,9 +19,940 @@
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../../dist/gcds-utility.css" />
+
+  <style>
+    .table-container {
+      overflow-x: scroll;
+    }
+
+    .table-container table {
+      min-width: 100%;
+    }
+
+    .table--small table {
+      width: 72rem;
+    }
+
+    .table--large table {
+      width: 93.75rem;
+    }
+
+    .table-container table:hover tbody tr {
+      opacity: 0.5;
+    }
+
+    .table-container table tbody tr {
+      transition: all 0.35s;
+    }
+
+    .table-container table tbody tr:hover {
+      background-color: var(--gcds-color-green-100);
+      opacity: 1;
+    }
+
+    .table-container table th,
+    .table-container table td {
+      min-width: var(--gcds-spacing-700);
+      padding: var(--gcds-spacing-100);
+      border: 1px solid var(--gcds-border-default);
+      transition: background-color 0.35s;
+    }
+
+    .table-container table th:first-child,
+    .table-container table td:first-child {
+      min-width: 11.5rem;
+    }
+
+    .table-container table td:not(:first-child):hover {
+      background-color: var(--gcds-color-green-700);
+      color: var(--gcds-text-light);
+    }
+
+    .table-container table .spacing-preview {
+      background-color: var(--gcds-color-blue-500);
+    }
+  </style>
 </head>
 
 <body>
+  <main class="container-xl mx-auto px-400 py-600">
+    <h1 class="text-center">GC Design System Utility Demo (WIP)</h1>
+
+    <h2 class="mt-500 mb-400 bb-sm">Typography</h2>
+
+    <h3 class="mt-500 mb-400">Font</h3>
+    <div class="b-sm">
+      <p class="font-caption p-200 bb-sm">Caption</p>
+      <p class="font-text p-200 bb-sm">Text</p>
+      <p class="font-h6 p-200 bb-sm">H6</p>
+      <p class="font-h5 p-200 bb-sm">H5</p>
+      <p class="font-h4 p-200 bb-sm">H4</p>
+      <p class="font-h3 p-200 bb-sm">H3</p>
+      <p class="font-h2 p-200 bb-sm">H2</p>
+      <p class="font-h1 p-200">H1</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Font family - IMPROVE?</h3>
+    <div class="b-sm">
+      <p class="font-family-heading p-200 bb-sm">Heading</p>
+      <p class="font-family-body p-200 bb-sm">Body</p>
+      <p class="font-family-monospace p-200 bb-sm">Monospace</p>
+      <p class="font-family-icon p-200">Icon</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Font size</h3>
+    <div class="b-sm">
+      <p class="font-size-caption p-200 bb-sm">Caption</p>
+      <p class="font-size-text p-200 bb-sm">Text</p>
+      <p class="font-size-h6 p-200 bb-sm">H6</p>
+      <p class="font-size-h5 p-200 bb-sm">H5</p>
+      <p class="font-size-h4 p-200 bb-sm">H4</p>
+      <p class="font-size-h3 p-200 bb-sm">H3</p>
+      <p class="font-size-h2 p-200 bb-sm">H2</p>
+      <p class="font-size-h1 p-200">H1</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Font style</h3>
+    <div class="b-sm">
+      <p class="font-italic p-200 bb-sm">Italic</p>
+      <p class="font-normal p-200">Normal</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Font weight</h3>
+    <div class="b-sm">
+      <p class="font-light p-200 bb-sm">Light</p>
+      <p class="font-regular p-200 bb-sm">Regular</p>
+      <p class="font-medium p-200 bb-sm">Medium</p>
+      <p class="font-semibold p-200 bb-sm">Semibold</p>
+      <p class="font-bold p-200">Bold</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Line height - IMPROVE</h3>
+    <div class="b-sm">
+      <p class="line-caption p-200 bb-sm">Caption</p>
+      <p class="line-text p-200 bb-sm">Text</p>
+      <p class="line-h6 p-200 bb-sm">H6</p>
+      <p class="line-h5 p-200 bb-sm">H5</p>
+      <p class="line-h4 p-200 bb-sm">H4</p>
+      <p class="line-h3 p-200 bb-sm">H3</p>
+      <p class="line-h2 p-200 bb-sm">H2</p>
+      <p class="line-h1 p-200">H1</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Text align - IMPROVE?</h3>
+    <div class="b-sm">
+      <p class="text-left p-200 bb-sm">
+        Text left - this is some example content to display the text
+        alignment.
+      </p>
+      <p class="text-center p-200 bb-sm">
+        Text center - this is some example content to display the text
+        alignment
+      </p>
+      <p class="text-right p-200 bb-sm">
+        Text right - this is some example content to display the text
+        alignment
+      </p>
+      <p class="text-justify p-200">
+        Text justify - this is some example content to display the text
+        alignment
+      </p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Text colour - IMPROVE?</h3>
+    <div class="b-sm">
+      <p class="text-current p-200 bb-sm">Text current</p>
+      <p class="text-inherit p-200 bb-sm">Text inherit</p>
+      <p class="text-light p-200 bg-dark bb-sm b-dark">Text light</p>
+      <p class="text-primary p-200 bb-sm">Text primary</p>
+      <p class="text-secondary p-200 bb-sm">Text secondary</p>
+      <p class="text-transparent p-200">
+        Text transparent <span class="text-primary">(text transparent)</span>
+      </p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Text overflow</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Text transform</h3>
+    <div class="b-sm">
+      <p class="text-capitalize p-200 bb-sm">Text capitalize</p>
+      <p class="text-lowercase p-200 bb-sm">Text lowercase</p>
+      <p class="text-uppercase p-200 bb-sm">Text uppercase</p>
+      <p class="text-none p-200">Text none</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Word break</h3>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Spacing</h2>
+
+    <h3 class="mt-500 mb-400">Overview</h3>
+    <div class="table-container table--small">
+      <table>
+        <thead>
+          <tr>
+            <th>Preview</th>
+            <th>Token name</th>
+            <th>Pixel</th>
+            <th>Rem</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0; height: 0"></div>
+            </td>
+            <td>--gcds-spacing-0</td>
+            <td>0px</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0.1875rem; height: 0.1875rem"></div>
+            </td>
+            <td>--gcds-spacing-50</td>
+            <td>3px</td>
+            <td>0.1875rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0.375rem; height: 0.375rem"></div>
+            </td>
+            <td>--gcds-spacing-100</td>
+            <td>6px</td>
+            <td>0.375rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0.5625rem; height: 0.5625rem"></div>
+            </td>
+            <td>--gcds-spacing-150</td>
+            <td>9px</td>
+            <td>0.5625rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0.75rem; height: 0.75rem"></div>
+            </td>
+            <td>--gcds-spacing-200</td>
+            <td>12px</td>
+            <td>0.75rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 0.9375rem; height: 0.9375rem"></div>
+            </td>
+            <td>--gcds-spacing-250</td>
+            <td>15px</td>
+            <td>0.9375rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 1.125rem; height: 1.125rem"></div>
+            </td>
+            <td>--gcds-spacing-300</td>
+            <td>18px</td>
+            <td>1.125rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 1.5rem; height: 1.5rem"></div>
+            </td>
+            <td>--gcds-spacing-400</td>
+            <td>24px</td>
+            <td>1.5rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 2.25rem; height: 2.25rem"></div>
+            </td>
+            <td>--gcds-spacing-450</td>
+            <td>36px</td>
+            <td>2.25rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 3rem; height: 3rem"></div>
+            </td>
+            <td>--gcds-spacing-500</td>
+            <td>48px</td>
+            <td>3rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 3.75rem; height: 3.75rem"></div>
+            </td>
+            <td>--gcds-spacing-550</td>
+            <td>60px</td>
+            <td>3.75rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 4.5rem; height: 4.5rem"></div>
+            </td>
+            <td>--gcds-spacing-600</td>
+            <td>72px</td>
+            <td>4.5rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 6rem; height: 6rem"></div>
+            </td>
+            <td>--gcds-spacing-700</td>
+            <td>96px</td>
+            <td>6rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 7.5rem; height: 7.5rem"></div>
+            </td>
+            <td>--gcds-spacing-800</td>
+            <td>120px</td>
+            <td>7.5rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 9rem; height: 9rem"></div>
+            </td>
+            <td>--gcds-spacing-900</td>
+            <td>144px</td>
+            <td>9rem</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="spacing-preview" style="width: 10.5rem; height: 10.5rem"></div>
+            </td>
+            <td>--gcds-spacing-1000</td>
+            <td>168px</td>
+            <td>10.5rem</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="mt-500 mb-400">Margin</h3>
+    <div class="table-container table--large">
+      <table class="font-caption">
+        <thead class="text-left">
+          <tr>
+            <th>Property</th>
+            <th>Shortcut</th>
+            <th colspan="17">Classes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>margin</td>
+            <td>m-</td>
+            <td>m-0</td>
+            <td>m-50</td>
+            <td>m-100</td>
+            <td>m-150</td>
+            <td>m-200</td>
+            <td>m-250</td>
+            <td>m-300</td>
+            <td>m-400</td>
+            <td>m-450</td>
+            <td>m-500</td>
+            <td>m-550</td>
+            <td>m-600</td>
+            <td>m-700</td>
+            <td>m-800</td>
+            <td>m-900</td>
+            <td>m-1000</td>
+            <td>m-auto</td>
+          </tr>
+          <tr>
+            <td>margin-block-start<br />(top)</td>
+            <td>mt-</td>
+            <td>mt-0</td>
+            <td>mt-50</td>
+            <td>mt-100</td>
+            <td>mt-150</td>
+            <td>mt-200</td>
+            <td>mt-250</td>
+            <td>mt-300</td>
+            <td>mt-400</td>
+            <td>mt-450</td>
+            <td>mt-500</td>
+            <td>mt-550</td>
+            <td>mt-600</td>
+            <td>mt-700</td>
+            <td>mt-800</td>
+            <td>mt-900</td>
+            <td>mt-1000</td>
+            <td>mt-auto</td>
+          </tr>
+          <tr>
+            <td>margin-inline-end<br />(right)</td>
+            <td>me-</td>
+            <td>me-0</td>
+            <td>me-50</td>
+            <td>me-100</td>
+            <td>me-150</td>
+            <td>me-200</td>
+            <td>me-250</td>
+            <td>me-300</td>
+            <td>me-400</td>
+            <td>me-450</td>
+            <td>me-500</td>
+            <td>me-550</td>
+            <td>me-600</td>
+            <td>me-700</td>
+            <td>me-800</td>
+            <td>me-900</td>
+            <td>me-1000</td>
+            <td>me-auto</td>
+          </tr>
+          <tr>
+            <td>margin-block-end<br />(bottom)</td>
+            <td>mb-</td>
+            <td>mb-0</td>
+            <td>mb-50</td>
+            <td>mb-100</td>
+            <td>mb-150</td>
+            <td>mb-200</td>
+            <td>mb-250</td>
+            <td>mb-300</td>
+            <td>mb-400</td>
+            <td>mb-450</td>
+            <td>mb-500</td>
+            <td>mb-550</td>
+            <td>mb-600</td>
+            <td>mb-700</td>
+            <td>mb-800</td>
+            <td>mb-900</td>
+            <td>mb-1000</td>
+            <td>mb-auto</td>
+          </tr>
+          <tr>
+            <td>margin-inline-start<br />(left)</td>
+            <td>ms-</td>
+            <td>ms-0</td>
+            <td>ms-50</td>
+            <td>ms-100</td>
+            <td>ms-150</td>
+            <td>ms-200</td>
+            <td>ms-250</td>
+            <td>ms-300</td>
+            <td>ms-400</td>
+            <td>ms-450</td>
+            <td>ms-500</td>
+            <td>ms-550</td>
+            <td>ms-600</td>
+            <td>ms-700</td>
+            <td>ms-800</td>
+            <td>ms-900</td>
+            <td>ms-1000</td>
+            <td>ms-auto</td>
+          </tr>
+          <tr>
+            <td>margin-inline<br />(left + right)</td>
+            <td>mx-</td>
+            <td>mx-0</td>
+            <td>mx-50</td>
+            <td>mx-100</td>
+            <td>mx-150</td>
+            <td>mx-200</td>
+            <td>mx-250</td>
+            <td>mx-300</td>
+            <td>mx-400</td>
+            <td>mx-450</td>
+            <td>mx-500</td>
+            <td>mx-550</td>
+            <td>mx-600</td>
+            <td>mx-700</td>
+            <td>mx-800</td>
+            <td>mx-900</td>
+            <td>mx-1000</td>
+            <td>mx-auto</td>
+          </tr>
+          <tr>
+            <td>margin-block<br />(top + bottom)</td>
+            <td>my-</td>
+            <td>my-0</td>
+            <td>my-50</td>
+            <td>my-100</td>
+            <td>my-150</td>
+            <td>my-200</td>
+            <td>my-250</td>
+            <td>my-300</td>
+            <td>my-400</td>
+            <td>my-450</td>
+            <td>my-500</td>
+            <td>my-550</td>
+            <td>my-600</td>
+            <td>my-700</td>
+            <td>my-800</td>
+            <td>my-900</td>
+            <td>my-1000</td>
+            <td>my-auto</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 class="mt-500 mb-400">Padding</h3>
+    <div class="table-container table--large">
+      <table class="font-caption">
+        <thead class="text-left">
+          <tr>
+            <th>Property</th>
+            <th>Shortcut</th>
+            <th colspan="16">Classes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>padding</td>
+            <td>p-</td>
+            <td>p-0</td>
+            <td>p-50</td>
+            <td>p-100</td>
+            <td>p-150</td>
+            <td>p-200</td>
+            <td>p-250</td>
+            <td>p-300</td>
+            <td>p-400</td>
+            <td>p-450</td>
+            <td>p-500</td>
+            <td>p-550</td>
+            <td>p-600</td>
+            <td>p-700</td>
+            <td>p-800</td>
+            <td>p-900</td>
+            <td>p-1000</td>
+          </tr>
+          <tr>
+            <td>padding-block-start<br />(top)</td>
+            <td>pt-</td>
+            <td>pt-0</td>
+            <td>pt-50</td>
+            <td>pt-100</td>
+            <td>pt-150</td>
+            <td>pt-200</td>
+            <td>pt-250</td>
+            <td>pt-300</td>
+            <td>pt-400</td>
+            <td>pt-450</td>
+            <td>pt-500</td>
+            <td>pt-550</td>
+            <td>pt-600</td>
+            <td>pt-700</td>
+            <td>pt-800</td>
+            <td>pt-900</td>
+            <td>pt-1000</td>
+          </tr>
+          <tr>
+            <td>padding-inline-end<br />(right)</td>
+            <td>pe-</td>
+            <td>pe-0</td>
+            <td>pe-50</td>
+            <td>pe-100</td>
+            <td>pe-150</td>
+            <td>pe-200</td>
+            <td>pe-250</td>
+            <td>pe-300</td>
+            <td>pe-400</td>
+            <td>pe-450</td>
+            <td>pe-500</td>
+            <td>pe-550</td>
+            <td>pe-600</td>
+            <td>pe-700</td>
+            <td>pe-800</td>
+            <td>pe-900</td>
+            <td>pe-1000</td>
+          </tr>
+          <tr>
+            <td>padding-block-end<br />(bottom)</td>
+            <td>pb-</td>
+            <td>pb-0</td>
+            <td>pb-50</td>
+            <td>pb-100</td>
+            <td>pb-150</td>
+            <td>pb-200</td>
+            <td>pb-250</td>
+            <td>pb-300</td>
+            <td>pb-400</td>
+            <td>pb-450</td>
+            <td>pb-500</td>
+            <td>pb-550</td>
+            <td>pb-600</td>
+            <td>pb-700</td>
+            <td>pb-800</td>
+            <td>pb-900</td>
+            <td>pb-1000</td>
+          </tr>
+          <tr>
+            <td>padding-inline-start<br />(left)</td>
+            <td>ps-</td>
+            <td>ps-0</td>
+            <td>ps-50</td>
+            <td>ps-100</td>
+            <td>ps-150</td>
+            <td>ps-200</td>
+            <td>ps-250</td>
+            <td>ps-300</td>
+            <td>ps-400</td>
+            <td>ps-450</td>
+            <td>ps-500</td>
+            <td>ps-550</td>
+            <td>ps-600</td>
+            <td>ps-700</td>
+            <td>ps-800</td>
+            <td>ps-900</td>
+            <td>ps-1000</td>
+          </tr>
+          <tr>
+            <td>padding-inline<br />(left + right)</td>
+            <td>px-</td>
+            <td>px-0</td>
+            <td>px-50</td>
+            <td>px-100</td>
+            <td>px-150</td>
+            <td>px-200</td>
+            <td>px-250</td>
+            <td>px-300</td>
+            <td>px-400</td>
+            <td>px-450</td>
+            <td>px-500</td>
+            <td>px-550</td>
+            <td>px-600</td>
+            <td>px-700</td>
+            <td>px-800</td>
+            <td>px-900</td>
+            <td>px-1000</td>
+          </tr>
+          <tr>
+            <td>padding-block<br />(top + bottom)</td>
+            <td>py-</td>
+            <td>py-0</td>
+            <td>py-50</td>
+            <td>py-100</td>
+            <td>py-150</td>
+            <td>py-200</td>
+            <td>py-250</td>
+            <td>py-300</td>
+            <td>py-400</td>
+            <td>py-450</td>
+            <td>py-500</td>
+            <td>py-550</td>
+            <td>py-600</td>
+            <td>py-700</td>
+            <td>py-800</td>
+            <td>py-900</td>
+            <td>py-1000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 class="mt-500 mb-400 bb-sm">Flexbox & grid</h2>
+
+    <h3 class="mt-500 mb-400">Flex</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Flex direction</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Flex wrap</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Flex grow</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Flex shrink</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Order</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Grid template columns</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Grid template row</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Gap</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Gap (column)</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Gap (row)</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Align content</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Align items</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Align self</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Justify content</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Justify items</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Justify self</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Place content</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Place items</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Place self</h3>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Background</h2>
+    <p class="mb-400 p-200 bg-active text-light b-sm">Active</p>
+    <p class="mb-400 p-200 bg-black text-light b-sm">Black</p>
+    <p class="mb-400 p-200 bg-current b-sm">
+      <span class="text-light">Current</span>
+    </p>
+    <p class="mb-400 p-200 bg-danger b-sm">Danger</p>
+    <p class="mb-400 p-200 bg-dark text-light b-sm">Dark</p>
+    <p class="mb-400 p-200 bg-disabled b-sm">Disabled</p>
+    <p class="mb-400 p-200 bg-inherit b-sm">Inherit</p>
+    <p class="mb-400 p-200 bg-light b-sm">Light</p>
+    <p class="mb-400 p-200 bg-primary text-light b-sm">Primary</p>
+    <p class="mb-400 p-200 bg-transparent b-sm">Transparent</p>
+    <p class="mb-400 p-200 bg-white b-sm">White</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Border</h2>
+
+    <h3 class="mt-500 mb-400">Border</h3>
+    <p class="mb-400 p-200 b-sm">Sm</p>
+    <p class="mb-400 p-200 b-md">Md</p>
+    <p class="mb-400 p-200 b-lg">Lg</p>
+    <p class="mb-400 p-200 b-xl">Xl</p>
+    <p class="mb-400 p-200 b-0">0</p>
+
+    <h3 class="mt-500 mb-400">Border block start (top)</h3>
+    <p class="mb-400 p-200 bt-sm">Sm</p>
+    <p class="mb-400 p-200 bt-md">Md</p>
+    <p class="mb-400 p-200 bt-lg">Lg</p>
+    <p class="mb-400 p-200 bt-xl">Xl</p>
+    <p class="mb-400 p-200 bt-0">0</p>
+
+    <h3 class="mt-500 mb-400">Border inline end (right)</h3>
+    <div class="container-xs">
+      <p class="mb-400 p-200 be-sm">Sm</p>
+      <p class="mb-400 p-200 be-md">Md</p>
+      <p class="mb-400 p-200 be-lg">Lg</p>
+      <p class="mb-400 p-200 be-xl">Xl</p>
+      <p class="mb-400 p-200 be-0">0</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Border block end (bottom)</h3>
+    <p class="mb-400 p-200 bb-sm">Sm</p>
+    <p class="mb-400 p-200 bb-md">Md</p>
+    <p class="mb-400 p-200 bb-lg">Lg</p>
+    <p class="mb-400 p-200 bb-xl">Xl</p>
+    <p class="mb-400 p-200 bb-0">0</p>
+
+    <h3 class="mt-500 mb-400">Border inline start (left)</h3>
+    <p class="mb-400 p-200 bs-sm">Sm</p>
+    <p class="mb-400 p-200 bs-md">Md</p>
+    <p class="mb-400 p-200 bs-lg">Lg</p>
+    <p class="mb-400 p-200 bs-xl">Xl</p>
+    <p class="mb-400 p-200 bs-0">0</p>
+
+    <h3 class="mt-500 mb-400">Border inline (left + right)</h3>
+    <div class="container-xs">
+      <p class="mb-400 p-200 bx-sm">Sm</p>
+      <p class="mb-400 p-200 bx-md">Md</p>
+      <p class="mb-400 p-200 bx-lg">Lg</p>
+      <p class="mb-400 p-200 bx-xl">Xl</p>
+      <p class="mb-400 p-200 bx-0">0</p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Border block (top + bottom)</h3>
+    <p class="mb-400 p-200 by-sm">Sm</p>
+    <p class="mb-400 p-200 by-md">Md</p>
+    <p class="mb-400 p-200 by-lg">Lg</p>
+    <p class="mb-400 p-200 by-xl">Xl</p>
+    <p class="mb-400 p-200 by-0">0</p>
+
+    <h3 class="mt-500 mb-400">Border style</h3>
+    <p class="mb-400 p-200 b-solid">Solid</p>
+    <p class="mb-400 p-200 b-dashed">Dashed</p>
+    <p class="mb-400 p-200 b-dotted">Dotted</p>
+    <p class="mb-400 p-200 b-none">None</p>
+
+    <h3 class="mt-500 mb-400">Border colour</h3>
+    <p class="mb-400 p-200 b-md b-inherit">Inherit</p>
+    <p class="mb-400 p-200 b-md b-current">Current</p>
+    <p class="mb-400 p-200 b-md b-dark">Dark</p>
+    <p class="mb-400 p-200 b-md b-default">Default</p>
+    <div class="bg-dark mb-400 p-200">
+      <p class="text-light p-200 b-md b-light">Light</p>
+    </div>
+    <p class="mb-400 p-200 b-md b-transparent">Transparent</p>
+
+    <h3 class="mt-500 mb-400">Border radius</h3>
+    <p class="mb-400 p-200 b-sm b-radius-sm">Sm</p>
+    <p class="mb-400 p-200 b-sm b-radius-md">Md</p>
+    <p class="mb-400 p-200 b-sm b-radius-lg">Lg</p>
+    <p class="text-center mb-400 p-200 b-sm b-radius-xl" style="width: 50px">
+      Xl
+    </p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Box sizing - IMPROVE</h2>
+    <p class="mb-400 p-200 b-sm box-border">Border</p>
+    <p class="mb-400 p-200 b-sm box-content">Content</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Container</h2>
+    <p class="mb-400 p-200 b-sm container-xs">Xs</p>
+    <p class="mb-400 p-200 b-sm container-sm">Sm</p>
+    <p class="mb-400 p-200 b-sm container-md">Md</p>
+    <p class="mb-400 p-200 b-sm container-lg">Lg</p>
+    <p class="mb-400 p-200 b-sm container-xl">Xl</p>
+    <p class="mb-400 p-200 b-sm container-full">
+      Full (full width of parent container)
+    </p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Cursor</h2>
+    <p class="mb-400">Hover over the text to see the cursor.</p>
+    <p class="mb-400 p-200 b-sm cursor-copy">Copy</p>
+    <p class="mb-400 p-200 b-sm cursor-default">Default</p>
+    <p class="mb-400 p-200 b-sm cursor-grab">Grab</p>
+    <p class="mb-400 p-200 b-sm cursor-help">Help</p>
+    <p class="mb-400 p-200 b-sm cursor-move">Move</p>
+    <p class="mb-400 p-200 b-sm cursor-not-allowed">Not-allowed</p>
+    <p class="mb-400 p-200 b-sm cursor-pointer">Pointer</p>
+    <p class="mb-400 p-200 b-sm cursor-text">Text</p>
+    <p class="mb-400 p-200 b-sm cursor-zoom-in">Zoom-in</p>
+    <p class="mb-400 p-200 b-sm cursor-zoom-out">Zoom-out</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Display</h2>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Icons</h2>
+    <div class="b-sm">
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-caption"></span> Size caption
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-text"></span> Size text
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-h6"></span> Size h6
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-h5"></span> Size h5
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-h4"></span> Size h4
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-h3"></span> Size h3
+      </p>
+      <p class="p-200 bb-sm">
+        <span class="icon fa-tree icon-h2"></span> Size h2
+      </p>
+      <p class="p-200"><span class="icon fa-tree icon-h1"></span> Size h1</p>
+    </div>
+
+    <h2 class="mt-500 mb-400 bb-sm">Image</h2>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Links</h2>
+
+    <h3 class="mt-500 mb-400">Link</h3>
+    <div class="b-sm">
+      <p class="p-200 bb-sm"><a class="link-default" href="">Default</a></p>
+      <p class="p-200 bb-sm"><a class="link-hover" href="">Hover</a></p>
+      <p class="p-200 bb-sm"><a class="link-inherit" href="">Inherit</a></p>
+      <p class="p-200 bg-dark md:hover:bg-light focus:bg-danger active:bg-primary">
+        <a class="link-light" href="">Light</a>
+      </p>
+    </div>
+
+    <h3 class="mt-500 mb-400">Link text-decoration</h3>
+    <div class="b-sm">
+      <p class="p-200 bb-sm">
+        <a class="link-default link-no-underline" href="">No-underline</a>
+      </p>
+      <p class="p-200">
+        <a class="link-default link-underline xl:focus:link-no-underline" href="">Underline</a>
+      </p>
+    </div>
+    <a class="bg-dark text-light focus:default" href="">Click me</a>
+
+    <h2 class="mt-500 mb-400 bb-sm">List style</h2>
+    <div class="b-sm">
+      <div class="p-200 bb-sm">
+        <p class="mb-150">Decimal:</p>
+        <ul class="list-decimal">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+      <div class="p-200 bb-sm">
+        <p class="mb-150">Disc:</p>
+        <ul class="list-disc">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+      <div class="p-200">
+        <p class="mb-150">None:</p>
+        <ul class="list-none">
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="mt-500 mb-400 bb-sm">Overflow</h2>
+
+    <h3 class="mt-500 mb-400">Overflow</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Overflow-x</h3>
+    <p class="mb-400">To do</p>
+
+    <h3 class="mt-500 mb-400">Overflow-y</h3>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Pointer Events</h2>
+    <p class="mb-400 p-200 b-sm pointer-events-auto">Auto</p>
+    <p class="mb-400 p-200 b-sm pointer-events-none">None</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Position</h2>
+    <p class="mb-400">To do</p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Transitions</h2>
+    <p class="mb-400">Hover over the text to see the transitions.</p>
+    <p class="mb-400 p-200 b-sm">
+      <span class="transition-fade-in">Hover over text</span> (Fade in)
+    </p>
+    <p class="mb-400 p-200 b-sm">
+      <span class="transition-fade-out">Hover over text</span> (Fade out)
+    </p>
+
+    <h2 class="mt-500 mb-400 bb-sm">Visibility</h2>
+    <p class="mb-400 p-200 b-sm">
+      <span class="visibility-hidden">Hidden text</span> (Hidden)
+    </p>
+    <p class="mb-400 p-200 b-sm">
+      <span class="visibility-visibile">Visible text</span> (Visible)
+    </p>
+    <p class="mb-400 p-200 b-sm">
+      <span class="visibility-sr-only">Screen reader only text</span> (Screen
+      reader only)
+    </p>
+  </main>
 </body>
 
 </html>
