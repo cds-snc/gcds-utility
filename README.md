@@ -24,10 +24,12 @@ You can find the full documentation for GC Design System Utility on [https://des
 ### How to install using CDN
 
 Place the following code in the `<head>` element of your site.
+
 ```
 <!-- GC Design System Utility -->
 <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
 ```
+
 <br/>
 
 ## Local installation
@@ -36,7 +38,7 @@ Place the following code in the `<head>` element of your site.
 - Run `npm install` to install all Node.js dependencies.
 - Run `gulp` to monitor your source files for any changes.
 - Run `gulp compile` to compile and minify all CSS files.
-<br/>
+  <br/>
 
 ## How to contribute
 
@@ -45,10 +47,13 @@ If you are interested in contributing to GC Design System Utility, please read o
 <br/>
 
 ## License
+
 Code released under the [MIT License](https://github.com/cds-snc/gcds-utility/blob/main/LICENSE).
 <br/>
 <br/>
+
 # --------------------------------------------------------
+
 <br/>
 <br/>
 
@@ -74,10 +79,12 @@ Toute la documentation sur l'utilitaire de Système de design GC est accessible 
 ### Installation à l'aide de CDN
 
 Inscrivez le code suivant dans l'élément `<head>` de votre site Web :
+
 ```
 <!-- GC Design System Utility -->
 <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
 ```
+
 <br/>
 
 ## Installation locale
@@ -86,7 +93,7 @@ Inscrivez le code suivant dans l'élément `<head>` de votre site Web :
 - Exécutez ensuite `npm install` pour installer toutes les dépendances Node.js.
 - Puis, exécutez `gulp` pour surveiller tout changement survenant dans vos fichiers sources.
 - Finalement, exécutez `gulp compile` pour compiler et minifier tous les fichiers CSS.
-<br/>
+  <br/>
 
 ## Apportez votre contribution
 
@@ -95,6 +102,7 @@ Si vous souhaitez contribuer aux unités de style de Système de design GC, veui
 <br/>
 
 ## Licence
+
 Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-utility/blob/main/LICENSE) (en anglais).
 <br/>
 <br/>

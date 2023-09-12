@@ -14,7 +14,7 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: "@cdssnc/gcds-utility"
+  PACKAGE_NAME: '@cdssnc/gcds-utility'
 
 jobs:
   build-deploy:

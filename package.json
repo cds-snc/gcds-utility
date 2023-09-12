@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "compile": "gulp compile",
+    "format": "npx prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

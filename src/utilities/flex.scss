@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Flex --- */
 
@@ -6,11 +6,10 @@ $flex: (
   1: 1 1 0%,
   auto: 1 1 auto,
   initial: 0 1 auto,
-  none: none
+  none: none,
 ) !default;
 
 @include generateClasses($flex, 'flex-', flex);
-
 
 /* --- Flex Direction --- */
 
@@ -18,42 +17,38 @@ $flexDirection: (
   col: column,
   col-reverse: column-reverse,
   row: row,
-  row-reverse: row-reverse
+  row-reverse: row-reverse,
 ) !default;
 
 @include generateClasses($flexDirection, 'flex-', flex-direction);
-
 
 /* --- Flex Wrap --- */
 
 $flexWrap: (
   nowrap: nowrap,
   wrap: wrap,
-  wrap-reverse: wrap-reverse
+  wrap-reverse: wrap-reverse,
 ) !default;
 
 @include generateClasses($flexWrap, 'flex-', flex-wrap);
-
 
 /* --- Flex Grow --- */
 
 $flexGrow: (
   grow: 1,
-  grow-0: 0
+  grow-0: 0,
 ) !default;
 
 @include generateClasses($flexGrow, 'flex-', flex-grow);
-
 
 /* --- Flex Shrink --- */
 
 $flexShrink: (
   shrink: 1,
-  shrink-0: 0
+  shrink-0: 0,
 ) !default;
 
 @include generateClasses($flexShrink, 'flex-', flex-shrink);
-
 
 /* --- Order --- */
 
@@ -80,7 +75,7 @@ $flexShrink: (
 $order: (
   first: -9999,
   last: 9999,
-  none: 0
+  none: 0,
 ) !default;
 
 @include generateClasses($order, 'order-', order);

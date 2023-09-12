@@ -1,20 +1,18 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Overflow --- */
 
 $overflow: (
   hidden: hidden,
   scroll: scroll,
-  visible: visible
+  visible: visible,
 ) !default;
 
 @include generateClasses($overflow, 'overflow-', overflow);
 
-
 /* --- Overflow X --- */
 
 @include generateClasses($overflow, 'overflow-x-', overflow-x);
-
 
 /* --- Overflow Y --- */
 

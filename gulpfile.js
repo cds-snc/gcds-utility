@@ -9,16 +9,16 @@ function compileAndPrefix() {
   return src('src/gcds-utility.scss')
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
-    .pipe(dest('dist'))
-};
+    .pipe(dest('dist'));
+}
 
 // Minify CSS
 function minifyCss() {
   return src('dist/gcds-utility.css')
     .pipe(minify())
     .pipe(rename('gcds-utility.min.css'))
-    .pipe(dest('dist'))
-};
+    .pipe(dest('dist'));
+}
 
 // Watch SCSS for changes
 function watchTask() {
@@ -26,20 +26,10 @@ function watchTask() {
 }
 
 // Default gulp
-exports.default = series(
-  compileAndPrefix,
-  minifyCss,
-  watchTask
-);
+exports.default = series(compileAndPrefix, minifyCss, watchTask);
 
 // Compile
-exports.compile = series(
-  compileAndPrefix,
-  minifyCss
-);
+exports.compile = series(compileAndPrefix, minifyCss);
 
 // Test
-exports.test = series(
-  compileAndPrefix,
-  minifyCss
-);
+exports.test = series(compileAndPrefix, minifyCss);

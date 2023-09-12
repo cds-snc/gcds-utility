@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 @mixin gridTemplate($trackClass, $track) {
   @each $classState, $state in $states {
@@ -30,16 +30,13 @@
   }
 }
 
-
 /* --- Grid Template Columns --- */
 
 @include gridTemplate(cols, columns);
 
-
 /* --- Grid Template Rows --- */
 
 @include gridTemplate(rows, rows);
-
 
 /* --- Place Content --- */
 
@@ -50,11 +47,10 @@ $placeContent: (
   end: end,
   evenly: space-evenly,
   start: start,
-  stretch: stretch
+  stretch: stretch,
 ) !default;
 
 @include generateClasses($placeContent, 'place-content-', place-content);
-
 
 /* --- Place Items --- */
 
@@ -62,11 +58,10 @@ $placeItems: (
   center: center,
   end: end,
   start: start,
-  stretch: stretch
+  stretch: stretch,
 ) !default;
 
 @include generateClasses($placeItems, 'place-items-', place-items);
-
 
 /* --- Place Self --- */
 
@@ -75,7 +70,7 @@ $placeSelf: (
   center: center,
   end: end,
   start: start,
-  stretch: stretch
+  stretch: stretch,
 ) !default;
 
 @include generateClasses($placeSelf, 'place-self-', place-self);

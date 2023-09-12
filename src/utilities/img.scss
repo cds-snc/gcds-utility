@@ -1,4 +1,4 @@
-@import "./defaults.scss";
+@import './defaults.scss';
 
 /* --- Images --- */
 
@@ -13,7 +13,6 @@
     max-width: 100%;
   }
 }
-
 
 @each $classBreakpoint, $breakpoint in $breakpoints {
   @media only screen and (width > $breakpoint) {
