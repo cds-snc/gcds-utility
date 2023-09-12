@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Font --- */
 
@@ -15,7 +15,6 @@ $font: (
 
 @include generateClasses($font, 'font-', font);
 
-
 /* --- Font Families --- */
 
 $fontFamily: (
@@ -26,7 +25,6 @@ $fontFamily: (
 ) !default;
 
 @include generateClasses($fontFamily, 'font-family-', font-family);
-
 
 /* --- Font Sizes --- */
 
@@ -43,7 +41,6 @@ $fontSize: (
 
 @include generateClasses($fontSize, 'font-size-', font-size);
 
-
 /* --- Font Styles --- */
 
 $fontStyle: (
@@ -52,7 +49,6 @@ $fontStyle: (
 ) !default;
 
 @include generateClasses($fontStyle, 'font-', font-style);
-
 
 /* --- Font Weights --- */
 
@@ -65,7 +61,6 @@ $fontWeight: (
 ) !default;
 
 @include generateClasses($fontWeight, 'font-', font-weight);
-
 
 /* --- Line Heights --- */
 
@@ -82,7 +77,6 @@ $lineHeight: (
 
 @include generateClasses($lineHeight, 'line-', line-height);
 
-
 /* --- Text Align --- */
 
 $textAlign: (
@@ -93,7 +87,6 @@ $textAlign: (
 ) !default;
 
 @include generateClasses($textAlign, 'text-', text-align);
-
 
 /* --- Text Colours --- */
 
@@ -108,7 +101,6 @@ $textColors: (
 
 @include generateClasses($textColors, 'text-', color);
 
-
 /* --- Text Overflow --- */
 
 @include classWithBreakpoints('text-clip') {
@@ -121,7 +113,6 @@ $textColors: (
   white-space: nowrap;
 }
 
-
 /* --- Text Transform --- */
 
 $textTransform: (
@@ -132,7 +123,6 @@ $textTransform: (
 ) !default;
 
 @include generateClasses($textTransform, 'text-', text-transform);
-
 
 /* --- Word Break --- */
 

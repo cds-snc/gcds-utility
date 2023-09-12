@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Position --- */
 
@@ -7,7 +7,7 @@ $position: (
   fixed: fixed,
   relative: relative,
   static: static,
-  sticky: sticky
+  sticky: sticky,
 ) !default;
 
 @include generateClasses($position, 'position-', position);

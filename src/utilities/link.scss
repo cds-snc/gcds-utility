@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Link Color --- */
 
@@ -10,7 +10,6 @@ $linkColor: (
 ) !default;
 
 @include generateClasses($linkColor, 'link-', color);
-
 
 /* --- Link Text Decoration --- */
 

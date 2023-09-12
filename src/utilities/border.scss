@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Border --- */
 
@@ -11,7 +11,11 @@ $borderWidth: (
 ) !default;
 
 @each $classSide, $side in $sides {
-  @include generateClasses($borderWidth, 'b' + #{$classSide} + '-', border#{$side});
+  @include generateClasses(
+    $borderWidth,
+    'b' + #{$classSide} + '-',
+    border#{$side}
+  );
 }
 
 /* --- Border Style --- */
@@ -25,7 +29,6 @@ $borderStyle: (
 
 @include generateClasses($borderStyle, 'b-', border-style);
 
-
 /* --- Border Color --- */
 
 $borderColor: (
@@ -38,7 +41,6 @@ $borderColor: (
 ) !default;
 
 @include generateClasses($borderColor, 'b-', border-color);
-
 
 /* --- Border Radius --- */
 

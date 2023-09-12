@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Display --- */
 
@@ -12,7 +12,7 @@ $display: (
   inline-grid: inline-grid,
   inline-table: inline-table,
   none: none,
-  table: table
+  table: table,
 ) !default;
 
 @include generateClasses($display, 'd-', display);

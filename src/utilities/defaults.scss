@@ -5,9 +5,8 @@ $breakpoints: (
   sm: 40em,
   md: 48em,
   lg: 64em,
-  xl: 80em
+  xl: 80em,
 ) !default;
-
 
 // --- Spacing ---
 
@@ -30,7 +29,6 @@ $spacing: (
   1000: var(--gcds-spacing-1000),
 ) !default;
 
-
 // --- Sides ---
 
 $sides: (
@@ -40,13 +38,12 @@ $sides: (
   b: '-block-end',
   s: '-inline-start',
   x: '-inline',
-  y: '-block'
+  y: '-block',
 ) !default;
-
 
 // --- States ---
 $states: (
-  "": "",
-  "hover\\:": ":hover",
-  "focus\\:": ":focus",
+  '': '',
+  'hover\\:': ':hover',
+  'focus\\:': ':focus',
 );

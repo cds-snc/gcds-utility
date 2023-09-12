@@ -1,4 +1,4 @@
-@import "./mixins.scss";
+@import './mixins.scss';
 
 /* --- Cursor --- */
 
@@ -12,7 +12,7 @@ $cursor: (
   pointer: pointer,
   text: text,
   zoom-in: zoom-in,
-  zoom-out: zoom-out
+  zoom-out: zoom-out,
 ) !default;
 
 @include generateClasses($cursor, 'cursor-', cursor);
