@@ -1,19 +1,30 @@
+@import './defaults.scss';
 @import './mixins.scss';
 
 /* --- Font --- */
 
 $font: (
-  h1: var(--gcds-font-h1),
-  h2: var(--gcds-font-h2),
-  h3: var(--gcds-font-h3),
-  h4: var(--gcds-font-h4),
-  h5: var(--gcds-font-h5),
-  h6: var(--gcds-font-h6),
-  text: var(--gcds-font-text),
-  caption: var(--gcds-font-caption),
+  h1: h1,
+  h2: h2,
+  h3: h3,
+  h4: h4,
+  h5: h5,
+  h6: h6,
+  text: text,
+  caption: caption,
 ) !default;
 
-@include generateClasses($font, 'font-', font);
+@each $classState, $state in $states {
+  @each $className, $value in $font {
+    .#{$classState}font-#{'' + $className}#{$state} {
+      font: var(--gcds-font-#{$value});
+
+      @media only screen and (width < 48em) {
+        font: var(--gcds-font-#{$value}-mobile);
+      }
+    }
+  }
+}
 
 /* --- Font Families --- */
 
@@ -29,17 +40,27 @@ $fontFamily: (
 /* --- Font Sizes --- */
 
 $fontSize: (
-  caption: var(--gcds-font-sizes-caption),
-  h1: var(--gcds-font-sizes-h1),
-  h2: var(--gcds-font-sizes-h2),
-  h3: var(--gcds-font-sizes-h3),
-  h4: var(--gcds-font-sizes-h4),
-  h5: var(--gcds-font-sizes-h5),
-  h6: var(--gcds-font-sizes-h6),
-  text: var(--gcds-font-sizes-text),
+  h1: h1,
+  h2: h2,
+  h3: h3,
+  h4: h4,
+  h5: h5,
+  h6: h6,
+  text: text,
+  caption: caption,
 ) !default;
 
-@include generateClasses($fontSize, 'font-size-', font-size);
+@each $classState, $state in $states {
+  @each $className, $value in $fontSize {
+    .#{$classState}font-size-#{'' + $className}#{$state} {
+      font-size: var(--gcds-font-sizes-#{$value});
+
+      @media only screen and (width < 48em) {
+        font-size: var(--gcds-font-sizes-#{$value}-mobile);
+      }
+    }
+  }
+}
 
 /* --- Font Styles --- */
 

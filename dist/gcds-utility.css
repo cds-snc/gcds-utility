@@ -36,7 +36,7 @@
 
 /**
  * Do not edit directly
- * Generated on Mon, 19 Jun 2023 20:28:18 GMT
+ * Generated on Thu, 05 Oct 2023 20:50:40 GMT
  */
 :root {
   --gcds-border-radius-sm: 0.1875rem; /* Global border: radius sm */
@@ -67,8 +67,8 @@
   --gcds-container-xs: 20rem;
   --gcds-container-sm: 30rem;
   --gcds-container-md: 48rem;
-  --gcds-container-lg: 64rem;
-  --gcds-container-xl: 75rem;
+  --gcds-container-lg: 62rem;
+  --gcds-container-xl: 71.25rem;
   --gcds-container-full: 100%;
   --gcds-outline-width: 0.1875rem; /* Global outline: width */
   --gcds-spacing-0: 0;
@@ -88,6 +88,7 @@
   --gcds-spacing-900: 9rem;
   --gcds-spacing-1000: 10.5rem;
   --gcds-base-font-size: 1.25; /* Sets base font size to 20px */
+  --gcds-base-font-size-mobile: 1; /* Sets base font size for smaller screens to 16px */
   --gcds-base-line-height: 1.2; /* Sets base line height to 24px */
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: "Lato", sans-serif;
@@ -95,36 +96,62 @@
   --gcds-font-families-monospace: "Menlo", sans-serif;
   --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
   --gcds-font-sizes-caption: 1.1111111111111112rem;
+  --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
   --gcds-font-sizes-text: 1.25rem;
+  --gcds-font-sizes-text-mobile: 1rem;
   --gcds-font-sizes-h6: 1.40625rem;
+  --gcds-font-sizes-h6-mobile: 1.125rem;
   --gcds-font-sizes-h5: 1.58203125rem;
+  --gcds-font-sizes-h5-mobile: 1.265625rem;
   --gcds-font-sizes-h4: 1.77978515625rem;
+  --gcds-font-sizes-h4-mobile: 1.423828125rem;
   --gcds-font-sizes-h3: 2.00225830078125rem;
+  --gcds-font-sizes-h3-mobile: 1.601806640625rem;
   --gcds-font-sizes-h2: 2.2525405883789062rem;
+  --gcds-font-sizes-h2-mobile: 1.802032470703125rem;
   --gcds-font-sizes-h1: 2.5341081619262695rem;
+  --gcds-font-sizes-h1-mobile: 2.0272865295410156rem;
   --gcds-font-weights-light: 300;
   --gcds-font-weights-regular: 400;
   --gcds-font-weights-medium: 500;
   --gcds-font-weights-semibold: 600;
   --gcds-font-weights-bold: 700;
   --gcds-line-heights-caption: 135%;
+  --gcds-line-heights-caption-mobile: 140.625%;
   --gcds-line-heights-text: 120%;
+  --gcds-line-heights-text-mobile: 150%;
   --gcds-line-heights-h6: 124.44444444444444%;
+  --gcds-line-heights-h6-mobile: 133.33333333333334%;
   --gcds-line-heights-h5: 126.41975308641975%;
+  --gcds-line-heights-h5-mobile: 138.27160493827162%;
   --gcds-line-heights-h4: 126.41975308641973%;
+  --gcds-line-heights-h4-mobile: 122.90809327846364%;
   --gcds-line-heights-h3: 124.85901539399482%;
+  --gcds-line-heights-h3-mobile: 124.85901539399481%;
   --gcds-line-heights-h2: 122.08437060746162%;
+  --gcds-line-heights-h2-mobile: 124.85901539399481%;
   --gcds-line-heights-h1: 118.38484422541731%;
+  --gcds-line-heights-h1-mobile: 123.31754606814303%;
   --gcds-font-h1: 700 2.5341081619262695rem/118.38484422541731% "Lato", sans-serif;
+  --gcds-font-h1-mobile: 700 2.0272865295410156rem/123.31754606814303% "Lato", sans-serif;
   --gcds-font-h2: 700 2.2525405883789062rem/122.08437060746162% "Lato", sans-serif;
+  --gcds-font-h2-mobile: 700 1.802032470703125rem/124.85901539399481% "Lato", sans-serif;
   --gcds-font-h3: 700 2.00225830078125rem/124.85901539399482% "Lato", sans-serif;
+  --gcds-font-h3-mobile: 700 1.601806640625rem/124.85901539399481% "Lato", sans-serif;
   --gcds-font-h4: 700 1.77978515625rem/126.41975308641973% "Lato", sans-serif;
+  --gcds-font-h4-mobile: 700 1.423828125rem/122.90809327846364% "Lato", sans-serif;
   --gcds-font-h5: 700 1.58203125rem/126.41975308641975% "Lato", sans-serif;
+  --gcds-font-h5-mobile: 700 1.265625rem/138.27160493827162% "Lato", sans-serif;
   --gcds-font-h6: 700 1.40625rem/124.44444444444444% "Lato", sans-serif;
+  --gcds-font-h6-mobile: 700 1.125rem/133.33333333333334% "Lato", sans-serif;
   --gcds-font-label: 500 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-font-label-mobile: 500 1rem/150% "Noto Sans", sans-serif;
   --gcds-font-caption: 400 1.1111111111111112rem/135% "Noto Sans", sans-serif;
+  --gcds-font-caption-mobile: 400 0.8888888888888888rem/140.625% "Noto Sans", sans-serif;
   --gcds-font-text: 400 1.25rem/120% "Noto Sans", sans-serif;
+  --gcds-font-text-mobile: 400 1rem/150% "Noto Sans", sans-serif;
   --gcds-font-text-long: 400 1.25rem/150% "Noto Sans", sans-serif;
+  --gcds-font-text-long-mobile: 400 1rem/150% "Noto Sans", sans-serif;
 }
 
 /* Reset Styles */
@@ -150,6 +177,11 @@ body {
   font: var(--gcds-font-text);
   color: var(--gcds-text-primary);
 }
+@media only screen and (width < 48em) {
+  body {
+    font: var(--gcds-font-text-mobile);
+  }
+}
 
 button {
   border: 0;
@@ -163,25 +195,55 @@ fieldset {
 h1 {
   font: var(--gcds-font-h1);
 }
+@media only screen and (width < 48em) {
+  h1 {
+    font: var(--gcds-font-h1-mobile);
+  }
+}
 
 h2 {
   font: var(--gcds-font-h2);
+}
+@media only screen and (width < 48em) {
+  h2 {
+    font: var(--gcds-font-h2-mobile);
+  }
 }
 
 h3 {
   font: var(--gcds-font-h3);
 }
+@media only screen and (width < 48em) {
+  h3 {
+    font: var(--gcds-font-h3-mobile);
+  }
+}
 
 h4 {
   font: var(--gcds-font-h4);
+}
+@media only screen and (width < 48em) {
+  h4 {
+    font: var(--gcds-font-h4-mobile);
+  }
 }
 
 h5 {
   font: var(--gcds-font-h5);
 }
+@media only screen and (width < 48em) {
+  h5 {
+    font: var(--gcds-font-h5-mobile);
+  }
+}
 
 h6 {
   font: var(--gcds-font-h6);
+}
+@media only screen and (width < 48em) {
+  h6 {
+    font: var(--gcds-font-h6-mobile);
+  }
 }
 
 hr {
@@ -221,9 +283,19 @@ ul {
 p {
   font: var(--gcds-font-text);
 }
+@media only screen and (width < 48em) {
+  p {
+    font: var(--gcds-font-text-mobile);
+  }
+}
 
 small {
   font: var(--gcds-font-caption);
+}
+@media only screen and (width < 48em) {
+  small {
+    font: var(--gcds-font-caption-mobile);
+  }
 }
 
 strong {
@@ -35347,469 +35419,219 @@ table {
 .font-h1 {
   font: var(--gcds-font-h1);
 }
+@media only screen and (width < 48em) {
+  .font-h1 {
+    font: var(--gcds-font-h1-mobile);
+  }
+}
 
 .font-h2 {
   font: var(--gcds-font-h2);
+}
+@media only screen and (width < 48em) {
+  .font-h2 {
+    font: var(--gcds-font-h2-mobile);
+  }
 }
 
 .font-h3 {
   font: var(--gcds-font-h3);
 }
+@media only screen and (width < 48em) {
+  .font-h3 {
+    font: var(--gcds-font-h3-mobile);
+  }
+}
 
 .font-h4 {
   font: var(--gcds-font-h4);
+}
+@media only screen and (width < 48em) {
+  .font-h4 {
+    font: var(--gcds-font-h4-mobile);
+  }
 }
 
 .font-h5 {
   font: var(--gcds-font-h5);
 }
+@media only screen and (width < 48em) {
+  .font-h5 {
+    font: var(--gcds-font-h5-mobile);
+  }
+}
 
 .font-h6 {
   font: var(--gcds-font-h6);
+}
+@media only screen and (width < 48em) {
+  .font-h6 {
+    font: var(--gcds-font-h6-mobile);
+  }
 }
 
 .font-text {
   font: var(--gcds-font-text);
 }
+@media only screen and (width < 48em) {
+  .font-text {
+    font: var(--gcds-font-text-mobile);
+  }
+}
 
 .font-caption {
   font: var(--gcds-font-caption);
+}
+@media only screen and (width < 48em) {
+  .font-caption {
+    font: var(--gcds-font-caption-mobile);
+  }
 }
 
 .hover\:font-h1:hover {
   font: var(--gcds-font-h1);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-h1:hover {
+    font: var(--gcds-font-h1-mobile);
+  }
+}
 
 .hover\:font-h2:hover {
   font: var(--gcds-font-h2);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-h2:hover {
+    font: var(--gcds-font-h2-mobile);
+  }
 }
 
 .hover\:font-h3:hover {
   font: var(--gcds-font-h3);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-h3:hover {
+    font: var(--gcds-font-h3-mobile);
+  }
+}
 
 .hover\:font-h4:hover {
   font: var(--gcds-font-h4);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-h4:hover {
+    font: var(--gcds-font-h4-mobile);
+  }
 }
 
 .hover\:font-h5:hover {
   font: var(--gcds-font-h5);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-h5:hover {
+    font: var(--gcds-font-h5-mobile);
+  }
+}
 
 .hover\:font-h6:hover {
   font: var(--gcds-font-h6);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-h6:hover {
+    font: var(--gcds-font-h6-mobile);
+  }
 }
 
 .hover\:font-text:hover {
   font: var(--gcds-font-text);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-text:hover {
+    font: var(--gcds-font-text-mobile);
+  }
+}
 
 .hover\:font-caption:hover {
   font: var(--gcds-font-caption);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-caption:hover {
+    font: var(--gcds-font-caption-mobile);
+  }
 }
 
 .focus\:font-h1:focus {
   font: var(--gcds-font-h1);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-h1:focus {
+    font: var(--gcds-font-h1-mobile);
+  }
+}
 
 .focus\:font-h2:focus {
   font: var(--gcds-font-h2);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-h2:focus {
+    font: var(--gcds-font-h2-mobile);
+  }
 }
 
 .focus\:font-h3:focus {
   font: var(--gcds-font-h3);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-h3:focus {
+    font: var(--gcds-font-h3-mobile);
+  }
+}
 
 .focus\:font-h4:focus {
   font: var(--gcds-font-h4);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-h4:focus {
+    font: var(--gcds-font-h4-mobile);
+  }
 }
 
 .focus\:font-h5:focus {
   font: var(--gcds-font-h5);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-h5:focus {
+    font: var(--gcds-font-h5-mobile);
+  }
+}
 
 .focus\:font-h6:focus {
   font: var(--gcds-font-h6);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-h6:focus {
+    font: var(--gcds-font-h6-mobile);
+  }
 }
 
 .focus\:font-text:focus {
   font: var(--gcds-font-text);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-text:focus {
+    font: var(--gcds-font-text-mobile);
+  }
+}
 
 .focus\:font-caption:focus {
   font: var(--gcds-font-caption);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-caption:focus {
+    font: var(--gcds-font-caption-mobile);
+  }
+}
 
-@media only screen and (width >= 30em) {
-  .xs\:font-h1 {
-    font: var(--gcds-font-h1);
-  }
-  .xs\:font-h2 {
-    font: var(--gcds-font-h2);
-  }
-  .xs\:font-h3 {
-    font: var(--gcds-font-h3);
-  }
-  .xs\:font-h4 {
-    font: var(--gcds-font-h4);
-  }
-  .xs\:font-h5 {
-    font: var(--gcds-font-h5);
-  }
-  .xs\:font-h6 {
-    font: var(--gcds-font-h6);
-  }
-  .xs\:font-text {
-    font: var(--gcds-font-text);
-  }
-  .xs\:font-caption {
-    font: var(--gcds-font-caption);
-  }
-  .xs\:hover\:font-h1:hover {
-    font: var(--gcds-font-h1);
-  }
-  .xs\:hover\:font-h2:hover {
-    font: var(--gcds-font-h2);
-  }
-  .xs\:hover\:font-h3:hover {
-    font: var(--gcds-font-h3);
-  }
-  .xs\:hover\:font-h4:hover {
-    font: var(--gcds-font-h4);
-  }
-  .xs\:hover\:font-h5:hover {
-    font: var(--gcds-font-h5);
-  }
-  .xs\:hover\:font-h6:hover {
-    font: var(--gcds-font-h6);
-  }
-  .xs\:hover\:font-text:hover {
-    font: var(--gcds-font-text);
-  }
-  .xs\:hover\:font-caption:hover {
-    font: var(--gcds-font-caption);
-  }
-  .xs\:focus\:font-h1:focus {
-    font: var(--gcds-font-h1);
-  }
-  .xs\:focus\:font-h2:focus {
-    font: var(--gcds-font-h2);
-  }
-  .xs\:focus\:font-h3:focus {
-    font: var(--gcds-font-h3);
-  }
-  .xs\:focus\:font-h4:focus {
-    font: var(--gcds-font-h4);
-  }
-  .xs\:focus\:font-h5:focus {
-    font: var(--gcds-font-h5);
-  }
-  .xs\:focus\:font-h6:focus {
-    font: var(--gcds-font-h6);
-  }
-  .xs\:focus\:font-text:focus {
-    font: var(--gcds-font-text);
-  }
-  .xs\:focus\:font-caption:focus {
-    font: var(--gcds-font-caption);
-  }
-}
-@media only screen and (width >= 40em) {
-  .sm\:font-h1 {
-    font: var(--gcds-font-h1);
-  }
-  .sm\:font-h2 {
-    font: var(--gcds-font-h2);
-  }
-  .sm\:font-h3 {
-    font: var(--gcds-font-h3);
-  }
-  .sm\:font-h4 {
-    font: var(--gcds-font-h4);
-  }
-  .sm\:font-h5 {
-    font: var(--gcds-font-h5);
-  }
-  .sm\:font-h6 {
-    font: var(--gcds-font-h6);
-  }
-  .sm\:font-text {
-    font: var(--gcds-font-text);
-  }
-  .sm\:font-caption {
-    font: var(--gcds-font-caption);
-  }
-  .sm\:hover\:font-h1:hover {
-    font: var(--gcds-font-h1);
-  }
-  .sm\:hover\:font-h2:hover {
-    font: var(--gcds-font-h2);
-  }
-  .sm\:hover\:font-h3:hover {
-    font: var(--gcds-font-h3);
-  }
-  .sm\:hover\:font-h4:hover {
-    font: var(--gcds-font-h4);
-  }
-  .sm\:hover\:font-h5:hover {
-    font: var(--gcds-font-h5);
-  }
-  .sm\:hover\:font-h6:hover {
-    font: var(--gcds-font-h6);
-  }
-  .sm\:hover\:font-text:hover {
-    font: var(--gcds-font-text);
-  }
-  .sm\:hover\:font-caption:hover {
-    font: var(--gcds-font-caption);
-  }
-  .sm\:focus\:font-h1:focus {
-    font: var(--gcds-font-h1);
-  }
-  .sm\:focus\:font-h2:focus {
-    font: var(--gcds-font-h2);
-  }
-  .sm\:focus\:font-h3:focus {
-    font: var(--gcds-font-h3);
-  }
-  .sm\:focus\:font-h4:focus {
-    font: var(--gcds-font-h4);
-  }
-  .sm\:focus\:font-h5:focus {
-    font: var(--gcds-font-h5);
-  }
-  .sm\:focus\:font-h6:focus {
-    font: var(--gcds-font-h6);
-  }
-  .sm\:focus\:font-text:focus {
-    font: var(--gcds-font-text);
-  }
-  .sm\:focus\:font-caption:focus {
-    font: var(--gcds-font-caption);
-  }
-}
-@media only screen and (width >= 48em) {
-  .md\:font-h1 {
-    font: var(--gcds-font-h1);
-  }
-  .md\:font-h2 {
-    font: var(--gcds-font-h2);
-  }
-  .md\:font-h3 {
-    font: var(--gcds-font-h3);
-  }
-  .md\:font-h4 {
-    font: var(--gcds-font-h4);
-  }
-  .md\:font-h5 {
-    font: var(--gcds-font-h5);
-  }
-  .md\:font-h6 {
-    font: var(--gcds-font-h6);
-  }
-  .md\:font-text {
-    font: var(--gcds-font-text);
-  }
-  .md\:font-caption {
-    font: var(--gcds-font-caption);
-  }
-  .md\:hover\:font-h1:hover {
-    font: var(--gcds-font-h1);
-  }
-  .md\:hover\:font-h2:hover {
-    font: var(--gcds-font-h2);
-  }
-  .md\:hover\:font-h3:hover {
-    font: var(--gcds-font-h3);
-  }
-  .md\:hover\:font-h4:hover {
-    font: var(--gcds-font-h4);
-  }
-  .md\:hover\:font-h5:hover {
-    font: var(--gcds-font-h5);
-  }
-  .md\:hover\:font-h6:hover {
-    font: var(--gcds-font-h6);
-  }
-  .md\:hover\:font-text:hover {
-    font: var(--gcds-font-text);
-  }
-  .md\:hover\:font-caption:hover {
-    font: var(--gcds-font-caption);
-  }
-  .md\:focus\:font-h1:focus {
-    font: var(--gcds-font-h1);
-  }
-  .md\:focus\:font-h2:focus {
-    font: var(--gcds-font-h2);
-  }
-  .md\:focus\:font-h3:focus {
-    font: var(--gcds-font-h3);
-  }
-  .md\:focus\:font-h4:focus {
-    font: var(--gcds-font-h4);
-  }
-  .md\:focus\:font-h5:focus {
-    font: var(--gcds-font-h5);
-  }
-  .md\:focus\:font-h6:focus {
-    font: var(--gcds-font-h6);
-  }
-  .md\:focus\:font-text:focus {
-    font: var(--gcds-font-text);
-  }
-  .md\:focus\:font-caption:focus {
-    font: var(--gcds-font-caption);
-  }
-}
-@media only screen and (width >= 64em) {
-  .lg\:font-h1 {
-    font: var(--gcds-font-h1);
-  }
-  .lg\:font-h2 {
-    font: var(--gcds-font-h2);
-  }
-  .lg\:font-h3 {
-    font: var(--gcds-font-h3);
-  }
-  .lg\:font-h4 {
-    font: var(--gcds-font-h4);
-  }
-  .lg\:font-h5 {
-    font: var(--gcds-font-h5);
-  }
-  .lg\:font-h6 {
-    font: var(--gcds-font-h6);
-  }
-  .lg\:font-text {
-    font: var(--gcds-font-text);
-  }
-  .lg\:font-caption {
-    font: var(--gcds-font-caption);
-  }
-  .lg\:hover\:font-h1:hover {
-    font: var(--gcds-font-h1);
-  }
-  .lg\:hover\:font-h2:hover {
-    font: var(--gcds-font-h2);
-  }
-  .lg\:hover\:font-h3:hover {
-    font: var(--gcds-font-h3);
-  }
-  .lg\:hover\:font-h4:hover {
-    font: var(--gcds-font-h4);
-  }
-  .lg\:hover\:font-h5:hover {
-    font: var(--gcds-font-h5);
-  }
-  .lg\:hover\:font-h6:hover {
-    font: var(--gcds-font-h6);
-  }
-  .lg\:hover\:font-text:hover {
-    font: var(--gcds-font-text);
-  }
-  .lg\:hover\:font-caption:hover {
-    font: var(--gcds-font-caption);
-  }
-  .lg\:focus\:font-h1:focus {
-    font: var(--gcds-font-h1);
-  }
-  .lg\:focus\:font-h2:focus {
-    font: var(--gcds-font-h2);
-  }
-  .lg\:focus\:font-h3:focus {
-    font: var(--gcds-font-h3);
-  }
-  .lg\:focus\:font-h4:focus {
-    font: var(--gcds-font-h4);
-  }
-  .lg\:focus\:font-h5:focus {
-    font: var(--gcds-font-h5);
-  }
-  .lg\:focus\:font-h6:focus {
-    font: var(--gcds-font-h6);
-  }
-  .lg\:focus\:font-text:focus {
-    font: var(--gcds-font-text);
-  }
-  .lg\:focus\:font-caption:focus {
-    font: var(--gcds-font-caption);
-  }
-}
-@media only screen and (width >= 80em) {
-  .xl\:font-h1 {
-    font: var(--gcds-font-h1);
-  }
-  .xl\:font-h2 {
-    font: var(--gcds-font-h2);
-  }
-  .xl\:font-h3 {
-    font: var(--gcds-font-h3);
-  }
-  .xl\:font-h4 {
-    font: var(--gcds-font-h4);
-  }
-  .xl\:font-h5 {
-    font: var(--gcds-font-h5);
-  }
-  .xl\:font-h6 {
-    font: var(--gcds-font-h6);
-  }
-  .xl\:font-text {
-    font: var(--gcds-font-text);
-  }
-  .xl\:font-caption {
-    font: var(--gcds-font-caption);
-  }
-  .xl\:hover\:font-h1:hover {
-    font: var(--gcds-font-h1);
-  }
-  .xl\:hover\:font-h2:hover {
-    font: var(--gcds-font-h2);
-  }
-  .xl\:hover\:font-h3:hover {
-    font: var(--gcds-font-h3);
-  }
-  .xl\:hover\:font-h4:hover {
-    font: var(--gcds-font-h4);
-  }
-  .xl\:hover\:font-h5:hover {
-    font: var(--gcds-font-h5);
-  }
-  .xl\:hover\:font-h6:hover {
-    font: var(--gcds-font-h6);
-  }
-  .xl\:hover\:font-text:hover {
-    font: var(--gcds-font-text);
-  }
-  .xl\:hover\:font-caption:hover {
-    font: var(--gcds-font-caption);
-  }
-  .xl\:focus\:font-h1:focus {
-    font: var(--gcds-font-h1);
-  }
-  .xl\:focus\:font-h2:focus {
-    font: var(--gcds-font-h2);
-  }
-  .xl\:focus\:font-h3:focus {
-    font: var(--gcds-font-h3);
-  }
-  .xl\:focus\:font-h4:focus {
-    font: var(--gcds-font-h4);
-  }
-  .xl\:focus\:font-h5:focus {
-    font: var(--gcds-font-h5);
-  }
-  .xl\:focus\:font-h6:focus {
-    font: var(--gcds-font-h6);
-  }
-  .xl\:focus\:font-text:focus {
-    font: var(--gcds-font-text);
-  }
-  .xl\:focus\:font-caption:focus {
-    font: var(--gcds-font-caption);
-  }
-}
 /* --- Font Families --- */
 .font-family-heading {
   font-family: var(--gcds-font-families-heading);
@@ -36050,472 +35872,222 @@ table {
   }
 }
 /* --- Font Sizes --- */
-.font-size-caption {
-  font-size: var(--gcds-font-sizes-caption);
-}
-
 .font-size-h1 {
   font-size: var(--gcds-font-sizes-h1);
+}
+@media only screen and (width < 48em) {
+  .font-size-h1 {
+    font-size: var(--gcds-font-sizes-h1-mobile);
+  }
 }
 
 .font-size-h2 {
   font-size: var(--gcds-font-sizes-h2);
 }
+@media only screen and (width < 48em) {
+  .font-size-h2 {
+    font-size: var(--gcds-font-sizes-h2-mobile);
+  }
+}
 
 .font-size-h3 {
   font-size: var(--gcds-font-sizes-h3);
+}
+@media only screen and (width < 48em) {
+  .font-size-h3 {
+    font-size: var(--gcds-font-sizes-h3-mobile);
+  }
 }
 
 .font-size-h4 {
   font-size: var(--gcds-font-sizes-h4);
 }
+@media only screen and (width < 48em) {
+  .font-size-h4 {
+    font-size: var(--gcds-font-sizes-h4-mobile);
+  }
+}
 
 .font-size-h5 {
   font-size: var(--gcds-font-sizes-h5);
+}
+@media only screen and (width < 48em) {
+  .font-size-h5 {
+    font-size: var(--gcds-font-sizes-h5-mobile);
+  }
 }
 
 .font-size-h6 {
   font-size: var(--gcds-font-sizes-h6);
 }
+@media only screen and (width < 48em) {
+  .font-size-h6 {
+    font-size: var(--gcds-font-sizes-h6-mobile);
+  }
+}
 
 .font-size-text {
   font-size: var(--gcds-font-sizes-text);
 }
+@media only screen and (width < 48em) {
+  .font-size-text {
+    font-size: var(--gcds-font-sizes-text-mobile);
+  }
+}
 
-.hover\:font-size-caption:hover {
+.font-size-caption {
   font-size: var(--gcds-font-sizes-caption);
+}
+@media only screen and (width < 48em) {
+  .font-size-caption {
+    font-size: var(--gcds-font-sizes-caption-mobile);
+  }
 }
 
 .hover\:font-size-h1:hover {
   font-size: var(--gcds-font-sizes-h1);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-size-h1:hover {
+    font-size: var(--gcds-font-sizes-h1-mobile);
+  }
+}
 
 .hover\:font-size-h2:hover {
   font-size: var(--gcds-font-sizes-h2);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-size-h2:hover {
+    font-size: var(--gcds-font-sizes-h2-mobile);
+  }
 }
 
 .hover\:font-size-h3:hover {
   font-size: var(--gcds-font-sizes-h3);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-size-h3:hover {
+    font-size: var(--gcds-font-sizes-h3-mobile);
+  }
+}
 
 .hover\:font-size-h4:hover {
   font-size: var(--gcds-font-sizes-h4);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-size-h4:hover {
+    font-size: var(--gcds-font-sizes-h4-mobile);
+  }
 }
 
 .hover\:font-size-h5:hover {
   font-size: var(--gcds-font-sizes-h5);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-size-h5:hover {
+    font-size: var(--gcds-font-sizes-h5-mobile);
+  }
+}
 
 .hover\:font-size-h6:hover {
   font-size: var(--gcds-font-sizes-h6);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-size-h6:hover {
+    font-size: var(--gcds-font-sizes-h6-mobile);
+  }
 }
 
 .hover\:font-size-text:hover {
   font-size: var(--gcds-font-sizes-text);
 }
+@media only screen and (width < 48em) {
+  .hover\:font-size-text:hover {
+    font-size: var(--gcds-font-sizes-text-mobile);
+  }
+}
 
-.focus\:font-size-caption:focus {
+.hover\:font-size-caption:hover {
   font-size: var(--gcds-font-sizes-caption);
+}
+@media only screen and (width < 48em) {
+  .hover\:font-size-caption:hover {
+    font-size: var(--gcds-font-sizes-caption-mobile);
+  }
 }
 
 .focus\:font-size-h1:focus {
   font-size: var(--gcds-font-sizes-h1);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-size-h1:focus {
+    font-size: var(--gcds-font-sizes-h1-mobile);
+  }
+}
 
 .focus\:font-size-h2:focus {
   font-size: var(--gcds-font-sizes-h2);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-size-h2:focus {
+    font-size: var(--gcds-font-sizes-h2-mobile);
+  }
 }
 
 .focus\:font-size-h3:focus {
   font-size: var(--gcds-font-sizes-h3);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-size-h3:focus {
+    font-size: var(--gcds-font-sizes-h3-mobile);
+  }
+}
 
 .focus\:font-size-h4:focus {
   font-size: var(--gcds-font-sizes-h4);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-size-h4:focus {
+    font-size: var(--gcds-font-sizes-h4-mobile);
+  }
 }
 
 .focus\:font-size-h5:focus {
   font-size: var(--gcds-font-sizes-h5);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-size-h5:focus {
+    font-size: var(--gcds-font-sizes-h5-mobile);
+  }
+}
 
 .focus\:font-size-h6:focus {
   font-size: var(--gcds-font-sizes-h6);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-size-h6:focus {
+    font-size: var(--gcds-font-sizes-h6-mobile);
+  }
 }
 
 .focus\:font-size-text:focus {
   font-size: var(--gcds-font-sizes-text);
 }
+@media only screen and (width < 48em) {
+  .focus\:font-size-text:focus {
+    font-size: var(--gcds-font-sizes-text-mobile);
+  }
+}
 
-@media only screen and (width >= 30em) {
-  .xs\:font-size-caption {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xs\:font-size-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xs\:font-size-h2 {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xs\:font-size-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xs\:font-size-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xs\:font-size-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xs\:font-size-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xs\:font-size-text {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .xs\:hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xs\:hover\:font-size-h1:hover {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xs\:hover\:font-size-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xs\:hover\:font-size-h3:hover {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xs\:hover\:font-size-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xs\:hover\:font-size-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xs\:hover\:font-size-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xs\:hover\:font-size-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .xs\:focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xs\:focus\:font-size-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xs\:focus\:font-size-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xs\:focus\:font-size-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xs\:focus\:font-size-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xs\:focus\:font-size-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xs\:focus\:font-size-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xs\:focus\:font-size-text:focus {
-    font-size: var(--gcds-font-sizes-text);
+.focus\:font-size-caption:focus {
+  font-size: var(--gcds-font-sizes-caption);
+}
+@media only screen and (width < 48em) {
+  .focus\:font-size-caption:focus {
+    font-size: var(--gcds-font-sizes-caption-mobile);
   }
 }
-@media only screen and (width >= 40em) {
-  .sm\:font-size-caption {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .sm\:font-size-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .sm\:font-size-h2 {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .sm\:font-size-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .sm\:font-size-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .sm\:font-size-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .sm\:font-size-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .sm\:font-size-text {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .sm\:hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .sm\:hover\:font-size-h1:hover {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .sm\:hover\:font-size-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .sm\:hover\:font-size-h3:hover {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .sm\:hover\:font-size-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .sm\:hover\:font-size-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .sm\:hover\:font-size-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .sm\:hover\:font-size-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .sm\:focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .sm\:focus\:font-size-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .sm\:focus\:font-size-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .sm\:focus\:font-size-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .sm\:focus\:font-size-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .sm\:focus\:font-size-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .sm\:focus\:font-size-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .sm\:focus\:font-size-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-  }
-}
-@media only screen and (width >= 48em) {
-  .md\:font-size-caption {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .md\:font-size-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .md\:font-size-h2 {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .md\:font-size-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .md\:font-size-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .md\:font-size-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .md\:font-size-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .md\:font-size-text {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .md\:hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .md\:hover\:font-size-h1:hover {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .md\:hover\:font-size-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .md\:hover\:font-size-h3:hover {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .md\:hover\:font-size-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .md\:hover\:font-size-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .md\:hover\:font-size-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .md\:hover\:font-size-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .md\:focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .md\:focus\:font-size-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .md\:focus\:font-size-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .md\:focus\:font-size-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .md\:focus\:font-size-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .md\:focus\:font-size-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .md\:focus\:font-size-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .md\:focus\:font-size-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-  }
-}
-@media only screen and (width >= 64em) {
-  .lg\:font-size-caption {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .lg\:font-size-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .lg\:font-size-h2 {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .lg\:font-size-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .lg\:font-size-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .lg\:font-size-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .lg\:font-size-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .lg\:font-size-text {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .lg\:hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .lg\:hover\:font-size-h1:hover {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .lg\:hover\:font-size-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .lg\:hover\:font-size-h3:hover {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .lg\:hover\:font-size-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .lg\:hover\:font-size-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .lg\:hover\:font-size-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .lg\:hover\:font-size-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .lg\:focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .lg\:focus\:font-size-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .lg\:focus\:font-size-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .lg\:focus\:font-size-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .lg\:focus\:font-size-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .lg\:focus\:font-size-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .lg\:focus\:font-size-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .lg\:focus\:font-size-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-  }
-}
-@media only screen and (width >= 80em) {
-  .xl\:font-size-caption {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xl\:font-size-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xl\:font-size-h2 {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xl\:font-size-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xl\:font-size-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xl\:font-size-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xl\:font-size-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xl\:font-size-text {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .xl\:hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xl\:hover\:font-size-h1:hover {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xl\:hover\:font-size-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xl\:hover\:font-size-h3:hover {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xl\:hover\:font-size-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xl\:hover\:font-size-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xl\:hover\:font-size-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xl\:hover\:font-size-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-  }
-  .xl\:focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-  }
-  .xl\:focus\:font-size-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-  }
-  .xl\:focus\:font-size-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-  }
-  .xl\:focus\:font-size-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-  }
-  .xl\:focus\:font-size-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-  }
-  .xl\:focus\:font-size-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-  }
-  .xl\:focus\:font-size-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-  }
-  .xl\:focus\:font-size-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-  }
-}
+
 /* --- Font Styles --- */
 .font-italic {
   font-style: italic;
@@ -36640,7 +36212,8 @@ table {
   .xl\:focus\:font-normal:focus {
     font-style: normal;
   }
-} /* --- Font Weights --- */
+}
+/* --- Font Weights --- */
 .font-light {
   font-weight: var(--gcds-font-weights-light);
 }
