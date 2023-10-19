@@ -38,7 +38,17 @@ fieldset {
   border: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
 h1 {
+  max-width: var(--gcds-heading-character-limit-h1);
   font: var(--gcds-font-h1);
 
   @media only screen and (width < 48em) {
@@ -47,6 +57,7 @@ h1 {
 }
 
 h2 {
+  max-width: var(--gcds-heading-character-limit-h2);
   font: var(--gcds-font-h2);
 
   @media only screen and (width < 48em) {
@@ -55,6 +66,7 @@ h2 {
 }
 
 h3 {
+  max-width: var(--gcds-heading-character-limit-h3);
   font: var(--gcds-font-h3);
 
   @media only screen and (width < 48em) {
@@ -63,6 +75,7 @@ h3 {
 }
 
 h4 {
+  max-width: var(--gcds-heading-character-limit-h4);
   font: var(--gcds-font-h4);
 
   @media only screen and (width < 48em) {
@@ -71,6 +84,7 @@ h4 {
 }
 
 h5 {
+  max-width: var(--gcds-heading-character-limit-h5);
   font: var(--gcds-font-h5);
 
   @media only screen and (width < 48em) {
@@ -79,6 +93,7 @@ h5 {
 }
 
 h6 {
+  max-width: var(--gcds-heading-character-limit-h6);
   font: var(--gcds-font-h6);
 
   @media only screen and (width < 48em) {
