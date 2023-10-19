@@ -203,61 +203,61 @@ h6 {
 
 h1 {
   max-width: var(--gcds-heading-character-limit-h1);
-  font: var(--gcds-font-h1);
+  font: var(--gcds-heading-h1-desktop);
 }
 @media only screen and (width < 48em) {
   h1 {
-    font: var(--gcds-font-h1-mobile);
+    font: var(--gcds-heading-h1-mobile);
   }
 }
 
 h2 {
   max-width: var(--gcds-heading-character-limit-h2);
-  font: var(--gcds-font-h2);
+  font: var(--gcds-heading-h2-desktop);
 }
 @media only screen and (width < 48em) {
   h2 {
-    font: var(--gcds-font-h2-mobile);
+    font: var(--gcds-heading-h2-mobile);
   }
 }
 
 h3 {
   max-width: var(--gcds-heading-character-limit-h3);
-  font: var(--gcds-font-h3);
+  font: var(--gcds-heading-h3-desktop);
 }
 @media only screen and (width < 48em) {
   h3 {
-    font: var(--gcds-font-h3-mobile);
+    font: var(--gcds-heading-h3-mobile);
   }
 }
 
 h4 {
   max-width: var(--gcds-heading-character-limit-h4);
-  font: var(--gcds-font-h4);
+  font: var(--gcds-heading-h4-desktop);
 }
 @media only screen and (width < 48em) {
   h4 {
-    font: var(--gcds-font-h4-mobile);
+    font: var(--gcds-heading-h4-mobile);
   }
 }
 
 h5 {
   max-width: var(--gcds-heading-character-limit-h5);
-  font: var(--gcds-font-h5);
+  font: var(--gcds-heading-h5-desktop);
 }
 @media only screen and (width < 48em) {
   h5 {
-    font: var(--gcds-font-h5-mobile);
+    font: var(--gcds-heading-h5-mobile);
   }
 }
 
 h6 {
   max-width: var(--gcds-heading-character-limit-h6);
-  font: var(--gcds-font-h6);
+  font: var(--gcds-heading-h6-desktop);
 }
 @media only screen and (width < 48em) {
   h6 {
-    font: var(--gcds-font-h6-mobile);
+    font: var(--gcds-heading-h6-mobile);
   }
 }
 
