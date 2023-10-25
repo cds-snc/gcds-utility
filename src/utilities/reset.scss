@@ -23,6 +23,10 @@ a {
 body {
   font: var(--gcds-font-text);
   color: var(--gcds-text-primary);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-font-text-mobile);
+  }
 }
 
 button {
@@ -34,28 +38,67 @@ fieldset {
   border: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
 h1 {
-  font: var(--gcds-font-h1);
+  max-width: var(--gcds-heading-character-limit-h1);
+  font: var(--gcds-heading-h1-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h1-mobile);
+  }
 }
 
 h2 {
-  font: var(--gcds-font-h2);
+  max-width: var(--gcds-heading-character-limit-h2);
+  font: var(--gcds-heading-h2-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h2-mobile);
+  }
 }
 
 h3 {
-  font: var(--gcds-font-h3);
+  max-width: var(--gcds-heading-character-limit-h3);
+  font: var(--gcds-heading-h3-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h3-mobile);
+  }
 }
 
 h4 {
-  font: var(--gcds-font-h4);
+  max-width: var(--gcds-heading-character-limit-h4);
+  font: var(--gcds-heading-h4-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h4-mobile);
+  }
 }
 
 h5 {
-  font: var(--gcds-font-h5);
+  max-width: var(--gcds-heading-character-limit-h5);
+  font: var(--gcds-heading-h5-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h5-mobile);
+  }
 }
 
 h6 {
-  font: var(--gcds-font-h6);
+  max-width: var(--gcds-heading-character-limit-h6);
+  font: var(--gcds-heading-h6-desktop);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-heading-h6-mobile);
+  }
 }
 
 hr {
@@ -94,10 +137,18 @@ ul {
 
 p {
   font: var(--gcds-font-text);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-font-text-mobile);
+  }
 }
 
 small {
   font: var(--gcds-font-caption);
+
+  @media only screen and (width < 48em) {
+    font: var(--gcds-font-caption-mobile);
+  }
 }
 
 strong {
