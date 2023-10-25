@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.0.6
+
+### Patch
+
+- https://github.com/cds-snc/gcds-utility/pull/94 - [a9aebb0](https://github.com/cds-snc/gcds-utility/pull/94/commits/a9aebb054880b48acba94ba68cd5a5681f2e21f1) - Add mobile font styles
+- https://github.com/cds-snc/gcds-utility/pull/94 - [1889762](https://github.com/cds-snc/gcds-utility/pull/94/commits/18897629271fbe0097715605814018d0308c9f5c) - Add character limit tokens for headings
+
 ## v1.0.5
 
 ### Patch
