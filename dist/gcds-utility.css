@@ -251,6 +251,15 @@ h1 {
   max-width: var(--gcds-heading-character-limit-h1);
   font: var(--gcds-heading-h1-desktop);
 }
+h1:after {
+  display: block;
+  content: "";
+  width: var(--gcds-heading-h1-border-width);
+  -webkit-margin-before: var(--gcds-heading-h1-border-margin);
+          margin-block-start: var(--gcds-heading-h1-border-margin);
+  height: var(--gcds-heading-h1-border-height);
+  background-color: var(--gcds-heading-h1-border-background);
+}
 @media only screen and (width < 48em) {
   h1 {
     font: var(--gcds-heading-h1-mobile);
