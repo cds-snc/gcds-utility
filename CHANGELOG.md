@@ -4,6 +4,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.0.7
+
+### Patch
+
+- https://github.com/cds-snc/gcds-utility/pull/100 - [9140cbc](https://github.com/cds-snc/gcds-utility/pull/100/commits/9140cbc414d0ee649b52a4abfec8d23412e9aaf3) - Add mandatory border to h1 reset styles
+
 ## v1.0.6
 
 ### Patch
