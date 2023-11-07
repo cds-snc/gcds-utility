@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gcds-utility
+  description: >-
+    GC Design System Utility is a utility framework for GC Design System. |
+    L'utilitaire de Système de design GC est un cadre utilitaire pour ce
+    système.
+  labels:
+    license: MIT
+spec:
+  type: website
+  lifecycle: experimental
+  owner: cds-snc
