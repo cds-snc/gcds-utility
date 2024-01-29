@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- GC Design System -->
+    <link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.css">
+    <script type="module" src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.esm.js"></script>
+    <script nomodule src="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-components@latest/dist/gcds/gcds.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../../dist/gcds-utility.css" />
 
@@ -65,6 +70,41 @@
   </head>
 
   <body>
+    <gcds-header lang-href="#" skip-to-href="#"></gcds-header>
+
+    <gcds-side-nav label="Label">
+      <gcds-nav-link href="#">Nav link</gcds-nav-link>
+      <gcds-nav-group open-trigger="Layout" menu-label="Layout">
+        <gcds-nav-link href="#">Box sizing</gcds-nav-link>
+        <gcds-nav-link href="#">Container</gcds-nav-link>
+        <gcds-nav-link href="#">Display</gcds-nav-link>
+        <gcds-nav-link href="#">Overflow</gcds-nav-link>
+        <gcds-nav-link href="#">Position</gcds-nav-link>
+        <gcds-nav-link href="#">Visibility</gcds-nav-link>
+      </gcds-nav-group>
+      <gcds-nav-group open-trigger="Typography" menu-label="Typography">
+        <gcds-nav-link href="#">Font</gcds-nav-link>
+        <gcds-nav-link href="#">Font family</gcds-nav-link>
+        <gcds-nav-link href="#">Font size</gcds-nav-link>
+        <gcds-nav-link href="#">Font style</gcds-nav-link>
+        <gcds-nav-link href="#">Font weight</gcds-nav-link>
+        <gcds-nav-link href="#">Line height</gcds-nav-link>
+        <gcds-nav-link href="#">Links</gcds-nav-link>
+        <gcds-nav-link href="#">Link text-decoration</gcds-nav-link>
+        <gcds-nav-link href="#">List style</gcds-nav-link>
+        <gcds-nav-link href="#">Text align</gcds-nav-link>
+        <gcds-nav-link href="#">Text colour</gcds-nav-link>
+        <gcds-nav-link href="#">Text overflow</gcds-nav-link>
+        <gcds-nav-link href="#">Text transform</gcds-nav-link>
+        <gcds-nav-link href="#">Word break</gcds-nav-link>
+      </gcds-nav-group>
+      <gcds-nav-group open-trigger="Spacing" menu-label="Spacing">
+        <gcds-nav-link href="#">Overview</gcds-nav-link>
+        <gcds-nav-link href="#">Margin</gcds-nav-link>
+        <gcds-nav-link href="#">Padding</gcds-nav-link>
+      </gcds-nav-group>
+    </gcds-side-nav>
+
     <main class="container-xl mx-auto px-400 py-600">
       <h1>GC Design System Utility Demo</h1>
 
