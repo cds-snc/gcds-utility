@@ -86,6 +86,19 @@ All notable changes to this project will be documented in this file.
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## v1.0.7
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-utility/pull/100 - [9140cbc](https://github.com/cds-snc/gcds-utility/pull/100/commits/9140cbc414d0ee649b52a4abfec8d23412e9aaf3) \- Ajout d’une bordure obligatoire aux styles de réinitialisation h1
+
+## v1.0.6
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-utility/pull/94 - [a9aebb0](https://github.com/cds-snc/gcds-utility/pull/94/commits/a9aebb054880b48acba94ba68cd5a5681f2e21f1) \- Ajout de styles de police pour les appareils mobiles
+- https://github.com/cds-snc/gcds-utility/pull/94 - [1889762](https://github.com/cds-snc/gcds-utility/pull/94/commits/18897629271fbe0097715605814018d0308c9f5c) \- Ajout de jetons de limite de caractères pour les titres
+
 ## v1.0.5
 
 ### Correctif
