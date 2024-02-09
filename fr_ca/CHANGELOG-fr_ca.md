@@ -86,6 +86,19 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 
 
 
+## v1.0.7
+
+### 
+
+- 
+
+## v1.0.6
+
+### 
+
+- 
+- 
+
 ## 
 
 ### 
