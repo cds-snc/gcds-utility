@@ -4,6 +4,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.8](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.0.7...gcds-utility-v1.0.8) (2024-03-25)
+
+
+### Documentation
+
+* add french translations for changelog ([#124](https://github.com/cds-snc/gcds-utility/issues/124)) ([7d82d0b](https://github.com/cds-snc/gcds-utility/commit/7d82d0b3ed98e5781046ff0b30144f71943cab1b))
+
+
+### Patch
+
+* **deps:** update actions/create-github-app-token action to v1.6.2 ([#117](https://github.com/cds-snc/gcds-utility/issues/117)) ([f59c1d1](https://github.com/cds-snc/gcds-utility/commit/f59c1d183aaf86e7981339a4236e74d1ea0e295b))
+* **deps:** update actions/create-github-app-token action to v1.6.3 ([#122](https://github.com/cds-snc/gcds-utility/issues/122)) ([1d3e88a](https://github.com/cds-snc/gcds-utility/commit/1d3e88a9f2be6892706d0da2ad44a8884846368d))
+* **deps:** update actions/create-github-app-token action to v1.6.4 ([#123](https://github.com/cds-snc/gcds-utility/issues/123)) ([e1848aa](https://github.com/cds-snc/gcds-utility/commit/e1848aaa6c52a1eec2c3ce27151e2f9b0d123554))
+* **deps:** update actions/create-github-app-token action to v1.8.0 ([#128](https://github.com/cds-snc/gcds-utility/issues/128)) ([dbd44a6](https://github.com/cds-snc/gcds-utility/commit/dbd44a65cee63fa3e3a134a0a2e99b02dfafe2d4))
+* **deps:** update actions/create-github-app-token action to v1.8.1 ([#129](https://github.com/cds-snc/gcds-utility/issues/129)) ([3e03107](https://github.com/cds-snc/gcds-utility/commit/3e03107d029f05f9414295e0603add45372240e5))
+* **deps:** update actions/create-github-app-token action to v1.9.0 ([#130](https://github.com/cds-snc/gcds-utility/issues/130)) ([4bec502](https://github.com/cds-snc/gcds-utility/commit/4bec5027f82c2715e1d39cf2da926fb46d458d53))
+* **deps:** update all non-major github action dependencies ([#115](https://github.com/cds-snc/gcds-utility/issues/115)) ([7d78d49](https://github.com/cds-snc/gcds-utility/commit/7d78d49c48c4e4cd724fffea61f7aab8743fe213))
+* **deps:** update all non-major github action dependencies ([#126](https://github.com/cds-snc/gcds-utility/issues/126)) ([652a311](https://github.com/cds-snc/gcds-utility/commit/652a311edd049605dbdf890a5003303ef5da3b20))
+* **deps:** update dependency sass to v1.69.6 ([#120](https://github.com/cds-snc/gcds-utility/issues/120)) ([3907ed9](https://github.com/cds-snc/gcds-utility/commit/3907ed9447ca59b72e7a472ea7e018ea0c989401))
+* **deps:** update dependency sass to v1.69.7 ([#121](https://github.com/cds-snc/gcds-utility/issues/121)) ([843e467](https://github.com/cds-snc/gcds-utility/commit/843e46733e64e08204bb0b850599be9f5594e60d))
+* **deps:** update js-devtools/npm-publish digest to 126874f ([#131](https://github.com/cds-snc/gcds-utility/issues/131)) ([daa456d](https://github.com/cds-snc/gcds-utility/commit/daa456d35c9c6581ec85da999670bd1a163b98c9))
+* **deps:** update js-devtools/npm-publish digest to 79051c0 ([#132](https://github.com/cds-snc/gcds-utility/issues/132)) ([9f29be1](https://github.com/cds-snc/gcds-utility/commit/9f29be125fe86df3b2482a348cce3da86fd7d91f))
+* **deps:** update js-devtools/npm-publish digest to fe58a59 ([#119](https://github.com/cds-snc/gcds-utility/issues/119)) ([3e7fa6d](https://github.com/cds-snc/gcds-utility/commit/3e7fa6dd20b8e420165e8ae767fe3a782932d1c4))
+* synced file(s) with cds-snc/site-reliability-engineering ([#118](https://github.com/cds-snc/gcds-utility/issues/118)) ([cd1d829](https://github.com/cds-snc/gcds-utility/commit/cd1d829e50db232ab0dd192f58ab256dc5d9507d))
+* synced file(s) with cds-snc/site-reliability-engineering ([#125](https://github.com/cds-snc/gcds-utility/issues/125)) ([bff5491](https://github.com/cds-snc/gcds-utility/commit/bff5491d679d758e63995d4bf2439306934af0ec))
+* synced file(s) with cds-snc/site-reliability-engineering ([#127](https://github.com/cds-snc/gcds-utility/issues/127)) ([c4bd4b7](https://github.com/cds-snc/gcds-utility/commit/c4bd4b7d5082812f496d925a2c6896edd64f64f1))
+* synced file(s) with cds-snc/site-reliability-engineering ([#133](https://github.com/cds-snc/gcds-utility/issues/133)) ([9057a0c](https://github.com/cds-snc/gcds-utility/commit/9057a0ca576d9d9b4973db186fbe6617c4eb9e5a))
+* synced local '.github/workflows/ossf-scorecard.yml' with remote 'tools/sre_file_sync/ossf-scorecard.yml' ([c4bd4b7](https://github.com/cds-snc/gcds-utility/commit/c4bd4b7d5082812f496d925a2c6896edd64f64f1))
+* synced local '.github/workflows/ossf-scorecard.yml' with remote 'tools/sre_file_sync/ossf-scorecard.yml' ([bff5491](https://github.com/cds-snc/gcds-utility/commit/bff5491d679d758e63995d4bf2439306934af0ec))
+
 ## v1.0.7
 
 ### Patch
