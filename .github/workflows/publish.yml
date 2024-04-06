@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Publish @cdssnc/gcds-utility
-        uses: JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c
+        uses: JS-DevTools/npm-publish@c292f92f18bc92012d410c34bc2b236466de43b8
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
