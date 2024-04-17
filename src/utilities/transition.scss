@@ -6,8 +6,10 @@
   opacity: 0;
   transition: opacity 0.15s ease-in-out;
 
-  &:hover {
-    opacity: 1;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 
@@ -15,7 +17,9 @@
   opacity: 1;
   transition: opacity 0.15s ease-in-out;
 
-  &:hover {
-    opacity: 0;
+  @media (hover: hover) {
+    &:hover {
+      opacity: 0;
+    }
   }
 }

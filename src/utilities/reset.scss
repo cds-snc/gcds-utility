@@ -10,13 +10,14 @@
 }
 
 a {
-  text-underline-position: under;
-  text-underline-offset: -0.1em;
-  text-decoration-thickness: var(--gcds-border-width-sm);
+  text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
+  text-underline-offset: var(--gcds-link-underline-offset);
   transition: all 0.35s;
 
-  &:hover {
-    text-decoration-thickness: var(--gcds-border-width-md);
+  @media (hover: hover) {
+    &:hover {
+      text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
+    }
   }
 }
 
