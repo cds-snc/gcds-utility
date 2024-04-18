@@ -353,6 +353,7 @@ ul {
 }
 
 p {
+  max-width: var(--gcds-text-character-limit);
   font: var(--gcds-font-text);
 }
 @media only screen and (width < 48em) {
