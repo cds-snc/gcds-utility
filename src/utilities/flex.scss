@@ -52,6 +52,7 @@ $flexShrink: (
 
 /* --- Order --- */
 
+// Generates order classes from 1-12 with breakpoints + states
 @each $classState, $state in $states {
   @for $i from 1 through 12 {
     .#{$classState}order-#{$i}#{$state} {

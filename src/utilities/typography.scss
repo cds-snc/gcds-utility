@@ -14,6 +14,8 @@ $font: (
   caption: caption,
 ) !default;
 
+// Generates font classes based on the $font list.
+// Each list item defines: class name, font value.
 @each $classState, $state in $states {
   @each $className, $value in $font {
     .#{$classState}font-#{'' + $className}#{$state} {
@@ -50,6 +52,8 @@ $fontSize: (
   caption: caption,
 ) !default;
 
+// Generates font-size classes based on the $fontSize list.
+// Each list item defines: class name, font-size value.
 @each $classState, $state in $states {
   @each $className, $value in $fontSize {
     .#{$classState}font-size-#{'' + $className}#{$state} {

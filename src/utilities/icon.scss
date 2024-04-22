@@ -26,6 +26,7 @@ $sizes: (
   h1: h1,
 ) !default;
 
+// Generates icon size classes with breakpoints + states
 @each $classState, $state in $states {
   @each $className, $value in $sizes {
     .#{$classState}icon-#{'' + $className}#{$state} {

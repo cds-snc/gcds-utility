@@ -21,6 +21,8 @@ $fontSize: (
   'inherit' 'inherit' 'inherit'
 ) !default;
 
+// Generates link size classes based on the $fontSize list.
+// Each list item defines: class name, desktop value, mobile value.
 @each $className, $valueDesktop, $valueMobile in $fontSize {
   .link-size-#{'' + $className} {
     font: #{$valueDesktop};

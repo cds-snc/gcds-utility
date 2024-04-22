@@ -1,6 +1,8 @@
 @import './defaults.scss';
 
 // --- Add breakpoints with class ---
+// This mixin generates a CSS class with support for different states and breakpoints.
+// It takes in the class name + a set of CSS styles for that specific class name.
 @mixin classWithBreakpoints($class, $generateStates: 'true') {
   @if $generateStates == 'true' {
     @each $classState, $state in $states {
@@ -34,7 +36,8 @@
 }
 
 // --- Generate classes with breakpoints ---
-
+// This mixin takes in a list and generates CSS classes for different states and breakpoints.
+// Each list item defines its class with its corresponding property value.
 @mixin generateClasses($classes, $classPrefix, $property) {
   @each $classState, $state in $states {
     @each $className, $value in $classes {
