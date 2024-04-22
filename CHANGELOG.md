@@ -4,26 +4,26 @@
 
 All notable changes to this project will be documented in this file.
 
-## v1.0.7
+## v1.0.7 (2023-10-30)
 
 ### Patch
 
 - https://github.com/cds-snc/gcds-utility/pull/100 - [9140cbc](https://github.com/cds-snc/gcds-utility/pull/100/commits/9140cbc414d0ee649b52a4abfec8d23412e9aaf3) - Add mandatory border to h1 reset styles
 
-## v1.0.6
+## v1.0.6 (2023-10-25)
 
 ### Patch
 
 - https://github.com/cds-snc/gcds-utility/pull/94 - [a9aebb0](https://github.com/cds-snc/gcds-utility/pull/94/commits/a9aebb054880b48acba94ba68cd5a5681f2e21f1) - Add mobile font styles
 - https://github.com/cds-snc/gcds-utility/pull/94 - [1889762](https://github.com/cds-snc/gcds-utility/pull/94/commits/18897629271fbe0097715605814018d0308c9f5c) - Add character limit tokens for headings
 
-## v1.0.5
+## v1.0.5 (2023-06-22)
 
 ### Patch
 
 - https://github.com/cds-snc/gcds-utility/pull/61 - [9c9ede2](https://github.com/cds-snc/gcds-utility/pull/61/commits/9c9ede21afd8cbc3cdce3b396ee23189946f6304) - Update with new token file structure
 
-## v1.0.4
+## v1.0.4 (2023-05-31)
 
 ### New features
 
@@ -40,7 +40,7 @@ All notable changes to this project will be documented in this file.
 
 - https://github.com/cds-snc/gcds-utility/pull/55 - [58aa275](https://github.com/cds-snc/gcds-utility/pull/55/commits/58aa27513bafb5df15b3685a099647cfbe274a8d) - Update version to include colour tokens update
 
-## v1.0.3
+## v1.0.3 (2023-05-08)
 
 ### Breaking changes
 
@@ -61,20 +61,20 @@ All notable changes to this project will be documented in this file.
 - https://github.com/cds-snc/gcds-utility/pull/45 - [d66ae57](https://github.com/cds-snc/gcds-utility/pull/45/commits/d66ae57e32dac3475ddb1bf895d9cf30a414d3f0) - Adjust breakpoints to align with component breakpoints
 - https://github.com/cds-snc/gcds-utility/pull/45 - [dc3d10a](https://github.com/cds-snc/gcds-utility/pull/45/commits/dc3d10a197104f8752a24f8a0530d13ead29f9ca) - Update icon sizes to match icon component
 
-## v1.0.2
+## v1.0.2 (2023-03-23)
 
 ### Patch
 
 - https://github.com/cds-snc/gcds-utility/pull/36 - [ed40eca](https://github.com/cds-snc/gcds-utility/pull/36/commits/ed40ecaf959384f751ca1875af91e598c6cf3873) - Switch to using gcds-tokens package
 
-## v1.0.1
+## v1.0.1 (2023-03-13)
 
 ### Patch
 
 - https://github.com/cds-snc/gcds-utility/pull/28 - [61cc8f6](https://github.com/cds-snc/gcds-utility/commit/61cc8f602a406ab4e635d1e9431428d073651a91) - Update readme and package.json with new url
 - https://github.com/cds-snc/gcds-utility/pull/28 - [5709c03](https://github.com/cds-snc/gcds-utility/commit/5709c035c3a3925ba315d7f0643cdbbd83228d8e) - Update repository + issues URL
 
-## v1.0.0
+## v1.0.0 (2023-02-10)
 
 ### New features
 
@@ -86,26 +86,26 @@ All notable changes to this project will be documented in this file.
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
-## v1.0.7
+## v1.0.7 (2023-10-30)
 
 ### Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/100 - [9140cbc](https://github.com/cds-snc/gcds-utility/pull/100/commits/9140cbc414d0ee649b52a4abfec8d23412e9aaf3) \- Ajout d’une bordure obligatoire aux styles de réinitialisation h1
 
-## v1.0.6
+## v1.0.6 (2023-10-25)
 
 ### Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/94 - [a9aebb0](https://github.com/cds-snc/gcds-utility/pull/94/commits/a9aebb054880b48acba94ba68cd5a5681f2e21f1) \- Ajout de styles de police pour les appareils mobiles
 - https://github.com/cds-snc/gcds-utility/pull/94 - [1889762](https://github.com/cds-snc/gcds-utility/pull/94/commits/18897629271fbe0097715605814018d0308c9f5c) \- Ajout de jetons de limite de caractères pour les titres
 
-## v1.0.5
+## v1.0.5 (2023-06-22)
 
 ### Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/61 - [9c9ede2](https://github.com/cds-snc/gcds-utility/pull/61/commits/9c9ede21afd8cbc3cdce3b396ee23189946f6304) \- Nouvelle structure de fichier de jetons
 
-## v1.0.4
+## v1.0.4 (2023-05-31)
 
 ### Nouvelles fonctionnalités
 
@@ -122,7 +122,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 
 - https://github.com/cds-snc/gcds-utility/pull/55 - [58aa275](https://github.com/cds-snc/gcds-utility/pull/55/commits/58aa27513bafb5df15b3685a099647cfbe274a8d) \- Mise à jour de la version afin d'inclure la mise à jour des jetons
 
-## v1.0.3
+## v1.0.3 (2023-05-08)
 
 ### Changements cassants
 
@@ -143,20 +143,20 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - https://github.com/cds-snc/gcds-utility/pull/45 - [d66ae57](https://github.com/cds-snc/gcds-utility/pull/45/commits/d66ae57e32dac3475ddb1bf895d9cf30a414d3f0) \- Ajustement des points d'arrêt pour qu'ils soient alignés sur les points d'arrêt des composants
 - https://github.com/cds-snc/gcds-utility/pull/45 - [dc3d10a](https://github.com/cds-snc/gcds-utility/pull/45/commits/dc3d10a197104f8752a24f8a0530d13ead29f9ca) \- Mise à jour de la taille des icônes pour qu'elles correspondent au composant icône
 
-## v1.0.2
+## v1.0.2 (2023-03-23)
 
 ### Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/36 - [ed40eca](https://github.com/cds-snc/gcds-utility/pull/36/commits/ed40ecaf959384f751ca1875af91e598c6cf3873) \- Passer à l'utilisation du package gcds-tokens
 
-## v1.0.1
+## v1.0.1 (2023-03-13)
 
 ### Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/28 - [61cc8f6](https://github.com/cds-snc/gcds-utility/commit/61cc8f602a406ab4e635d1e9431428d073651a91) \- Mise à jour des URL du fichier lisez-moi et du package.json
 - https://github.com/cds-snc/gcds-utility/pull/28 - [5709c03](https://github.com/cds-snc/gcds-utility/commit/5709c035c3a3925ba315d7f0643cdbbd83228d8e) \- Mise à jour de l'URL du référentiel + issues (problèmes)
 
-## v1.0.0
+## v1.0.0 (2023-02-10)
 
 ### Nouvelles fonctionnalités
 
