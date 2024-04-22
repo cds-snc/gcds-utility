@@ -11,6 +11,28 @@ $linkColor: (
 
 @include generateClasses($linkColor, 'link-', color);
 
+/* --- Link Size --- */
+
+$fontSize: (
+  'regular' 'var(--gcds-link-font-regular-desktop)'
+    'var(--gcds-link-font-regular-mobile)',
+  'small' 'var(--gcds-link-font-small-desktop)'
+    'var(--gcds-link-font-small-mobile)',
+  'inherit' 'inherit' 'inherit'
+) !default;
+
+// Generates link size classes based on the $fontSize list.
+// Each list item defines: class name, desktop value, mobile value.
+@each $className, $valueDesktop, $valueMobile in $fontSize {
+  .link-size-#{'' + $className} {
+    font: #{$valueDesktop};
+
+    @media only screen and (width < 48em) {
+      font: #{$valueMobile};
+    }
+  }
+}
+
 /* --- Link Text Decoration --- */
 
 @include classWithBreakpoints('link-no-underline') {

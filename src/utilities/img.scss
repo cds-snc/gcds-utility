@@ -2,6 +2,7 @@
 
 /* --- Images --- */
 
+// Generates image classes with breakpoints + states.
 @each $classState, $state in $states {
   // Img full width
   .#{$classState}img-full#{$state} {

@@ -209,14 +209,16 @@
 }
 
 a {
-  text-underline-position: under;
-  text-underline-offset: -0.1em;
-  text-decoration-thickness: var(--gcds-border-width-sm);
+  -webkit-text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
+          text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
+  text-underline-offset: var(--gcds-link-underline-offset);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
-a:hover {
-  text-decoration-thickness: var(--gcds-border-width-md);
+@media (hover: hover) {
+  a:hover {
+    text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
+  }
 }
 
 body {
@@ -351,6 +353,7 @@ ul {
 }
 
 p {
+  max-width: var(--gcds-text-character-limit);
   font: var(--gcds-font-text);
 }
 @media only screen and (width < 48em) {
@@ -18255,6 +18258,34 @@ table {
     color: var(--gcds-link-light);
   }
 }
+/* --- Link Size --- */
+.link-size-regular {
+  font: var(--gcds-link-font-regular-desktop);
+}
+@media only screen and (width < 48em) {
+  .link-size-regular {
+    font: var(--gcds-link-font-regular-mobile);
+  }
+}
+
+.link-size-small {
+  font: var(--gcds-link-font-small-desktop);
+}
+@media only screen and (width < 48em) {
+  .link-size-small {
+    font: var(--gcds-link-font-small-mobile);
+  }
+}
+
+.link-size-inherit {
+  font: inherit;
+}
+@media only screen and (width < 48em) {
+  .link-size-inherit {
+    font: inherit;
+  }
+}
+
 /* --- Link Text Decoration --- */
 .link-no-underline {
   text-decoration: none;
@@ -35372,8 +35403,10 @@ table {
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
 }
-.transition-fade-in:hover {
-  opacity: 1;
+@media (hover: hover) {
+  .transition-fade-in:hover {
+    opacity: 1;
+  }
 }
 
 @media only screen and (width >= 30em) {
@@ -35382,6 +35415,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 30em) and (hover: hover) {
   .xs\:transition-fade-in:hover {
     opacity: 1;
   }
@@ -35392,6 +35427,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 40em) and (hover: hover) {
   .sm\:transition-fade-in:hover {
     opacity: 1;
   }
@@ -35402,6 +35439,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 48em) and (hover: hover) {
   .md\:transition-fade-in:hover {
     opacity: 1;
   }
@@ -35412,6 +35451,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 64em) and (hover: hover) {
   .lg\:transition-fade-in:hover {
     opacity: 1;
   }
@@ -35422,6 +35463,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 80em) and (hover: hover) {
   .xl\:transition-fade-in:hover {
     opacity: 1;
   }
@@ -35431,8 +35474,10 @@ table {
   -webkit-transition: opacity 0.15s ease-in-out;
   transition: opacity 0.15s ease-in-out;
 }
-.transition-fade-out:hover {
-  opacity: 0;
+@media (hover: hover) {
+  .transition-fade-out:hover {
+    opacity: 0;
+  }
 }
 
 @media only screen and (width >= 30em) {
@@ -35441,6 +35486,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 30em) and (hover: hover) {
   .xs\:transition-fade-out:hover {
     opacity: 0;
   }
@@ -35451,6 +35498,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 40em) and (hover: hover) {
   .sm\:transition-fade-out:hover {
     opacity: 0;
   }
@@ -35461,6 +35510,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 48em) and (hover: hover) {
   .md\:transition-fade-out:hover {
     opacity: 0;
   }
@@ -35471,6 +35522,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 64em) and (hover: hover) {
   .lg\:transition-fade-out:hover {
     opacity: 0;
   }
@@ -35481,6 +35534,8 @@ table {
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
   }
+}
+@media only screen and (width >= 80em) and (hover: hover) {
   .xl\:transition-fade-out:hover {
     opacity: 0;
   }

@@ -2,6 +2,7 @@
 
 /* --- Margin Spacing Classes --- */
 
+// Generates margin classes with states and breakpoints.
 @each $classSide, $side in $sides {
   @each $classState, $state in $states {
     @each $className, $value in $spacing {
@@ -35,6 +36,7 @@
 
 /* --- Padding Spacing Classes --- */
 
+// Generates padding classes with states and breakpoints.
 @each $classSide, $side in $sides {
   @include generateClasses(
     $spacing,
