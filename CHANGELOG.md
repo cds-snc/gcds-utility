@@ -11,11 +11,6 @@ All notable changes to this project will be documented in this file.
 
 * add link size class + add character limit for paragraphs ([#137](https://github.com/cds-snc/gcds-utility/issues/137)) ([067e55d](https://github.com/cds-snc/gcds-utility/commit/067e55d0df077fa30b1bfce6787a048517712afe))
 
-
-### Documentation
-
-* add french translations for changelog ([#124](https://github.com/cds-snc/gcds-utility/issues/124)) ([7d82d0b](https://github.com/cds-snc/gcds-utility/commit/7d82d0b3ed98e5781046ff0b30144f71943cab1b))
-
 ## v1.0.7 (2023-10-30)
 
 ### Patch
