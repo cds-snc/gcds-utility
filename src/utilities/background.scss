@@ -7,13 +7,13 @@ $backgroundColors: (
   black: var(--gcds-color-grayscale-1000),
   current: currentColor,
   danger: var(--gcds-danger-background),
-  dark: var(--gcds-color-grayscale-900),
+  dark: var(--gcds-bg-dark),
   disabled: var(--gcds-disabled-background),
   inherit: inherit,
-  light: var(--gcds-color-grayscale-50),
-  primary: var(--gcds-color-blue-900),
+  light: var(--gcds-bg-light),
+  primary: var(--gcds-bg-primary),
   transparent: transparent,
-  white: var(--gcds-color-grayscale-0),
+  white: var(--gcds-bg-white),
 ) !default;
 
 @include generateClasses($backgroundColors, 'bg-', background-color);
