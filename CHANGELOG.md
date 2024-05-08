@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.1.0...gcds-utility-v1.2.0) (2024-05-08)
+
+
+### New Features
+
+* integrate new global background tokens ([#143](https://github.com/cds-snc/gcds-utility/issues/143)) ([3c803d3](https://github.com/cds-snc/gcds-utility/commit/3c803d3b08bce0c020573d7865b66a523141e27a))
+
 ## [1.1.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.0.7...gcds-utility-v1.1.0) (2024-04-22)
 
 
