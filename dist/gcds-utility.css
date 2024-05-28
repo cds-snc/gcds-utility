@@ -1,6 +1,6 @@
 /* Include Fonts */
 /* Lato + Noto Sans */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Mono:wght@100..900&display=swap");
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly.
@@ -95,7 +95,7 @@
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: "Lato", sans-serif;
   --gcds-font-families-body: "Noto Sans", sans-serif;
-  --gcds-font-families-monospace: "Menlo", sans-serif;
+  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
   --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
   --gcds-font-sizes-caption: 1.1111111111111112rem;
   --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
@@ -235,6 +235,10 @@ body {
 button {
   border: 0;
   cursor: pointer;
+}
+
+code {
+  font-family: var(--gcds-font-families-monospace);
 }
 
 fieldset {
