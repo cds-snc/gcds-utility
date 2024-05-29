@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.0...gcds-utility-v1.2.1) (2024-05-29)
+
+
+### Code Refactoring
+
+* change monospace font to noto sans mono ([#151](https://github.com/cds-snc/gcds-utility/issues/151)) ([ca5d9e0](https://github.com/cds-snc/gcds-utility/commit/ca5d9e0c79ce49f410d12578d567e138939f62e7))
+
 ## [1.2.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.1.0...gcds-utility-v1.2.0) (2024-05-08)
 
 
