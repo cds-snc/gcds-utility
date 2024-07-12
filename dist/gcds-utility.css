@@ -3,7 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Mono:wght@100..900&display=swap");
 @import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
- * Do not edit directly.
+ * Do not edit directly
+ * Generated on Mon, 19 Jun 2023 20:28:18 GMT
  */
 :root {
   --gcds-color-blue-100: #d7e5f5;
@@ -34,7 +35,8 @@
 }
 
 /**
- * Do not edit directly.
+ * Do not edit directly
+ * Generated on Thu, 05 Oct 2023 20:50:40 GMT
  */
 :root {
   --gcds-border-radius-sm: 0.1875rem; /* Global border: radius sm */
@@ -48,10 +50,6 @@
   --gcds-border-default: #7d828b; /* Global color: border default */
   --gcds-active-background: #000000; /* Global color: active background */
   --gcds-active-text: #ffffff; /* Global color: active text */
-  --gcds-bg-dark: #333333; /* Global bg color: dark background */
-  --gcds-bg-light: #f1f2f3; /* Global bg color: light background */
-  --gcds-bg-primary: #26374a; /* Global bg color: primary background */
-  --gcds-bg-white: #ffffff; /* Global bg color: white background */
   --gcds-danger-background: #fbddda; /* Global color: danger background */
   --gcds-danger-border: #d3080c; /* Global color: danger border */
   --gcds-danger-text: #a62a1e; /* Global color: danger text */
@@ -95,7 +93,7 @@
   --gcds-base-scale: 1.125;
   --gcds-font-families-heading: "Lato", sans-serif;
   --gcds-font-families-body: "Noto Sans", sans-serif;
-  --gcds-font-families-monospace: "Noto Sans Mono", monospace;
+  --gcds-font-families-monospace: "Menlo", sans-serif;
   --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
   --gcds-font-sizes-caption: 1.1111111111111112rem;
   --gcds-font-sizes-caption-mobile: 0.8888888888888888rem;
@@ -157,7 +155,8 @@
 }
 
 /**
- * Do not edit directly.
+ * Do not edit directly
+ * Generated on Thu, 19 Oct 2023 18:11:33 GMT
  */
 :root {
   --gcds-heading-character-limit-h1: 31ch;
@@ -210,8 +209,9 @@
 }
 
 a {
-  -webkit-text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
-          text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
+  text-decoration-style: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: var(--gcds-link-decoration-thickness);
   text-underline-offset: var(--gcds-link-underline-offset);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
