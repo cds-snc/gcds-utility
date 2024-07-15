@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.1...gcds-utility-v1.2.2) (2024-07-15)
+
+
+### Bug Fixes
+
+* Change CSS to fix link style in Safari ([#164](https://github.com/cds-snc/gcds-utility/issues/164)) ([ce9434a](https://github.com/cds-snc/gcds-utility/commit/ce9434a3db11a9f3e9d3949f40f5079ee9e798f4))
+
 ## [1.2.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.0...gcds-utility-v1.2.1) (2024-05-29)
 
 
