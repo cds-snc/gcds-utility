@@ -210,8 +210,9 @@
 }
 
 a {
-  -webkit-text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
-          text-decoration: underline currentColor var(--gcds-link-decoration-thickness);
+  text-decoration-style: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: var(--gcds-link-decoration-thickness);
   text-underline-offset: var(--gcds-link-underline-offset);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
