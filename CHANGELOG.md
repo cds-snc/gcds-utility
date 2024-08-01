@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.2...gcds-utility-v1.3.0) (2024-08-01)
+
+
+### New Features
+
+* add visited state to link styling ([#169](https://github.com/cds-snc/gcds-utility/issues/169)) ([07da60a](https://github.com/cds-snc/gcds-utility/commit/07da60af16c091e51b25a75a361831d18cfa3781))
+
 ## [1.2.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.1...gcds-utility-v1.2.2) (2024-07-15)
 
 
