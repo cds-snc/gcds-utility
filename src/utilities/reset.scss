@@ -21,6 +21,10 @@ a {
       text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
     }
   }
+
+  &:visited:not([class*='link-light']) {
+    color: var(--gcds-link-visited);
+  }
 }
 
 body {
