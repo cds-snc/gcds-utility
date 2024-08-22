@@ -142,50 +142,60 @@ Released on: 2023-02-10
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
-## v1.0.7 (2023-10-30)
+## v1.0.7
 
-### Correctif
+Version publiée le : 2023-10-30
+
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/100 - [9140cbc](https://github.com/cds-snc/gcds-utility/pull/100/commits/9140cbc414d0ee649b52a4abfec8d23412e9aaf3) \- Ajout d’une bordure obligatoire aux styles de réinitialisation h1
 
-## v1.0.6 (2023-10-25)
+## v1.0.6
 
-### Correctif
+Version publiée le : 2023-10-25
+
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/94 - [a9aebb0](https://github.com/cds-snc/gcds-utility/pull/94/commits/a9aebb054880b48acba94ba68cd5a5681f2e21f1) \- Ajout de styles de police pour les appareils mobiles
 - https://github.com/cds-snc/gcds-utility/pull/94 - [1889762](https://github.com/cds-snc/gcds-utility/pull/94/commits/18897629271fbe0097715605814018d0308c9f5c) \- Ajout de jetons de limite de caractères pour les titres
 
-## v1.0.5 (2023-06-22)
+## v1.0.5
 
-### Correctif
+Version publiée le : 2023-06-22
+
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/61 - [9c9ede2](https://github.com/cds-snc/gcds-utility/pull/61/commits/9c9ede21afd8cbc3cdce3b396ee23189946f6304) \- Nouvelle structure de fichier de jetons
 
-## v1.0.4 (2023-05-31)
+## v1.0.4
 
-### Nouvelles fonctionnalités
+Version publiée le : 2023-05-31
+
+### :rocket: Nouvelles fonctionnalités
 
 - Soutien CDN
   - https://github.com/cds-snc/gcds-utility/pull/48 - [1eabad4](https://github.com/cds-snc/gcds-utility/pull/48/commits/1eabad4528f74ff20c73519da66544dc653f5466) \- Publication de nouveaux packages au réseau de diffusion de contenu (CDN)
 
-### Changements cassants
+### :rotating_light: Changements cassants
 
 - Mise à jour des instructions d'installation
   - https://github.com/cds-snc/gcds-utility/pull/52 - [ffb2d51](https://github.com/cds-snc/gcds-utility/pull/52/commits/ffb2d51655c1403c64f1ed9a8b418e8fc13f7b98) \- Mise à jour du lien unpkg dans le fichier lisez-moi afin d'utiliser le nouveau lien du CDN
   - https://github.com/cds-snc/gcds-utility/pull/54 - [ad8f18b](https://github.com/cds-snc/gcds-utility/pull/54/commits/ad8f18b49f7ceaf768e44810494b88f7e153cd0b) \- Ajout du préfixe @cdssnc au nom du package dans la commande d'installation
 
-### Correctif
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/55 - [58aa275](https://github.com/cds-snc/gcds-utility/pull/55/commits/58aa27513bafb5df15b3685a099647cfbe274a8d) \- Mise à jour de la version afin d'inclure la mise à jour des jetons
 
-## v1.0.3 (2023-05-08)
+## v1.0.3
 
-### Changements cassants
+Version publiée le : 2023-05-08
+
+### :rotating_light: Changements cassants
 
 - Fichier utilitaire compilé
   - https://github.com/cds-snc/gcds-utility/pull/45 - [2ad73e9](https://github.com/cds-snc/gcds-utility/pull/45/commits/2ad73e940da4689f5c83dba484c81dfe45009d26) \- Fichier utilitaire compilé renommé à gcds-utility.css
 
-### Correctif
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/46 - [fb1b236](https://github.com/cds-snc/gcds-utility/pull/46/commits/fb1b236f2e34f5ddf669dd84449485eafb555094) \- Ajout d'une classe pour le style de mise au point de Système de design
 - https://github.com/cds-snc/gcds-utility/pull/46 - [72f52e6](https://github.com/cds-snc/gcds-utility/pull/46/commits/72f52e6568be95ba64584668b4cf65498500ba67) \- Amélioration de l'affichage des liens par défaut
@@ -199,21 +209,27 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - https://github.com/cds-snc/gcds-utility/pull/45 - [d66ae57](https://github.com/cds-snc/gcds-utility/pull/45/commits/d66ae57e32dac3475ddb1bf895d9cf30a414d3f0) \- Ajustement des points d'arrêt pour qu'ils soient alignés sur les points d'arrêt des composants
 - https://github.com/cds-snc/gcds-utility/pull/45 - [dc3d10a](https://github.com/cds-snc/gcds-utility/pull/45/commits/dc3d10a197104f8752a24f8a0530d13ead29f9ca) \- Mise à jour de la taille des icônes pour qu'elles correspondent au composant icône
 
-## v1.0.2 (2023-03-23)
+## v1.0.2
 
-### Correctif
+Version publiée le : 2023-03-23
+
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/36 - [ed40eca](https://github.com/cds-snc/gcds-utility/pull/36/commits/ed40ecaf959384f751ca1875af91e598c6cf3873) \- Passer à l'utilisation du package gcds-tokens
 
-## v1.0.1 (2023-03-13)
+## v1.0.1
 
-### Correctif
+Version publiée le : 2023-03-13
+
+### :jigsaw: Correctif
 
 - https://github.com/cds-snc/gcds-utility/pull/28 - [61cc8f6](https://github.com/cds-snc/gcds-utility/commit/61cc8f602a406ab4e635d1e9431428d073651a91) \- Mise à jour des URL du fichier lisez-moi et du package.json
 - https://github.com/cds-snc/gcds-utility/pull/28 - [5709c03](https://github.com/cds-snc/gcds-utility/commit/5709c035c3a3925ba315d7f0643cdbbd83228d8e) \- Mise à jour de l'URL du référentiel + issues (problèmes)
 
-## v1.0.0 (2023-02-10)
+## v1.0.0
 
-### Nouvelles fonctionnalités
+Version publiée le : 2023-02-10
+
+### :rocket: Nouvelles fonctionnalités
 
 - Première version de l'infrastructure utilitaire de Système de design GC
