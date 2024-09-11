@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0) (2024-09-11)
+
+
+### :rocket: New Features
+
+* add focus styling to links ([#179](https://github.com/cds-snc/gcds-utility/issues/179)) ([f0e2861](https://github.com/cds-snc/gcds-utility/commit/f0e2861b50657aeea20731550b75ae76f7c323c6))
+
 ## [1.3.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.2...gcds-utility-v1.3.0)
 
 Released on: 2024-08-01
