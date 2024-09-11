@@ -9,6 +9,7 @@
   --gcds-color-blue-100: #d7e5f5;
   --gcds-color-blue-500: #6584a6; /* Must contrast 3:1 with white */
   --gcds-color-blue-700: #33465c; /* Must contrast 7:1 with white */
+  --gcds-color-blue-750: #1e7b96;
   --gcds-color-blue-800: #2b4380;
   --gcds-color-blue-850: #0535d2; /* Focus and hover colour */
   --gcds-color-blue-900: #26374a;
@@ -25,6 +26,7 @@
   --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
   --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
   --gcds-color-purple-700: #7532b8; /* Must contrast 7:1 with white */
+  --gcds-color-orange-700: #be5a00; /* Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
   --gcds-color-red-500: #d3080c; /* Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
@@ -224,8 +226,18 @@ a {
     text-decoration-thickness: var(--gcds-link-hover-decoration-thickness);
   }
 }
-a:visited:not([class*=link-light]) {
+a:visited:not(:focus):not([class*=link-light]) {
   color: var(--gcds-link-visited);
+}
+a:focus {
+  background-color: var(--gcds-focus-background);
+  color: var(--gcds-focus-text);
+  border-radius: var(--gcds-border-radius-sm);
+  -webkit-box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-text);
+          box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-text);
+  outline: var(--gcds-outline-width) solid var(--gcds-focus-background);
+  outline-offset: var(--gcds-border-width-md);
+  text-decoration: none;
 }
 
 body {
