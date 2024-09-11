@@ -22,8 +22,18 @@ a {
     }
   }
 
-  &:visited:not([class*='link-light']) {
+  &:visited:not(:focus):not([class*='link-light']) {
     color: var(--gcds-link-visited);
+  }
+
+  &:focus {
+    background-color: var(--gcds-focus-background);
+    color: var(--gcds-focus-text);
+    border-radius: var(--gcds-border-radius-sm);
+    box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-focus-text);
+    outline: var(--gcds-outline-width) solid var(--gcds-focus-background);
+    outline-offset: var(--gcds-border-width-md);
+    text-decoration: none;
   }
 }
 
