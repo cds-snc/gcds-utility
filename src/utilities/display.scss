@@ -13,6 +13,8 @@ $display: (
   inline-table: inline-table,
   none: none,
   table: table,
+  table-cell: table-cell,
+  table-row	: table-row	,
 ) !default;
 
 @include generateClasses($display, 'd-', display);
