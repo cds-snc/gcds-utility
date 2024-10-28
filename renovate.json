@@ -3,8 +3,5 @@
   "extends": ["local>cds-snc/renovate-config"],
   "lockFileMaintenance": {
     "schedule": ["before 6am on the first day of the month"]
-  },
-  "changelog": {
-    "template": "{{version}}\n\nReleased on: {{date}}"
   }
 }
