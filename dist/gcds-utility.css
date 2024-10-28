@@ -9,7 +9,6 @@
   --gcds-color-blue-100: #d7e5f5;
   --gcds-color-blue-500: #6584a6; /* Must contrast 3:1 with white */
   --gcds-color-blue-700: #33465c; /* Must contrast 7:1 with white */
-  --gcds-color-blue-750: #1e7b96;
   --gcds-color-blue-800: #2b4380;
   --gcds-color-blue-850: #0535d2; /* Focus and hover colour */
   --gcds-color-blue-900: #26374a;
@@ -26,7 +25,6 @@
   --gcds-color-green-500: #289f58; /* Must contrast 3:1 with white */
   --gcds-color-green-700: #03662a; /* Must contrast 7:1 with white */
   --gcds-color-purple-700: #7532b8; /* Must contrast 7:1 with white */
-  --gcds-color-orange-700: #be5a00; /* Must contrast 7:1 with white */
   --gcds-color-red-100: #fbddda;
   --gcds-color-red-500: #d3080c; /* Must contrast 3:1 with white */
   --gcds-color-red-700: #a62a1e; /* Must contrast 7:1 with white */
@@ -6891,6 +6889,14 @@ table {
   display: table;
 }
 
+.d-table-cell {
+  display: table-cell;
+}
+
+.d-table-row {
+  display: table-row;
+}
+
 .hover\:d-block:hover {
   display: block;
 }
@@ -6933,6 +6939,14 @@ table {
 
 .hover\:d-table:hover {
   display: table;
+}
+
+.hover\:d-table-cell:hover {
+  display: table-cell;
+}
+
+.hover\:d-table-row:hover {
+  display: table-row;
 }
 
 .focus\:d-block:focus {
@@ -6979,6 +6993,14 @@ table {
   display: table;
 }
 
+.focus\:d-table-cell:focus {
+  display: table-cell;
+}
+
+.focus\:d-table-row:focus {
+  display: table-row;
+}
+
 @media only screen and (width >= 30em) {
   .xs\:d-block {
     display: block;
@@ -7014,6 +7036,12 @@ table {
   .xs\:d-table {
     display: table;
   }
+  .xs\:d-table-cell {
+    display: table-cell;
+  }
+  .xs\:d-table-row {
+    display: table-row;
+  }
   .xs\:hover\:d-block:hover {
     display: block;
   }
@@ -7048,6 +7076,12 @@ table {
   .xs\:hover\:d-table:hover {
     display: table;
   }
+  .xs\:hover\:d-table-cell:hover {
+    display: table-cell;
+  }
+  .xs\:hover\:d-table-row:hover {
+    display: table-row;
+  }
   .xs\:focus\:d-block:focus {
     display: block;
   }
@@ -7081,6 +7115,12 @@ table {
   }
   .xs\:focus\:d-table:focus {
     display: table;
+  }
+  .xs\:focus\:d-table-cell:focus {
+    display: table-cell;
+  }
+  .xs\:focus\:d-table-row:focus {
+    display: table-row;
   }
 }
 @media only screen and (width >= 40em) {
@@ -7118,6 +7158,12 @@ table {
   .sm\:d-table {
     display: table;
   }
+  .sm\:d-table-cell {
+    display: table-cell;
+  }
+  .sm\:d-table-row {
+    display: table-row;
+  }
   .sm\:hover\:d-block:hover {
     display: block;
   }
@@ -7152,6 +7198,12 @@ table {
   .sm\:hover\:d-table:hover {
     display: table;
   }
+  .sm\:hover\:d-table-cell:hover {
+    display: table-cell;
+  }
+  .sm\:hover\:d-table-row:hover {
+    display: table-row;
+  }
   .sm\:focus\:d-block:focus {
     display: block;
   }
@@ -7185,6 +7237,12 @@ table {
   }
   .sm\:focus\:d-table:focus {
     display: table;
+  }
+  .sm\:focus\:d-table-cell:focus {
+    display: table-cell;
+  }
+  .sm\:focus\:d-table-row:focus {
+    display: table-row;
   }
 }
 @media only screen and (width >= 48em) {
@@ -7222,6 +7280,12 @@ table {
   .md\:d-table {
     display: table;
   }
+  .md\:d-table-cell {
+    display: table-cell;
+  }
+  .md\:d-table-row {
+    display: table-row;
+  }
   .md\:hover\:d-block:hover {
     display: block;
   }
@@ -7256,6 +7320,12 @@ table {
   .md\:hover\:d-table:hover {
     display: table;
   }
+  .md\:hover\:d-table-cell:hover {
+    display: table-cell;
+  }
+  .md\:hover\:d-table-row:hover {
+    display: table-row;
+  }
   .md\:focus\:d-block:focus {
     display: block;
   }
@@ -7289,6 +7359,12 @@ table {
   }
   .md\:focus\:d-table:focus {
     display: table;
+  }
+  .md\:focus\:d-table-cell:focus {
+    display: table-cell;
+  }
+  .md\:focus\:d-table-row:focus {
+    display: table-row;
   }
 }
 @media only screen and (width >= 64em) {
@@ -7326,6 +7402,12 @@ table {
   .lg\:d-table {
     display: table;
   }
+  .lg\:d-table-cell {
+    display: table-cell;
+  }
+  .lg\:d-table-row {
+    display: table-row;
+  }
   .lg\:hover\:d-block:hover {
     display: block;
   }
@@ -7360,6 +7442,12 @@ table {
   .lg\:hover\:d-table:hover {
     display: table;
   }
+  .lg\:hover\:d-table-cell:hover {
+    display: table-cell;
+  }
+  .lg\:hover\:d-table-row:hover {
+    display: table-row;
+  }
   .lg\:focus\:d-block:focus {
     display: block;
   }
@@ -7393,6 +7481,12 @@ table {
   }
   .lg\:focus\:d-table:focus {
     display: table;
+  }
+  .lg\:focus\:d-table-cell:focus {
+    display: table-cell;
+  }
+  .lg\:focus\:d-table-row:focus {
+    display: table-row;
   }
 }
 @media only screen and (width >= 80em) {
@@ -7430,6 +7524,12 @@ table {
   .xl\:d-table {
     display: table;
   }
+  .xl\:d-table-cell {
+    display: table-cell;
+  }
+  .xl\:d-table-row {
+    display: table-row;
+  }
   .xl\:hover\:d-block:hover {
     display: block;
   }
@@ -7464,6 +7564,12 @@ table {
   .xl\:hover\:d-table:hover {
     display: table;
   }
+  .xl\:hover\:d-table-cell:hover {
+    display: table-cell;
+  }
+  .xl\:hover\:d-table-row:hover {
+    display: table-row;
+  }
   .xl\:focus\:d-block:focus {
     display: block;
   }
@@ -7497,6 +7603,12 @@ table {
   }
   .xl\:focus\:d-table:focus {
     display: table;
+  }
+  .xl\:focus\:d-table-cell:focus {
+    display: table-cell;
+  }
+  .xl\:focus\:d-table-row:focus {
+    display: table-row;
   }
 }
 /* --- Flex --- */
