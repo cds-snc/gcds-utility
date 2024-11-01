@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Justify Content --- */
 
@@ -11,7 +11,7 @@ $justifyContent: (
   start: flex-start,
 ) !default;
 
-@include generateClasses($justifyContent, 'justify-content-', justify-content);
+@include mixins.generateClasses($justifyContent, 'justify-content-', justify-content);
 
 /* --- Justify Items --- */
 
@@ -22,7 +22,7 @@ $justifyItems: (
   stretch: stretch,
 ) !default;
 
-@include generateClasses($justifyItems, 'justify-items-', justify-items);
+@include mixins.generateClasses($justifyItems, 'justify-items-', justify-items);
 
 /* --- Justify Self --- */
 
@@ -34,4 +34,4 @@ $justifySelf: (
   stretch: stretch,
 ) !default;
 
-@include generateClasses($justifySelf, 'justify-self-', justify-self);
+@include mixins.generateClasses($justifySelf, 'justify-self-', justify-self);

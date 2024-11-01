@@ -1,4 +1,5 @@
-@import './mixins.scss';
+@use './defaults.scss' as *;
+@use './mixins.scss' as mixins;
 
 /* --- Margin Spacing Classes --- */
 
@@ -38,7 +39,7 @@
 
 // Generates padding classes with states and breakpoints.
 @each $classSide, $side in $sides {
-  @include generateClasses(
+  @include mixins.generateClasses(
     $spacing,
     'p' + #{$classSide} + '-',
     padding#{$side}

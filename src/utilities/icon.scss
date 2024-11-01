@@ -1,4 +1,4 @@
-@import './defaults.scss';
+@use './defaults.scss' as *;
 
 // Import Font Awesome Icons
 @import url('https://unpkg.com/font-awesome/css/font-awesome.min.css');

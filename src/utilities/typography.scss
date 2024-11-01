@@ -1,5 +1,5 @@
-@import './defaults.scss';
-@import './mixins.scss';
+@use './defaults.scss' as *;
+@use './mixins.scss' as mixins;
 
 /* --- Font --- */
 
@@ -37,7 +37,7 @@ $fontFamily: (
   icon: var(--gcds-font-families-icon),
 ) !default;
 
-@include generateClasses($fontFamily, 'font-family-', font-family);
+@include mixins.generateClasses($fontFamily, 'font-family-', font-family);
 
 /* --- Font Sizes --- */
 
@@ -73,7 +73,7 @@ $fontStyle: (
   normal: normal,
 ) !default;
 
-@include generateClasses($fontStyle, 'font-', font-style);
+@include mixins.generateClasses($fontStyle, 'font-', font-style);
 
 /* --- Font Weights --- */
 
@@ -85,7 +85,7 @@ $fontWeight: (
   bold: var(--gcds-font-weights-bold),
 ) !default;
 
-@include generateClasses($fontWeight, 'font-', font-weight);
+@include mixins.generateClasses($fontWeight, 'font-', font-weight);
 
 /* --- Line Heights --- */
 
@@ -100,7 +100,7 @@ $lineHeight: (
   text: var(--gcds-line-heights-text),
 ) !default;
 
-@include generateClasses($lineHeight, 'line-', line-height);
+@include mixins.generateClasses($lineHeight, 'line-', line-height);
 
 /* --- Text Align --- */
 
@@ -111,7 +111,7 @@ $textAlign: (
   right: right,
 ) !default;
 
-@include generateClasses($textAlign, 'text-', text-align);
+@include mixins.generateClasses($textAlign, 'text-', text-align);
 
 /* --- Text Colours --- */
 
@@ -124,15 +124,15 @@ $textColors: (
   transparent: transparent,
 ) !default;
 
-@include generateClasses($textColors, 'text-', color);
+@include mixins.generateClasses($textColors, 'text-', color);
 
 /* --- Text Overflow --- */
 
-@include classWithBreakpoints('text-clip') {
+@include mixins.classWithBreakpoints('text-clip') {
   text-overflow: clip;
 }
 
-@include classWithBreakpoints('text-truncate') {
+@include mixins.classWithBreakpoints('text-truncate') {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -147,7 +147,7 @@ $textTransform: (
   uppercase: uppercase,
 ) !default;
 
-@include generateClasses($textTransform, 'text-', text-transform);
+@include mixins.generateClasses($textTransform, 'text-', text-transform);
 
 /* --- Word Break --- */
 
@@ -157,4 +157,4 @@ $wordBreak: (
   word: break-word,
 ) !default;
 
-@include generateClasses($wordBreak, 'break-', word-break);
+@include mixins.generateClasses($wordBreak, 'break-', word-break);

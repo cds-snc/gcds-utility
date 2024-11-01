@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Background Colours --- */
 
@@ -16,4 +16,4 @@ $backgroundColors: (
   white: var(--gcds-bg-white),
 ) !default;
 
-@include generateClasses($backgroundColors, 'bg-', background-color);
+@include mixins.generateClasses($backgroundColors, 'bg-', background-color);

@@ -1,4 +1,5 @@
-@import './mixins.scss';
+@use './defaults.scss' as *;
+@use './mixins.scss' as mixins;
 
 /* --- Flex --- */
 
@@ -9,7 +10,7 @@ $flex: (
   none: none,
 ) !default;
 
-@include generateClasses($flex, 'flex-', flex);
+@include mixins.generateClasses($flex, 'flex-', flex);
 
 /* --- Flex Direction --- */
 
@@ -20,7 +21,7 @@ $flexDirection: (
   row-reverse: row-reverse,
 ) !default;
 
-@include generateClasses($flexDirection, 'flex-', flex-direction);
+@include mixins.generateClasses($flexDirection, 'flex-', flex-direction);
 
 /* --- Flex Wrap --- */
 
@@ -30,7 +31,7 @@ $flexWrap: (
   wrap-reverse: wrap-reverse,
 ) !default;
 
-@include generateClasses($flexWrap, 'flex-', flex-wrap);
+@include mixins.generateClasses($flexWrap, 'flex-', flex-wrap);
 
 /* --- Flex Grow --- */
 
@@ -39,7 +40,7 @@ $flexGrow: (
   grow-0: 0,
 ) !default;
 
-@include generateClasses($flexGrow, 'flex-', flex-grow);
+@include mixins.generateClasses($flexGrow, 'flex-', flex-grow);
 
 /* --- Flex Shrink --- */
 
@@ -48,7 +49,7 @@ $flexShrink: (
   shrink-0: 0,
 ) !default;
 
-@include generateClasses($flexShrink, 'flex-', flex-shrink);
+@include mixins.generateClasses($flexShrink, 'flex-', flex-shrink);
 
 /* --- Order --- */
 
@@ -79,4 +80,4 @@ $order: (
   none: 0,
 ) !default;
 
-@include generateClasses($order, 'order-', order);
+@include mixins.generateClasses($order, 'order-', order);

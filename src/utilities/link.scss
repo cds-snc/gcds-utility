@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Link Color --- */
 
@@ -9,7 +9,7 @@ $linkColor: (
   light: var(--gcds-link-light),
 ) !default;
 
-@include generateClasses($linkColor, 'link-', color);
+@include mixins.generateClasses($linkColor, 'link-', color);
 
 /* --- Link Size --- */
 
@@ -35,11 +35,11 @@ $fontSize: (
 
 /* --- Link Text Decoration --- */
 
-@include classWithBreakpoints('link-no-underline') {
+@include mixins.classWithBreakpoints('link-no-underline') {
   text-decoration: none;
 }
 
-@include classWithBreakpoints('link-underline') {
+@include mixins.classWithBreakpoints('link-underline') {
   text-decoration: underline;
   text-underline-position: under;
 }

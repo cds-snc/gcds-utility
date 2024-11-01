@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Cursor --- */
 
@@ -15,4 +15,4 @@ $cursor: (
   zoom-out: zoom-out,
 ) !default;
 
-@include generateClasses($cursor, 'cursor-', cursor);
+@include mixins.generateClasses($cursor, 'cursor-', cursor);

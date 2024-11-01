@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Align Content --- */
 
@@ -11,7 +11,7 @@ $alignContent: (
   start: flex-start,
 ) !default;
 
-@include generateClasses($alignContent, 'align-content-', align-content);
+@include mixins.generateClasses($alignContent, 'align-content-', align-content);
 
 /* --- Align Items --- */
 
@@ -23,7 +23,7 @@ $alignItems: (
   stretch: stretch,
 ) !default;
 
-@include generateClasses($alignItems, 'align-items-', align-items);
+@include mixins.generateClasses($alignItems, 'align-items-', align-items);
 
 /* --- Align Self --- */
 
@@ -36,4 +36,4 @@ $alignSelf: (
   stretch: stretch,
 ) !default;
 
-@include generateClasses($alignSelf, 'align-self-', align-self);
+@include mixins.generateClasses($alignSelf, 'align-self-', align-self);

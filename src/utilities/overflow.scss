@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Overflow --- */
 
@@ -8,12 +8,12 @@ $overflow: (
   visible: visible,
 ) !default;
 
-@include generateClasses($overflow, 'overflow-', overflow);
+@include mixins.generateClasses($overflow, 'overflow-', overflow);
 
 /* --- Overflow X --- */
 
-@include generateClasses($overflow, 'overflow-x-', overflow-x);
+@include mixins.generateClasses($overflow, 'overflow-x-', overflow-x);
 
 /* --- Overflow Y --- */
 
-@include generateClasses($overflow, 'overflow-y-', overflow-y);
+@include mixins.generateClasses($overflow, 'overflow-y-', overflow-y);
