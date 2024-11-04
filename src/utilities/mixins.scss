@@ -1,4 +1,4 @@
-@import './defaults.scss';
+@use './defaults.scss' as *;
 
 // --- Add breakpoints with class ---
 // This mixin generates a CSS class with support for different states and breakpoints.

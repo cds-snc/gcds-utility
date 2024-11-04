@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Container Sizes --- */
 
@@ -11,4 +11,4 @@ $container: (
   full: var(--gcds-container-full),
 ) !default;
 
-@include generateClasses($container, 'container-', max-width);
+@include mixins.generateClasses($container, 'container-', max-width);

@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Pointer Events --- */
 
@@ -7,4 +7,4 @@ $pointerEvents: (
   none: none,
 ) !default;
 
-@include generateClasses($pointerEvents, 'pointer-events-', pointer-events);
+@include mixins.generateClasses($pointerEvents, 'pointer-events-', pointer-events);

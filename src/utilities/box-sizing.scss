@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Box Sizing --- */
 
@@ -7,4 +7,4 @@ $boxSizing: (
   content: content-box,
 ) !default;
 
-@include generateClasses($boxSizing, 'box-', box-sizing);
+@include mixins.generateClasses($boxSizing, 'box-', box-sizing);

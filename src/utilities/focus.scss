@@ -1,8 +1,8 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Focus --- */
 
-@include classWithBreakpoints('focus\\:default', 'false') {
+@include mixins.classWithBreakpoints('focus\\:default', 'false') {
   &:focus {
     border-radius: var(--gcds-border-radius-sm);
     background-color: var(--gcds-focus-background);

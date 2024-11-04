@@ -1,11 +1,12 @@
-@import './mixins.scss';
+@use './defaults.scss' as *;
+@use './mixins.scss' as mixins;
 
 /* --- Gap --- */
 
-@include generateClasses($spacing, 'gap-', gap);
+@include mixins.generateClasses($spacing, 'gap-', gap);
 
 // --- Gap Column ---
-@include generateClasses($spacing, 'gap-x-', column-gap);
+@include mixins.generateClasses($spacing, 'gap-x-', column-gap);
 
 // --- Gap Row ---
-@include generateClasses($spacing, 'gap-y-', row-gap);
+@include mixins.generateClasses($spacing, 'gap-y-', row-gap);

@@ -1,4 +1,4 @@
-@import './mixins.scss';
+@use './mixins.scss' as mixins;
 
 /* --- Visibility --- */
 
@@ -7,10 +7,10 @@ $visibility: (
   visible: visible,
 ) !default;
 
-@include generateClasses($visibility, 'visibility-', visibility);
+@include mixins.generateClasses($visibility, 'visibility-', visibility);
 
 // Text for screen readers only
-@include classWithBreakpoints('visibility-sr-only') {
+@include mixins.classWithBreakpoints('visibility-sr-only') {
   display: block;
   width: 0;
   height: 0;
