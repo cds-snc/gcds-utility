@@ -2,6 +2,7 @@
 @use '../node_modules/@cdssnc/gcds-tokens/build/web/css/base.css';
 @use '../node_modules/@cdssnc/gcds-tokens/build/web/css/global.css';
 @use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/heading.css';
+@use '../node_modules/@cdssnc/gcds-tokens/build/web/css/components/link.css';
 
 // GCDS Utility
 @use 'utilities/reset.scss';
@@ -22,7 +23,7 @@
 @use 'utilities/icon.scss';
 @use 'utilities/img.scss';
 @use 'utilities/justify.scss';
-@use 'utilities/link.scss';
+@use 'utilities/link.scss' as linkUtilities;
 @use 'utilities/list-style.scss';
 @use 'utilities/overflow.scss';
 @use 'utilities/pointer-events.scss';

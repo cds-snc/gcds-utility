@@ -10,6 +10,6 @@
     text-decoration: none;
     box-shadow: 0 0 0 var(--gcds-border-width-md) var(--gcds-color-grayscale-0);
     outline-offset: var(--gcds-border-width-md);
-    outline: var(--gcds-spacing-50) solid var(--gcds-focus-background);
+    outline: var(--gcds-border-width-lg) solid var(--gcds-focus-background);
   }
 }
