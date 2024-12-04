@@ -11,7 +11,7 @@ $font: (
   h5: h5,
   h6: h6,
   text: text,
-  caption: caption,
+  text-small: text-small,
 ) !default;
 
 // Generates font classes based on the $font list.
@@ -49,7 +49,7 @@ $fontSize: (
   h5: h5,
   h6: h6,
   text: text,
-  caption: caption,
+  text-small: text-small,
 ) !default;
 
 // Generates font-size classes based on the $fontSize list.
@@ -90,7 +90,6 @@ $fontWeight: (
 /* --- Line Heights --- */
 
 $lineHeight: (
-  caption: var(--gcds-line-heights-caption),
   h1: var(--gcds-line-heights-h1),
   h2: var(--gcds-line-heights-h2),
   h3: var(--gcds-line-heights-h3),
@@ -98,6 +97,7 @@ $lineHeight: (
   h5: var(--gcds-line-heights-h5),
   h6: var(--gcds-line-heights-h6),
   text: var(--gcds-line-heights-text),
+  text-small: var(--gcds-line-heights-text-small),
 ) !default;
 
 @include mixins.generateClasses($lineHeight, 'line-', line-height);

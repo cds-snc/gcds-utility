@@ -405,11 +405,11 @@ p {
 }
 
 small {
-  font: var(--gcds-font-caption);
+  font: var(--gcds-font-text-small);
 }
 @media only screen and (width < 48em) {
   small {
-    font: var(--gcds-font-caption-mobile);
+    font: var(--gcds-font-text-small-mobile);
   }
 }
 
@@ -19459,34 +19459,9 @@ table {
 }
 
 /* --- Icon Sizes --- */
-.icon-caption {
-  font-size: var(--gcds-font-sizes-caption);
-  line-height: var(--gcds-line-heights-caption);
-}
-
-.icon-text {
-  font-size: var(--gcds-font-sizes-text);
-  line-height: var(--gcds-line-heights-text);
-}
-
-.icon-h6 {
-  font-size: var(--gcds-font-sizes-h6);
-  line-height: var(--gcds-line-heights-h6);
-}
-
-.icon-h5 {
-  font-size: var(--gcds-font-sizes-h5);
-  line-height: var(--gcds-line-heights-h5);
-}
-
-.icon-h4 {
-  font-size: var(--gcds-font-sizes-h4);
-  line-height: var(--gcds-line-heights-h4);
-}
-
-.icon-h3 {
-  font-size: var(--gcds-font-sizes-h3);
-  line-height: var(--gcds-line-heights-h3);
+.icon-h1 {
+  font-size: var(--gcds-font-sizes-h1);
+  line-height: var(--gcds-line-heights-h1);
 }
 
 .icon-h2 {
@@ -19494,44 +19469,34 @@ table {
   line-height: var(--gcds-line-heights-h2);
 }
 
-.icon-h1 {
-  font-size: var(--gcds-font-sizes-h1);
-  line-height: var(--gcds-line-heights-h1);
-}
-
-.hover\:icon-caption:hover {
-  font-size: var(--gcds-font-sizes-caption);
-  line-height: var(--gcds-line-heights-caption);
-}
-
-.hover\:icon-text:hover {
-  font-size: var(--gcds-font-sizes-text);
-  line-height: var(--gcds-line-heights-text);
-}
-
-.hover\:icon-h6:hover {
-  font-size: var(--gcds-font-sizes-h6);
-  line-height: var(--gcds-line-heights-h6);
-}
-
-.hover\:icon-h5:hover {
-  font-size: var(--gcds-font-sizes-h5);
-  line-height: var(--gcds-line-heights-h5);
-}
-
-.hover\:icon-h4:hover {
-  font-size: var(--gcds-font-sizes-h4);
-  line-height: var(--gcds-line-heights-h4);
-}
-
-.hover\:icon-h3:hover {
+.icon-h3 {
   font-size: var(--gcds-font-sizes-h3);
   line-height: var(--gcds-line-heights-h3);
 }
 
-.hover\:icon-h2:hover {
-  font-size: var(--gcds-font-sizes-h2);
-  line-height: var(--gcds-line-heights-h2);
+.icon-h4 {
+  font-size: var(--gcds-font-sizes-h4);
+  line-height: var(--gcds-line-heights-h4);
+}
+
+.icon-h5 {
+  font-size: var(--gcds-font-sizes-h5);
+  line-height: var(--gcds-line-heights-h5);
+}
+
+.icon-h6 {
+  font-size: var(--gcds-font-sizes-h6);
+  line-height: var(--gcds-line-heights-h6);
+}
+
+.icon-text {
+  font-size: var(--gcds-font-sizes-text);
+  line-height: var(--gcds-line-heights-text);
+}
+
+.icon-text-small {
+  font-size: var(--gcds-font-sizes-text-small);
+  line-height: var(--gcds-line-heights-text-small);
 }
 
 .hover\:icon-h1:hover {
@@ -19539,39 +19504,39 @@ table {
   line-height: var(--gcds-line-heights-h1);
 }
 
-.focus\:icon-caption:focus {
-  font-size: var(--gcds-font-sizes-caption);
-  line-height: var(--gcds-line-heights-caption);
+.hover\:icon-h2:hover {
+  font-size: var(--gcds-font-sizes-h2);
+  line-height: var(--gcds-line-heights-h2);
 }
 
-.focus\:icon-text:focus {
-  font-size: var(--gcds-font-sizes-text);
-  line-height: var(--gcds-line-heights-text);
-}
-
-.focus\:icon-h6:focus {
-  font-size: var(--gcds-font-sizes-h6);
-  line-height: var(--gcds-line-heights-h6);
-}
-
-.focus\:icon-h5:focus {
-  font-size: var(--gcds-font-sizes-h5);
-  line-height: var(--gcds-line-heights-h5);
-}
-
-.focus\:icon-h4:focus {
-  font-size: var(--gcds-font-sizes-h4);
-  line-height: var(--gcds-line-heights-h4);
-}
-
-.focus\:icon-h3:focus {
+.hover\:icon-h3:hover {
   font-size: var(--gcds-font-sizes-h3);
   line-height: var(--gcds-line-heights-h3);
 }
 
-.focus\:icon-h2:focus {
-  font-size: var(--gcds-font-sizes-h2);
-  line-height: var(--gcds-line-heights-h2);
+.hover\:icon-h4:hover {
+  font-size: var(--gcds-font-sizes-h4);
+  line-height: var(--gcds-line-heights-h4);
+}
+
+.hover\:icon-h5:hover {
+  font-size: var(--gcds-font-sizes-h5);
+  line-height: var(--gcds-line-heights-h5);
+}
+
+.hover\:icon-h6:hover {
+  font-size: var(--gcds-font-sizes-h6);
+  line-height: var(--gcds-line-heights-h6);
+}
+
+.hover\:icon-text:hover {
+  font-size: var(--gcds-font-sizes-text);
+  line-height: var(--gcds-line-heights-text);
+}
+
+.hover\:icon-text-small:hover {
+  font-size: var(--gcds-font-sizes-text-small);
+  line-height: var(--gcds-line-heights-text-small);
 }
 
 .focus\:icon-h1:focus {
@@ -19579,494 +19544,529 @@ table {
   line-height: var(--gcds-line-heights-h1);
 }
 
+.focus\:icon-h2:focus {
+  font-size: var(--gcds-font-sizes-h2);
+  line-height: var(--gcds-line-heights-h2);
+}
+
+.focus\:icon-h3:focus {
+  font-size: var(--gcds-font-sizes-h3);
+  line-height: var(--gcds-line-heights-h3);
+}
+
+.focus\:icon-h4:focus {
+  font-size: var(--gcds-font-sizes-h4);
+  line-height: var(--gcds-line-heights-h4);
+}
+
+.focus\:icon-h5:focus {
+  font-size: var(--gcds-font-sizes-h5);
+  line-height: var(--gcds-line-heights-h5);
+}
+
+.focus\:icon-h6:focus {
+  font-size: var(--gcds-font-sizes-h6);
+  line-height: var(--gcds-line-heights-h6);
+}
+
+.focus\:icon-text:focus {
+  font-size: var(--gcds-font-sizes-text);
+  line-height: var(--gcds-line-heights-text);
+}
+
+.focus\:icon-text-small:focus {
+  font-size: var(--gcds-font-sizes-text-small);
+  line-height: var(--gcds-line-heights-text-small);
+}
+
 @media only screen and (width > 30em) {
-  .xs\:icon-caption {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .xs\:icon-text {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .xs\:icon-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xs\:icon-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xs\:icon-h4 {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .xs\:icon-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .xs\:icon-h1 {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .xs\:icon-h2 {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .xs\:icon-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
-  }
-  .xs\:hover\:icon-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .xs\:hover\:icon-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .xs\:hover\:icon-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xs\:hover\:icon-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xs\:hover\:icon-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .xs\:hover\:icon-h3:hover {
+  .xs\:icon-h3 {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .xs\:hover\:icon-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .xs\:icon-h4 {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .xs\:icon-h5 {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xs\:icon-h6 {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xs\:icon-text {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xs\:icon-text-small {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xs\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-  .xs\:focus\:icon-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .xs\:hover\:icon-h2:hover {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .xs\:focus\:icon-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .xs\:focus\:icon-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xs\:focus\:icon-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xs\:focus\:icon-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .xs\:focus\:icon-h3:focus {
+  .xs\:hover\:icon-h3:hover {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .xs\:focus\:icon-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .xs\:hover\:icon-h4:hover {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .xs\:hover\:icon-h5:hover {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xs\:hover\:icon-h6:hover {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xs\:hover\:icon-text:hover {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xs\:hover\:icon-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xs\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-}
-@media only screen and (width > 40em) {
-  .sm\:icon-caption {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .xs\:focus\:icon-h2:focus {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .sm\:icon-text {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
+  .xs\:focus\:icon-h3:focus {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
   }
-  .sm\:icon-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .sm\:icon-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .sm\:icon-h4 {
+  .xs\:focus\:icon-h4:focus {
     font-size: var(--gcds-font-sizes-h4);
     line-height: var(--gcds-line-heights-h4);
   }
-  .sm\:icon-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .xs\:focus\:icon-h5:focus {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xs\:focus\:icon-h6:focus {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xs\:focus\:icon-text:focus {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xs\:focus\:icon-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
+  }
+}
+@media only screen and (width > 40em) {
+  .sm\:icon-h1 {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .sm\:icon-h2 {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .sm\:icon-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
-  }
-  .sm\:hover\:icon-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .sm\:hover\:icon-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .sm\:hover\:icon-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .sm\:hover\:icon-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .sm\:hover\:icon-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .sm\:hover\:icon-h3:hover {
+  .sm\:icon-h3 {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .sm\:hover\:icon-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .sm\:icon-h4 {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .sm\:icon-h5 {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .sm\:icon-h6 {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .sm\:icon-text {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .sm\:icon-text-small {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .sm\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-  .sm\:focus\:icon-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .sm\:hover\:icon-h2:hover {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .sm\:focus\:icon-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .sm\:focus\:icon-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .sm\:focus\:icon-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .sm\:focus\:icon-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .sm\:focus\:icon-h3:focus {
+  .sm\:hover\:icon-h3:hover {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .sm\:focus\:icon-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .sm\:hover\:icon-h4:hover {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .sm\:hover\:icon-h5:hover {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .sm\:hover\:icon-h6:hover {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .sm\:hover\:icon-text:hover {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .sm\:hover\:icon-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .sm\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-}
-@media only screen and (width > 48em) {
-  .md\:icon-caption {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .sm\:focus\:icon-h2:focus {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .md\:icon-text {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
+  .sm\:focus\:icon-h3:focus {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
   }
-  .md\:icon-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .md\:icon-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .md\:icon-h4 {
+  .sm\:focus\:icon-h4:focus {
     font-size: var(--gcds-font-sizes-h4);
     line-height: var(--gcds-line-heights-h4);
   }
-  .md\:icon-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .sm\:focus\:icon-h5:focus {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .sm\:focus\:icon-h6:focus {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .sm\:focus\:icon-text:focus {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .sm\:focus\:icon-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
+  }
+}
+@media only screen and (width > 48em) {
+  .md\:icon-h1 {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .md\:icon-h2 {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .md\:icon-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
-  }
-  .md\:hover\:icon-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .md\:hover\:icon-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .md\:hover\:icon-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .md\:hover\:icon-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .md\:hover\:icon-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .md\:hover\:icon-h3:hover {
+  .md\:icon-h3 {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .md\:hover\:icon-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .md\:icon-h4 {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .md\:icon-h5 {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .md\:icon-h6 {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .md\:icon-text {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .md\:icon-text-small {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .md\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-  .md\:focus\:icon-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .md\:hover\:icon-h2:hover {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .md\:focus\:icon-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .md\:focus\:icon-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .md\:focus\:icon-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .md\:focus\:icon-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .md\:focus\:icon-h3:focus {
+  .md\:hover\:icon-h3:hover {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .md\:focus\:icon-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .md\:hover\:icon-h4:hover {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .md\:hover\:icon-h5:hover {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .md\:hover\:icon-h6:hover {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .md\:hover\:icon-text:hover {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .md\:hover\:icon-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .md\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-}
-@media only screen and (width > 64em) {
-  .lg\:icon-caption {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .md\:focus\:icon-h2:focus {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .lg\:icon-text {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
+  .md\:focus\:icon-h3:focus {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
   }
-  .lg\:icon-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .lg\:icon-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .lg\:icon-h4 {
+  .md\:focus\:icon-h4:focus {
     font-size: var(--gcds-font-sizes-h4);
     line-height: var(--gcds-line-heights-h4);
   }
-  .lg\:icon-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .md\:focus\:icon-h5:focus {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .md\:focus\:icon-h6:focus {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .md\:focus\:icon-text:focus {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .md\:focus\:icon-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
+  }
+}
+@media only screen and (width > 64em) {
+  .lg\:icon-h1 {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .lg\:icon-h2 {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .lg\:icon-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
-  }
-  .lg\:hover\:icon-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .lg\:hover\:icon-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .lg\:hover\:icon-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .lg\:hover\:icon-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .lg\:hover\:icon-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .lg\:hover\:icon-h3:hover {
+  .lg\:icon-h3 {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .lg\:hover\:icon-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .lg\:icon-h4 {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .lg\:icon-h5 {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .lg\:icon-h6 {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .lg\:icon-text {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .lg\:icon-text-small {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .lg\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-  .lg\:focus\:icon-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .lg\:hover\:icon-h2:hover {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .lg\:focus\:icon-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .lg\:focus\:icon-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .lg\:focus\:icon-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .lg\:focus\:icon-h4:focus {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .lg\:focus\:icon-h3:focus {
+  .lg\:hover\:icon-h3:hover {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .lg\:focus\:icon-h2:focus {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .lg\:hover\:icon-h4:hover {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .lg\:hover\:icon-h5:hover {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .lg\:hover\:icon-h6:hover {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .lg\:hover\:icon-text:hover {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .lg\:hover\:icon-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .lg\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-}
-@media only screen and (width > 80em) {
-  .xl\:icon-caption {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .lg\:focus\:icon-h2:focus {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .xl\:icon-text {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
+  .lg\:focus\:icon-h3:focus {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
   }
-  .xl\:icon-h6 {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xl\:icon-h5 {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xl\:icon-h4 {
+  .lg\:focus\:icon-h4:focus {
     font-size: var(--gcds-font-sizes-h4);
     line-height: var(--gcds-line-heights-h4);
   }
-  .xl\:icon-h3 {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .lg\:focus\:icon-h5:focus {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .lg\:focus\:icon-h6:focus {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .lg\:focus\:icon-text:focus {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .lg\:focus\:icon-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
+  }
+}
+@media only screen and (width > 80em) {
+  .xl\:icon-h1 {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .xl\:icon-h2 {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .xl\:icon-h1 {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
-  }
-  .xl\:hover\:icon-caption:hover {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
-  }
-  .xl\:hover\:icon-text:hover {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
-  }
-  .xl\:hover\:icon-h6:hover {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xl\:hover\:icon-h5:hover {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xl\:hover\:icon-h4:hover {
-    font-size: var(--gcds-font-sizes-h4);
-    line-height: var(--gcds-line-heights-h4);
-  }
-  .xl\:hover\:icon-h3:hover {
+  .xl\:icon-h3 {
     font-size: var(--gcds-font-sizes-h3);
     line-height: var(--gcds-line-heights-h3);
   }
-  .xl\:hover\:icon-h2:hover {
-    font-size: var(--gcds-font-sizes-h2);
-    line-height: var(--gcds-line-heights-h2);
+  .xl\:icon-h4 {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .xl\:icon-h5 {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xl\:icon-h6 {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xl\:icon-text {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xl\:icon-text-small {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xl\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
   }
-  .xl\:focus\:icon-caption:focus {
-    font-size: var(--gcds-font-sizes-caption);
-    line-height: var(--gcds-line-heights-caption);
+  .xl\:hover\:icon-h2:hover {
+    font-size: var(--gcds-font-sizes-h2);
+    line-height: var(--gcds-line-heights-h2);
   }
-  .xl\:focus\:icon-text:focus {
-    font-size: var(--gcds-font-sizes-text);
-    line-height: var(--gcds-line-heights-text);
+  .xl\:hover\:icon-h3:hover {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
   }
-  .xl\:focus\:icon-h6:focus {
-    font-size: var(--gcds-font-sizes-h6);
-    line-height: var(--gcds-line-heights-h6);
-  }
-  .xl\:focus\:icon-h5:focus {
-    font-size: var(--gcds-font-sizes-h5);
-    line-height: var(--gcds-line-heights-h5);
-  }
-  .xl\:focus\:icon-h4:focus {
+  .xl\:hover\:icon-h4:hover {
     font-size: var(--gcds-font-sizes-h4);
     line-height: var(--gcds-line-heights-h4);
   }
-  .xl\:focus\:icon-h3:focus {
-    font-size: var(--gcds-font-sizes-h3);
-    line-height: var(--gcds-line-heights-h3);
+  .xl\:hover\:icon-h5:hover {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xl\:hover\:icon-h6:hover {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xl\:hover\:icon-text:hover {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xl\:hover\:icon-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
+  }
+  .xl\:focus\:icon-h1:focus {
+    font-size: var(--gcds-font-sizes-h1);
+    line-height: var(--gcds-line-heights-h1);
   }
   .xl\:focus\:icon-h2:focus {
     font-size: var(--gcds-font-sizes-h2);
     line-height: var(--gcds-line-heights-h2);
   }
-  .xl\:focus\:icon-h1:focus {
-    font-size: var(--gcds-font-sizes-h1);
-    line-height: var(--gcds-line-heights-h1);
+  .xl\:focus\:icon-h3:focus {
+    font-size: var(--gcds-font-sizes-h3);
+    line-height: var(--gcds-line-heights-h3);
+  }
+  .xl\:focus\:icon-h4:focus {
+    font-size: var(--gcds-font-sizes-h4);
+    line-height: var(--gcds-line-heights-h4);
+  }
+  .xl\:focus\:icon-h5:focus {
+    font-size: var(--gcds-font-sizes-h5);
+    line-height: var(--gcds-line-heights-h5);
+  }
+  .xl\:focus\:icon-h6:focus {
+    font-size: var(--gcds-font-sizes-h6);
+    line-height: var(--gcds-line-heights-h6);
+  }
+  .xl\:focus\:icon-text:focus {
+    font-size: var(--gcds-font-sizes-text);
+    line-height: var(--gcds-line-heights-text);
+  }
+  .xl\:focus\:icon-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small);
+    line-height: var(--gcds-line-heights-text-small);
   }
 }
 /* --- Images --- */
@@ -52995,12 +52995,12 @@ table {
   }
 }
 
-.font-caption {
-  font: var(--gcds-font-caption);
+.font-text-small {
+  font: var(--gcds-font-text-small);
 }
 @media only screen and (width < 48em) {
-  .font-caption {
-    font: var(--gcds-font-caption-mobile);
+  .font-text-small {
+    font: var(--gcds-font-text-small-mobile);
   }
 }
 
@@ -53067,12 +53067,12 @@ table {
   }
 }
 
-.hover\:font-caption:hover {
-  font: var(--gcds-font-caption);
+.hover\:font-text-small:hover {
+  font: var(--gcds-font-text-small);
 }
 @media only screen and (width < 48em) {
-  .hover\:font-caption:hover {
-    font: var(--gcds-font-caption-mobile);
+  .hover\:font-text-small:hover {
+    font: var(--gcds-font-text-small-mobile);
   }
 }
 
@@ -53139,12 +53139,12 @@ table {
   }
 }
 
-.focus\:font-caption:focus {
-  font: var(--gcds-font-caption);
+.focus\:font-text-small:focus {
+  font: var(--gcds-font-text-small);
 }
 @media only screen and (width < 48em) {
-  .focus\:font-caption:focus {
-    font: var(--gcds-font-caption-mobile);
+  .focus\:font-text-small:focus {
+    font: var(--gcds-font-text-small-mobile);
   }
 }
 
@@ -53451,12 +53451,12 @@ table {
   }
 }
 
-.font-size-caption {
-  font-size: var(--gcds-font-sizes-caption);
+.font-size-text-small {
+  font-size: var(--gcds-font-sizes-text-small);
 }
 @media only screen and (width < 48em) {
-  .font-size-caption {
-    font-size: var(--gcds-font-sizes-caption-mobile);
+  .font-size-text-small {
+    font-size: var(--gcds-font-sizes-text-small-mobile);
   }
 }
 
@@ -53523,12 +53523,12 @@ table {
   }
 }
 
-.hover\:font-size-caption:hover {
-  font-size: var(--gcds-font-sizes-caption);
+.hover\:font-size-text-small:hover {
+  font-size: var(--gcds-font-sizes-text-small);
 }
 @media only screen and (width < 48em) {
-  .hover\:font-size-caption:hover {
-    font-size: var(--gcds-font-sizes-caption-mobile);
+  .hover\:font-size-text-small:hover {
+    font-size: var(--gcds-font-sizes-text-small-mobile);
   }
 }
 
@@ -53595,12 +53595,12 @@ table {
   }
 }
 
-.focus\:font-size-caption:focus {
-  font-size: var(--gcds-font-sizes-caption);
+.focus\:font-size-text-small:focus {
+  font-size: var(--gcds-font-sizes-text-small);
 }
 @media only screen and (width < 48em) {
-  .focus\:font-size-caption:focus {
-    font-size: var(--gcds-font-sizes-caption-mobile);
+  .focus\:font-size-text-small:focus {
+    font-size: var(--gcds-font-sizes-text-small-mobile);
   }
 }
 
@@ -54026,10 +54026,6 @@ table {
   }
 }
 /* --- Line Heights --- */
-.line-caption {
-  line-height: var(--gcds-line-heights-caption);
-}
-
 .line-h1 {
   line-height: var(--gcds-line-heights-h1);
 }
@@ -54058,8 +54054,8 @@ table {
   line-height: var(--gcds-line-heights-text);
 }
 
-.hover\:line-caption:hover {
-  line-height: var(--gcds-line-heights-caption);
+.line-text-small {
+  line-height: var(--gcds-line-heights-text-small);
 }
 
 .hover\:line-h1:hover {
@@ -54090,8 +54086,8 @@ table {
   line-height: var(--gcds-line-heights-text);
 }
 
-.focus\:line-caption:focus {
-  line-height: var(--gcds-line-heights-caption);
+.hover\:line-text-small:hover {
+  line-height: var(--gcds-line-heights-text-small);
 }
 
 .focus\:line-h1:focus {
@@ -54122,10 +54118,11 @@ table {
   line-height: var(--gcds-line-heights-text);
 }
 
+.focus\:line-text-small:focus {
+  line-height: var(--gcds-line-heights-text-small);
+}
+
 @media only screen and (width >= 30em) {
-  .xs\:line-caption {
-    line-height: var(--gcds-line-heights-caption);
-  }
   .xs\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
@@ -54147,8 +54144,8 @@ table {
   .xs\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
-  .xs\:hover\:line-caption:hover {
-    line-height: var(--gcds-line-heights-caption);
+  .xs\:line-text-small {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xs\:hover\:line-h1:hover {
     line-height: var(--gcds-line-heights-h1);
@@ -54171,8 +54168,8 @@ table {
   .xs\:hover\:line-text:hover {
     line-height: var(--gcds-line-heights-text);
   }
-  .xs\:focus\:line-caption:focus {
-    line-height: var(--gcds-line-heights-caption);
+  .xs\:hover\:line-text-small:hover {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xs\:focus\:line-h1:focus {
     line-height: var(--gcds-line-heights-h1);
@@ -54195,11 +54192,11 @@ table {
   .xs\:focus\:line-text:focus {
     line-height: var(--gcds-line-heights-text);
   }
+  .xs\:focus\:line-text-small:focus {
+    line-height: var(--gcds-line-heights-text-small);
+  }
 }
 @media only screen and (width >= 40em) {
-  .sm\:line-caption {
-    line-height: var(--gcds-line-heights-caption);
-  }
   .sm\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
@@ -54221,8 +54218,8 @@ table {
   .sm\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
-  .sm\:hover\:line-caption:hover {
-    line-height: var(--gcds-line-heights-caption);
+  .sm\:line-text-small {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .sm\:hover\:line-h1:hover {
     line-height: var(--gcds-line-heights-h1);
@@ -54245,8 +54242,8 @@ table {
   .sm\:hover\:line-text:hover {
     line-height: var(--gcds-line-heights-text);
   }
-  .sm\:focus\:line-caption:focus {
-    line-height: var(--gcds-line-heights-caption);
+  .sm\:hover\:line-text-small:hover {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .sm\:focus\:line-h1:focus {
     line-height: var(--gcds-line-heights-h1);
@@ -54269,11 +54266,11 @@ table {
   .sm\:focus\:line-text:focus {
     line-height: var(--gcds-line-heights-text);
   }
+  .sm\:focus\:line-text-small:focus {
+    line-height: var(--gcds-line-heights-text-small);
+  }
 }
 @media only screen and (width >= 48em) {
-  .md\:line-caption {
-    line-height: var(--gcds-line-heights-caption);
-  }
   .md\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
@@ -54295,8 +54292,8 @@ table {
   .md\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
-  .md\:hover\:line-caption:hover {
-    line-height: var(--gcds-line-heights-caption);
+  .md\:line-text-small {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .md\:hover\:line-h1:hover {
     line-height: var(--gcds-line-heights-h1);
@@ -54319,8 +54316,8 @@ table {
   .md\:hover\:line-text:hover {
     line-height: var(--gcds-line-heights-text);
   }
-  .md\:focus\:line-caption:focus {
-    line-height: var(--gcds-line-heights-caption);
+  .md\:hover\:line-text-small:hover {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .md\:focus\:line-h1:focus {
     line-height: var(--gcds-line-heights-h1);
@@ -54343,11 +54340,11 @@ table {
   .md\:focus\:line-text:focus {
     line-height: var(--gcds-line-heights-text);
   }
+  .md\:focus\:line-text-small:focus {
+    line-height: var(--gcds-line-heights-text-small);
+  }
 }
 @media only screen and (width >= 64em) {
-  .lg\:line-caption {
-    line-height: var(--gcds-line-heights-caption);
-  }
   .lg\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
@@ -54369,8 +54366,8 @@ table {
   .lg\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
-  .lg\:hover\:line-caption:hover {
-    line-height: var(--gcds-line-heights-caption);
+  .lg\:line-text-small {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .lg\:hover\:line-h1:hover {
     line-height: var(--gcds-line-heights-h1);
@@ -54393,8 +54390,8 @@ table {
   .lg\:hover\:line-text:hover {
     line-height: var(--gcds-line-heights-text);
   }
-  .lg\:focus\:line-caption:focus {
-    line-height: var(--gcds-line-heights-caption);
+  .lg\:hover\:line-text-small:hover {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .lg\:focus\:line-h1:focus {
     line-height: var(--gcds-line-heights-h1);
@@ -54417,11 +54414,11 @@ table {
   .lg\:focus\:line-text:focus {
     line-height: var(--gcds-line-heights-text);
   }
+  .lg\:focus\:line-text-small:focus {
+    line-height: var(--gcds-line-heights-text-small);
+  }
 }
 @media only screen and (width >= 80em) {
-  .xl\:line-caption {
-    line-height: var(--gcds-line-heights-caption);
-  }
   .xl\:line-h1 {
     line-height: var(--gcds-line-heights-h1);
   }
@@ -54443,8 +54440,8 @@ table {
   .xl\:line-text {
     line-height: var(--gcds-line-heights-text);
   }
-  .xl\:hover\:line-caption:hover {
-    line-height: var(--gcds-line-heights-caption);
+  .xl\:line-text-small {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xl\:hover\:line-h1:hover {
     line-height: var(--gcds-line-heights-h1);
@@ -54467,8 +54464,8 @@ table {
   .xl\:hover\:line-text:hover {
     line-height: var(--gcds-line-heights-text);
   }
-  .xl\:focus\:line-caption:focus {
-    line-height: var(--gcds-line-heights-caption);
+  .xl\:hover\:line-text-small:hover {
+    line-height: var(--gcds-line-heights-text-small);
   }
   .xl\:focus\:line-h1:focus {
     line-height: var(--gcds-line-heights-h1);
@@ -54490,6 +54487,9 @@ table {
   }
   .xl\:focus\:line-text:focus {
     line-height: var(--gcds-line-heights-text);
+  }
+  .xl\:focus\:line-text-small:focus {
+    line-height: var(--gcds-line-heights-text-small);
   }
 }
 /* --- Text Align --- */
