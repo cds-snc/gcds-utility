@@ -3,6 +3,26 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0)
+
+Released on: 2024-12-05
+
+### :rotating_light: Breaking changes
+
+Values of margin classes changed.
+Values of padding classes changed.
+Renamed text caption classes to text-small to align with the global text-small font token.
+Renamed icon caption classes to text-small to align with the global text-small font token.
+
+The following classes have been renamed:
+// TODO - add all variation
+`.font-caption` -> `.font-text-small` (plus all its variations for all the different viewports and states)
+`.font-size-caption` -> `.font-size-text-small` (plus the variations for hover + focus states)
+`.line-caption` -> `.line-text-small` (plus all its variations for all the different viewports and states)
+
+The renamed classes for icon include:
+.icon-caption -> .icon-text-small (plus all it's variations for all the different viewports and states)
+
 
 ## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
 
