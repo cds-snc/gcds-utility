@@ -21,13 +21,17 @@ These updates were introduced with the [latest release of our design tokens](htt
   - `margin`
   - `padding`
 * All `caption` classes have been deprecated and replaced with `text-small` including their variations for all the different viewports and states:
-  - `.icon-caption` -> `.icon-text-small`
-
+  - | Old Class | New Class |
+    | - | - |
+    |`.icon-caption`|`.icon-text-small`|
+    
 ### Typography changes
 * All `caption` classes have been deprecated and replaced with `text-small` including their variations for all the different viewports and states:
-  -  `.font-caption` -> `.font-text-small`
-  -  `.font-size-caption` -> `.font-size-text-small`
-  -  `.line-caption` -> `.line-text-small`
+    - | Old Class | New Class |
+      | - | - |
+      |`.font-caption`|`.font-text-small`|
+      |`.font-size-caption` |`.font-size-text-small` |
+      |`.line-caption` | `.line-text-small`|
 
 ## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
 
