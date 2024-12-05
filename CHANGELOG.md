@@ -9,6 +9,19 @@ Released on: 2024-12-05
 
 ### :rotating_light: Breaking changes
 
+* update utility framework with new typography + spacing tokens (#197) (xxx)
+
+As part of ongoing efforts to align with the Canada.ca Specifications, we have made updates to our spacing and typography scales.
+These updates were introduced with the [latest release of our design tokens](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#200).
+
+### Spacing changes
+
+* New spacing classes are now available
+* The values of all previous classes have changed
+  - `margin`
+  - `padding`
+
+### Typography changes
 Values of margin classes changed.
 Values of padding classes changed.
 Renamed text caption classes to text-small to align with the global text-small font token.
