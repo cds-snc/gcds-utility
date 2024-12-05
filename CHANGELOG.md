@@ -23,7 +23,7 @@ These updates were introduced with the [latest release of our design tokens](htt
  
 We have updated the values of spacing classes. While some classes still remain, their underlying value in rem or pixels have changed. Check the spacing section of our tokens release for the updated pixel values.
 
-_Example_: If you were previously using `mt-400` for `margin top 400` it will be updated to `32px`. If you want to keep its previous size of `40px`, you need to change your code to use `mt-450` instead. Here is a [visual mapping guide](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) to help you identify the values you need to use.
+_Example_: If you were previously using `mt-400` for `margin top 400` it will be updated to `32px`. If you want to keep its previous size of `24px`, you need to change your code to use `mt-300` instead. Here is a [visual mapping guide](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) to help you identify the values you need to use.
     
 ### Typography changes
 * All `caption` classes have been deprecated and replaced with `text-small` including their variations for all the different viewports and states:
