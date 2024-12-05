@@ -4,6 +4,40 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0) (2024-12-05)
+
+
+### :rocket: New Features
+
+* add additional display classes ([#191](https://github.com/cds-snc/gcds-utility/issues/191)) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+
+### :rotating_light: Breaking changes
+
+* update utility framework with new typography + spacing tokens ([#197](https://github.com/cds-snc/gcds-utility/issues/197)) ([f6c2a24](https://github.com/cds-snc/gcds-utility/commit/f6c2a248547be78cb800fbb5770de99e457d8e30))
+
+As part of ongoing efforts to align with the Canada.ca Specifications, we have made updates to our spacing and typography scales.
+These updates were introduced with the [latest release of our design tokens](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#200).
+
+### Spacing changes
+
+* New spacing classes are now available
+* The values of all previous classes have changed
+  - `margin`
+  - `padding`
+ 
+We have updated the values of spacing classes. While some classes still remain, their underlying value in rem or pixels have changed. Check the spacing section of our tokens release for the updated pixel values.
+
+_Example_: If you were previously using `mt-400` for `margin top 400` it will be updated to `32px`. If you want to keep its previous size of `24px`, you need to change your code to use `mt-300` instead. Here is a [visual mapping guide](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) to help you identify the values you need to use.
+    
+### Typography changes
+* All `caption` classes have been deprecated and replaced with `text-small` including their variations for all the different viewports and states:
+    - | Old Class | New Class |
+      | - | - |
+      |`.font-caption`|`.font-text-small`|
+      |`.font-size-caption` |`.font-size-text-small` |
+      |`.line-caption` | `.line-text-small`|
+      |`.icon-caption`|`.icon-text-small`|
+
 ## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
 
 Released on: 2024-09-11
