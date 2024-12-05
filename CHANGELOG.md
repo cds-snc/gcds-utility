@@ -4,6 +4,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0) (2024-12-05)
+
+
+### :rocket: New Features
+
+* add additional display classes ([#191](https://github.com/cds-snc/gcds-utility/issues/191)) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+* update utility framework with new typography + spacing tokens ([#197](https://github.com/cds-snc/gcds-utility/issues/197)) ([f6c2a24](https://github.com/cds-snc/gcds-utility/commit/f6c2a248547be78cb800fbb5770de99e457d8e30))
+
 ## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
 
 Released on: 2024-09-11
