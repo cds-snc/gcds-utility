@@ -184,6 +184,41 @@ Released on: 2023-02-10
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0)
+
+Publié le :  2024-12-05
+
+### :rocket: Nouvelles fonctionnalités
+
+* add additional display classes ([#191](https://github.com/cds-snc/gcds-utility/issues/191)) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+
+### :rotating_light: Changement non rétrocompatibles
+
+* mettre à jour le cadre utilitaire avec de nouvelles typographies + unités de style d'espacement ([#197](https://github.com/cds-snc/gcds-utility/issues/197)) ([f6c2a24](https://github.com/cds-snc/gcds-utility/commit/f6c2a248547be78cb800fbb5770de99e457d8e30))
+
+Dans le cadre de nos efforts continus pour s'aligner sur les spécifications de Canada.ca, nous avons mis à jour nos échelles d'espacement et de typographie. Ces mises à jour ont été introduites avec [la dernière version de nos unités de style de conception](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#200).
+
+### Changement d’espacement
+
+* De nouvelles classes d'espacement sont maintenant disponibles
+* Les valeurs de toutes les classes précédentes ont changé
+  - `margin` (marge)
+  - `padding` (remplissage)
+ 
+Nous avons mis à jour les valeurs des classes d'espacement. Bien que certaines classes restent encore, leur valeur sous-jacente en rem ou en pixels a changé. Vérifiez la section d'espacement de notre nouvelle publication d'unités de style pour les valeurs de pixel mises à jour.
+
+
+_Exemple_: Si vous utilisiez auparavant mt-400 pour une marge supérieure de 400, elle sera mise à jour à 32px. Si vous souhaitez conserver sa taille précédente de 24px, vous devez modifier votre code pour utiliser mt-300 à la place. Voici un [guide de cartographie visuelle](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) pour vous aider à identifier les valeurs que vous devez utiliser.
+    
+### Changement de typographie
+* Toutes les classes de légende ont été dépréciées et remplacées par `text-small`, y compris leurs variations pour tous les différents affichages et états :
+    - | Ancienne Classe | Nouvelle Classe |
+      | - | - |
+      |`.font-caption`|`.font-text-small`|
+      |`.font-size-caption` |`.font-size-text-small` |
+      |`.line-caption` | `.line-text-small`|
+      |`.icon-caption`|`.icon-text-small`|
+
 ## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
 
 Version publiée le : 2024-09-11
