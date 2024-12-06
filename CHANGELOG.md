@@ -184,6 +184,55 @@ Released on: 2023-02-10
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
+
+Version publiée le : 2024-09-11
+
+### :rocket: Nouvelle fonctionnalité
+
+* ajout du style focus au liens ([#179](https://github.com/cds-snc/gcds-utility/issues/179)) ([f0e2861](https://github.com/cds-snc/gcds-utility/commit/f0e2861b50657aeea20731550b75ae76f7c323c6))
+
+## [1.3.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.2...gcds-utility-v1.3.0)
+
+Version publiée le : 2024-08-01
+
+### :rocket: Nouvelle fonctionnalité
+
+- ajout du statut visité au style de liens ([#169](https://github.com/cds-snc/gcds-utility/issues/169)) ([07da60a](https://github.com/cds-snc/gcds-utility/commit/07da60af16c091e51b25a75a361831d18cfa3781))
+
+## [1.2.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.1...gcds-utility-v1.2.2)
+
+Version publiée le : 2024-07-15
+
+### :bug: :wrench: Correction de bogues
+
+- changement au CSS pour corriger le style des liens dans Safari ([#164](https://github.com/cds-snc/gcds-utility/issues/164)) ([ce9434a](https://github.com/cds-snc/gcds-utility/commit/ce9434a3db11a9f3e9d3949f40f5079ee9e798f4))
+
+## [1.2.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.0...gcds-utility-v1.2.1)
+
+Version publiée le : 2024-05-29
+
+### :arrows_counterclockwise: Refactorisation de code
+
+- changer la police de monospace à noto sans mono ([#151](https://github.com/cds-snc/gcds-utility/issues/151)) ([ca5d9e0](https://github.com/cds-snc/gcds-utility/commit/ca5d9e0c79ce49f410d12578d567e138939f62e7))
+
+## [1.2.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.1.0...gcds-utility-v1.2.0)
+
+Version publiée le : 2024-05-08
+
+### :rocket: Nouvelle fonctionnalité
+
+- intégrer la nouvelle unité de style globale 'background'
+ ([#143](https://github.com/cds-snc/gcds-utility/issues/143)) ([3c803d3](https://github.com/cds-snc/gcds-utility/commit/3c803d3b08bce0c020573d7865b66a523141e27a))
+
+## [1.1.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.0.7...gcds-utility-v1.1.0)
+
+Version publiée le : 2024-04-22
+
+### :rocket: Nouvelle fonctionnalité
+
+- ajouter une classe de grosseur du lien + ajouter une limite de caractères pour les paragraphes ([#137](https://github.com/cds-snc/gcds-utility/issues/137)) ([067e55d](https://github.com/cds-snc/gcds-utility/commit/067e55d0df077fa30b1bfce6787a048517712afe))
+
 ## v1.0.7
 
 Version publiée le : 2023-10-30
