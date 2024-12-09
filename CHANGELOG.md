@@ -211,7 +211,7 @@ Nous avons mis à jour les valeurs des classes d'espacement. Bien que certaines 
 _Exemple_: Si vous utilisiez auparavant mt-400 pour une marge supérieure de 400, elle sera mise à jour à 32px. Si vous souhaitez conserver sa taille précédente de 24px, vous devez modifier votre code pour utiliser mt-300 à la place. Voici un [guide de cartographie visuelle](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) pour vous aider à identifier les valeurs que vous devez utiliser.
     
 ### Changement de typographie
-* Toutes les classes de légende ont été dépréciées et remplacées par `text-small`, y compris leurs variations pour tous les différents affichages et états :
+* Toutes les classes `caption` ont été dépréciées et remplacées par `text-small`, y compris leurs variations pour tous les différents affichages et états :
     - | Ancienne Classe | Nouvelle Classe |
       | - | - |
       |`.font-caption`|`.font-text-small`|
