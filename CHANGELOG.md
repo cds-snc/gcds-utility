@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 
 ### :rocket: New Features
 
-* Ajouter de nouvelles classes d'affichage ([#191](https://github.com/cds-snc/gcds-utility/issues/191) en anglais) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+* add additional display classes ([#191](https://github.com/cds-snc/gcds-utility/issues/191) en anglais) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
 
 ### :rotating_light: Breaking changes
 
