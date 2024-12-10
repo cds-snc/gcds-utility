@@ -203,7 +203,7 @@ Dans le cadre de nos efforts continus pour s'aligner sur les spécifications de 
 * De nouvelles classes d'espacement sont maintenant disponibles
 * Les valeurs de toutes les classes précédentes ont changé
   - `margin` (marge)
-  - `padding` (remplissage)
+  - `padding` (marges intérieures)
  
 Nous avons mis à jour les valeurs des classes d'espacement. Bien que certaines classes restent encore, leur valeur sous-jacente en rem ou en pixels a changé. Vérifiez la section d'espacement de notre nouvelle publication d'unités de style pour les valeurs de pixel mises à jour.
 
