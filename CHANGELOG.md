@@ -184,6 +184,90 @@ Released on: 2023-02-10
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0)
+
+Version publiée le :  2024-12-05
+
+### :rocket: Nouvelles fonctionnalités
+
+* Ajouter de nouvelles classes d'affichage ([#191](https://github.com/cds-snc/gcds-utility/issues/191)) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+
+### :rotating_light: Changement non rétrocompatibles
+
+* mettre à jour le cadre utilitaire avec de nouvelles typographies + unités de style d'espacement ([#197](https://github.com/cds-snc/gcds-utility/issues/197)) ([f6c2a24](https://github.com/cds-snc/gcds-utility/commit/f6c2a248547be78cb800fbb5770de99e457d8e30))
+
+Dans le cadre de nos efforts continus pour s'aligner sur les spécifications de Canada.ca, nous avons mis à jour nos échelles d'espacement et de typographie. Ces mises à jour ont été introduites avec [la dernière version de nos unités de style de conception](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#200).
+
+### Changement d’espacement
+
+* De nouvelles classes d'espacement sont maintenant disponibles
+* Les valeurs de toutes les classes précédentes ont changé
+  - `margin` (marge)
+  - `padding` (marges intérieures)
+ 
+Nous avons mis à jour les valeurs des classes d'espacement. Bien que certaines classes restent encore, leur valeur sous-jacente en rem ou en pixels a changé. Vérifiez la section d'espacement de notre nouvelle publication d'unités de style pour les valeurs de pixel mises à jour.
+
+
+_Exemple_: Si vous utilisiez auparavant mt-400 pour une marge supérieure de 400, elle sera mise à jour à 32px. Si vous souhaitez conserver sa taille précédente de 24px, vous devez modifier votre code pour utiliser mt-300 à la place. Voici un [guide de cartographie visuelle](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) pour vous aider à identifier les valeurs que vous devez utiliser.
+    
+### Changement de typographie
+* Toutes les classes `caption` ont été dépréciées et remplacées par `text-small`, y compris leurs variations pour tous les différents affichages et états :
+    - | Ancienne Classe | Nouvelle Classe |
+      | - | - |
+      |`.font-caption`|`.font-text-small`|
+      |`.font-size-caption` |`.font-size-text-small` |
+      |`.line-caption` | `.line-text-small`|
+      |`.icon-caption`|`.icon-text-small`|
+
+## [1.4.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.3.0...gcds-utility-v1.4.0)
+
+Version publiée le : 2024-09-11
+
+### :rocket: Nouvelle fonctionnalité
+
+* ajout du style focus au liens ([#179](https://github.com/cds-snc/gcds-utility/issues/179)) ([f0e2861](https://github.com/cds-snc/gcds-utility/commit/f0e2861b50657aeea20731550b75ae76f7c323c6))
+
+## [1.3.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.2...gcds-utility-v1.3.0)
+
+Version publiée le : 2024-08-01
+
+### :rocket: Nouvelle fonctionnalité
+
+- ajout du statut visité au style de liens ([#169](https://github.com/cds-snc/gcds-utility/issues/169)) ([07da60a](https://github.com/cds-snc/gcds-utility/commit/07da60af16c091e51b25a75a361831d18cfa3781))
+
+## [1.2.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.1...gcds-utility-v1.2.2)
+
+Version publiée le : 2024-07-15
+
+### :bug: :wrench: Correction de bogues
+
+- changement au CSS pour corriger le style des liens dans Safari ([#164](https://github.com/cds-snc/gcds-utility/issues/164)) ([ce9434a](https://github.com/cds-snc/gcds-utility/commit/ce9434a3db11a9f3e9d3949f40f5079ee9e798f4))
+
+## [1.2.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.2.0...gcds-utility-v1.2.1)
+
+Version publiée le : 2024-05-29
+
+### :arrows_counterclockwise: Refactorisation de code
+
+- changer la police de monospace à noto sans mono ([#151](https://github.com/cds-snc/gcds-utility/issues/151)) ([ca5d9e0](https://github.com/cds-snc/gcds-utility/commit/ca5d9e0c79ce49f410d12578d567e138939f62e7))
+
+## [1.2.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.1.0...gcds-utility-v1.2.0)
+
+Version publiée le : 2024-05-08
+
+### :rocket: Nouvelle fonctionnalité
+
+- intégrer la nouvelle unité de style globale 'background'
+ ([#143](https://github.com/cds-snc/gcds-utility/issues/143)) ([3c803d3](https://github.com/cds-snc/gcds-utility/commit/3c803d3b08bce0c020573d7865b66a523141e27a))
+
+## [1.1.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.0.7...gcds-utility-v1.1.0)
+
+Version publiée le : 2024-04-22
+
+### :rocket: Nouvelle fonctionnalité
+
+- ajouter une classe de grosseur du lien + ajouter une limite de caractères pour les paragraphes ([#137](https://github.com/cds-snc/gcds-utility/issues/137)) ([067e55d](https://github.com/cds-snc/gcds-utility/commit/067e55d0df077fa30b1bfce6787a048517712afe))
+
 ## v1.0.7
 
 Version publiée le : 2023-10-30
