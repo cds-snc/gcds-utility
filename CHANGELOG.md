@@ -4,6 +4,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.0 (2024-12-18)
+
+
+### Features
+
+* add additional display classes ([#191](https://github.com/cds-snc/gcds-utility/issues/191)) ([7917aa1](https://github.com/cds-snc/gcds-utility/commit/7917aa1515cb05ef05dc64044775aa7e983f5c5f))
+* add focus styling to links ([#179](https://github.com/cds-snc/gcds-utility/issues/179)) ([f0e2861](https://github.com/cds-snc/gcds-utility/commit/f0e2861b50657aeea20731550b75ae76f7c323c6))
+* add link size class + add character limit for paragraphs ([#137](https://github.com/cds-snc/gcds-utility/issues/137)) ([067e55d](https://github.com/cds-snc/gcds-utility/commit/067e55d0df077fa30b1bfce6787a048517712afe))
+* add visited state to link styling ([#169](https://github.com/cds-snc/gcds-utility/issues/169)) ([07da60a](https://github.com/cds-snc/gcds-utility/commit/07da60af16c091e51b25a75a361831d18cfa3781))
+* integrate new global background tokens ([#143](https://github.com/cds-snc/gcds-utility/issues/143)) ([3c803d3](https://github.com/cds-snc/gcds-utility/commit/3c803d3b08bce0c020573d7865b66a523141e27a))
+* publish new packages to CDN ([#48](https://github.com/cds-snc/gcds-utility/issues/48)) ([0261ffb](https://github.com/cds-snc/gcds-utility/commit/0261ffb5e142d9e2ea7891f7b573433103955cd9))
+* send deployment metric to sentinel ([96a2863](https://github.com/cds-snc/gcds-utility/commit/96a286348f706c4f9415306c9f6c8e350dcb00a4))
+* Slack notify on publish workflow failure ([#50](https://github.com/cds-snc/gcds-utility/issues/50)) ([d572891](https://github.com/cds-snc/gcds-utility/commit/d5728913b93eb2649e4fd4b066f2ad24bb256c36))
+* update utility framework with new typography + spacing tokens ([#197](https://github.com/cds-snc/gcds-utility/issues/197)) ([f6c2a24](https://github.com/cds-snc/gcds-utility/commit/f6c2a248547be78cb800fbb5770de99e457d8e30))
+
+
+### Bug Fixes
+
+* Change CSS to fix link style in Safari ([#164](https://github.com/cds-snc/gcds-utility/issues/164)) ([ce9434a](https://github.com/cds-snc/gcds-utility/commit/ce9434a3db11a9f3e9d3949f40f5079ee9e798f4))
+* use the correct OIDC role for the repo ([#49](https://github.com/cds-snc/gcds-utility/issues/49)) ([e615349](https://github.com/cds-snc/gcds-utility/commit/e615349de78d1a24c6254206cf05710c8e41aae4))
+
 ## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0) 
 
 Released on: 2024-12-05
