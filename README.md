@@ -23,12 +23,20 @@ You can find the full documentation for GC Design System Utility on [https://des
 
 ### How to install using CDN
 
-Place the following code in the `<head>` element of your site.
+#### Add the code
+
+Use the latest version of GC Design System Utility. Pinned versions provide stability and predictability because the code will remain consistent and won't change unexpectedly, which can be crucial for maintaining the stability of an application. However, it requires manual updating of the CDN links whenever a newer version of GC Design System Utility is released.
+
+Place the following code in the `<head>` element of your site. Replace `<version-number>` with the latest version number to receive corresponding updates.
 
 ```
 <!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@<version-number>/dist/gcds-utility.min.css">
 ```
+
+#### Automatic updates using `@latest`
+
+Use the `@latest` version of GC Design System Utility to receive automatic updates whenever a new version is released. **While it removes the need to manually update the CDN links, it adds the risk of introducing breaking changes to the codebase as new versions are automatically applied**.
 
 <br/>
 
@@ -78,12 +86,20 @@ Toute la documentation sur l'utilitaire de Système de design GC est accessible 
 
 ### Installation à l'aide de CDN
 
-Inscrivez le code suivant dans l'élément `<head>` de votre site Web :
+#### Ajoutez le code
+
+Utilisez la version la plus récente de Utilitaire de Système de design GC. Les versions épinglées offrent stabilité et prévisibilité parce que le code ne changera pas de manière inattendue, ce qui peut être crucial pour maintenir la stabilité d'une application. Toutefois, il faut mettre à jour manuellement les liens CDN chaque fois qu'une version plus récente de Utilitaire de Système de design GC est publiée.
+
+Insérez le code qui suit à l'intérieur de la balise `<head>` de votre site. Remplacez `<version-number>` par le numéro de version le plus récent pour recevoir les mises à jour correspondantes.
 
 ```
 <!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@latest/dist/gcds-utility.min.css">
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@<version-number>/dist/gcds-utility.min.css">
 ```
+
+#### Mises à jour automatiques grâce à `@latest`
+
+Utilisez la version `@latest` de Utilitaire de Système de design GC pour recevoir des mises à jour automatiques chaque fois qu'une nouvelle version est publiée. **Bien que cette approche vous évite la mise à jour manuelle des liens CDN, elle court le risque d'introduire des modifications qui entraînent une rupture de compatibilité avec le code base à mesure que les nouvelles versions sont automatiquement appliquées**.
 
 <br/>
 
