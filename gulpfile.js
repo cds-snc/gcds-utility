@@ -1,11 +1,15 @@
-const { dest, series, src, watch } = require('gulp');
-const minify = require('gulp-clean-css');
-const prefix = require('gulp-autoprefixer');
-const rename = require('gulp-rename');
-const sass = require('gulp-sass')(require('sass'));
+import { dest, series, src, watch } from 'gulp';
+import minify from 'gulp-clean-css';
+import prefix from 'gulp-autoprefixer';
+import rename from 'gulp-rename';
+import gulpSass from 'gulp-sass';
+import sassLib from 'sass';
+
+// Use `sassLib` (default export from `sass`) in `gulp-sass`
+const sass = gulpSass(sassLib);
 
 // Compile + prefix SCSS
-function compileAndPrefix() {
+export function compileAndPrefix() {
   return src('src/gcds-utility.scss')
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
@@ -13,7 +17,7 @@ function compileAndPrefix() {
 }
 
 // Minify CSS
-function minifyCss() {
+export function minifyCss() {
   return src('dist/gcds-utility.css')
     .pipe(minify())
     .pipe(rename('gcds-utility.min.css'))
@@ -21,15 +25,15 @@ function minifyCss() {
 }
 
 // Watch SCSS for changes
-function watchTask() {
+export function watchTask() {
   watch(['src/*.scss', 'src/*/*.scss'], compileAndPrefix);
 }
 
 // Default gulp
-exports.default = series(compileAndPrefix, minifyCss, watchTask);
+export default series(compileAndPrefix, minifyCss, watchTask);
 
 // Compile
-exports.compile = series(compileAndPrefix, minifyCss);
+export const compile = series(compileAndPrefix, minifyCss);
 
 // Test
-exports.test = series(compileAndPrefix, minifyCss);
+export const test = series(compileAndPrefix, minifyCss);
