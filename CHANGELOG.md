@@ -10,7 +10,6 @@ All notable changes to this project will be documented in this file.
 ### :rocket: New Features
 
 * update installation instructions to match other package documentation ([65d0306](https://github.com/cds-snc/gcds-utility/commit/65d0306968210ad91c399d91cdbcecb447343d68))
-* update installation instructions to match web component package instructions ([#214](https://github.com/cds-snc/gcds-utility/issues/214)) ([65d0306](https://github.com/cds-snc/gcds-utility/commit/65d0306968210ad91c399d91cdbcecb447343d68))
 
 
 ### :bug: :wrench: Bug Fixes
