@@ -6,7 +6,6 @@ All notable changes to this project will be documented in this file.
 
 ## [1.6.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.5.0...gcds-utility-v1.6.0) (2025-02-10)
 
-
 ### :bug: :wrench: Bug Fixes
 
 * add text tokens as import ([#223](https://github.com/cds-snc/gcds-utility/issues/223)) ([49bb415](https://github.com/cds-snc/gcds-utility/commit/49bb415658cb8301621f4b73c61747ae124cb9de))
