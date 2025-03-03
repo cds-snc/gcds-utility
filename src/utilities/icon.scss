@@ -110,18 +110,10 @@ $sizes: (
     .#{$classState}icon-#{'' + $className}#{$state} {
       font-size: var(--gcds-font-sizes-#{$value});
       line-height: var(--gcds-line-heights-#{$value});
-    }
-  }
-}
 
-@each $classBreakpoint, $breakpoint in $breakpoints {
-  @media only screen and (width > $breakpoint) {
-    @each $classState, $state in $states {
-      @each $className, $value in $sizes {
-        .#{$classBreakpoint}\:#{$classState}icon-#{'' + $className}#{$state} {
-          font-size: var(--gcds-font-sizes-#{$value});
-          line-height: var(--gcds-line-heights-#{$value});
-        }
+      @media only screen and (width < 48em) {
+        font-size: var(--gcds-font-sizes-#{$value}-mobile);
+        line-height: var(--gcds-line-heights-#{$value}-mobile);
       }
     }
   }
