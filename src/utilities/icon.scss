@@ -1,7 +1,84 @@
 @use './defaults.scss' as *;
 
-// Import Font Awesome Icons
-@import url('https://unpkg.com/font-awesome/css/font-awesome.min.css');
+// GC Design System Fonts - Icons
+@font-face {
+  font-family: "gcds-icons";
+  src: url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf") format("truetype"),
+       url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="gcds-icon-"],
+[class*=" gcds-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: var(--gcds-font-families-icons) !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gcds-icon-checkmark-circle:before {
+  content: "\e908";
+}
+
+.gcds-icon-chevron-down:before {
+  content: "\e900";
+}
+
+.gcds-icon-chevron-left:before {
+  content: "\e901";
+}
+
+.gcds-icon-chevron-right:before {
+  content: "\e902";
+}
+
+.gcds-icon-chevron-up:before {
+  content: "\e903";
+}
+
+.gcds-icon-close:before {
+  content: "\e90b";
+}
+
+.gcds-icon-download:before {
+  content: "\e906";
+}
+
+.gcds-icon-email:before {
+  content: "\e905";
+}
+
+.gcds-icon-exclamation-circle:before {
+  content: "\e909";
+}
+
+.gcds-icon-external:before {
+  content: "\e904";
+}
+
+.gcds-icon-info-circle:before {
+  content: "\e90a";
+}
+
+.gcds-icon-phone:before {
+  content: "\e90c";
+}
+
+.gcds-icon-search:before {
+  content: "\e907";
+}
+
+.gcds-icon-warning-triangle:before {
+  content: "\e90d";
+}
 
 /* --- Icons --- */
 
@@ -24,6 +101,7 @@ $sizes: (
   h6: h6,
   text: text,
   text-small: text-small,
+  inherit: inherit,
 ) !default;
 
 // Generates icon size classes with breakpoints + states
