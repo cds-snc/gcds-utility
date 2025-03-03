@@ -1,7 +1,6 @@
 /* Include Fonts */
 /* Lato + Noto Sans */
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+Mono:wght@100..900&display=swap");
-@import url("https://unpkg.com/font-awesome/css/font-awesome.min.css");
 /**
  * Do not edit directly, this file was auto-generated.
  */
@@ -135,7 +134,7 @@
   --gcds-font-families-heading: "Lato", sans-serif;
   --gcds-font-families-body: "Noto Sans", sans-serif;
   --gcds-font-families-monospace: "Noto Sans Mono", monospace;
-  --gcds-font-families-icons: "Font Awesome 6 Free", FontAwesome;
+  --gcds-font-families-icons: "gcds-icons";
   --gcds-font-sizes-text-small: 1.125rem;
   --gcds-font-sizes-text-small-mobile: 1rem;
   --gcds-font-sizes-text: 1.25rem;
@@ -19542,6 +19541,83 @@ table {
     place-self: stretch;
   }
 }
+@font-face {
+  font-family: "gcds-icons";
+  src: url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf") format("truetype"), url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=gcds-icon-],
+[class*=" gcds-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: var(--gcds-font-families-icons) !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gcds-icon-checkmark-circle:before {
+  content: "\e908";
+}
+
+.gcds-icon-chevron-down:before {
+  content: "\e900";
+}
+
+.gcds-icon-chevron-left:before {
+  content: "\e901";
+}
+
+.gcds-icon-chevron-right:before {
+  content: "\e902";
+}
+
+.gcds-icon-chevron-up:before {
+  content: "\e903";
+}
+
+.gcds-icon-close:before {
+  content: "\e90b";
+}
+
+.gcds-icon-download:before {
+  content: "\e906";
+}
+
+.gcds-icon-email:before {
+  content: "\e905";
+}
+
+.gcds-icon-exclamation-circle:before {
+  content: "\e909";
+}
+
+.gcds-icon-external:before {
+  content: "\e904";
+}
+
+.gcds-icon-info-circle:before {
+  content: "\e90a";
+}
+
+.gcds-icon-phone:before {
+  content: "\e90c";
+}
+
+.gcds-icon-search:before {
+  content: "\e907";
+}
+
+.gcds-icon-warning-triangle:before {
+  content: "\e90d";
+}
+
 /* --- Icons --- */
 .icon {
   display: inline-block;
@@ -19592,6 +19668,11 @@ table {
   line-height: var(--gcds-line-heights-text-small);
 }
 
+.icon-inherit {
+  font-size: var(--gcds-font-sizes-inherit);
+  line-height: var(--gcds-line-heights-inherit);
+}
+
 .hover\:icon-h1:hover {
   font-size: var(--gcds-font-sizes-h1);
   line-height: var(--gcds-line-heights-h1);
@@ -19630,6 +19711,11 @@ table {
 .hover\:icon-text-small:hover {
   font-size: var(--gcds-font-sizes-text-small);
   line-height: var(--gcds-line-heights-text-small);
+}
+
+.hover\:icon-inherit:hover {
+  font-size: var(--gcds-font-sizes-inherit);
+  line-height: var(--gcds-line-heights-inherit);
 }
 
 .focus\:icon-h1:focus {
@@ -19672,6 +19758,11 @@ table {
   line-height: var(--gcds-line-heights-text-small);
 }
 
+.focus\:icon-inherit:focus {
+  font-size: var(--gcds-font-sizes-inherit);
+  line-height: var(--gcds-line-heights-inherit);
+}
+
 @media only screen and (width > 30em) {
   .xs\:icon-h1 {
     font-size: var(--gcds-font-sizes-h1);
@@ -19705,6 +19796,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .xs\:icon-inherit {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .xs\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19737,6 +19832,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .xs\:hover\:icon-inherit:hover {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .xs\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19768,6 +19867,10 @@ table {
   .xs\:focus\:icon-text-small:focus {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
+  }
+  .xs\:focus\:icon-inherit:focus {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
   }
 }
 @media only screen and (width > 40em) {
@@ -19803,6 +19906,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .sm\:icon-inherit {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .sm\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19835,6 +19942,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .sm\:hover\:icon-inherit:hover {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .sm\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19866,6 +19977,10 @@ table {
   .sm\:focus\:icon-text-small:focus {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
+  }
+  .sm\:focus\:icon-inherit:focus {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
   }
 }
 @media only screen and (width > 48em) {
@@ -19901,6 +20016,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .md\:icon-inherit {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .md\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19933,6 +20052,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .md\:hover\:icon-inherit:hover {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .md\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -19964,6 +20087,10 @@ table {
   .md\:focus\:icon-text-small:focus {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
+  }
+  .md\:focus\:icon-inherit:focus {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
   }
 }
 @media only screen and (width > 64em) {
@@ -19999,6 +20126,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .lg\:icon-inherit {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .lg\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -20031,6 +20162,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .lg\:hover\:icon-inherit:hover {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .lg\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -20062,6 +20197,10 @@ table {
   .lg\:focus\:icon-text-small:focus {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
+  }
+  .lg\:focus\:icon-inherit:focus {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
   }
 }
 @media only screen and (width > 80em) {
@@ -20097,6 +20236,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .xl\:icon-inherit {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .xl\:hover\:icon-h1:hover {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -20129,6 +20272,10 @@ table {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
   }
+  .xl\:hover\:icon-inherit:hover {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
+  }
   .xl\:focus\:icon-h1:focus {
     font-size: var(--gcds-font-sizes-h1);
     line-height: var(--gcds-line-heights-h1);
@@ -20160,6 +20307,10 @@ table {
   .xl\:focus\:icon-text-small:focus {
     font-size: var(--gcds-font-sizes-text-small);
     line-height: var(--gcds-line-heights-text-small);
+  }
+  .xl\:focus\:icon-inherit:focus {
+    font-size: var(--gcds-font-sizes-inherit);
+    line-height: var(--gcds-line-heights-inherit);
   }
 }
 /* --- Images --- */
