@@ -1,19 +1,47 @@
-@use './mixins.scss' as mixins;
+@use './defaults.scss' as *;
 
 /* --- List Style --- */
 
 $listStyle: (
+  circle: circle,
   decimal: decimal,
+  decimal-leading-zero: decimal-leading-zero,
   disc: disc,
+  lower-alpha: lower-alpha,
+  lower-roman: lower-roman,
   none: none,
+  square: square,
+  upper-alpha: upper-alpha,
+  upper-roman: upper-roman,
 ) !default;
 
-@include mixins.generateClasses($listStyle, 'list-', list-style);
+@each $classState, $state in $states {
+  @each $className, $value in $listStyle {
+    .#{$classState}list-#{'' + $className}#{$state} {
+      list-style: $value;
 
-// Add margin to decimal + disc lists
-$listMargin: (
-  decimal: 0 0 0 var(--gcds-spacing-400),
-  disc: 0 0 0 var(--gcds-spacing-400),
-) !default;
+      // Add margin only if the list-style is not 'none'
+      @if $value != none {
+        margin: 0 0 0 var(--gcds-spacing-400);
+      }
+    }
+  }
+}
 
-@include mixins.generateClasses($listMargin, 'list-', margin);
+@each $classBreakpoint, $breakpoint in $breakpoints {
+  @media only screen and (width >= $breakpoint) {
+    @each $classState, $state in $states {
+      @each $className, $value in $listStyle {
+        .#{$classBreakpoint}\:#{$classState}list-#{''
+          + $className}#{$state} {
+          list-style: $value;
+
+          // Add margin only if the list-style is not 'none'
+          @if $value != none {
+            margin: 0 0 0 var(--gcds-spacing-400);
+          }
+        }
+      }
+    }
+  }
+}

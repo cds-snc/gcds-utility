@@ -21793,308 +21793,745 @@ table {
   }
 }
 /* --- List Style --- */
+.list-circle {
+  list-style: circle;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
 .list-decimal {
   list-style: decimal;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-decimal-leading-zero {
+  list-style: decimal-leading-zero;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .list-disc {
   list-style: disc;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-lower-alpha {
+  list-style: lower-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-lower-roman {
+  list-style: lower-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .list-none {
   list-style: none;
 }
 
+.list-square {
+  list-style: square;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-upper-alpha {
+  list-style: upper-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.list-upper-roman {
+  list-style: upper-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-circle:hover {
+  list-style: circle;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
 .hover\:list-decimal:hover {
   list-style: decimal;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-decimal-leading-zero:hover {
+  list-style: decimal-leading-zero;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .hover\:list-disc:hover {
   list-style: disc;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-lower-alpha:hover {
+  list-style: lower-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-lower-roman:hover {
+  list-style: lower-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .hover\:list-none:hover {
   list-style: none;
 }
 
+.hover\:list-square:hover {
+  list-style: square;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-upper-alpha:hover {
+  list-style: upper-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.hover\:list-upper-roman:hover {
+  list-style: upper-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-circle:focus {
+  list-style: circle;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
 .focus\:list-decimal:focus {
   list-style: decimal;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-decimal-leading-zero:focus {
+  list-style: decimal-leading-zero;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .focus\:list-disc:focus {
   list-style: disc;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-lower-alpha:focus {
+  list-style: lower-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-lower-roman:focus {
+  list-style: lower-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
 }
 
 .focus\:list-none:focus {
   list-style: none;
 }
 
+.focus\:list-square:focus {
+  list-style: square;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-upper-alpha:focus {
+  list-style: upper-alpha;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
+.focus\:list-upper-roman:focus {
+  list-style: upper-roman;
+  margin: 0 0 0 var(--gcds-spacing-400);
+}
+
 @media only screen and (width >= 30em) {
+  .xs\:list-circle {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xs\:list-decimal {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:list-disc {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:list-lower-alpha {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:list-lower-roman {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:list-none {
     list-style: none;
   }
+  .xs\:list-square {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:list-upper-alpha {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:list-upper-roman {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-circle:hover {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xs\:hover\:list-decimal:hover {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-decimal-leading-zero:hover {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:hover\:list-disc:hover {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-lower-alpha:hover {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-lower-roman:hover {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:hover\:list-none:hover {
     list-style: none;
   }
+  .xs\:hover\:list-square:hover {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-upper-alpha:hover {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:hover\:list-upper-roman:hover {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-circle:focus {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xs\:focus\:list-decimal:focus {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-decimal-leading-zero:focus {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:focus\:list-disc:focus {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-lower-alpha:focus {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-lower-roman:focus {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xs\:focus\:list-none:focus {
     list-style: none;
   }
+  .xs\:focus\:list-square:focus {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-upper-alpha:focus {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xs\:focus\:list-upper-roman:focus {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
 }
 @media only screen and (width >= 40em) {
+  .sm\:list-circle {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .sm\:list-decimal {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:list-disc {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:list-lower-alpha {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:list-lower-roman {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:list-none {
     list-style: none;
   }
+  .sm\:list-square {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:list-upper-alpha {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:list-upper-roman {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-circle:hover {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .sm\:hover\:list-decimal:hover {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-decimal-leading-zero:hover {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:hover\:list-disc:hover {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-lower-alpha:hover {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-lower-roman:hover {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:hover\:list-none:hover {
     list-style: none;
   }
+  .sm\:hover\:list-square:hover {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-upper-alpha:hover {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:hover\:list-upper-roman:hover {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-circle:focus {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .sm\:focus\:list-decimal:focus {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-decimal-leading-zero:focus {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:focus\:list-disc:focus {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-lower-alpha:focus {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-lower-roman:focus {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .sm\:focus\:list-none:focus {
     list-style: none;
   }
+  .sm\:focus\:list-square:focus {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-upper-alpha:focus {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .sm\:focus\:list-upper-roman:focus {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
 }
 @media only screen and (width >= 48em) {
+  .md\:list-circle {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .md\:list-decimal {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:list-disc {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:list-lower-alpha {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:list-lower-roman {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:list-none {
     list-style: none;
   }
+  .md\:list-square {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:list-upper-alpha {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:list-upper-roman {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-circle:hover {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .md\:hover\:list-decimal:hover {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-decimal-leading-zero:hover {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:hover\:list-disc:hover {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-lower-alpha:hover {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-lower-roman:hover {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:hover\:list-none:hover {
     list-style: none;
   }
+  .md\:hover\:list-square:hover {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-upper-alpha:hover {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:hover\:list-upper-roman:hover {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-circle:focus {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .md\:focus\:list-decimal:focus {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-decimal-leading-zero:focus {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:focus\:list-disc:focus {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-lower-alpha:focus {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-lower-roman:focus {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .md\:focus\:list-none:focus {
     list-style: none;
   }
+  .md\:focus\:list-square:focus {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-upper-alpha:focus {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .md\:focus\:list-upper-roman:focus {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
 }
 @media only screen and (width >= 64em) {
+  .lg\:list-circle {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .lg\:list-decimal {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:list-disc {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:list-lower-alpha {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:list-lower-roman {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:list-none {
     list-style: none;
   }
+  .lg\:list-square {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:list-upper-alpha {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:list-upper-roman {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-circle:hover {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .lg\:hover\:list-decimal:hover {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-decimal-leading-zero:hover {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:hover\:list-disc:hover {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-lower-alpha:hover {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-lower-roman:hover {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:hover\:list-none:hover {
     list-style: none;
   }
+  .lg\:hover\:list-square:hover {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-upper-alpha:hover {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:hover\:list-upper-roman:hover {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-circle:focus {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .lg\:focus\:list-decimal:focus {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-decimal-leading-zero:focus {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:focus\:list-disc:focus {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-lower-alpha:focus {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-lower-roman:focus {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .lg\:focus\:list-none:focus {
     list-style: none;
   }
+  .lg\:focus\:list-square:focus {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-upper-alpha:focus {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .lg\:focus\:list-upper-roman:focus {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
 }
 @media only screen and (width >= 80em) {
+  .xl\:list-circle {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xl\:list-decimal {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:list-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:list-disc {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:list-lower-alpha {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:list-lower-roman {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:list-none {
     list-style: none;
   }
+  .xl\:list-square {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:list-upper-alpha {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:list-upper-roman {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-circle:hover {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xl\:hover\:list-decimal:hover {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-decimal-leading-zero:hover {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:hover\:list-disc:hover {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-lower-alpha:hover {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-lower-roman:hover {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:hover\:list-none:hover {
     list-style: none;
   }
+  .xl\:hover\:list-square:hover {
+    list-style: square;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-upper-alpha:hover {
+    list-style: upper-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:hover\:list-upper-roman:hover {
+    list-style: upper-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:focus\:list-circle:focus {
+    list-style: circle;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
   .xl\:focus\:list-decimal:focus {
     list-style: decimal;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:focus\:list-decimal-leading-zero:focus {
+    list-style: decimal-leading-zero;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:focus\:list-disc:focus {
     list-style: disc;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:focus\:list-lower-alpha:focus {
+    list-style: lower-alpha;
+    margin: 0 0 0 var(--gcds-spacing-400);
+  }
+  .xl\:focus\:list-lower-roman:focus {
+    list-style: lower-roman;
+    margin: 0 0 0 var(--gcds-spacing-400);
   }
   .xl\:focus\:list-none:focus {
     list-style: none;
   }
-}
-.list-decimal {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-.list-disc {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-.hover\:list-decimal:hover {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-.hover\:list-disc:hover {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-.focus\:list-decimal:focus {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-.focus\:list-disc:focus {
-  margin: 0 0 0 var(--gcds-spacing-400);
-}
-
-@media only screen and (width >= 30em) {
-  .xs\:list-decimal {
+  .xl\:focus\:list-square:focus {
+    list-style: square;
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-  .xs\:list-disc {
+  .xl\:focus\:list-upper-alpha:focus {
+    list-style: upper-alpha;
     margin: 0 0 0 var(--gcds-spacing-400);
   }
-  .xs\:hover\:list-decimal:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xs\:hover\:list-disc:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xs\:focus\:list-decimal:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xs\:focus\:list-disc:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-}
-@media only screen and (width >= 40em) {
-  .sm\:list-decimal {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .sm\:list-disc {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .sm\:hover\:list-decimal:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .sm\:hover\:list-disc:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .sm\:focus\:list-decimal:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .sm\:focus\:list-disc:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-}
-@media only screen and (width >= 48em) {
-  .md\:list-decimal {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .md\:list-disc {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .md\:hover\:list-decimal:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .md\:hover\:list-disc:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .md\:focus\:list-decimal:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .md\:focus\:list-disc:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-}
-@media only screen and (width >= 64em) {
-  .lg\:list-decimal {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .lg\:list-disc {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .lg\:hover\:list-decimal:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .lg\:hover\:list-disc:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .lg\:focus\:list-decimal:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .lg\:focus\:list-disc:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-}
-@media only screen and (width >= 80em) {
-  .xl\:list-decimal {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xl\:list-disc {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xl\:hover\:list-decimal:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xl\:hover\:list-disc:hover {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xl\:focus\:list-decimal:focus {
-    margin: 0 0 0 var(--gcds-spacing-400);
-  }
-  .xl\:focus\:list-disc:focus {
+  .xl\:focus\:list-upper-roman:focus {
+    list-style: upper-roman;
     margin: 0 0 0 var(--gcds-spacing-400);
   }
 }
