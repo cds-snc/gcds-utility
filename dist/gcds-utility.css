@@ -364,11 +364,24 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
+  -webkit-margin-after: var(--gcds-heading-spacing-300);
+          margin-block-end: var(--gcds-heading-spacing-300);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-margin-before: var(--gcds-heading-spacing-600);
+          margin-block-start: var(--gcds-heading-spacing-600);
 }
 
 h1 {
   max-width: var(--gcds-heading-character-limit-h1);
   font: var(--gcds-heading-h1-desktop);
+  -webkit-margin-before: var(--gcds-heading-spacing-0);
+          margin-block-start: var(--gcds-heading-spacing-0);
 }
 h1:after {
   display: block;
@@ -472,6 +485,10 @@ ul {
 p {
   max-width: var(--gcds-text-character-limit);
   font: var(--gcds-font-text);
+  -webkit-margin-before: var(--gcds-heading-spacing-0);
+          margin-block-start: var(--gcds-heading-spacing-0);
+  -webkit-margin-after: var(--gcds-heading-spacing-300);
+          margin-block-end: var(--gcds-heading-spacing-300);
 }
 @media only screen and (width < 48em) {
   p {
