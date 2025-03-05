@@ -4,6 +4,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.5.0...gcds-utility-v1.6.0) (2025-03-05)
+
+
+### :rocket: New Features
+
+* add default margins to heading and text ([#232](https://github.com/cds-snc/gcds-utility/issues/232)) ([6829a32](https://github.com/cds-snc/gcds-utility/commit/6829a32c0dd2db11a07f00755343dc0863a03ab3))
+* expand available list-style values for ordered and unordered lists ([#233](https://github.com/cds-snc/gcds-utility/issues/233)) ([e1d4aac](https://github.com/cds-snc/gcds-utility/commit/e1d4aac904bb39024c36df5e4150931acbe149b0))
+* update installation instructions to match other package documentation ([65d0306](https://github.com/cds-snc/gcds-utility/commit/65d0306968210ad91c399d91cdbcecb447343d68))
+* update installation instructions to match web component package instructions ([#214](https://github.com/cds-snc/gcds-utility/issues/214)) ([65d0306](https://github.com/cds-snc/gcds-utility/commit/65d0306968210ad91c399d91cdbcecb447343d68))
+
+
+### :bug: :wrench: Bug Fixes
+
+* add text tokens as import ([#223](https://github.com/cds-snc/gcds-utility/issues/223)) ([49bb415](https://github.com/cds-snc/gcds-utility/commit/49bb415658cb8301621f4b73c61747ae124cb9de))
+
 ## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0) 
 
 Released on: 2024-12-05
