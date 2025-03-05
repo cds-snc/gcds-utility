@@ -3,7 +3,7 @@ import minify from 'gulp-clean-css';
 import prefix from 'gulp-autoprefixer';
 import rename from 'gulp-rename';
 import gulpSass from 'gulp-sass';
-import sassLib from 'sass';
+import * as sassLib from 'sass';
 
 // Use `sassLib` (default export from `sass`) in `gulp-sass`
 const sass = gulpSass(sassLib);
