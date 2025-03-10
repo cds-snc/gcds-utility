@@ -12,12 +12,10 @@ permissions:
   contents: read
 
 env:
-  CDN_BUCKET: gc-design-system-production-cdn
-  CDN_REGION: ca-central-1
   PACKAGE_NAME: '@cdssnc/gcds-utility'
 
 jobs:
-  build-deploy:
+  publish-utility-framework:
     name: Publish
     runs-on: ubuntu-latest
     steps:
@@ -29,27 +27,6 @@ jobs:
         id: publish
         with:
           token: ${{ secrets.NPM_TOKEN }}
-
-      - name: Configure AWS credentials using OIDC
-        if: steps.publish.outputs.id != ''
-        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
-        with:
-          role-to-assume: arn:aws:iam::307395567143:role/gcds-utility-apply
-          role-session-name: CDNPublish
-          aws-region: ${{ env.CDN_REGION }}
-
-      - name: Update CDN
-        if: steps.publish.outputs.id != ''
-        run: |
-          VERSION="$(cat package.json | jq -r .version)"
-          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
-
-          aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/dist --delete
-          aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/dist --delete
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/dist/gcds-utility.css
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/dist/gcds-utility.css
-
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
 
       - name: Report deployment to Sentinel
         if: steps.publish.outputs.id != ''

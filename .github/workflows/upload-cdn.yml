@@ -1,0 +1,52 @@
+name: Upload utility framework to CDN
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Publish utility framework"]
+    types:
+      - completed
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  CDN_BUCKET: gc-design-system-production-cdn
+  CDN_REGION: ca-central-1
+  PACKAGE_NAME: '@cdssnc/gcds-utility'
+
+jobs:
+  upload-to-cdn:
+    name: Publish
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Git Checkout
+        uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+
+      - name: Configure AWS credentials using OIDC
+        if: github.event.workflow_run.conclusion == 'success'
+        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
+        with:
+          role-to-assume: arn:aws:iam::307395567143:role/gcds-utility-apply
+          role-session-name: CDNPublish
+          aws-region: ${{ env.CDN_REGION }}
+
+      - name: Update CDN
+        if: github.event.workflow_run.conclusion == 'success'
+        run: |
+          VERSION="$(cat package.json | jq -r .version)"
+          PUBLISHED_PACKAGE="${{ env.PACKAGE_NAME }}@$VERSION"
+
+          aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/dist --delete
+          aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/dist --delete
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/dist/gcds-utility.css
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/dist/gcds-utility.css
+
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
+
+      - name: Slack notify on failure
+        if: failure()
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-utility to CDN failed: <https://github.com/cds-snc/gcds-utility/actions/workflows/compile-core.yml|Compile Core>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
