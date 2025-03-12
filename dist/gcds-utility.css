@@ -19543,7 +19543,7 @@ table {
 }
 @font-face {
   font-family: "gcds-icons";
-  src: url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.ttf") format("truetype"), url("../../node_modules/@cdssnc/gcds-fonts/fonts/icons/gcds-icons.woff") format("woff");
+  src: url("assets/fonts/icons/gcds-icons.ttf") format("truetype"), url("assets/fonts/icons/gcds-icons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;

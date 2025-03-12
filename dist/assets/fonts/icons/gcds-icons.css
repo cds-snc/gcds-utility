@@ -1,10 +1,14 @@
-@use './defaults.scss' as *;
-
-// GC Design System Fonts - Icons
+/*
+  Replace <path-to-file> with the correct path to
+  the gcds-icon font files in your project
+*/
 @font-face {
   font-family: "gcds-icons";
-  src: url("assets/fonts/icons/gcds-icons.ttf") format("truetype"),
-      url("assets/fonts/icons/gcds-icons.woff") format("woff");
+  src: url("<path-to-file>/gcds-icons.eot");
+  src: url("<path-to-file>/gcds-icons.eot#iefix") format("embedded-opentype"),
+    url("<path-to-file>/gcds-icons.ttf") format("truetype"),
+    url("<path-to-file>/gcds-icons.woff") format("woff"),
+    url("<path-to-file>/gcds-icons.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,7 +17,7 @@
 [class^="gcds-icon-"],
 [class*=" gcds-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: var(--gcds-font-families-icons) !important;
+  font-family: "gcds-icons" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -78,43 +82,4 @@
 
 .gcds-icon-warning-triangle:before {
   content: "\e90d";
-}
-
-/* --- Icons --- */
-
-.icon {
-  display: inline-block;
-  font-family: var(--gcds-font-families-icons);
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-}
-
-/* --- Icon Sizes --- */
-
-$sizes: (
-  h1: h1,
-  h2: h2,
-  h3: h3,
-  h4: h4,
-  h5: h5,
-  h6: h6,
-  text: text,
-  text-small: text-small,
-  inherit: inherit,
-) !default;
-
-// Generates icon size classes with breakpoints + states
-@each $classState, $state in $states {
-  @each $className, $value in $sizes {
-    .#{$classState}icon-#{'' + $className}#{$state} {
-      font-size: var(--gcds-font-sizes-#{$value});
-      line-height: var(--gcds-line-heights-#{$value});
-
-      @media only screen and (width < 48em) {
-        font-size: var(--gcds-font-sizes-#{$value}-mobile);
-        line-height: var(--gcds-line-heights-#{$value}-mobile);
-      }
-    }
-  }
 }
