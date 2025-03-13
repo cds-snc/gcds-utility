@@ -24,23 +24,16 @@ export function minifyCss() {
     .pipe(dest('dist'));
 }
 
-// Copy assets from src/assets to dist/assets
-export function copyAssets() {
-  return src('src/assets/**/*')
-    .pipe(dest('dist/assets'));
-}
-
 // Watch SCSS for changes
 export function watchTask() {
   watch(['src/*.scss', 'src/*/*.scss'], compileAndPrefix);
-  watch('src/assets/**/*', copyAssets);
 }
 
 // Default gulp
-export default series(compileAndPrefix, minifyCss, copyAssets, watchTask);
+export default series(compileAndPrefix, minifyCss, watchTask);
 
 // Compile
-export const compile = series(compileAndPrefix, minifyCss, copyAssets);
+export const compile = series(compileAndPrefix, minifyCss);
 
 // Test
-export const test = series(compileAndPrefix, minifyCss, copyAssets);
+export const test = series(compileAndPrefix, minifyCss);
