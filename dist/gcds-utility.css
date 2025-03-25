@@ -1927,7 +1927,7 @@ table {
 }
 
 .bg-danger {
-  background-color: var(--gcds-danger-background);
+  background-color: var(--gcds-danger-default);
 }
 
 .bg-dark {
@@ -1971,7 +1971,7 @@ table {
 }
 
 .hover\:bg-danger:hover {
-  background-color: var(--gcds-danger-background);
+  background-color: var(--gcds-danger-default);
 }
 
 .hover\:bg-dark:hover {
@@ -2015,7 +2015,7 @@ table {
 }
 
 .focus\:bg-danger:focus {
-  background-color: var(--gcds-danger-background);
+  background-color: var(--gcds-danger-default);
 }
 
 .focus\:bg-dark:focus {
@@ -2057,7 +2057,7 @@ table {
     background-color: currentColor;
   }
   .xs\:bg-danger {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xs\:bg-dark {
     background-color: var(--gcds-bg-dark);
@@ -2090,7 +2090,7 @@ table {
     background-color: currentColor;
   }
   .xs\:hover\:bg-danger:hover {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xs\:hover\:bg-dark:hover {
     background-color: var(--gcds-bg-dark);
@@ -2123,7 +2123,7 @@ table {
     background-color: currentColor;
   }
   .xs\:focus\:bg-danger:focus {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xs\:focus\:bg-dark:focus {
     background-color: var(--gcds-bg-dark);
@@ -2158,7 +2158,7 @@ table {
     background-color: currentColor;
   }
   .sm\:bg-danger {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .sm\:bg-dark {
     background-color: var(--gcds-bg-dark);
@@ -2191,7 +2191,7 @@ table {
     background-color: currentColor;
   }
   .sm\:hover\:bg-danger:hover {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .sm\:hover\:bg-dark:hover {
     background-color: var(--gcds-bg-dark);
@@ -2224,7 +2224,7 @@ table {
     background-color: currentColor;
   }
   .sm\:focus\:bg-danger:focus {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .sm\:focus\:bg-dark:focus {
     background-color: var(--gcds-bg-dark);
@@ -2259,7 +2259,7 @@ table {
     background-color: currentColor;
   }
   .md\:bg-danger {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .md\:bg-dark {
     background-color: var(--gcds-bg-dark);
@@ -2292,7 +2292,7 @@ table {
     background-color: currentColor;
   }
   .md\:hover\:bg-danger:hover {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .md\:hover\:bg-dark:hover {
     background-color: var(--gcds-bg-dark);
@@ -2325,7 +2325,7 @@ table {
     background-color: currentColor;
   }
   .md\:focus\:bg-danger:focus {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .md\:focus\:bg-dark:focus {
     background-color: var(--gcds-bg-dark);
@@ -2360,7 +2360,7 @@ table {
     background-color: currentColor;
   }
   .lg\:bg-danger {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .lg\:bg-dark {
     background-color: var(--gcds-bg-dark);
@@ -2393,7 +2393,7 @@ table {
     background-color: currentColor;
   }
   .lg\:hover\:bg-danger:hover {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .lg\:hover\:bg-dark:hover {
     background-color: var(--gcds-bg-dark);
@@ -2426,7 +2426,7 @@ table {
     background-color: currentColor;
   }
   .lg\:focus\:bg-danger:focus {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .lg\:focus\:bg-dark:focus {
     background-color: var(--gcds-bg-dark);
@@ -2461,7 +2461,7 @@ table {
     background-color: currentColor;
   }
   .xl\:bg-danger {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xl\:bg-dark {
     background-color: var(--gcds-bg-dark);
@@ -2494,7 +2494,7 @@ table {
     background-color: currentColor;
   }
   .xl\:hover\:bg-danger:hover {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xl\:hover\:bg-dark:hover {
     background-color: var(--gcds-bg-dark);
@@ -2527,7 +2527,7 @@ table {
     background-color: currentColor;
   }
   .xl\:focus\:bg-danger:focus {
-    background-color: var(--gcds-danger-background);
+    background-color: var(--gcds-danger-default);
   }
   .xl\:focus\:bg-dark:focus {
     background-color: var(--gcds-bg-dark);
