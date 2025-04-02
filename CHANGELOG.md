@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.7.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.6.0...gcds-utility-v1.7.0) (2025-04-02)
+
+
+### :rocket: New Features
+
+* add new green colour token + fix h1 border colour ([#242](https://github.com/cds-snc/gcds-utility/issues/242)) ([ce8ff26](https://github.com/cds-snc/gcds-utility/commit/ce8ff266fd593e714a8a9909ca67c1f221f1f995))
+
 ## [1.6.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.5.0...gcds-utility-v1.6.0)
 
 Released on: 2025-03-05
