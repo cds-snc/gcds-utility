@@ -4,6 +4,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.7.0...gcds-utility-v1.8.0)
+
+Released on: 2025-04-14
+
+
+### :rocket: New Features
+
+The GC Design System team has designed and copyrighted a custom-built set of icons for the Government of Canada. The CSS utility framework will be updated to use the new "GCDS Icons" font, replacing the previously used FontAwesome icons.
+
+* replace Font Awesome with GCDS icons font ([#231](https://github.com/cds-snc/gcds-utility/issues/231)) ([70e838d](https://github.com/cds-snc/gcds-utility/commit/70e838d5286b28d6df3c50968f9af44045905e79))
+
+#### Remove existing FontAwesome dependencies
+
+You will be able to remove any existing FontAwesome dependencies (such as CDN links, npm packages, etc.) if you choose to exclusively use the GC Design System icon component going forward.
+
 ## [1.7.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.6.0...gcds-utility-v1.7.0)
 
 Released on: 2025-04-02
@@ -28,7 +43,7 @@ Released on: 2025-03-05
 
 * add text tokens as import ([#223](https://github.com/cds-snc/gcds-utility/issues/223)) ([49bb415](https://github.com/cds-snc/gcds-utility/commit/49bb415658cb8301621f4b73c61747ae124cb9de))
 
-## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0) 
+## [1.5.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.4.0...gcds-utility-v1.5.0)
 
 Released on: 2024-12-05
 
@@ -49,11 +64,11 @@ These updates were introduced with the [latest release of our design tokens](htt
 * The values of all previous classes have changed
   - `margin`
   - `padding`
- 
+
 We have updated the values of spacing classes. While some classes still remain, their underlying value in rem or pixels have changed. Check the spacing section of our tokens release for the updated pixel values.
 
 _Example_: If you were previously using `mt-400` for `margin top 400` it will be updated to `32px`. If you want to keep its previous size of `24px`, you need to change your code to use `mt-300` instead. Here is a [visual mapping guide](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) to help you identify the values you need to use.
-    
+
 ### Typography changes
 * All `caption` classes have been deprecated and replaced with `text-small` including their variations for all the different viewports and states:
     - | Old Class | New Class |
@@ -229,12 +244,12 @@ Dans le cadre de nos efforts continus pour s'aligner sur les spécifications de 
 * Les valeurs de toutes les classes précédentes ont changé
   - `margin` (marge)
   - `padding` (marges intérieures)
- 
+
 Nous avons mis à jour les valeurs des classes d'espacement. Bien que certaines classes restent encore, leur valeur sous-jacente en rem ou en pixels a changé. Vérifiez la section d'espacement de notre nouvelle publication d'unités de style pour les valeurs de pixel mises à jour.
 
 
 _Exemple_: Si vous utilisiez auparavant mt-400 pour une marge supérieure de 400, elle sera mise à jour à 32px. Si vous souhaitez conserver sa taille précédente de 24px, vous devez modifier votre code pour utiliser mt-300 à la place. Voici un [guide de cartographie visuelle](https://github.com/cds-snc/gcds-tokens/blob/main/CHANGELOG.md#spacing-tokens-visual-mapping-guide) pour vous aider à identifier les valeurs que vous devez utiliser.
-    
+
 ### Changement de typographie
 * Toutes les classes `caption` ont été dépréciées et remplacées par `text-small`, y compris leurs variations pour tous les différents affichages et états :
     - | Ancienne Classe | Nouvelle Classe |
