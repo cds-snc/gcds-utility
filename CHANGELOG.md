@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.8.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.7.0...gcds-utility-v1.8.0) (2025-04-15)
+
+
+### :rocket: New Features
+
+* include GCDS icons font ([#231](https://github.com/cds-snc/gcds-utility/issues/231)) ([70e838d](https://github.com/cds-snc/gcds-utility/commit/70e838d5286b28d6df3c50968f9af44045905e79))
+
 ## [1.7.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.6.0...gcds-utility-v1.7.0)
 
 Released on: 2025-04-02
