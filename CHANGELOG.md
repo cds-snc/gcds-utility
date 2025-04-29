@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.8.0...gcds-utility-v1.9.0) (2025-04-29)
+
+
+### :rocket: New Features
+
+* add new blue colour token + update link default colour ([#248](https://github.com/cds-snc/gcds-utility/issues/248)) ([f3562b9](https://github.com/cds-snc/gcds-utility/commit/f3562b94f8fcf129147c07765b3edc83592ec2ca))
+
 ## [1.8.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.7.0...gcds-utility-v1.8.0)
 
 Released on: 2025-04-14
