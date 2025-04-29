@@ -21,8 +21,8 @@
     "url": "https://github.com/cds-snc/gcds-utility/issues"
   },
   "devDependencies": {
-    "@cdssnc/gcds-tokens": "^2.10.0",
     "@cdssnc/gcds-fonts": "^0.2.2",
+    "@cdssnc/gcds-tokens": "^2.11.0",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
