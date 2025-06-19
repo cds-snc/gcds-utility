@@ -31,7 +31,8 @@ a {
     color: var(--gcds-link-focus-text);
     border-radius: var(--gcds-link-focus-border-radius);
     box-shadow: var(--gcds-link-focus-box-shadow);
-    outline: var(--gcds-link-focus-outline-width) solid var(--gcds-link-focus-background);
+    outline: var(--gcds-link-focus-outline-width) solid
+      var(--gcds-link-focus-background);
     outline-offset: var(--gcds-link-focus-outline-offset);
     text-decoration: none;
   }
@@ -148,13 +149,6 @@ hr {
 html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-/* Prevent overflow on mobile */
-html,
-body {
-  overflow-x: hidden;
-  width: 100%;
 }
 
 /* Prevent images from overflowing their container */
