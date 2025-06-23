@@ -4,7 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.9.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.0...gcds-utility-v1.9.1) (2025-06-23)
+## [1.9.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.0...gcds-utility-v1.9.1)
+
+Released on: 2025-06-23
 
 
 ### :arrows_counterclockwise: Code Refactoring
