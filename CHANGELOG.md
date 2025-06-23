@@ -4,6 +4,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.0...gcds-utility-v1.9.1)
+
+Released on: 2025-06-23
+
+
+### :arrows_counterclockwise: Code Refactoring
+
+* remove reset styles that were preventing overflow ([#255](https://github.com/cds-snc/gcds-utility/issues/255)) ([da5c059](https://github.com/cds-snc/gcds-utility/commit/da5c05955dbaa3fe396cb8e85529c46d95ebe947))
+
 ## [1.9.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.8.0...gcds-utility-v1.9.0) 
 
 Released on: 2025-04-29
