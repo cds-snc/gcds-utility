@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.1...gcds-utility-v1.9.2) (2025-07-28)
+
+
+### :bug: :wrench: Bug Fixes
+
+* **icon:** fix values for icon-inherit class ([#260](https://github.com/cds-snc/gcds-utility/issues/260)) ([1b74a88](https://github.com/cds-snc/gcds-utility/commit/1b74a8883fa7f801dcb3a8db1d80b43fc35f2c83))
+
 ## [1.9.1](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.0...gcds-utility-v1.9.1)
 
 Released on: 2025-06-23
