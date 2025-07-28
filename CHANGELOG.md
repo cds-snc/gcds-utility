@@ -4,7 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.9.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.1...gcds-utility-v1.9.2) (2025-07-28)
+## [1.9.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.1...gcds-utility-v1.9.2) 
+
+Released on: 2025-07-28
 
 
 ### :bug: :wrench: Bug Fixes
