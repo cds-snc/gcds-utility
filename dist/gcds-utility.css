@@ -251,7 +251,7 @@
   --gcds-link-font-regular-mobile: 400 1.125rem/155% "Noto Sans", sans-serif;
   --gcds-link-decoration-thickness: 0.0625rem;
   --gcds-link-hover-decoration-thickness: 0.125rem;
-  --gcds-link-underline-offset: 0.25rem;
+  --gcds-link-underline-offset: 0.125rem;
 }
 
 /**
@@ -19711,13 +19711,13 @@ table {
 }
 
 .icon-inherit {
-  font-size: var(--gcds-font-sizes-inherit);
-  line-height: var(--gcds-line-heights-inherit);
+  font-size: inherit;
+  line-height: inherit;
 }
 @media only screen and (width < 48em) {
   .icon-inherit {
-    font-size: var(--gcds-font-sizes-inherit-mobile);
-    line-height: var(--gcds-line-heights-inherit-mobile);
+    font-size: inherit;
+    line-height: inherit;
   }
 }
 
@@ -19810,13 +19810,13 @@ table {
 }
 
 .hover\:icon-inherit:hover {
-  font-size: var(--gcds-font-sizes-inherit);
-  line-height: var(--gcds-line-heights-inherit);
+  font-size: inherit;
+  line-height: inherit;
 }
 @media only screen and (width < 48em) {
   .hover\:icon-inherit:hover {
-    font-size: var(--gcds-font-sizes-inherit-mobile);
-    line-height: var(--gcds-line-heights-inherit-mobile);
+    font-size: inherit;
+    line-height: inherit;
   }
 }
 
@@ -19909,13 +19909,13 @@ table {
 }
 
 .focus\:icon-inherit:focus {
-  font-size: var(--gcds-font-sizes-inherit);
-  line-height: var(--gcds-line-heights-inherit);
+  font-size: inherit;
+  line-height: inherit;
 }
 @media only screen and (width < 48em) {
   .focus\:icon-inherit:focus {
-    font-size: var(--gcds-font-sizes-inherit-mobile);
-    line-height: var(--gcds-line-heights-inherit-mobile);
+    font-size: inherit;
+    line-height: inherit;
   }
 }
 
