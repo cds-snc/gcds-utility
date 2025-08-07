@@ -26,6 +26,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* --- Icons --- */
+
 .gcds-icon-checkmark-circle:before {
   content: '\e908';
 }
@@ -80,16 +82,6 @@
 
 .gcds-icon-warning-triangle:before {
   content: '\e90d';
-}
-
-/* --- Icons --- */
-
-.icon {
-  display: inline-block;
-  font-family: var(--gcds-font-families-icons);
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
 }
 
 /* --- Icon Sizes --- */
