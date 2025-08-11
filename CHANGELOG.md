@@ -4,6 +4,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.9.3](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.2...gcds-utility-v1.9.3) (2025-08-11)
+
+
+### :no_entry: Remove
+
+* remove unused icon class ([#263](https://github.com/cds-snc/gcds-utility/issues/263)) ([806432e](https://github.com/cds-snc/gcds-utility/commit/806432eaf4bb7e7a34be1634f8f9f503c7a34e49))
+
 ## [1.9.2](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.1...gcds-utility-v1.9.2) 
 
 Released on: 2025-07-28
