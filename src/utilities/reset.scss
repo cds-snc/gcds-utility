@@ -10,7 +10,9 @@
 }
 
 a {
-  text-decoration-style: underline;
+  cursor: pointer;
+  color: var(--gcds-link-default);
+  text-decoration-style: solid;
   text-decoration-color: currentColor;
   text-decoration-thickness: var(--gcds-link-decoration-thickness);
   text-underline-offset: var(--gcds-link-underline-offset);
