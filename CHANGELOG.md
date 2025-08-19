@@ -4,6 +4,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.10.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.3...gcds-utility-v1.10.0) 
+
+Released on: 2025-08-18
+
+
+### :rocket: New Features
+
+* add default link colour to reset styles ([#265](https://github.com/cds-snc/gcds-utility/issues/265)) ([dcef50b](https://github.com/cds-snc/gcds-utility/commit/dcef50b43fdab315e1eebe152c865d36ef05fe2d))
+
 ## [1.9.3](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.2...gcds-utility-v1.9.3) 
 
 Released on: 2025-08-11
