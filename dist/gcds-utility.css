@@ -351,6 +351,9 @@ button {
   border: 0;
   cursor: pointer;
 }
+button:disabled {
+  cursor: not-allowed;
+}
 
 code {
   font-family: var(--gcds-font-families-monospace);

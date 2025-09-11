@@ -52,6 +52,10 @@ body {
 button {
   border: 0;
   cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 code {
