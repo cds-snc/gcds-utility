@@ -128,7 +128,9 @@ $textColors: (
 /* --- Text Overflow --- */
 
 @include mixins.classWithBreakpoints('text-clip') {
+  overflow: hidden;
   text-overflow: clip;
+  white-space: nowrap;
 }
 
 @include mixins.classWithBreakpoints('text-truncate') {
