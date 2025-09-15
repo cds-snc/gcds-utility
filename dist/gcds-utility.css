@@ -55020,10 +55020,6 @@ table {
   color: currentColor;
 }
 
-.text-inherit {
-  color: inherit;
-}
-
 .text-light {
   color: var(--gcds-text-light);
 }
@@ -55042,10 +55038,6 @@ table {
 
 .hover\:text-current:hover {
   color: currentColor;
-}
-
-.hover\:text-inherit:hover {
-  color: inherit;
 }
 
 .hover\:text-light:hover {
@@ -55068,10 +55060,6 @@ table {
   color: currentColor;
 }
 
-.focus\:text-inherit:focus {
-  color: inherit;
-}
-
 .focus\:text-light:focus {
   color: var(--gcds-text-light);
 }
@@ -55092,9 +55080,6 @@ table {
   .xs\:text-current {
     color: currentColor;
   }
-  .xs\:text-inherit {
-    color: inherit;
-  }
   .xs\:text-light {
     color: var(--gcds-text-light);
   }
@@ -55110,9 +55095,6 @@ table {
   .xs\:hover\:text-current:hover {
     color: currentColor;
   }
-  .xs\:hover\:text-inherit:hover {
-    color: inherit;
-  }
   .xs\:hover\:text-light:hover {
     color: var(--gcds-text-light);
   }
@@ -55127,9 +55109,6 @@ table {
   }
   .xs\:focus\:text-current:focus {
     color: currentColor;
-  }
-  .xs\:focus\:text-inherit:focus {
-    color: inherit;
   }
   .xs\:focus\:text-light:focus {
     color: var(--gcds-text-light);
@@ -55148,9 +55127,6 @@ table {
   .sm\:text-current {
     color: currentColor;
   }
-  .sm\:text-inherit {
-    color: inherit;
-  }
   .sm\:text-light {
     color: var(--gcds-text-light);
   }
@@ -55166,9 +55142,6 @@ table {
   .sm\:hover\:text-current:hover {
     color: currentColor;
   }
-  .sm\:hover\:text-inherit:hover {
-    color: inherit;
-  }
   .sm\:hover\:text-light:hover {
     color: var(--gcds-text-light);
   }
@@ -55183,9 +55156,6 @@ table {
   }
   .sm\:focus\:text-current:focus {
     color: currentColor;
-  }
-  .sm\:focus\:text-inherit:focus {
-    color: inherit;
   }
   .sm\:focus\:text-light:focus {
     color: var(--gcds-text-light);
@@ -55204,9 +55174,6 @@ table {
   .md\:text-current {
     color: currentColor;
   }
-  .md\:text-inherit {
-    color: inherit;
-  }
   .md\:text-light {
     color: var(--gcds-text-light);
   }
@@ -55222,9 +55189,6 @@ table {
   .md\:hover\:text-current:hover {
     color: currentColor;
   }
-  .md\:hover\:text-inherit:hover {
-    color: inherit;
-  }
   .md\:hover\:text-light:hover {
     color: var(--gcds-text-light);
   }
@@ -55239,9 +55203,6 @@ table {
   }
   .md\:focus\:text-current:focus {
     color: currentColor;
-  }
-  .md\:focus\:text-inherit:focus {
-    color: inherit;
   }
   .md\:focus\:text-light:focus {
     color: var(--gcds-text-light);
@@ -55260,9 +55221,6 @@ table {
   .lg\:text-current {
     color: currentColor;
   }
-  .lg\:text-inherit {
-    color: inherit;
-  }
   .lg\:text-light {
     color: var(--gcds-text-light);
   }
@@ -55278,9 +55236,6 @@ table {
   .lg\:hover\:text-current:hover {
     color: currentColor;
   }
-  .lg\:hover\:text-inherit:hover {
-    color: inherit;
-  }
   .lg\:hover\:text-light:hover {
     color: var(--gcds-text-light);
   }
@@ -55295,9 +55250,6 @@ table {
   }
   .lg\:focus\:text-current:focus {
     color: currentColor;
-  }
-  .lg\:focus\:text-inherit:focus {
-    color: inherit;
   }
   .lg\:focus\:text-light:focus {
     color: var(--gcds-text-light);
@@ -55316,9 +55268,6 @@ table {
   .xl\:text-current {
     color: currentColor;
   }
-  .xl\:text-inherit {
-    color: inherit;
-  }
   .xl\:text-light {
     color: var(--gcds-text-light);
   }
@@ -55334,9 +55283,6 @@ table {
   .xl\:hover\:text-current:hover {
     color: currentColor;
   }
-  .xl\:hover\:text-inherit:hover {
-    color: inherit;
-  }
   .xl\:hover\:text-light:hover {
     color: var(--gcds-text-light);
   }
@@ -55351,9 +55297,6 @@ table {
   }
   .xl\:focus\:text-current:focus {
     color: currentColor;
-  }
-  .xl\:focus\:text-inherit:focus {
-    color: inherit;
   }
   .xl\:focus\:text-light:focus {
     color: var(--gcds-text-light);
