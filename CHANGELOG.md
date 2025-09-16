@@ -4,6 +4,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.10.0...gcds-utility-v1.11.0) (2025-09-16)
+
+
+### :rocket: New Features
+
+* improve text-clip class ([#276](https://github.com/cds-snc/gcds-utility/issues/276)) ([9b7f63f](https://github.com/cds-snc/gcds-utility/commit/9b7f63f8e062a839f5ba0f938d7c8d9f855a7f9a))
+
+
+### :bug: :wrench: Bug Fixes
+
+* **reset:** add "not-allowed" cursor for disabled button state ([#271](https://github.com/cds-snc/gcds-utility/issues/271)) ([04eeec5](https://github.com/cds-snc/gcds-utility/commit/04eeec5bd42351598e2b5cf2665863014b7c67ed))
+
+
+### :no_entry: Remove
+
+* remove text-inherit class ([#275](https://github.com/cds-snc/gcds-utility/issues/275)) ([877b863](https://github.com/cds-snc/gcds-utility/commit/877b86319e8039b6c18029a1fe2026267017333f))
+
 ## [1.10.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.9.3...gcds-utility-v1.10.0) 
 
 Released on: 2025-08-18
