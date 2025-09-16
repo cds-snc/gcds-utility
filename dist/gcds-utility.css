@@ -55313,70 +55313,106 @@ table {
 }
 /* --- Text Overflow --- */
 .text-clip {
+  overflow: hidden;
   text-overflow: clip;
+  white-space: nowrap;
 }
 
 .hover\:text-clip:hover {
+  overflow: hidden;
   text-overflow: clip;
+  white-space: nowrap;
 }
 
 .focus\:text-clip:focus {
+  overflow: hidden;
   text-overflow: clip;
+  white-space: nowrap;
 }
 
 @media only screen and (width >= 30em) {
   .xs\:text-clip {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .xs\:hover\:text-clip:hover {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .xs\:focus\:text-clip:focus {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
 }
 @media only screen and (width >= 40em) {
   .sm\:text-clip {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .sm\:hover\:text-clip:hover {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .sm\:focus\:text-clip:focus {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
 }
 @media only screen and (width >= 48em) {
   .md\:text-clip {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .md\:hover\:text-clip:hover {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .md\:focus\:text-clip:focus {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
 }
 @media only screen and (width >= 64em) {
   .lg\:text-clip {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .lg\:hover\:text-clip:hover {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .lg\:focus\:text-clip:focus {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
 }
 @media only screen and (width >= 80em) {
   .xl\:text-clip {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .xl\:hover\:text-clip:hover {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
   .xl\:focus\:text-clip:focus {
+    overflow: hidden;
     text-overflow: clip;
+    white-space: nowrap;
   }
 }
 .text-truncate {
