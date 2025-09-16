@@ -4,7 +4,9 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.11.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.10.0...gcds-utility-v1.11.0) (2025-09-16)
+## [1.11.0](https://github.com/cds-snc/gcds-utility/compare/gcds-utility-v1.10.0...gcds-utility-v1.11.0) 
+
+Released on: 2025-09-16
 
 
 ### :rocket: New Features
