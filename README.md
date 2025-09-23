@@ -2,47 +2,43 @@
 <br/>
 <br/>
 
-# GC Design System Utility
+# CSS Shortcuts
 
-GC Design System Utility is a utility framework for the GC Design System core. It is based on functional CSS (also called atomic CSS or utility-first CSS) that favors small, single-purpose classes with names based on their visual function. These classes are easy to understand, reusable and can be used together to build complex layouts.
-<br/>
-<br/>
+CSS Shortcuts is a CSS utility framework built to match GC Design System (GCDS) styles and Canada.ca standards. It provides predefined CSS utility classes that apply core design elements, like colours, spacing, and typography, to your HTML. The classes align with our GCDS design tokens for consistency and ease of use.
 
 ## Documentation
 
-You can find the full documentation for GC Design System Utility on [https://design-system.alpha.canada.ca/](https://design-system.alpha.canada.ca/).
-<br/>
-<br/>
+You can find the full documentation for GC Design System Utility on [https://design-system.alpha.canada.ca/en/css-shortcuts/](https://design-system.alpha.canada.ca/en/css-shortcuts/).
 
 ## Installation
 
 ### How to install using NPM
 
 - Create a new project or go to the root folder of your existing project.
-- Run `npm install @cdssnc/gcds-utility` to install the GC Design System Utility package.
+- Run `npm install @gcds-core/css-shortcuts` to install the GC Design System CSS Shortcuts package.
 
 ### How to install using CDN
 
 #### Add the code
 
-Use the latest version of GC Design System Utility. Pinned versions provide stability and predictability because the code will remain consistent and won't change unexpectedly, which can be crucial for maintaining the stability of an application. However, it requires manual updating of the CDN links whenever a newer version of GC Design System Utility is released.
+Use the latest version of GC Design System CSS Shortcuts. Pinned versions provide stability and predictability because the code will remain consistent and won't change unexpectedly, which can be crucial for maintaining the stability of an application. However, it requires manual updating of the CDN links whenever a newer version of GC Design System CSS Shortcuts is released.
 
 Place the following code in the `<head>` element of your site. Replace `<version-number>` with the latest version number to receive corresponding updates.
 
 ```
-<!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@<version-number>/dist/gcds-utility.min.css">
+<!-- GC Design System CSS Shortcuts -->
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
 ```
 
 #### Automatic updates using `@latest`
 
-Use the `@latest` version of GC Design System Utility to receive automatic updates whenever a new version is released. **While it removes the need to manually update the CDN links, it adds the risk of introducing breaking changes to the codebase as new versions are automatically applied**.
+Use the `@latest` version of GC Design System CSS Shortcuts to receive automatic updates whenever a new version is released. **While it removes the need to manually update the CDN links, it adds the risk of introducing breaking changes to the codebase as new versions are automatically applied**.
 
 <br/>
 
 ## Local installation
 
-- Clone the repo `git clone https://github.com/cds-snc/gcds-utility`.
+- Clone the repo `git clone https://github.com/cds-snc/gcds-css-shortcuts`.
 - Run `npm install` to install all Node.js dependencies.
 - Run `gulp` to monitor your source files for any changes.
 - Run `gulp compile` to compile and minify all CSS files.
@@ -50,7 +46,7 @@ Use the `@latest` version of GC Design System Utility to receive automatic updat
 
 ## How to contribute
 
-If you are interested in contributing to GC Design System Utility, please read our [contributing guidelines](https://github.com/cds-snc/gcds-utility/blob/main/CONTRIBUTING.md).
+If you are interested in contributing to GC Design System CSS Shortcuts, please read our [contributing guidelines](https://github.com/cds-snc/gcds-css-shortcuts/blob/main/CONTRIBUTING.md).
 <br/>
 <br/>
 
