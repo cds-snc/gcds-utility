@@ -1,8 +1,8 @@
-name: Upload utility framework to CDN
+name: Upload CSS Shortcuts to CDN
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Publish utility framework"]
+    workflows: ["Publish CSS Shortcuts"]
     types:
       - completed
 
@@ -13,7 +13,7 @@ permissions:
 env:
   CDN_BUCKET: gc-design-system-production-cdn
   CDN_REGION: ca-central-1
-  PACKAGE_NAME: '@cdssnc/gcds-utility'
+  PACKAGE_NAME: '@gcds-core/css-shortcuts'
 
 jobs:
   upload-to-cdn:
@@ -40,13 +40,13 @@ jobs:
 
           aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/"$PUBLISHED_PACKAGE"/dist --delete
           aws s3 sync ./dist s3://${{ env.CDN_BUCKET }}/${{ env.PACKAGE_NAME }}@latest/dist --delete
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/dist/gcds-utility.css
-          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/dist/gcds-utility.css
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key "$PUBLISHED_PACKAGE"/dist/gcds-css-shortcuts.css
+          aws s3api head-object --bucket ${{ env.CDN_BUCKET }} --key ${{ env.PACKAGE_NAME }}@latest/dist/gcds-css-shortcuts.css
 
           aws cloudfront create-invalidation --distribution-id ${{ secrets.CDN_CLOUDFRONT_DIST_ID }} --paths "/*"
 
       - name: Slack notify on failure
         if: failure()
         run: |
-          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-utility to CDN failed: <https://github.com/cds-snc/gcds-utility/actions/workflows/compile-core.yml|Compile Core>"}}]}'
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/css-shortcuts to CDN failed: <https://github.com/cds-snc/gcds-css-shortcuts/actions/workflows/compile-core.yml|Compile Core>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}

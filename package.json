@@ -30,5 +30,8 @@
     "gulp-sass": "^6.0.0",
     "sass": "^1.80.5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

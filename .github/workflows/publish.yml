@@ -1,4 +1,4 @@
-name: Publish utility framework
+name: Publish CSS Shortcuts
 on:
   workflow_dispatch:
   push:
@@ -12,17 +12,17 @@ permissions:
   contents: read
 
 env:
-  PACKAGE_NAME: '@cdssnc/gcds-utility'
+  PACKAGE_NAME: '@gcds-core/css-shortcuts'
 
 jobs:
-  publish-utility-framework:
+  publish-css-shortcuts:
     name: Publish
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout
         uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
 
-      - name: Publish @cdssnc/gcds-utility to npm
+      - name: Publish @gcds-core/css-shortcuts to npm
         uses: JS-DevTools/npm-publish@b6b0bb6ebf081acc55469774087b431d6034e6d7
         id: publish
         with:
@@ -40,5 +40,5 @@ jobs:
       - name: Slack notify on failure
         if: failure()
         run: |
-          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @cdssnc/gcds-utility failed: <https://github.com/cds-snc/gcds-utility/actions/workflows/compile-core.yml|Compile Core>"}}]}'
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: Publish @gcds-core/css-shortcuts failed: <https://github.com/cds-snc/gcds-css-shortcuts/actions/workflows/compile-core.yml|Compile Core>"}}]}'
           curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}

@@ -52,7 +52,7 @@ If you are interested in contributing to GC Design System CSS Shortcuts, please 
 
 ## License
 
-Code released under the [MIT License](https://github.com/cds-snc/gcds-utility/blob/main/LICENSE).
+Code released under the [MIT License](https://github.com/cds-snc/gcds-css-shortcuts/blob/main/LICENSE).
 <br/>
 <br/>
 
@@ -109,12 +109,12 @@ Utilisez la version `@latest` de Raccourcis CSS du Système de design GC pour re
 
 ## Apportez votre contribution
 
-Si vous souhaitez contribuer aux Raccourcis CSS du Système de design GC, veuillez lire nos [lignes directrices sur la contribution](https://github.com/cds-snc/gcds-utility/blob/main/CONTRIBUTING.md).
+Si vous souhaitez contribuer aux Raccourcis CSS du Système de design GC, veuillez lire nos [lignes directrices sur la contribution](https://github.com/cds-snc/gcds-css-shortcuts/blob/main/CONTRIBUTING.md).
 <br/>
 <br/>
 
 ## Licence
 
-Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-utility/blob/main/LICENSE) (en anglais).
+Code publié en vertu de la [licence MIT](https://github.com/cds-snc/gcds-css-shortcuts/blob/main/LICENSE) (en anglais).
 <br/>
 <br/>
