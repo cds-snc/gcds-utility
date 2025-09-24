@@ -21,7 +21,7 @@
     "url": "https://github.com/cds-snc/gcds-css-shortcuts/issues"
   },
   "devDependencies": {
-    "@cdssnc/gcds-fonts": "^0.2.2",
+    "@gcds-core/fonts": "^1.0.0",
     "@cdssnc/gcds-tokens": "^2.11.0",
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
