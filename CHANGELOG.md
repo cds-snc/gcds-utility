@@ -6,7 +6,9 @@ Released on: 2025-09-TBD
 
 ### :rocket: New features
 
-- First release of CSS Shortcuts.
+- First release of CSS Shortcuts. 
+
+Note: CSS Shortcuts was previous released as GCDS Utility. An archived version of the CHANGELOG can be found [here](archived/CHANGELOG-UTILITY.md)
 
 ---
 
