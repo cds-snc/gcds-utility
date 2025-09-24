@@ -8,7 +8,7 @@ CSS Shortcuts is a CSS utility framework built to match GC Design System (GCDS) 
 
 ## Documentation
 
-You can find the full documentation for GC Design System Utility on [https://design-system.alpha.canada.ca/en/css-shortcuts/](https://design-system.alpha.canada.ca/en/css-shortcuts/).
+You can find the full documentation on the GC Design System CSS Shortcuts at [https://design-system.alpha.canada.ca/en/css-shortcuts/](https://design-system.alpha.canada.ca/en/css-shortcuts/).
 
 ## Installation
 
@@ -61,15 +61,15 @@ Code released under the [MIT License](https://github.com/cds-snc/gcds-utility/bl
 <br/>
 <br/>
 
-# Utilitaire de Système de design GC
+# Raccourcis CSS
 
-L'utilitaire de Système de design GC est un cadre utilitaire pour la base de ce système. Cet utilitaire est fondé sur un code CSS fonctionnel (aussi appelé « atomic CSS » ou encore « utility-first CSS ») qui privilégie de petites classes à but unique nommées selon leur fonction visuelle. Ces classes sont réutilisables et faciles à comprendre. De plus, elles peuvent être combinées pour créer des structures complexes.
+Raccourcis CSS est un cadre utilitaire créé afin de s'aligner avec les styles du Système de design GC et les normes de Canada.ca. Il donne accès à des classes utilitaires CSS prédéfinies qui appliquent des éléments de design de base tels les couleurs, l'espacement et la typographie à votre code HTML. Les classes s'alignent avec nos unités de style afin d'assurer une uniformité et une facilité d'utilisation.
 <br/>
 <br/>
 
 ## Documentation
 
-Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://systeme-design.alpha.canada.ca/](https://systeme-design.alpha.canada.ca/).
+Toute la documentation sur l'utilitaire de Système de design GC est accessible à l'adresse [https://design-system.alpha.canada.ca/fr/raccourcis-css/](https://design-system.alpha.canada.ca/fr/raccourcis-css/).
 <br/>
 <br/>
 
@@ -78,30 +78,30 @@ Toute la documentation sur l'utilitaire de Système de design GC est accessible 
 ### Installation à l'aide de NPM
 
 - Créez un nouveau projet ou naviguez vers le dossier racine de votre projet existant.
-- Exécutez `npm install @cdssnc/gcds-utility` pour installer le progiciel de l'utilitaire de Système de design GC.
+- Exécutez `npm install @gcds-core/css-shortcuts` pour installer le progiciel de Raccourcis CSS du Système de design GC.
 
 ### Installation à l'aide de CDN
 
 #### Ajoutez le code
 
-Utilisez la version la plus récente de Utilitaire de Système de design GC. Les versions épinglées offrent stabilité et prévisibilité parce que le code ne changera pas de manière inattendue, ce qui peut être crucial pour maintenir la stabilité d'une application. Toutefois, il faut mettre à jour manuellement les liens CDN chaque fois qu'une version plus récente de Utilitaire de Système de design GC est publiée.
+Utilisez la version la plus récente de Raccourcis CSS du Système de design GC. Les versions épinglées offrent stabilité et prévisibilité parce que le code ne changera pas de manière inattendue, ce qui peut être crucial pour maintenir la stabilité d'une application. Toutefois, il faut mettre à jour manuellement les liens CDN chaque fois qu'une version plus récente de Raccourcis CSS du Système de design GC est publiée.
 
 Insérez le code qui suit à l'intérieur de la balise `<head>` de votre site. Remplacez `<version-number>` par le numéro de version le plus récent pour recevoir les mises à jour correspondantes.
 
 ```
-<!-- GC Design System Utility -->
-<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@cdssnc/gcds-utility@<version-number>/dist/gcds-utility.min.css">
+<!-- Système de design GC Raccourcis CSS -->
+<link rel="stylesheet" href="https://cdn.design-system.alpha.canada.ca/@gcds-core/css-shortcuts@<version-number>/dist/gcds-css-shortcuts.min.css">
 ```
 
 #### Mises à jour automatiques grâce à `@latest`
 
-Utilisez la version `@latest` de Utilitaire de Système de design GC pour recevoir des mises à jour automatiques chaque fois qu'une nouvelle version est publiée. **Bien que cette approche vous évite la mise à jour manuelle des liens CDN, elle court le risque d'introduire des modifications qui entraînent une rupture de compatibilité avec le code base à mesure que les nouvelles versions sont automatiquement appliquées**.
+Utilisez la version `@latest` de Raccourcis CSS du Système de design GC pour recevoir des mises à jour automatiques chaque fois qu'une nouvelle version est publiée. **Bien que cette approche vous évite la mise à jour manuelle des liens CDN, elle court le risque d'introduire des modifications qui entraînent une rupture de compatibilité avec le code base à mesure que les nouvelles versions sont automatiquement appliquées**.
 
 <br/>
 
 ## Installation locale
 
-- Copiez le référentiel `git clone https://github.com/cds-snc/gcds-utility`.
+- Copiez le référentiel `git clone https://github.com/cds-snc/gcds-css-shortcuts`.
 - Exécutez ensuite `npm install` pour installer toutes les dépendances Node.js.
 - Puis, exécutez `gulp` pour surveiller tout changement survenant dans vos fichiers sources.
 - Finalement, exécutez `gulp compile` pour compiler et minifier tous les fichiers CSS.
@@ -109,7 +109,7 @@ Utilisez la version `@latest` de Utilitaire de Système de design GC pour recevo
 
 ## Apportez votre contribution
 
-Si vous souhaitez contribuer aux unités de style de Système de design GC, veuillez lire nos [lignes directrices sur la contribution](https://github.com/cds-snc/gcds-utility/blob/main/CONTRIBUTING.md).
+Si vous souhaitez contribuer aux Raccourcis CSS du Système de design GC, veuillez lire nos [lignes directrices sur la contribution](https://github.com/cds-snc/gcds-utility/blob/main/CONTRIBUTING.md).
 <br/>
 <br/>
 
