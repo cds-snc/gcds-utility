@@ -7,7 +7,7 @@
       "bump-patch-for-minor-pre-major": false,
       "draft": false,
       "prerelease": false,
-      "pull-request-title-pattern": "chore: GCDS Utility Release v${version}"
+      "pull-request-title-pattern": "chore: GCDS CSS Shortcuts v${version}"
     }
   },
   "changelog-sections": [

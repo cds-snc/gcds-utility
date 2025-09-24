@@ -1,11 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: gcds-utility
+  name: gcds-css-shortcuts
   description: >-
-    GC Design System Utility is a utility framework for GC Design System. |
-    L'utilitaire de Système de design GC est un cadre utilitaire pour ce
-    système.
+    CSS Shortcuts is a CSS utility framework built to match GC Design System (GCDS) styles and Canada.ca standards |
+    Raccourcis CSS est un cadre utilitaire créé afin de s'aligner avec les styles du Système de design GC et les normes de Canada.ca.
   labels:
     license: MIT
 spec:

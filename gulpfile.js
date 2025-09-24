@@ -10,7 +10,7 @@ const sass = gulpSass(sassLib);
 
 // Compile + prefix SCSS
 export function compileAndPrefix() {
-  return src('src/gcds-utility.scss')
+  return src('src/gcds-css-shortcuts.scss')
     .pipe(sass())
     .pipe(prefix('last 2 versions'))
     .pipe(dest('dist'));
@@ -18,9 +18,9 @@ export function compileAndPrefix() {
 
 // Minify CSS
 export function minifyCss() {
-  return src('dist/gcds-utility.css')
+  return src('dist/gcds-css-shortcuts.css')
     .pipe(minify())
-    .pipe(rename('gcds-utility.min.css'))
+    .pipe(rename('gcds-css-shortcuts.min.css'))
     .pipe(dest('dist'));
 }
 
